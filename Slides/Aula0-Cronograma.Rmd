@@ -187,7 +187,7 @@ p <- calendR::calendR(year = 2021,
         bg.img = "",
         text = c(
           "Introdução \nao Inventário \nFlorestal", 
-          "DDDDD",
+          "Conceitos \nFundamentais \npara Amostragem",
           "SSSS", 
           "DDDDD",
           "SSSS", 
