@@ -187,7 +187,7 @@ p <- calendR::calendR(year = 2021,
         bg.img = "",
         text = c(
           "Introdução \nao Inventário \nFlorestal", 
-          "Conceitos \nFundamentais \npara Amostragem",
+          "Teoria de \nAmostragem",
           "SSSS", 
           "DDDDD",
           "SSSS", 
@@ -259,7 +259,7 @@ p + theme(legend.key.size = unit(2, 'cm'),
 <br>
 1 - Introdução aos inventários florestais: conceitos, tipos e importância; 
 
-2 - Conceitos fundamentais para amostragem; 
+2 - Teoria de amostragem; 
 
 3 - Classificação da amostragem; 
 
