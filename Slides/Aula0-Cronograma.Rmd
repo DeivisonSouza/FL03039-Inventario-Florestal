@@ -253,7 +253,7 @@ p + theme(legend.key.size = unit(2, 'cm'),
 <!-- Slide 6 -->
 ---
 
-## Ementa da disciplina (FL03039)
+## Ementa da disciplina (FL03039).
 
 .shadow2[
 <br>
