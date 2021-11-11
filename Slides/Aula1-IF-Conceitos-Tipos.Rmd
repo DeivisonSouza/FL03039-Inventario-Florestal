@@ -1,0 +1,239 @@
+---
+title: "Inventário Florestal (FL03039 - IF)"
+subtitle: "Introdução aos inventários florestais: conceitos, tipos e importância"
+author: "Prof. Dr. Deivison Venicio Souza"
+institute: "Universidade Federal do Pará (UFPA)"
+date: 
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    css: 
+      - default 
+      - assets/sydney-fonts.css
+      - assets/slide-title/sydney-title.css
+    self_contained: false
+    seal: false
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: googlecode
+      highlightLines: true
+      countIncrementalSlides: false
+      highlightLanguage: ["r", "css", "yaml"]
+      ratio: '16:9'
+      navigation:
+        scroll: false
+---
+class: title-slide, center, middle
+background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
+background-position: 84% 90%, 95% 90%
+background-size: 220px, 90px, cover
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.showtext = TRUE,
+  fig.align = "center", 
+  cache = TRUE,
+  error = FALSE,
+  message = FALSE, 
+  warning = FALSE, 
+  collapse = TRUE ,
+  dpi = 600)
+```
+
+```{r xaringan-logo, echo=FALSE}
+library(xaringanExtra)
+use_logo(
+  image_url = "fig/slide-title/ufpa.png",
+  position = css_position(top = ".8em", right = "1em"),
+  width = "140px",
+  height = "140px"
+)
+```
+
+```{r icon, echo=FALSE}
+#remotes::install_github("mitchelloharawild/icons")
+#library(icons)
+#download_fontawesome()
+#download_simple_icons()
+```
+
+
+<!-- title-slide -->
+# Inventário Florestal <br> (FL03039 - IF)
+<br>
+## Aula 1 - Introdução ao <br> Inventário Florestal `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+
+#### **Prof. Dr. Deivison Venicio Souza**
+#### Universidade Federal do Pará (UFPA) 
+#### Faculdade de Engenharia Florestal
+#### E-mail: deivisonvs@ufpa.br
+<br>
+#### `r format(Sys.Date(),"%d/%B/%Y")`
+#### Altamira, Pará
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Introdução ao Inventário Florestal</div>
+
+---
+
+## Ementa da disciplina (FL03039 - IF)
+
+.pull-left-3[
+.shadow4[
+**1 - Introdução ao Inventário Florestal;**
+
+2 - Conceitos fundamentais para amostragem; 
+
+3 - Classificação da amostragem; 
+
+4 - Métodos de amostragem; 
+
+5 - Processos de amostragem; 
+
+6 - Amostragem com múltiplos inícios aleatórios;
+
+7 - Amostragem em múltiplas ocasiões; 
+
+8 - Planejamento e custo de inventários florestais; 
+
+9 - Censo florestal (Inventário Florestal 100%); 
+
+10 - Fontes de erros em inventários florestais; e
+
+11 - Modelagem aplicada aos inventários florestais. 
+]
+]
+
+
+---
+
+## Objetivos
+<br><br>
+Ao final desta aula espera-se que o discente seja capaz de...
+
+* Compreender os principais conceitos associados à inventários florestais;
+* Compreender, diferenciar e definir os principais tipos de inventários florestais;
+* Compreender a importância dos inventários florestais na quantificação de recursos; e
+* Compreender as principais questões técnicas associadas ao planejamento de inventários florestais.
+
+---
+background-image: url(fig/white.jpg)
+background-size: cover
+## Conteúdo
+
+.pull-top[
+**Parte 1 - Tipos de inventários florestais**
+
+[1 - Conceito e importância](#conc)
+
+[2 - Classificação de inventários florestais](#tipos)
+
+&nbsp;&nbsp;[2.1 - Quanto ao objetivo](#TA)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1 - Inventário florestal de cunho tático](#RT)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1.2 - Inventário florestal de cunho estratégico](#RT)
+
+&nbsp;&nbsp;[2.2 - Quanto à abrangência das informações](#AAS)
+
+&nbsp;&nbsp;[2.3 - Quanto à maneira de obtenção dos dados de campo](#AAS)
+
+&nbsp;&nbsp;[2.4 - Quanto à abordagem da população no tempo](#AAS)
+
+&nbsp;&nbsp;[2.5 - Quanto ao grau de detalhamento dos resultados](#AAS)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.1 - ](#RT)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.2 - ](#bag)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.3 - ](#rf)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.4 - ](#out)
+
+&nbsp;&nbsp;[3.3 - ](#mr)
+
+&nbsp;&nbsp;[3.4 - ](#md)
+
+]
+
+---
+background-image: url(fig/white.jpg)
+background-size: cover
+## Conteúdo
+
+.pull-top[
+**Parte 2 - Aspectos técnicos no planejamento de inventários florestais**
+
+[1 - ](#AR)
+
+[2 - ](#CultME)
+
+&nbsp;&nbsp;[2.1 - ](#TA)
+
+&nbsp;&nbsp;[2.2 - ](#AAS)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.1 - ](#RT)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.2 - ](#bag)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.3 - ](#rf)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2.4 - ](#out)
+
+&nbsp;&nbsp;[3.3 - ](#mr)
+
+&nbsp;&nbsp;[3.4 - ](#md)
+
+]
+
+<!-- Slide XX -->
+---
+layout: false
+name: conc
+class: inverse, middle, left
+background-image: url(fig/au1/white.jpg)
+background-size: cover
+
+.font200[**Conceito e importância**]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Introdução ao Inventário Florestal</div>
+
+---
+
+## Inventário Florestal
+<br><br>
+.shadow1[
+## Conceito
+É uma atividade que visa obter informações **qualitativas** e **quantitativas** dos recursos florestais existentes em uma área pré-especificada (PÉLLICO NETTO; BRENA, 1997), com o objetivo de bem administrá-los, seja através da seu uso racional racional, seja por meio de formulação de políticas públicas.
+]
+
+---
+## Tipos de inventários florestais
+<br>
+Em geral, os IFs podem ser classificados em diversos tipos. 
+
+A classificaçao proposta em Péllico Netto; Brena (1997) é bem aceita e classifica os IFs quanto à/ao(s):
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/au1/IF_Tipos.png')
+```
+
+---
+
+## Tipos de inventários florestais
+<br><br>
+.shadow1[
+## 1 - Quanto ao objetivo
+a) Inventário florestal de cunho tático; e
+
+b) Inventário florestal de cunho estratégico.
+]
+
+---

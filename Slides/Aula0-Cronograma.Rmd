@@ -1,0 +1,407 @@
+---
+title: "Inventário Florestal (FL03039 - IF)"
+subtitle: "Cronograma da disciplina"
+author: "Prof. Dr. Deivison Venicio Souza"
+institute: "Universidade Federal do Pará (UFPA)"
+date: 
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    css: 
+      - default 
+      - assets/sydney-fonts.css
+      - assets/slide-title/sydney-title.css
+    self_contained: false
+    seal: false
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: googlecode
+      highlightLines: true
+      countIncrementalSlides: false
+      highlightLanguage: ["r", "css", "yaml"]
+      ratio: '16:9'
+      navigation:
+        scroll: false
+---
+class: title-slide, center, middle
+background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
+background-position: 84% 90%, 95% 90%
+background-size: 220px, 90px, cover
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.showtext = TRUE,
+  fig.align = "center", 
+  cache = TRUE,
+  error = FALSE,
+  message = FALSE, 
+  warning = FALSE, 
+  collapse = TRUE ,
+  dpi = 600)
+```
+
+```{r xaringan-logo, echo=FALSE}
+library(xaringanExtra)
+use_logo(
+  image_url = "fig/slide-title/ufpa.png",
+  position = css_position(top = ".8em", right = "-.5em"),
+  width = "140px",
+  height = "140px"
+)
+```
+
+```{r icon, echo=FALSE}
+#remotes::install_github("mitchelloharawild/icons")
+#library(icons)
+#download_fontawesome()
+#download_simple_icons()
+```
+
+<!-- title-slide -->
+# Inventário Florestal <br> (FL03039 - IF)
+<br><br>
+## Cronograma da disciplina `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+
+#### **Prof. Dr. Deivison Venicio Souza**
+#### Universidade Federal do Pará (UFPA) 
+#### Faculdade de Engenharia Florestal
+#### E-mail: deivisonvs@ufpa.br
+<br>
+##### `r format(Sys.Date(),"%d/%B/%Y")`
+##### Altamira, Pará
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Cronograma da disciplina</div>
+
+---
+
+## 👋 Olá, sejam bem vindos!!
+<br>
+
+### **Sobre o facilitador**
+.pull-left[
+.font90[
+1. .green[Graduação (Titulação: ano 2008)]
+    - Universidade Federal Rural da Amazônia (UFRA); e
+    - Título: Bacharel em Engenharia Florestal.
+
+2. .green[Mestrado (Titulação: ano 2011)]
+    - Universidade Federal Rural da Amazônia (UFRA);
+    - Programa de Pós-graduação em Ciências Florestais (PPGCF); e
+    - Área de Concentração: Manejo de ecossistemas florestais.
+]
+]
+
+.pull-right[
+.font90[
+3. .green[Doutorado (Titulação: ano 2020)]
+    - Universidade Federal do Paraná (UFPR);
+    - Programa de Pós-graduação em Engenharia Florestal (PPGEF); e
+    - Área de Concentração: Manejo Florestal.
+    
+4. .green[Especialização (Defesa: ano 2019)]
+    - Universidade Federal do Paraná (UFPR);
+    - Área: Big Data e Data Science
+]
+]
+
+---
+
+## 👋 Olá, sejam bem vindos!
+
+.pull-left[
+.font90[
+### **Interesses atuais**
+1. .green[Linguagem de programação]
+    - R
+    - Python
+
+2. .green[Modelagem preditiva aplicada à ciência florestal]
+    - Aprendizado de máquina
+    
+3. .green[Visão computacional]
+    - reconhecimento de espécies baseado em imagens
+    
+4. .green[Criação de Dashboard - Shiny]
+]
+]
+
+.pull-right[
+.font90[
+### **Websites e contatos**
+
+`r icons::simple_icons("github")` GitHub: https://github.com/DeivisonSouza
+
+<span class="iconify" data-icon="fa-brands:orcid" data-inline="false"></span>
+
+
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-2975-0927" href="https://orcid.org/0000-0002-2975-0927" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_128x128.png" style="width:1.5em;margin-right:1em;" alt="ORCID iD icon">https://orcid.org/0000-0002-2975-0927</a></div>
+
+```{r, echo=FALSE, out.width='20%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/ORCID.png')
+```
+
+Email: deivisonvs@ufpa.br
+]
+]
+
+<!-- Slide 2 -->
+---
+
+## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+
+```{r echo=FALSE, eval=TRUE, warning=FALSE, dpi=600, fig.width = 35, fig.height = 17}
+library(calendR)
+library(ggplot2)
+
+dates <- seq(as.Date("2021-11-01"), as.Date("2021-11-30"), by = "1 day")
+events <- ifelse(format(dates, "%w") %in% c(6,7), "Final de semana", NA)
+events[c(12)] <- "Aniversário do Professor"
+
+p <- calendR::calendR(year = 2021,
+        month = 11,
+        start = "M",
+        title = "Novembro (Ano 2021)",
+        title.size = 50, 
+        subtitle.size = 20, 
+        title.col = 2,  
+        subtitle = "",   
+        subtitle.col = 3,
+        weeknames.size = 15,
+        special.days = events,
+        legend.pos = "bottom",
+        special.col = c("lightgreen", rgb(1, 0, 0, 0.1)),
+        col = "black",                  
+        lwd = 1,
+        lty = 1,
+        font.family = "mono",       
+        font.style = "bold",
+        weeknames.col = "gray30",
+        months.col = "gray30",
+        days.col = 4, 
+        day.size = 18,
+        bg.img = "",
+        text = c(
+          "SSSS", 
+          "DDDDD",
+          "SSSS", 
+          "DDDDD",
+          "SSSS", 
+          "DDDDD",
+          "SSSS", 
+          "DDDDD"),
+        text.pos = c(22:27,29,30), 
+        text.size = 12,
+        text.col = 1)
+
+p + theme(legend.key.size = unit(2, 'cm'),
+          legend.text = element_text(size=30))
+
+```
+
+<!-- Slide 3 -->
+---
+## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+
+```{r echo=FALSE, eval=TRUE, warning=FALSE, dpi=600, fig.width = 35, fig.height = 17}
+
+p <- calendR::calendR(year = 2021,
+        month = 12,
+        start = "M",
+        title = "Dezembro (Ano 2021)",
+        title.size = 50, 
+        subtitle.size = 20, 
+        title.col = 2,  
+        subtitle = "",   
+        subtitle.col = 3,
+        weeknames.size = 15,
+        special.days = "weekend",
+        legend.pos = "bottom",
+        special.col = rgb(1, 0, 0, 0.1),
+        col = "black",                  
+        lwd = 1,
+        lty = 1,
+        font.family = "mono",       
+        font.style = "bold",
+        weeknames.col = "gray30",
+        months.col = "gray30",
+        days.col = 4, 
+        day.size = 18,
+        bg.img = "",
+        text = c(
+          "SSSS", 
+          "DDDDD",
+          "SSSS", 
+          "DDDDD",
+          "SSSS", 
+          "DDDDD",
+          "SSSS"),
+        text.pos = c(1:4, 6:8), 
+        text.size = 12,
+        text.col = 1)
+
+p + theme(legend.key.size = unit(2, 'cm'),
+          legend.text = element_text(size=30))
+
+```
+
+
+<!-- Slide 6 -->
+---
+
+## Ementa da disciplina (FL03039)
+
+.shadow2[
+<br>
+1 - Introdução aos inventários florestais: conceitos, tipos e importância; 
+
+2 - Conceitos fundamentais para amostragem; 
+
+3 - Classificação da amostragem; 
+
+4 - Métodos de amostragem; 
+
+5 - Processos de amostragem; 
+
+6 - Amostragem com múltiplos inícios aleatórios;
+
+7 - Amostragem em múltiplas ocasiões; 
+
+8 - Planejamento e custo de inventários florestais; 
+
+9 - Censo florestal (Inventário Florestal 100%); 
+
+10 - Fontes de erros em inventários florestais; e
+
+11 - Modelagem aplicada aos inventários florestais. 
+
+]
+
+<!-- Slide 7 -->
+---
+## Estratégias e Ferramentas de Ensino
+<br>
+
+- **Aula Presencial** (*Sala 4 - FEF*)
+
+Aulas teóricas e práticas presenciais, realização de atividades complementares e avaliações de desempenho.
+
+--
+<br><br>
+
+- **Plataforma de videoconferência** (*Google Meeting*)
+
+**Palestras**: Videoconferências com profissionais convidados para palestrar sobre temas relacionados ao inventário florestal.
+
+
+<!-- Slide 8 -->
+---
+## Estratégias e Ferramentas de Ensino
+<br>
+
+- **Sala de aula virtual** (*Google Classroom*)
+
+Comunicação, envio de atividades complementares e de conteúdos digitas.
+
+--
+<br><br>
+
+- **Repositório GitHub**
+
+Repositório com os slides em .html, arquivos .R e .Rmd, figuras, conjunto de dados (e outros). O repositório pode ser acessado em: [FL03039-IF](https://github.com/DeivisonSouza/FL03039-IF)
+
+
+<!-- Slide 9 -->
+---
+## Estratégias de avaliação da aprendizagem
+<br>
+
+- **Atividades práticas**
+
+Exercícios com dados reais (quando possível) para aprendizado da matemática e estatística inerentes aos processos de amostragem.
+
+--
+<br><br>
+
+- **Avaliação teórica**
+
+Avaliações teóricas presenciais.
+
+--
+<br><br>
+
+- **Participação** 
+
+O nível de participação e interação nas aulas presenciais poderá ser critério para definir uma pontuação extra nas avaliações teóricas.
+
+
+<!-- Slide 9 -->
+---
+## Média Final e Conceito
+
+$$
+\Large
+MF = \frac{(NA*2)+NPT}{3}
+$$
+
+**MF** = Média Final
+
+**NA** = Nota das Atividade (Soma das atividades será 10 pts.)
+
+**NP** = Nota das Provas Teóricas (Soma das provas será 10 pts.)
+
+<br>
+
+| Conceito     | Intervalo      |
+|--------------|----------------|
+| Excelente    | 9,0 ≤ MF ≤ 10    |
+| Bom          | 7,0 ≤ MF ≤ 8,9   |
+| Regular      | 5,0 ≤ MF ≤ 6,9 |
+| Insuficiente | 0 ≤ MF ≤ 4,9   |
+
+
+<!-- Slide 10 -->
+---
+## Plano de Ensino
+<br><br>
+
+O plano de ensino da disciplina pode ser acessado em:
+
+[Plano de Ensino (FL03039 - IF)](https://github.com/DeivisonSouza/FL03034-EF/blob/master/Slides/PE/EF-PE.pdf)
+
+
+<!-- Slide 11 -->
+---
+## Reprovação
+<br>
+Conforme o Regimento Geral da UFPA, será considerado reprovado o discente que:
+
+- Obtiver o conceito Insuficiente (INS), isto é, nota inferior a 5 (cinco); (.green[**Aplicável**])
+- Sem Avaliação (SA); ou (.green[**Aplicável**])
+- Não obtiver a frequência mínima de 75% na disciplina, isto é, Sem Frequência (SF). (.green[**Aplicável**])
+
+
+<!-- Slide 12 -->
+---
+## Bibliografia básica
+
+<br><br>
+PÉLLICO NETTO, S.; BRENA, D.A. **Inventário florestal**. Curitiba: editorado pelos autores, 1997. 316p.
+<br><br>
+SANQUETTA, C. R.; CORTE, A. P. D.; RODRIGUES, A. L.; WATZLAWICK, L. F. **Inventários Florestais: Planejamento e execução**. 2014, 409 p. 3ª Edição. 
+<br><br>
+SCOLFORO, J. R. S.; MELLO, J. M. **Inventário Florestal**. Lavras: UFLA/FAEPE, 2006. 561p.
+
+<!-- Slide 14 -->
+---
+## Bibliografia complementar
+
+<br><br>
+AVERY, T. E.; BURKHART, H. E. **Forest Measurements**. McGraw Hill Book Co., Nova York, 1994, 408p.
+<br><br>
+SOARES, C. P. B.; PAULA NETO, F.; SOUZA, A. L. **Dendrometria e inventário florestal**. 2ª ed. - Viçosa, MG: Ed. UFV, 2011. 272p.
+
