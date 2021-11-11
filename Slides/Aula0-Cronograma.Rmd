@@ -79,7 +79,7 @@ layout: true
 
 ---
 
-## 👋 Olá, sejam bem vindos!!
+## 👋 Olá, sejam bem vindos!
 <br>
 
 ### **Sobre o facilitador**
