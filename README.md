@@ -6,9 +6,9 @@
 
 # Seja bem vindo(a)! :deciduous\_tree: :smiley: :grin:
 
-:calendar: **Maio: 10, 12, 14, 17, 19, 21, 24, 26, 28 e 31**
+:calendar: **Novembro: 22 a 27, 29 e 30**
 
-:calendar: **Junho: 2, 4, 7, 9 e 11**
+:calendar: **Dezembro: 1 a 4 e 6 a 8**
 
 :alarm\_clock: **7h30min - 12h50min**
 
@@ -36,16 +36,12 @@ figuras, conjunto de dados (e outros) utilizados na disciplina de
 **Inventário Florestal** (FL03039-IF) ministrada pelo **Prof. Deivison
 Venicio Souza** no curso de graduação em **Engenharia Florestal** da
 **Universidade Federal do Pará** (UFPA). O curso será ofertado na
-modalidade Ensino à Distância (EAD) no âmbito do **Ensino Remoto
-Emergencial (ERE)** na [Universidade Federal do Pará
-(UFPA)](https://portal.ufpa.br/index.php), conforme dispõe a [Resolução
-n. 5.294, de 21 de agosto de
-2020](http://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2020/Resolucao_5294_2020_CONSEPE.pdf)
-e em consonância à [Resolução n. 5.332, de 22 de dezembro de
+modalidade Presencial na [Universidade Federal do Pará
+(UFPA)](https://portal.ufpa.br/index.php),em consonância à [Resolução
+n. 5.332, de 22 de dezembro de
 2020](http://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2020/5332%20Aprova%20o%20calendario%20academico%20para%20o%20ano%20letivo%20de%202021.pdf),
 que aprovou o Calendário Acadêmico da Universidade Federal do Pará para
-o ano de 2021. As aulas serão, predominantemente, síncronas e
-desenvolvidas por meio da plataforma Google Meet.
+o ano de 2021.
 
 # Programação da disciplina
 
