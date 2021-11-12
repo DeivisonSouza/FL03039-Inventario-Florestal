@@ -7,7 +7,7 @@ date:
 encoding: "UTF-8"
 output:
   xaringan::moon_reader:
-    css: 
+    css:
       - default 
       - assets/sydney-fonts.css
       - assets/slide-title/sydney-title.css
@@ -160,7 +160,8 @@ library(ggplot2)
 
 dates <- seq(as.Date("2021-11-01"), as.Date("2021-11-30"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6,7), "Final de semana", NA)
-events[c(12)] <- "Aniversário do Professor"
+#events[c(12)] <- "Aniversário do Professor"
+events[c(25)] <- "Curso ggplot2 - SIINGEF"
 
 p <- calendR::calendR(year = 2021,
         month = 11,
@@ -188,10 +189,10 @@ p <- calendR::calendR(year = 2021,
         text = c(
           "Introdução \nao Inventário \nFlorestal", 
           "Teoria de \nAmostragem",
-          "SSSS", 
-          "DDDDD",
-          "SSSS", 
-          "DDDDD",
+          "Aula Prática \n (Parcelas) ", 
+          "Amostragem \nAleatória \nSimples",
+          "Amostragem \nEstratificada", 
+          "Revisão \n(1º avaliação)",
           "SSSS", 
           "DDDDD"),
         text.pos = c(22:27,29,30), 
@@ -235,10 +236,10 @@ p <- calendR::calendR(year = 2021,
         text = c(
           "SSSS", 
           "DDDDD",
-          "SSSS", 
+          "Jamerson \n (ASV-SINAFLOR)", 
           "DDDDD",
           "SSSS", 
-          "DDDDD",
+          "Censo Florestal \n(Palestra SEMAS)",
           "SSSS"),
         text.pos = c(1:4, 6:8), 
         text.size = 12,
@@ -257,27 +258,27 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 .shadow2[
 <br>
-1 - Introdução aos inventários florestais: conceitos, tipos e importância; 
+1 - Introdução aos Inventários Florestais; 
 
-2 - Teoria de amostragem; 
+2 - Teoria de Amostragem; 
 
-3 - Classificação da amostragem; 
+3 - Amostragem Aleatória Simples;
 
-4 - Métodos de amostragem; 
+4 - Amostragem Estratificada;
 
-5 - Processos de amostragem; 
+5 - Amostragem Sistemática; 
 
-6 - Amostragem com múltiplos inícios aleatórios;
+6 - Amostragem em Dois Estágios;
 
-7 - Amostragem em múltiplas ocasiões; 
+7 - Amostragem em Conglomerados;
 
-8 - Planejamento e custo de inventários florestais; 
+8 - Censo Florestal (Inventário Florestal 100%); 
 
-9 - Censo florestal (Inventário Florestal 100%); 
+9 - Amostragem em Múltiplas Ocasiões;
 
-10 - Fontes de erros em inventários florestais; e
+10 - Inventário Florestal Nacional; e
 
-11 - Modelagem aplicada aos inventários florestais. 
+11 - Planejamento e Custo de Inventários Florestais.
 
 ]
 
