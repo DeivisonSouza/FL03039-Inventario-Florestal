@@ -236,10 +236,10 @@ p <- calendR::calendR(year = 2021,
         text = c(
           "SSSS", 
           "Raiana Nava \n (Suzano) \n Ângela Hentz \n (Carbon Credits)",
-          "Jamerson \n (ASV-SINAFLOR) \n(8h:30min)", 
+          "Jamerson \n (ASV-SINAFLOR) \n Ernandes Neto \n (PPGEF-UFPR)", 
           "DDDDD",
           "SSSS", 
-          "Alex Soares \n(SEMAS-IF100%) \n (15h:00min)",
+          "Alex Soares \n(SEMAS) \n (15h:00min)",
           "SSSS"),
         text.pos = c(1:4, 6:8), 
         text.size = 12,
@@ -261,7 +261,7 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 **Palestrante**: .blue[Raiana Arnaud Nava] (Engenheira Florestal)
 
-**Empresa**: Analista de Planejamento Florestal Jr./Suzano
+**Empresa**: Suzano/Analista de Planejamento Florestal Jr.
 <br><br>
 
 .green[**Palestra 2**]: **Uso de Sensoriamento Remoto para Estimativas Florestais** (15h:30min)
