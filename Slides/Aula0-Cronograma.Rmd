@@ -235,7 +235,7 @@ p <- calendR::calendR(year = 2021,
         bg.img = "",
         text = c(
           "SSSS", 
-          "Raiana (Suzano) \n (14h:00min)",
+          "Raiana Nava \n (Suzano) \n Ângela Hentz \n (Carbon Credits)",
           "Jamerson \n (ASV-SINAFLOR) \n(8h:30min)", 
           "DDDDD",
           "SSSS", 
@@ -250,8 +250,70 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 ```
 
-
 <!-- Slide 6 -->
+---
+## Palestras
+<br>
+
+- **Dia 02/12** (Período da tarde) - A partir das 14h:00min
+
+.green[**Palestra 1**]: **Inventário Florestal na Suzano** (14h:00min)
+
+**Palestrante**: .blue[Raiana Arnaud Nava] (Engenheira Florestal)
+
+**Empresa**: Analista de Planejamento Florestal Jr./Suzano
+<br><br>
+
+.green[**Palestra 2**]: **Uso de Sensoriamento Remoto para Estimativas Florestais** (15h:30min)
+
+**Palestrante**: .blue[Ângela Maria Klein Hentz] (Engenheira Florestal)
+
+**Empresa**: Carbon Credits Consulting
+
+
+<!-- Slide 7 -->
+---
+## Palestras
+<br>
+
+- **Dia 03/12** (Período da manhã) - A partir das 8h:00min
+
+.green[**Palestra 1**]: **Inventário Florestal Aplicado à Solicitação de Autorização para Supressão da Vegetação (ASV) e SINAFLOR** (8h:00min)
+
+**Palestrante**: .blue[Jamerson Rodrigo dos Prazeres Campos] (Engenheiro Florestal)
+
+**Empresa**: XXXXXXXXXXXXXXXXXXXXXXX
+<br><br>
+
+.green[**Palestra 2**]: **Inventário Florestal com Lidar** (10h:30min)
+
+**Palestrante**: .blue[Ernandes Macedo da Cunha Neto] (Engenheiro Florestal)
+
+**Vínculo**: Doutorando UFPR
+
+
+<!-- Slide 8 -->
+---
+## Palestras
+<br>
+
+- **Dia 07/12** (Período da tarde) - A partir das 15h:00min
+
+.green[**Palestra 1**]: **Análise Técnica de Censo Florestal** (15h:00min)
+
+**Palestrante**: .blue[Alex Soares de Souza] (Engenheiro Florestal)
+
+**Orgão**: Secretaria de Estado de Meio Ambiente e Sustentabilidade - SEMAS
+<br><br>
+
+.green[**Palestra 2**]: **XXXXXXXXXXXXXXXXXXXXXXXX** (10h:30min)
+
+**Palestrante**: .blue[YYYYYYYYYYYYYYY] (Engenheiro Florestal)
+
+**Vínculo**: ZZZZZZZZZZZZZZZZZZZZZz
+
+
+<!-- Slide 7 -->
 ---
 
 ## Ementa da disciplina (FL03039).
