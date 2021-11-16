@@ -235,9 +235,9 @@ p <- calendR::calendR(year = 2021,
         bg.img = "",
         text = c(
           "SSSS", 
-          "Raiana Nava \n (Suzano) \n Ângela Hentz \n (Carbon Credits)",
-          "Jamerson \n (ASV-SINAFLOR) \n Ernandes Neto \n (PPGEF-UFPR)", 
-          "DDDDD",
+          "Raiana Nava \n Ângela Hentz \n Ernandes Neto",
+          "Jamerson \n (ASV-SINAFLOR)", 
+          "Joberto \n (UFAM/SFB)",
           "SSSS", 
           "Alex Soares \n(SEMAS) \n (15h:00min)",
           "SSSS"),
@@ -253,7 +253,6 @@ p + theme(legend.key.size = unit(2, 'cm'),
 <!-- Slide 6 -->
 ---
 ## Palestras
-<br>
 
 - **Dia 02/12** (Período da tarde) - A partir das 14h:00min
 
@@ -269,6 +268,13 @@ p + theme(legend.key.size = unit(2, 'cm'),
 **Palestrante**: .blue[Ângela Maria Klein Hentz] (Engenheira Florestal)
 
 **Empresa**: Carbon Credits Consulting
+<br><br>
+
+.green[**Palestra 3**]: **Aplicações de Lidar na Engenharia Florestal** (16h:30min)
+
+**Palestrante**: .blue[Ernandes Macedo da Cunha Neto] (Engenheiro Florestal)
+
+**Vínculo**: Doutorando UFPR
 
 
 <!-- Slide 7 -->
@@ -285,12 +291,20 @@ p + theme(legend.key.size = unit(2, 'cm'),
 **Empresa**: XXXXXXXXXXXXXXXXXXXXXXX
 <br><br>
 
-.green[**Palestra 2**]: **Inventário Florestal com Lidar** (10h:30min)
 
-**Palestrante**: .blue[Ernandes Macedo da Cunha Neto] (Engenheiro Florestal)
+<!-- Slide 7 -->
+---
+## Palestras
+<br>
 
-**Vínculo**: Doutorando UFPR
+- **Dia 04/12** (Período da manhã) - A partir das 8h:00min
 
+.green[**Palestra 1**]: **Inventário Florestal Nacional** (8h:00min)
+
+**Palestrante**: .blue[] (Engenheiro Florestal)
+
+**Empresa**: Universidade Federal do Amazonas (UFAM)/Serviço Florestal Brasileira (SFB)
+<br><br>
 
 <!-- Slide 8 -->
 ---
@@ -305,12 +319,6 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 **Orgão**: Secretaria de Estado de Meio Ambiente e Sustentabilidade - SEMAS
 <br><br>
-
-.green[**Palestra 2**]: **XXXXXXXXXXXXXXXXXXXXXXXX** (10h:30min)
-
-**Palestrante**: .blue[YYYYYYYYYYYYYYY] (Engenheiro Florestal)
-
-**Vínculo**: ZZZZZZZZZZZZZZZZZZZZZz
 
 
 <!-- Slide 7 -->
