@@ -63,7 +63,7 @@ use_logo(
 <!-- title-slide -->
 # Inventário Florestal <br> (FL03039 - IF)
 <br>
-## .yellow2[Introdução ao <br> Inventário Florestal] `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+## .yellow2[Introdução ao] <br> `r anicon::faa("pagelines", animate="horizontal", colour="green")` .yellow2[Inventário Florestal] `r anicon::faa("pagelines", animate="horizontal", colour="green")`
 
 #### **Prof. Dr. Deivison Venicio Souza**
 #### Universidade Federal do Pará (UFPA) 
@@ -448,9 +448,9 @@ b) IF contínuos (ou de múltiplas ocasiões).
 .pull-left-12[
 <br><br>
 
+.center[
 **Acesse a diretriz** `r anicon::faa("hand-point-down", animate="vertical")`
 
-.center[
 [Diretrizes para instalação e medição de parcelas permanentes em florestas naturais da Amazônia brasileira](https://ainfo.cnptia.embrapa.br/digital/bitstream/item/205499/1/Diretrizes-para-instalacao-e-medicao-de.pdf)
 (Silva et al., 2005)
 
