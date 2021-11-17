@@ -59,6 +59,13 @@ use_logo(
 #download_simple_icons()
 ```
 
+```{r packages, include=FALSE}
+# remotes::install_github("dill/emoGG")
+library(ggplot2)
+library(dplyr)
+library(ggimage)
+```
+
 
 <!-- title-slide -->
 # Inventário Florestal <br> (FL03039 - IF)
@@ -347,7 +354,7 @@ c) Inventário florestal de área restrita.
 <br><br>
 .shadow1[
 ### 3 - Quanto à maneira de obtenção dos dados de campo
-a) Inventário por enumeração total ou censo ou IF100%;
+a) Inventário Florestal 100% (Censo Florestal);
 
 b) Inventário por amostragem; e
 
@@ -360,17 +367,33 @@ c) Inventário por fontes secundárias.
 
 .pull-left-4[
 .font90[
-### a) Inventário por Enumeração Total (Censo ou IF100%)
+### a) Inventário Florestal 100% (Censo Florestal)
 <br>
-- Inventário em que todos os indivíduos da população são identificados e medidos;
-- Mais comumente é chamado de Inventário Florestal 100% ou Censo Florestal;
-- Esse tipo de IF é obrigatório para elaboração de PMFS; e
-- Têm-se os valores verdadeiros (parâmetros) da população.
+- Inventário de .blue[todas as árvores] da população florestal;
+- Também chamado de .blue[IF por Enumeração Total];
+- No MFS para fins madeireiro, o IF-100% é uma .blue[etapa fundamental e obrigatória]; e
+- As informações do IF-100% são usadas para .blue[elaborar PMFS], que serão apresentados aos orgãos ambientais competentes.
 
 ]
 ]
 
---
+.pull-right-4[
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/au1/img1.jpg')
+```
+<br><br>
+
+.font80[
+*MFS* = Manejo Florestal Sustentável
+
+*PMFS* = Plano de Manejo Florestal Sustentável
+]
+]
+
+
+---
+
+## Tipos de Inventários Florestais
 
 .pull-left-4[
 .font90[
@@ -385,6 +408,59 @@ c) Inventário por fontes secundárias.
 - Quando a população florestal a ser inventariada é grandes demais, uma abordagem exaustiva (ou de 100%) de todos os indivíduos torna-se delongada e onerosa.
 ]
 ]
+
+
+---
+
+## Tipos de Inventários Florestais
+
+.left-column[
+### População Florestal
+
+```{r eval = T, echo = F, fig.width=.8, fig.height=.8}
+
+grid <- expand.grid(
+  x = seq(0, 20, length = 15),
+  y = seq(0, 3, length = 15)
+  )
+
+img <- "fig/au1/pinus1.png"
+
+grid %>% 
+  ggplot(aes(x, y)) + 
+  geom_image(image=img, size=.1) +
+  theme_bw() +
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        axis.title=element_blank())
+
+```
+]
+
+.right-column[
+### Amostra
+
+```{r eval = T, echo = F, fig.width=.8, fig.height=.8}
+
+grid <- expand.grid(
+  x = seq(0, 20, length = 15),
+  y = seq(0, 3, length = 15)
+  ) %>%
+  mutate(image = sample(c("fig/au1/pinus1.png",
+                          "fig/au1/pinus2.png"),
+                        size = length(y), replace = TRUE))
+grid %>%
+  ggplot(aes(x, y)) + 
+  geom_image(aes(image=image), size=.1) +
+  theme_bw() +
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        axis.title=element_blank())
+
+```
+
+]
+
 
 ---
 
