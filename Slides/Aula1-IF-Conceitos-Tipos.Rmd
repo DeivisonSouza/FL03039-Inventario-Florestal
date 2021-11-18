@@ -714,6 +714,7 @@ name: ifd
 
 <!-- Slide XX -->
 ---
+name: pif
 layout: false
 name: conc
 class: inverse, middle, center
@@ -721,5 +722,37 @@ background-image: url(fig/au1/sec.png)
 background-size: cover
 
 .font200[.yellow2[**Planejamento de <br> Inventários Florestais**]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Introdução ao Inventário Florestal</div>
+
+---
+
+## Planejamento de Inventários Florestais
+<br>
+
+.pull-left-4[
+De acordo com Sanquetta et al. (2009):
+
+- As bases para o planejamento do inventário florestal variam em função dos .blue[objetivos] e dos .blue[recursos] necessários para sua execução. 
+- Verificar as .blue[necessidades do cliente] e as especificações técnicas exigidas pelas .blue[normais legais].
+]
+
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/au1/mogno.png')
+```
+.center[
+.font90[
+**Fonte**: O autor.
+
+**Foto**: Vistoria (SEMA) de plantio de Mogno.
+]
+]
+]
+
 
 ---
