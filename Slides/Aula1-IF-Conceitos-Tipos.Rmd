@@ -544,8 +544,6 @@ b) IF contínuos (ou de múltiplas ocasiões).
 ]
 
 
-
-
 ---
 
 ## Tipos de Inventários Florestais
@@ -629,5 +627,67 @@ knitr::include_graphics('fig/au1/classes.png')
 ```
 ]
 
+---
+
+## Tipos de Inventários Florestais
+<br><br>
+.shadow1[
+### 5 - Quanto ao detalhamento dos resultados
+a) Inventários exploratórios;
+
+b) Inventários de reconhecimento; e
+
+c) Inventários de detalhados.
+]
 
 ---
+
+## Tipos de Inventários Florestais
+<br>
+
+.pull-left-4[
+
+### a) Inventários Florestais Exploratórios
+- Realizado em grandes áreas, em nível de estado ou país.
+
+**Objetiva:**
+
+- Avaliar a cobertura florestal de determinada região, sua extensão, localização, e caracterizar os tipos florestais existentes.
+
+]
+
+.pull-right-4[
+
+### b) Inventários Florestais de Reconhecimento
+
+- Realizado em nível estadual ou regional;
+
+**Objetiva:**
+
+- Caracterizar os tipos de formações florestais;
+- Determinar estimativas de volume sem controle de precisão; e
+- Definir áreas de preservação, potencial madeireiro, etc.
+]
+
+---
+
+## Tipos de Inventários Florestais
+<br>
+
+.pull-left-4[
+
+### c) Inventários Florestais Detalhados
+- São os mais comuns. Em geral, realizados em pequenas áreas, com maior detalhamento das informações e controle de precisão.
+
+]
+<br><br>
+
+.pull-right-4[
+
+**Objetiva:**
+- Avaliar a cobertura florestal;
+- Caracterizar os tipos florestais;
+- Determinar a composição de espécies; 
+- Determinar estimativas de volume com controle de precisão, etc.
+
+]
