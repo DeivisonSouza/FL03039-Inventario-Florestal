@@ -449,6 +449,7 @@ grid <- expand.grid(
   mutate(image = sample(c("fig/au1/pinus1.png",
                           "fig/au1/pinus2.png"),
                         size = length(y), replace = TRUE))
+
 grid %>%
   ggplot(aes(x, y)) + 
   geom_image(aes(image=image), size=.1) +
