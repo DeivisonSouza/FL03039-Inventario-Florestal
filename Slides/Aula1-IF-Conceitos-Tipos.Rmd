@@ -195,27 +195,15 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-top[
 **Parte 2 - Planejamento de Inventários Florestais**
+.font90[
+[1 - Definição de Questões Técnicas](#dqt)
 
-[1 - ](#AR)
-
-[2 - ](#CultME)
+&nbsp;&nbsp;[1.2 - Qual o objetivo geral do IF?](#qogif)
 
 &nbsp;&nbsp;[2.1 - ](#TA)
 
 &nbsp;&nbsp;[2.2 - ](#AAS)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2.1 - ](#RT)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2.2 - ](#bag)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2.3 - ](#rf)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2.4 - ](#out)
-
-&nbsp;&nbsp;[3.3 - ](#mr)
-
-&nbsp;&nbsp;[3.4 - ](#md)
-
+]
 ]
 
 <!-- Slide XX -->
@@ -755,7 +743,7 @@ knitr::include_graphics('fig/au1/mogno.png')
 ]
 
 ---
-
+name: dqt
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
