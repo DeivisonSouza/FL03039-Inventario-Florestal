@@ -593,7 +593,7 @@ b) IF contínuos (ou de múltiplas ocasiões).
 .center[
 **Acesse a diretriz** `r anicon::faa("hand-point-down", animate="vertical")`
 
-[Diretrizes para instalação e medição de parcelas permanentes em florestas naturais da Amazônia brasileira](https://ainfo.cnptia.embrapa.br/digital/bitstream/item/205499/1/Diretrizes-para-instalacao-e-medicao-de.pdf)
+[Diretrizes para instalação e medição de parcelas permanentes em florestas naturais da Amazônia brasileira](http://bommanejo.cpatu.embrapa.br/arquivos/6-Silvaetal2006.pdf)
 (Silva et al., 2005)
 
 ]
@@ -602,6 +602,30 @@ b) IF contínuos (ou de múltiplas ocasiões).
 .pull-right-12[
 ```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/au1/ppm.png')
+```
+]
+
+---
+
+## Tipos de Inventários Florestais
+<br>
+
+.pull-left-3[
+[Diretrizes para instalação e medição de parcelas permanentes em florestas naturais da Amazônia brasileira](http://bommanejo.cpatu.embrapa.br/arquivos/6-Silvaetal2006.pdf)
+(Silva et al., 2005)
+]
+
+<br><br><br><br>
+
+.pull-left-2[
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/au1/parcela.png')
+```
+]
+
+.pull-right-1[
+```{r, echo=FALSE, out.width='110%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/au1/classes.png')
 ```
 ]
 
