@@ -133,47 +133,68 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 ## Conteúdo
 
+**Parte 1 - Inventários Florestais: Conceito, Importância e Tipos**
+
+.pull-left[
 .pull-top[
-**Parte 1 - Inventários florestais: Conceito, importância e tipos**
+.font90[
 
-[1 - Conceito e importância](#conc)
+[1 - Conceito e Importância](#ifci)
 
-[2 - Classificação de inventários florestais](#tipos)
+[2 - Tipos de Inventários Florestais (Péllico Netto; Brena, 1997)](#tif)
 
-&nbsp;&nbsp;[2.1 - Quanto ao objetivo](#TA)
+&nbsp;&nbsp;[2.1 - Quanto ao Objetivo](#qo)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1 - Inventário florestal de cunho tático](#RT)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1 - Inventário Florestal de Cunho tático](#ifct)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[2.1.2 - Inventário florestal de cunho estratégico](#RT)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1.2 - Inventário Florestal de Cunho Estratégico](#ifce)
 
-&nbsp;&nbsp;[2.2 - Quanto à abrangência das informações](#AAS)
+&nbsp;&nbsp;[2.2 - Quanto à Abrangência das Informações](#qai)
 
-&nbsp;&nbsp;[2.3 - Quanto à maneira de obtenção dos dados de campo](#AAS)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.2.1 - Inventário Florestal Nacional ](#ifn)
 
-&nbsp;&nbsp;[2.4 - Quanto à abordagem da população no tempo](#AAS)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.2.2 - Inventário Florestal Regional](#ifr)
 
-&nbsp;&nbsp;[2.5 - Quanto ao grau de detalhamento dos resultados](#AAS)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.2.3 - Inventário Florestal de Área Restrita](#ifar)
+]
+]
+]
 
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2.1 - ](#RT)
+.pull-right[
 
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2.2 - ](#bag)
+.font90[
+&nbsp;&nbsp;[2.3 - Quanto à Maneira de Obtenção dos Dados de Campo](#qmodc)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2.3 - ](#rf)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.3.1 - Inventário Florestal 100% (Censo Florestal)](#if100)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2.4 - ](#out)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.3.2 - Inventário por Amostragem](#ia)
 
-&nbsp;&nbsp;[3.3 - ](#mr)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.3.3 - Inventário por Fontes Secundárias](#ifs)
 
-&nbsp;&nbsp;[3.4 - ](#md)
+&nbsp;&nbsp;[2.4 - Quanto à Abordagem da População no Tempo](#qapt)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[2.4.1 - Inventário Florestal Temporário](#ift)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[2.4.2 - Inventário Florestal Contínuo](#ifc)
+
+&nbsp;&nbsp;[2.5 - Quanto ao Grau de Detalhamento dos Resultados](#qgdr)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[2.5.1 - Inventários Exploratórios](#ie)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[2.5.2 - Inventários de Reconhecimento](#ir)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[2.5.3 - Inventários Detalhados](#id)
 
 ]
+]
+
 
 ---
 
 ## Conteúdo
 
 .pull-top[
-**Parte 2 - Aspectos técnicos no planejamento de inventários florestais**
+**Parte 2 - Planejamento de Inventários Florestais**
 
 [1 - ](#AR)
 
@@ -200,7 +221,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 <!-- Slide XX -->
 ---
 layout: false
-name: conc
+name: if
 class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
@@ -213,7 +234,7 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Introdução ao Inventário Florestal</div>
 
 ---
-
+name: ifci
 ## Inventário Florestal
 <br><br>
 .shadow1[
@@ -222,19 +243,19 @@ layout: true
 ]
 
 ---
-
+name: tif
 ## Tipos de Inventários Florestais
 <br>
-Em geral, os IFs podem ser classificados em diversos tipos. 
 
-A classificaçao proposta em **Péllico Netto e Brena (1997)** é bem aceita e classifica os IFs quanto à/ao(s):
+**Péllico Netto e Brena (1997)** classificam os IFs quanto à/ao(s):
+<br><br>
 
 ```{r, echo=FALSE, out.width='55%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/au1/IF_Tipos.png')
 ```
 
 ---
-
+name: qo
 ## Tipos de Inventários Florestais
 <br><br>
 .shadow1[
@@ -245,11 +266,11 @@ b) Inventário florestal de cunho estratégico.
 ]
 
 ---
-
+name: ifct
 ## Tipos de Inventários Florestais
 
 .pull-left-4[
-### a) Inventário florestal de cunho tático
+### a) Inventário Florestal de Cunho Tático
 <br>
 .font90[
 São inventários realizados para atender .blue[demandas técnicas] específicas de uma empresa ou propriedade florestal (PMFS, dinâmica, outros).
@@ -257,9 +278,9 @@ São inventários realizados para atender .blue[demandas técnicas] específicas
 ]
 
 --
-
+name: ifce
 .pull-right-4[
-### b) Inventário florestal de cunho estratégico
+### b) Inventário Florestal de Cunho Estratégico
 <br>
 .font90[
 **Realizados com o objetivo de:**
@@ -271,11 +292,11 @@ São inventários realizados para atender .blue[demandas técnicas] específicas
 ]
 
 ---
-
+name: qai
 ## Tipos de Inventários Florestais
 <br><br>
 .shadow1[
-## 2 - Quanto à abrangência das informações
+## 2 - Quanto à Abrangência das Informações
 a) Inventário florestal nacional;
 
 b) Inventário florestal regional; e
@@ -284,7 +305,7 @@ c) Inventário florestal de área restrita.
 ]
 
 ---
-
+name: ifn
 ## Tipos de Inventários Florestais
 <br>
 
@@ -302,7 +323,6 @@ c) Inventário florestal de área restrita.
 ]
 ]
 
-
 .pull-right-4[
 ```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('https://i0.wp.com/florestalbrasil.com/wp-content/uploads/2017/01/Servi25C325A7o-Florestal-Brasileiro.png?fit=1004%2C500&ssl=1')
@@ -316,7 +336,7 @@ knitr::include_graphics('https://snif.florestal.gov.br/images/img/recursos_flore
 ]
 
 ---
-
+name: ifr
 ## Tipos de Inventários Florestais
 <br>
 
@@ -335,7 +355,7 @@ knitr::include_graphics('https://snif.florestal.gov.br/images/img/recursos_flore
 ]
 
 ---
-
+name: ifar
 ## Tipos de Inventários Florestais
 <br>
 
@@ -381,11 +401,11 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015
 ]
 
 ---
-
+name: qmodc
 ## Tipos de Inventários Florestais
 <br><br>
 .shadow1[
-### 3 - Quanto à maneira de obtenção dos dados de campo
+### 3 - Quanto à Maneira de Obtenção dos Dados de Campo
 a) Inventário Florestal 100% (Censo Florestal);
 
 b) Inventário por amostragem; e
@@ -394,7 +414,7 @@ c) Inventário por fontes secundárias.
 ]
 
 ---
-
+name: if100
 ## Tipos de Inventários Florestais
 
 .pull-left-4[
@@ -424,7 +444,7 @@ knitr::include_graphics('fig/au1/img1.jpg')
 
 
 ---
-
+name: ia
 ## Tipos de Inventários Florestais
 
 .pull-left-4[
@@ -504,7 +524,7 @@ grid %>%
 
 
 ---
-
+name: ifs
 ## Tipos de Inventários Florestais
 
 .pull-left-4[
@@ -517,18 +537,18 @@ grid %>%
 ]
 
 ---
-
+name: qapt
 ## Tipos de Inventários Florestais
 <br><br>
 .shadow1[
-### 4 - Quanto à abordagem da população no tempo
+### 4 - Quanto à Abordagem da População no Tempo
 a) IF temporários (ou de uma ocasião); e
 
 b) IF contínuos (ou de múltiplas ocasiões).
 ]
 
 ---
-
+name: ift
 ## Tipos de Inventários Florestais
 
 .pull-left-4[
@@ -545,7 +565,7 @@ b) IF contínuos (ou de múltiplas ocasiões).
 
 
 ---
-
+name: ifc
 ## Tipos de Inventários Florestais
 
 .pull-left-4[
@@ -628,20 +648,20 @@ knitr::include_graphics('fig/au1/classes.png')
 ]
 
 ---
-
+name: qdr
 ## Tipos de Inventários Florestais
 <br><br>
 .shadow1[
-### 5 - Quanto ao detalhamento dos resultados
-a) Inventários exploratórios;
+### 5 - Quanto ao Grau de Detalhamento dos Resultados
+a) Inventários Exploratórios;
 
-b) Inventários de reconhecimento; e
+b) Inventários de Reconhecimento; e
 
-c) Inventários de detalhados.
+c) Inventários Detalhados.
 ]
 
 ---
-
+name: ife
 ## Tipos de Inventários Florestais
 <br>
 
@@ -670,7 +690,7 @@ c) Inventários de detalhados.
 ]
 
 ---
-
+name: ifd
 ## Tipos de Inventários Florestais
 <br>
 
@@ -691,3 +711,15 @@ c) Inventários de detalhados.
 - Determinar estimativas de volume com controle de precisão, etc.
 
 ]
+
+<!-- Slide XX -->
+---
+layout: false
+name: conc
+class: inverse, middle, center
+background-image: url(fig/au1/sec.png)
+background-size: cover
+
+.font200[.yellow2[**Planejamento de <br> Inventários Florestais**]]
+
+---
