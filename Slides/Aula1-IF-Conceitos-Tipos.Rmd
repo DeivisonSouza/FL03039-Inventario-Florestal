@@ -227,9 +227,9 @@ layout: true
 <br>
 Em geral, os IFs podem ser classificados em diversos tipos. 
 
-A classificaçao proposta em Péllico Netto; Brena (1997) é bem aceita e classifica os IFs quanto à/ao(s):
+A classificaçao proposta em **Péllico Netto e Brena (1997)** é bem aceita e classifica os IFs quanto à/ao(s):
 
-```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+```{r, echo=FALSE, out.width='55%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/au1/IF_Tipos.png')
 ```
 
@@ -252,7 +252,7 @@ b) Inventário florestal de cunho estratégico.
 ### a) Inventário florestal de cunho tático
 <br>
 .font90[
-São inventários realizados para atender demandas técnicas específicas de uma empresa ou propriedade florestal (PMFS, dinâmica, outros).
+São inventários realizados para atender .blue[demandas técnicas] específicas de uma empresa ou propriedade florestal (PMFS, dinâmica, outros).
 ]
 ]
 
@@ -262,7 +262,7 @@ São inventários realizados para atender demandas técnicas específicas de uma
 ### b) Inventário florestal de cunho estratégico
 <br>
 .font90[
-Realizados com o objetivo de:
+**Realizados com o objetivo de:**
 
 - Instruir o poder público na formulação de políticas públicas de conservação, desenvolvimento e uso dos recursos florestais;
 - Subsidiar o planejamento e administração das florestas em nível nacional, estadual ou regional; e
@@ -292,7 +292,7 @@ c) Inventário florestal de área restrita.
 .font90[
 ### a) Inventário Florestal Nacional - IFN
 <br>
-- São inventários extensivos que cobrem países inteiros;
+- São inventários extensivos que .blue[cobrem países inteiros];
 
 **O objetivo é:**
 
@@ -302,11 +302,29 @@ c) Inventário florestal de área restrita.
 ]
 ]
 
+
 .pull-right-4[
+```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://i0.wp.com/florestalbrasil.com/wp-content/uploads/2017/01/Servi25C325A7o-Florestal-Brasileiro.png?fit=1004%2C500&ssl=1')
+```
+
+```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://snif.florestal.gov.br/images/img/recursos_florestais/Logo_IFN.png')
+```
+
+
+]
+
+---
+
+## Tipos de Inventários Florestais
+<br>
+
+.pull-left-4[
 .font90[
 ### b) Inventário Florestal Regional - IFR
 <br>
-- São IF de grandes áreas, cobrindo regiões, estados ou a região de ocorrência natural de uma espécie;
+- São IF de .blue[grandes áreas], cobrindo regiões, estados ou a região de ocorrência natural de uma espécie;
 
 **O objetivo é:**
 
@@ -315,7 +333,6 @@ c) Inventário florestal de área restrita.
 - Avaliar a viabilidade de instalação de indústrias madeireiras, outros.
 ]
 ]
-
 
 ---
 
@@ -326,14 +343,16 @@ c) Inventário florestal de área restrita.
 .font90[
 ### c) Inventário Florestal de Área Restrita
 <br>
-- São IF que cobrem menores áreas em regiões restritas;
+- São IF que cobrem .blue[menores áreas] em .blue[regiões restritas];
 - São mais comuns e constituem a maioria dos IF realizados por empresas florestais; e
-- São, em geral, de cunho tático.
+- São de cunho tático.
 
 ]
 ]
 
-<br><br>
+--
+
+<br>
 .pull-right-4[
 .font90[
 
@@ -342,9 +361,22 @@ c) Inventário florestal de área restrita.
 - O objetivo é determinar o potencial florestal (produtos madeireiros e não madeireiros) para uso sustentável; e
 - No contexto madeireiro, as informações do IF são a base para a elaboração de PMFS.
 <br>
+]
+<br>
 
-.red[Adiconar links legislações PMFS]
+.font80[
+.blue[
 
+Lei nº 12.651 de 25/05/2012 (novo Código Florestal)
+
+Instrução Normativa/MMA nº. 05 de 11/12/2006
+
+Resolução CONAMA nº. 406 de 02/02/2009
+
+Instrução Normativa/SEMAS nº. 05/2011
+
+Instrução Normativa/SEMAS nº. 05 de 10/09/2015
+]
 ]
 ]
 
@@ -399,16 +431,24 @@ knitr::include_graphics('fig/au1/img1.jpg')
 .font90[
 ### b) Inventário por Amostragem
 <br>
-- No IF amostral mede-se parte da população florestal;
-- Os parâmetros populacionais são estimados com base em dados amostrais; e
-- Na prática, são realizados com uso de parcelas amostrais.
+- No IF amostral mede-se .blue[parte da população] florestal;
+- Os .blue[parâmetros populacionais são estimados] com base em dados amostrais; e
+- Na prática, são realizados com uso de parcelas (ou unidades) amostrais.
+]
+]
+
+--
+<br><br>
+
+.pull-left-4[
+.font90[
 
 **Qual motivo?**
 
 - Quando a população florestal a ser inventariada é grandes demais, uma abordagem exaustiva (ou de 100%) de todos os indivíduos torna-se delongada e onerosa.
-]
-]
 
+]
+]
 
 ---
 
@@ -438,7 +478,7 @@ grid %>%
 ]
 
 .right-column[
-### Amostra
+### Amostra da População
 
 ```{r eval = T, echo = F, fig.width=.8, fig.height=.8}
 
@@ -503,7 +543,12 @@ b) IF contínuos (ou de múltiplas ocasiões).
 ]
 ]
 
---
+
+
+
+---
+
+## Tipos de Inventários Florestais
 
 .pull-left-4[
 .font70[
@@ -511,11 +556,31 @@ b) IF contínuos (ou de múltiplas ocasiões).
 <br>
 
 .font90[
-- São caracterizados por várias abordagens da população no tempo. Isto é, inventário é repetido periodicamente; e
-- A estrutura da amostragem é duradoura. Ou seja, as parcelas têm estrutura permanente, de modo a permitir sua localização e identificação a cada nova medição.
+- São caracterizados por várias abordagens da população no tempo. Isto é, o inventário é .blue[repetido periodicamente];
+- Na prática, são .blue[áreas (parcelas) demarcadas na floresta] em que a vegetação (árvores, arvoretas, varas e mudas) é identificada e medida; e
+- Comumente a área demarcada é chamada de .blue[Parcela Permanente de Monitoramento (PPM)].
 
 ]
 ]
+
+--
+<br><br>
+
+.pull-right-4[
+.font90[
+**Importância?**
+
+- Os dados coletados em PPMs são essenciais para o sucesso do manejo florestal sustentável; 
+
+**A partir de dados de PPMs pode-se entender:**
+
+* A composição florística;
+* A estrutura e a dinâmica da floresta; e
+* As taxas de crescimento, ingresso e mortalidade (e outros).
+
+]
+]
+
 
 ---
 
