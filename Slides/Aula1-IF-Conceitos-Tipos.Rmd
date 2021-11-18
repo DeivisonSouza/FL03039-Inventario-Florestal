@@ -754,5 +754,60 @@ knitr::include_graphics('fig/au1/mogno.png')
 ]
 ]
 
+---
+
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+
+.pull-left-4[
+- Durante a fase de planejamento de um Inventário Florestal, algumas questões técnicas precisam ser previamente definidas.
+<br><br>
+
+.center[**Quais seriam essas questões?**]
+]
+
+.pull-right-4[
+![think](https://media0.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif)  
+<div style='font-size:50%'>([Source link](https://twitter.com/Kingwole/status/826485113731047426), accessed jan 31, 2017)</div>   
+
+]
+
+---
+
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+.font90[
+**1.** Qual o objetivo geral do inventário florestal?
+
+**2.** Para atender o objetivo geral a ser alcançado, que tipo de IF realizar?
+
+**3.** Quais dados devem ser coletados?
+
+**4.** Identificar e analisar as características da área a ser inventariada?
+
+**5.** Em caso de IF amostral, qual a precisão requerida e sob qual probabilidade serão obtidas as estimativas dos parâmetros populacionais?
+
+**6.** Em caso de IF amostral, quantas unidades de amostra serão necessárias para atender a precisão requerida?
+
+**7.** Em caso de IF amostral, qual a forma e o tamanho das unidades de amostra que serão utilizadas?
+
+**8.** Em caso de IF amostral, qual o processo de amostragem a ser adotado?
+
+**9.** Qual o apoio logístico? 
+
+]
+
+---
+
+## Referências
+
+<br><br>
+PÉLLICO NETTO, S.; BRENA, D.A. Inventário Florestal. Curitiba: editorado pelos autores, 1997. 316p.
+<br><br>
+SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J.D.P. Inventários florestais: planejamento e execução. 2ª ed. Curitiba. 2009. 316p.
 
 ---
