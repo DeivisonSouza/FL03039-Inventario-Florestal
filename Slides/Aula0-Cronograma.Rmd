@@ -335,7 +335,7 @@ p + theme(legend.key.size = unit(2, 'cm'),
 <br>
 1 - Introdução aos Inventários Florestais; 
 
-2 - Teoria de Amostragem; 
+2 - Amostragem em Inventários Florestais;
 
 3 - Amostragem Aleatória Simples;
 
