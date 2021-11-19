@@ -62,7 +62,7 @@ use_logo(
 <!-- title-slide -->
 # Inventário Florestal <br> (FL03039 - IF)
 <br><br>
-## Cronograma da disciplina `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Cronograma da disciplina `r anicon::faa("pagelines", animate="horizontal", colour="green")`
 
 #### **Prof. Dr. Deivison Venicio Souza**
 #### Universidade Federal do Pará (UFPA) 
@@ -236,10 +236,10 @@ p <- calendR::calendR(year = 2021,
         text = c(
           "SSSS", 
           "Raiana Nava \n Ângela Hentz \n Ernandes Neto",
-          "Jamerson \n (ASV-SINAFLOR)", 
-          "Joberto \n (UFAM/SFB)",
+          "Jamerson Rodrigo \n (ASV-SINAFLOR)", 
+          "Joberto Freitas \n (UFAM/SFB)",
           "SSSS", 
-          "Alex Soares \n(SEMAS) \n (15h:00min)",
+          "Alex Soares \n(SEMAS) \n Cássio Silva \n(BIOCEV)",
           "SSSS"),
         text.pos = c(1:4, 6:8), 
         text.size = 12,
@@ -301,7 +301,7 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 .green[**Palestra 1**]: **Inventário Florestal Nacional** (8h:00min)
 
-**Palestrante**: .blue[] (Engenheiro Florestal)
+**Palestrante**: .blue[Joberto Veloso de Freitas] (Engenheiro Florestal)
 
 **Empresa**: Universidade Federal do Amazonas (UFAM)/Serviço Florestal Brasileira (SFB)
 <br><br>
@@ -313,13 +313,18 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 - **Dia 07/12** (Período da tarde) - A partir das 15h:00min
 
-.green[**Palestra 1**]: **Análise Técnica de Censo Florestal** (15h:00min)
+.green[**Palestra 1**]: **Análise Técnica de PMFS e Censo Florestal** (15h:00min)
 
 **Palestrante**: .blue[Alex Soares de Souza] (Engenheiro Florestal)
 
 **Orgão**: Secretaria de Estado de Meio Ambiente e Sustentabilidade - SEMAS
 <br><br>
 
+.green[**Palestra 2**]: **Inventário Florestal da BIOCEV** (17h:00min)
+
+**Palestrante**: .blue[Cássio Melo da Silva] (Engenheiro Florestal)
+
+**Empresa**: Grupo Biocev Projetos Inteligentes
 
 <!-- Slide 7 -->
 ---
@@ -357,9 +362,11 @@ p + theme(legend.key.size = unit(2, 'cm'),
 ## Estratégias e Ferramentas de Ensino
 <br>
 
-- **Aula Presencial** (*Sala 4 - FEF*)
+- **Aula Presencial** (*Sala 3 - FEF*)
 
 Aulas teóricas e práticas presenciais, realização de atividades complementares e avaliações de desempenho.
+
+**Palestras**: Palestras presenciais de egressos sobre Inventário Florestal e Análise Técnica de PMFS. 
 
 --
 <br><br>
@@ -367,6 +374,8 @@ Aulas teóricas e práticas presenciais, realização de atividades complementar
 - **Plataforma de videoconferência** (*Google Meeting*)
 
 **Palestras**: Videoconferências com profissionais convidados para palestrar sobre temas relacionados ao inventário florestal.
+
+.red[**Atenção**]`r anicon::faa("exclamation-triangle", colour="red")`: Formação de grupos (Duas perguntas no mínimo)
 
 
 <!-- Slide 8 -->

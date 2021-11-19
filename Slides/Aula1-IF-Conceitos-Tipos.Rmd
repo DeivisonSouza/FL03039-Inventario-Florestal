@@ -1052,7 +1052,7 @@ knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif'
 ### Definição de Questões Técnicas
 <br>
 
-**9. Qual o apoio logístico?**
+**9. Qual o apoio logístico?** `r emo::ji("heavy_check_mark")`
 .font90[
 - Mapas de vegetação, relevo e hidrografia em escala adequada disponível;
 - Definir o número de equipes de campo necessárias para realizar o IF, ponderando o tempo disponível;
