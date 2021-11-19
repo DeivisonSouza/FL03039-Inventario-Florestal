@@ -192,19 +192,33 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ---
 
 ## Conteúdo
+<br>
 
 .pull-top[
 **Parte 2 - Planejamento de Inventários Florestais**
 .font90[
 [1 - Definição de Questões Técnicas](#dqt)
 
-&nbsp;&nbsp;[1.2 - Qual o objetivo geral do IF?](#qogif)
+&nbsp;&nbsp;[1.1 - Qual o objetivo geral do IF?](#qogif)
 
-&nbsp;&nbsp;[2.1 - ](#TA)
+&nbsp;&nbsp;[1.2 - Quais as características da área?](#qca)
 
-&nbsp;&nbsp;[2.2 - ](#AAS)
+&nbsp;&nbsp;[1.3 - Quais as legislações (Leis, Resoluções, INs)?](#ql)
+
+&nbsp;&nbsp;[1.4 - Qual tipo de IF realizar?](#qtif)
+
+&nbsp;&nbsp;[1.5 - Quais dados coletar?](#qdc)
+
+&nbsp;&nbsp;[1.6 - Qual a precisão exigida para as estimativas de parâmetros?](#qpe)
+
+&nbsp;&nbsp;[1.7 - Qual o sistema de amostragem?](#qsa)
+
+&nbsp;&nbsp;[1.8 - Quantas parcelas estabelecer em campo?](#qp)
+
+&nbsp;&nbsp;[1.9 - Qual o apoio logístico?](#qal)
 ]
 ]
+
 
 <!-- Slide XX -->
 ---
@@ -790,7 +804,7 @@ name: dqt
 ]
 
 ---
-
+name: qogif
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
@@ -830,7 +844,7 @@ name: dqt
 ]
 
 ---
-
+name: qca
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
@@ -864,7 +878,7 @@ Infraestrutura existente para apoio durante o levantamento de campo.
 ]
 
 ---
-
+name: ql
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
@@ -886,7 +900,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 ]
 
 ---
-
+name: qtif
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
@@ -913,7 +927,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 ]
 
 ---
-
+name: qdc
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
@@ -948,7 +962,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 ]
 
 ---
-
+name: qpe
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
@@ -961,7 +975,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 .magenta[IF para Projetos de Supressão] = 5%, 10% ou 15% de erro máximo admissível para a estimativa da média da população?
 
 ---
-
+name: qsa
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
@@ -995,7 +1009,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 ]
 
 ---
-
+name: qp
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
@@ -1046,7 +1060,7 @@ knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif'
 ]
 
 ---
-
+name: qal
 ## Planejamento de Inventários Florestais
 <br>
 ### Definição de Questões Técnicas
