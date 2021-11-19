@@ -775,7 +775,7 @@ name: dqt
 
 **3.** Quais as legislações (Leis, Resoluções, INs) vigentes que regulamentam a atividade?
 
-**4.** Para atender o objetivo geral a ser alcançado, que tipo de IF realizar?
+**4.** Qual tipo de IF realizar para atender ao objetivo geral?
 
 **5.** Quais dados devem ser coletados?
 
@@ -800,28 +800,34 @@ name: dqt
 
 --
 
+.pull-left-4[
 .font90[
-- Identificar, mapear espécies e quantificar o .blue[volume de madeira] em floresta natural a ser manejada (Planos de Manejo);
+- Identificar, mapear espécies e quantificar o .blue[volume de madeira] em floresta natural a ser manejada;<br>
+(.magenta[Planos de Manejo Florestal Sustentável])
 ]
+
+
+.font90[
+- Quantificar a .blue[produção volumétrica] de determinada espécie em um povoamento .blue[plantado];<br>
+(.magenta[Projetos de Desbastes])
+]
+]
+
 
 --
 
+.pull-right-4[
 .font90[
-- Quantificar a .blue[produção volumétrica] de determinada espécie em um povoamento .blue[plantado] (Projetos de Desbastes);
+- Monitoramento da .blue[dinâmica, composição florística e estrutura] populacional de floresta natural; <br>
+(.magenta[IFC - Parcelas Permanentes])
 ]
 
---
 
 .font90[
-- Monitoramento da .blue[dinâmica, composição florística e estrutura] populacional de floresta natural (IFC - Parcelas Permanentes); e
+- Avaliar a .blue[composição florística, área basal, volume] de uma área para supressão de vegetação. <br>
+(.magenta[Projetos de Supressão Vegetal])
 ]
-
---
-
-.font90[
-- Avaliar a .blue[composição florística, área basal, volume] de uma área para supressão de vegetação (Projetos de Supressão Florestal).
 ]
-
 
 ---
 
@@ -864,7 +870,17 @@ Infraestrutura existente para apoio durante o levantamento de campo.
 ### Definição de Questões Técnicas
 <br>
 
-**3. Para atender o objetivo geral a ser alcançado, que tipo de IF realizar?**
+**3. Quais as legislações (Leis, Resoluções, INs) vigentes que regulamentam a atividade?**
+
+
+---
+
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**4. Qual tipo de IF realizar para atender ao objetivo geral?**
 
 --
 
@@ -891,7 +907,7 @@ Infraestrutura existente para apoio durante o levantamento de campo.
 ### Definição de Questões Técnicas
 <br>
 
-**4. Quais dados devem ser coletados?**
+**5. Quais dados devem ser coletados?**
 
 --
 
