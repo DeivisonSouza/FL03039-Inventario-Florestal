@@ -791,11 +791,71 @@ name: dqt
 
 ---
 
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**1. Qual o objetivo geral do inventário florestal?**
+
+--
+
+.font90[
+- Identificar, mapear espécies e quantificar o .blue[volume de madeira] em floresta natural a ser manejada (Planos de Manejo);
+]
+
+--
+
+.font90[
+- Quantificar a .blue[produção volumétrica] de determinada espécie em um povoamento .blue[plantado] (Projetos de Desbastes);
+]
+
+--
+
+.font90[
+- Monitoramento da .blue[dinâmica, composição florística e estrutura] populacional de floresta natural (IFC - Parcelas Permanentes); e
+]
+
+--
+
+.font90[
+- Avaliar a .blue[composição florística, área basal, volume] de uma área para supressão de vegetação (Projetos de Supressão Florestal).
+]
+
+
+---
+
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**2. Para atender o objetivo geral a ser alcançado, que tipo de IF realizar?**
+
+--
+
+.font90[
+- Inventário Florestal 100% (ou Censo Florestal) `r emo::ji("point_right")` Projetos de Manejo Florestal Sustentável.
+]
+
+--
+
+.font90[
+- Inventário Florestal Amostral `r emo::ji("point_right")` Projetos de Desbaste, Projetos de Supressão da Vegetação (e outros)
+]
+
+--
+
+.font90[
+- Inventário Florestal Contínuo `r emo::ji("point_right")` Monitoramento da vegetação (crescimento, produção, florística)
+]
+
+
+---
+
 ## Referências
 
 <br><br>
 PÉLLICO NETTO, S.; BRENA, D.A. Inventário Florestal. Curitiba: editorado pelos autores, 1997. 316p.
 <br><br>
 SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J.D.P. Inventários florestais: planejamento e execução. 2ª ed. Curitiba. 2009. 316p.
-
----
