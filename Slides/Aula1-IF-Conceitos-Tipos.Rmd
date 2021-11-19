@@ -841,13 +841,48 @@ name: dqt
 --
 
 .font90[
-- Inventário Florestal Amostral `r emo::ji("point_right")` Projetos de Desbaste, Projetos de Supressão da Vegetação (e outros)
+- Inventário Florestal Amostral `r emo::ji("point_right")` Projetos de Desbaste (ou Corte Raso), Projetos de Supressão da Vegetação (e outros)
 ]
 
 --
 
 .font90[
 - Inventário Florestal Contínuo `r emo::ji("point_right")` Monitoramento da vegetação (crescimento, produção, florística)
+]
+
+---
+
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**3. Quais dados devem ser coletados?**
+
+--
+
+.font90[
+- .magenta[Projetos de Manejo Florestal Sustentável] `r emo::ji("point_right")` IF-100% `r emo::ji("point_right")` Delimitar áreas, identificar e mapear espécies, medir variáveis dendrométricas (d<sub>1,3</sub>, altura), e outros. (**Objetivo:** Manejo para fins madeireiros)
+
+]
+
+--
+
+.font90[
+- .magenta[Projetos de Desbaste] `r emo::ji("point_right")` IF Amostral `r emo::ji("point_right")` Medir Variáveis Dendrométricas (d<sub>1,3</sub>, altura). (**Objetivo:** Quantificar a produção de madeira)
+]
+
+
+--
+
+.font90[
+- .magenta[Projetos de Supressão de Vegetação] `r emo::ji("point_right")` IF Amostral `r emo::ji("point_right")` Medir Variáveis Dendrométricas (d<sub>1,3</sub>, altura) e Identificar Espécies. (**Objetivo:** Quantificar a área basal e volume por espécie)
+]
+
+--
+
+.font90[
+- .magenta[Projetos de Monitoramento da Flora] `r emo::ji("point_right")` IF Amostral `r emo::ji("point_right")` Identificar e Mapear Espécies/Registros Fotográficos/Coletas Botânicas/Fenologia. (**Objetivo:** Monitorar o comportamento da Vegetação, por exemplo, após algum empreendimento)
 ]
 
 
