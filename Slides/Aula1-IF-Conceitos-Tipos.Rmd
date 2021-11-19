@@ -779,7 +779,7 @@ name: dqt
 
 **5.** Quais dados devem ser coletados?
 
-**6.** Qual a precisão e probabilidade admitidas para as estimativas dos parâmetros populacionais (IF Amostral)?
+**6.** Qual a precisão exigida para as estimativas dos parâmetros populacionais (IF Amostral)?
 
 **7.** Qual o sistema de amostragem será utilizado (método + processo de amostragem) - (IF Amostral)?
 
@@ -871,7 +871,19 @@ Infraestrutura existente para apoio durante o levantamento de campo.
 <br>
 
 **3. Quais as legislações (Leis, Resoluções, INs) vigentes que regulamentam a atividade?**
+<br><br>
 
+.font90[
+Lei nº 12.651 de 25/05/2012 (novo Código Florestal)
+
+Instrução Normativa/MMA nº. 05 de 11/12/2006 `r emo::ji("point_right")` PMFS
+
+Resolução CONAMA nº. 406 de 02/02/2009 `r emo::ji("point_right")` PMFS
+
+Instrução Normativa/SEMAS nº. 05/2011`r emo::ji("point_right")` PMFS
+
+Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMFS
+]
 
 ---
 
@@ -937,9 +949,50 @@ Infraestrutura existente para apoio durante o levantamento de campo.
 
 ---
 
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
 
+**6. Qual a precisão exigida para as estimativas dos parâmetros populacionais (IF Amostral)?**
 
+- A decisão deve obedecer a(s) norma(s) legal(is) vigente(s);
 
+.magenta[IF para Projetos de Supressão] = 5%, 10% ou 15% de erro máximo admissível para a estimativa da média da população?
+
+---
+
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**7. Qual o sistema de amostragem será utilizado - (IF Amostral)**
+
+.magenta[Sistema de Amostragem] = .blue[Método Amostragem + Processo de Amostragem]
+
+.pull-left-4[
+.font90[
+**Sobre o Método de Amostragem?**
+
+- Método de Amostragem: Área fixa ou de Área variável?
+- A forma e o tamanho das unidades de amostra dependem do método de amostragem.
+]
+]
+
+--
+
+.pull-right-4[
+.font90[
+**Sobre o Processo de Amostragem?**
+
+- Amostragem Aleatória Simples (mais comum)
+- Amostragem Estratificada
+- Amostragem Sistemática
+- Amostragem em Dois Estágios
+- Amostragem em Conglomerado (Inventário Florestal Nacional)
+]
+]
 
 ---
 
