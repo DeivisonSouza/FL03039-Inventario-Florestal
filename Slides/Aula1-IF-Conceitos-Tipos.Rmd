@@ -773,17 +773,17 @@ name: dqt
 
 **2.** Quais as características da área a ser inventariada?
 
-**3.** Para atender o objetivo geral a ser alcançado, que tipo de IF realizar?
+**3.** Quais as legislações (Leis, Resoluções, INs) vigentes que regulamentam a atividade?
 
-**4.** Quais dados devem ser coletados?
+**4.** Para atender o objetivo geral a ser alcançado, que tipo de IF realizar?
 
-**5.** Em caso de IF amostral, qual a precisão requerida e sob qual probabilidade serão obtidas as estimativas dos parâmetros populacionais?
+**5.** Quais dados devem ser coletados?
 
-**6.** Em caso de IF amostral, quantas unidades de amostra serão necessárias para atender a precisão requerida?
+**6.** Qual a precisão e probabilidade admitidas para as estimativas dos parâmetros populacionais (IF Amostral)?
 
-**7.** Em caso de IF amostral, qual a forma e o tamanho das unidades de amostra que serão utilizadas?
+**7.** Qual o sistema de amostragem será utilizado (método + processo de amostragem) - (IF Amostral)?
 
-**8.** Em caso de IF amostral, qual o processo de amostragem a ser adotado?
+**8.** Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF de Diagnóstico)?
 
 **9.** Qual o apoio logístico? 
 
