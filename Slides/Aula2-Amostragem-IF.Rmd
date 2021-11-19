@@ -1,0 +1,217 @@
+---
+title: "Inventário Florestal (FL03039 - IF)"
+subtitle: "Amostragem em Inventários Florestais"
+author: "Prof. Dr. Deivison Venicio Souza"
+institute: "Universidade Federal do Pará (UFPA)"
+date: 
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    css: 
+      - default 
+      - assets/sydney-fonts.css
+      - assets/slide-title/sydney-title.css
+    self_contained: false
+    seal: false
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: googlecode
+      highlightLines: true
+      countIncrementalSlides: false
+      highlightLanguage: ["r", "css", "yaml"]
+      ratio: '16:9'
+      navigation:
+        scroll: false
+---
+class: title-slide, center, middle
+background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
+background-position: 84% 90%, 95% 90%
+background-size: 220px, 90px, cover
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.showtext = TRUE,
+  fig.align = "center", 
+  cache = TRUE,
+  error = FALSE,
+  message = FALSE, 
+  warning = FALSE, 
+  collapse = TRUE ,
+  dpi = 600)
+```
+
+```{r xaringan-logo, echo=FALSE}
+library(xaringanExtra)
+use_logo(
+  image_url = "fig/slide-title/ufpa.png",
+  position = css_position(top = ".8em", right = "1em"),
+  width = "140px",
+  height = "140px"
+)
+```
+
+```{r icon, echo=FALSE}
+#remotes::install_github("mitchelloharawild/icons")
+#library(icons)
+#download_fontawesome()
+#download_simple_icons()
+```
+
+```{r packages, include=FALSE}
+# remotes::install_github("dill/emoGG")
+library(ggplot2)
+library(dplyr)
+library(ggimage)
+```
+
+
+<!-- title-slide -->
+# Inventário Florestal <br> (FL03039 - IF)
+<br>
+## .yellow2[Amostragem em] <br> `r anicon::faa("pagelines", animate="horizontal", colour="green")` .yellow2[Inventários Florestais] `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+
+#### **Prof. Dr. Deivison Venicio Souza**
+#### Universidade Federal do Pará (UFPA) 
+#### Faculdade de Engenharia Florestal
+#### E-mail: deivisonvs@ufpa.br
+<br>
+#### `r format(Sys.Date(),"%d/%B/%Y")`
+#### Altamira, Pará
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Amostragem em Inventários Florestais</div>
+
+---
+
+## Ementa da disciplina (FL03039 - IF)
+
+.pull-left-3[
+.shadow4[
+1 - Introdução aos Inventários Florestais;
+
+**2 - Amostragem em Inventários Florestais;**
+
+3 - Amostragem Aleatória Simples;
+
+4 - Amostragem Estratificada;
+
+5 - Amostragem Sistemática; 
+
+6 - Amostragem em Dois Estágios;
+
+7 - Amostragem em Conglomerados;
+
+8 - Censo Florestal (Inventário Florestal 100%); 
+
+9 - Amostragem em Múltiplas Ocasiões;
+
+10 - Inventário Florestal Nacional;
+
+11 - Planejamento e Custo de Inventários Florestais; e
+
+12 - Tecnologias em Inventários Florestais.
+]
+]
+
+
+---
+
+## Objetivos
+<br><br>
+Ao final desta aula espera-se que o discente seja capaz de...
+
+* Compreender os conceitos básicos associados à teoria de amostragem para inventários florestais;
+* Conhecer os principais estimadores calculados a partir de dados amostrais   de inventários florestais;
+* Conhecer a proposta de classificação da amostragem de Péllico Netto e Brena (1997);
+* Compreender o conceito de método, processo e sistema de amostragem; e
+* Aplicar o Fator de Proporcionalidade (FP) para o método de área fixa.
+
+---
+
+## Conteúdo
+
+.pull-left-4[
+.pull-top[
+**Parte 1 - Conceitos Básicos para Amostragem**
+.font90[
+
+[1 - População x Amostra](#pa)
+
+[2 - População Finita x População Infinita](#pfpi)
+
+[3 - Variável (ou característica)](#var)
+
+[4 - Unidade de Amostra (ou Parcela)](#ua)
+
+[5 - Por que Realizar Amostragem?](#pra)
+
+[6 - Parâmetro x Estimativa](#pe)
+
+]
+]
+]
+
+
+.pull-right-4[
+
+**Parte 2 - Inferência na Amostragem**
+
+.font90[
+[1 - Estimadores e Estimativas](#ee)
+
+[2 - Principais Estimativas na Amostragem de Inventários Florestais](#peaif)
+
+&nbsp;&nbsp;[2.1 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
+
+&nbsp;&nbsp;[2.2 - Média Aritmética](#ma)
+
+&nbsp;&nbsp;[2.3 - Desvio Padrão, Variância e Coeficiente de Variação](#dp)
+
+&nbsp;&nbsp;[2.4 - Variância da Média](#vm)
+
+&nbsp;&nbsp;[2.5 - Erro Padrão da Média](#epm)
+
+&nbsp;&nbsp;[2.6 - Erro de Amostragem](#ea)
+
+&nbsp;&nbsp;[2.7 - Intervalo de Confiança Para Média](#icm)
+
+&nbsp;&nbsp;[2.8 - Total da População](#tp)
+
+&nbsp;&nbsp;[2.9 - IC Para o Total da População](#icptp)
+
+]
+]
+
+
+<!-- Slide XX -->
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/au1/sec.png)
+background-size: cover
+
+.font200[.yellow2[**Conceitos básicos <br> para amostragem**]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Amostragem em Inventários Florestais</div>
+
+---
+name: pa
+## População x Amostra
+
+
+---
+
+## Referências
+
+<br><br>
+PÉLLICO NETTO, S.; BRENA, D.A. Inventário Florestal. Curitiba: editorado pelos autores, 1997. 316p.
+<br><br>
+SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J.D.P. Inventários florestais: planejamento e execução. 2ª ed. Curitiba. 2009. 316p.
