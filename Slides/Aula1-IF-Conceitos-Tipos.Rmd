@@ -1047,6 +1047,23 @@ knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif'
 
 ---
 
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**9. Qual o apoio logístico?**
+.font90[
+- Mapas de vegetação, relevo e hidrografia em escala adequada disponível;
+- Definir o número de equipes de campo necessárias para realizar o IF, ponderando o tempo disponível;
+- Definir a composição de cada equipe em função dos dados a serem medidos no campo;
+- Determinar a duração do levantamento de campo;
+- Identificar e contratar os meios de transporte para as equipes de campo; 
+- Identificar e disponibilizar a infraestrutura de apoio para as equipes de levantamento de campo, entre outros.
+]
+
+---
+
 ## Referências
 
 <br><br>
