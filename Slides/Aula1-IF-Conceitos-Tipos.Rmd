@@ -996,6 +996,57 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 
 ---
 
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**8. Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF Piloto)?**
+
+.pull-left-4[
+.font90[
+- .magenta[Inventário Piloto - IP]: um inventário com número reduzido de parcelas (ou unidades de amostras).
+<br><br>
+
+.center[**Quantas parcelas estabelecer em campo para atender a precisão requerida?**]
+
+]
+]
+
+.pull-right-4[
+
+```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif')
+```
+
+<div style='font-size:50%'>([Source link](http://www.reactiongifs.com/suspicious-3/?utm_source=rss&utm_medium=rss&utm_campaign=suspicious-3), accessed jun 06, 2014)</div>  
+
+]
+
+---
+
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**8. Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF Piloto)?**
+<br><br>
+
+**Como funciona na prática?**
+
+.font90[
+1) Estabelece-se um .magenta[número reduzido de parcelas] em campo;
+
+2) Os .magenta[dados] são coletadas dentro das parcelas (d<sub>1,3</sub>, altura);
+
+3) A partir desses dados é possível determinar a .magenta[intensidade amostral (n)]. O estimador de *n* dependerá do Processo de Amostragem; e
+
+4) Determinar se o .magenta[IF Piloto] pode ser considerado .magenta[IF Definitivo].
+]
+
+---
+
 ## Referências
 
 <br><br>
