@@ -796,7 +796,7 @@ name: dqt
 ### Definição de Questões Técnicas
 <br>
 
-**1. Qual o objetivo geral do inventário florestal?**
+**1. Qual o objetivo geral do inventário florestal?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
 
 --
 
@@ -836,7 +836,7 @@ name: dqt
 ### Definição de Questões Técnicas
 <br>
 
-**2. Quais as características da área a ser inventariada?**
+**2. Quais as características da área a ser inventariada?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
 
 .pull-left-5[
 .font90[
@@ -870,7 +870,7 @@ Infraestrutura existente para apoio durante o levantamento de campo.
 ### Definição de Questões Técnicas
 <br>
 
-**3. Quais as legislações (Leis, Resoluções, INs) vigentes que regulamentam a atividade?**
+**3. Quais as legislações (Leis, Resoluções, INs) vigentes que regulamentam a atividade?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
 <br><br>
 
 .font90[
@@ -892,7 +892,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 ### Definição de Questões Técnicas
 <br>
 
-**4. Qual tipo de IF realizar para atender ao objetivo geral?**
+**4. Qual tipo de IF realizar para atender ao objetivo geral?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
 
 --
 
@@ -919,7 +919,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 ### Definição de Questões Técnicas
 <br>
 
-**5. Quais dados devem ser coletados?**
+**5. Quais dados devem ser coletados?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
 
 --
 
@@ -954,7 +954,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 ### Definição de Questões Técnicas
 <br>
 
-**6. Qual a precisão exigida para as estimativas dos parâmetros populacionais (IF Amostral)?**
+**6. Qual a precisão exigida para as estimativas dos parâmetros populacionais (IF Amostral)?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
 
 - A decisão deve obedecer a(s) norma(s) legal(is) vigente(s);
 
@@ -967,7 +967,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 ### Definição de Questões Técnicas
 <br>
 
-**7. Qual o sistema de amostragem será utilizado - (IF Amostral)**
+**7. Qual o sistema de amostragem será utilizado - (IF Amostral)**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
 
 .magenta[Sistema de Amostragem] = .blue[Método Amostragem + Processo de Amostragem]
 
@@ -1001,7 +1001,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMF
 ### Definição de Questões Técnicas
 <br>
 
-**8. Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF Piloto)?**
+**8. Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF Piloto)?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
 
 .pull-left-4[
 .font90[
@@ -1030,7 +1030,7 @@ knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif'
 ### Definição de Questões Técnicas
 <br>
 
-**8. Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF Piloto)?**
+**8. Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF Piloto)?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
 <br><br>
 
 **Como funciona na prática?**
@@ -1052,7 +1052,7 @@ knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif'
 ### Definição de Questões Técnicas
 <br>
 
-**9. Qual o apoio logístico?** `r emo::ji("heavy_check_mark")`
+**9. Qual o apoio logístico?** `r anicon::faa("check-circle", animate="horizontal", colour="green")`
 .font90[
 - Mapas de vegetação, relevo e hidrografia em escala adequada disponível;
 - Definir o número de equipes de campo necessárias para realizar o IF, ponderando o tempo disponível;
