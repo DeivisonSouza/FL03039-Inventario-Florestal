@@ -154,7 +154,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [5 - Por que Realizar Amostragem?](#pra)
 
-[6 - Parâmetro x Estimativa](#pe)
+[6 - Parâmetro, Estimador e Estimativa](#pee)
 
 ]
 ]
@@ -376,8 +376,91 @@ name: ua
 Fonte: [Viane et al. (2013)](https://www.researchgate.net/publication/304073085_Pacto_pela_restauracao_da_Mata_Atlantica_-_Protocolo_de_monitoramento_para_programas_e_projetos_de_restauracao_florestal)
 ]
 
+---
+name: pra
+## Por que realizar amostragem?
+&lt;br&gt;
+
+- Na prática, a coleta de dados de uma população florestal pode ser realizada por dois procedimentos: .magenta[Censo] ou .magenta[Amostragem].
+&lt;br&gt;&lt;br&gt;
+--
+
+- **Problema**: Frequentemente as populações florestais são .blue[extensas], ou por vezes inacessíveis. Portanto, medir todos os elementos da população implica em .blue[alto custo operacional] e de .blue[tempo de execução].
+&lt;br&gt;&lt;br&gt;
+--
+
+- **Amostragem**: É indicada quando a população é muito .blue[extensa]. Assim, os dados podem ser obtidos com .blue[maior rapidez] e .blue[menor custo] operacional, quando comparado ao Censo Florestal.
+&lt;br&gt;&lt;br&gt;
+--
+
+.center[.red[**Atenção**]<span>&lt;i class="fas  fa-exclamation-triangle faa-flash animated " style=" color:red;"&gt;&lt;/i&gt;</span>: Sempre consulte as normas legais vigentes que regulamentam a atividade!]
+&lt;br&gt;
+
+.center[.magenta[Plano de Manejo Florestal Sustentável] 👉 **IF-100% é obrigatório**]
+
+---
+name: pee
+## Parâmetro, Estimador e Estimativa
+
+.shadow1[
+### Parâmetro
+
+- É uma .blue[medida descritiva] (resumo) para uma variável de interesse da população.
+- Na estatística, os parâmetros são representados por .blue[letras gregas].
+- Os valores dos parâmetros populacionais são .blue[normalmente desconhecidos], pois na maioria das vezes é inviável medir todos os elementos da população.
+]
+&lt;br&gt;
+
+.center[
+.font90[
+`\(\mu\)` = Média Populacional (ou Paramétrica)
+
+`\(\sigma^2\)` = Variância Populacional (ou Paramétrica)
+
+`\(\sigma\)` = Desvio Padrão Populacional (ou Paramétrica)
+]
+]
+
+.font90[
+`\(\sigma\)`: letra grega sigma.
+
+`\(\mu\)`: letra grega mu (lê-se "mi").
+]
+
+---
+
+## Parâmetro, Estimador e Estimativa
+
+.shadow1[
+### Estimador
+- É a estatística da amostra utilizada para estimar um parâmetro da população.
 
 
+
+]
+
+---
+
+## Parâmetro, Estimador e Estimativa
+&lt;br&gt;
+
+### Formulação Matemática (Exemplos)
+
+|                                Parâmetro                                |                         Estimador (do Parâmetro)                         |                                      Descrição                                      |
+|:-----------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
+|                   `$$\mu = \frac{1}{N}\sum_{i=1}^{N}X_i$$`                  |                 `$$\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i$$`                 |        `\(\mu\)` = média populacional &lt;br&gt; `\(\bar{X}\)` = estimador da média populacional       |
+|    `$$\sigma^2 = \frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2$$`   |    `$$S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2$$`   |   `\(\sigma^2\)` = variância populacional &lt;br&gt; `\(S^2\)` = estimador da variância populacional   |
+| `$$\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2}$$` | `$$S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}$$` | `\(\sigma\)` = desvio padrão populacional &lt;br&gt; `\(S\)` = estimador do desvio padrão populacional |
+
+
+
+
+
+---
+
+## Resumindo...(Péllico Netto; Brena, 1997)
+
+&lt;img src="fig/class2/pop.jpg" width="40%" style="display: block; margin: auto;" /&gt;
 
 ---
 

@@ -15,6 +15,8 @@ output:
     seal: false
     includes:
       in_header: "assets/mathjax-equation-numbers.html"
+      header-includes:
+         - \usepackage{relsize}
     nature:
       beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
       highlightStyle: googlecode
@@ -149,7 +151,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [5 - Por que Realizar Amostragem?](#pra)
 
-[6 - Parâmetro x Estimativa](#pe)
+[6 - Parâmetro, Estimador e Estimativa](#pee)
 
 ]
 ]
@@ -418,8 +420,89 @@ knitr::include_graphics('fig/class2/parcelas.png')
 Fonte: [Viane et al. (2013)](https://www.researchgate.net/publication/304073085_Pacto_pela_restauracao_da_Mata_Atlantica_-_Protocolo_de_monitoramento_para_programas_e_projetos_de_restauracao_florestal)
 ]
 
+---
+name: pra
+## Por que realizar amostragem?
+<br>
+
+- Na prática, a coleta de dados de uma população florestal pode ser realizada por dois procedimentos: .magenta[Censo] ou .magenta[Amostragem].
+<br><br>
+--
+
+- **Problema**: Frequentemente as populações florestais são .blue[extensas], ou por vezes inacessíveis. Portanto, medir todos os elementos da população implica em .blue[alto custo operacional] e de .blue[tempo de execução].
+<br><br>
+--
+
+- **Amostragem**: É indicada quando a população é muito .blue[extensa]. Assim, os dados podem ser obtidos com .blue[maior rapidez] e .blue[menor custo] operacional, quando comparado ao Censo Florestal.
+<br><br>
+--
+
+.center[.red[**Atenção**]`r anicon::faa("exclamation-triangle", colour="red")`: Sempre consulte as normas legais vigentes que regulamentam a atividade!]
+<br>
+
+.center[.magenta[Plano de Manejo Florestal Sustentável] `r emo::ji("point_right")` **IF-100% é obrigatório**]
+
+---
+name: pee
+## Parâmetro, Estimador e Estimativa
+
+.shadow1[
+### Parâmetro
+
+- É uma .blue[medida descritiva] (resumo) para uma variável de interesse da população.
+- Na estatística, os parâmetros são representados por .blue[letras gregas].
+- Os valores dos parâmetros populacionais são .blue[normalmente desconhecidos], pois na maioria das vezes é inviável medir todos os elementos da população.
+]
+<br>
+
+.center[
+.font90[
+$\mu$ = Média Populacional (ou Paramétrica)
+
+$\sigma^2$ = Variância Populacional (ou Paramétrica)
+
+$\sigma$ = Desvio Padrão Populacional (ou Paramétrica)
+]
+]
+
+.font90[
+$\sigma$: letra grega sigma.
+
+$\mu$: letra grega mu (lê-se "mi").
+]
+
+---
+
+## Parâmetro, Estimador e Estimativa
+
+.shadow1[
+### Estimador
+- É a estatística da amostra utilizada para estimar um parâmetro da população.
 
 
+
+]
+
+---
+
+## Parâmetro, Estimador e Estimativa
+<br>
+
+### Formulação Matemática (Exemplos)
+
+|                                Parâmetro                                |                         Estimador (do Parâmetro)                         |                                      Descrição                                      |
+|:-----------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
+|                   $$\mu = \frac{1}{N}\sum_{i=1}^{N}X_i$$                  |                 $$\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i$$                 |        $\mu$ = média populacional <br> $\bar{X}$ = estimador da média populacional       |
+|    $$\sigma^2 = \frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2$$   |    $$S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2$$   |   $\sigma^2$ = variância populacional <br> $S^2$ = estimador da variância populacional   |
+| $$\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2}$$ | $$S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}$$ | $\sigma$ = desvio padrão populacional <br> $S$ = estimador do desvio padrão populacional |
+
+---
+
+## Resumindo...(Péllico Netto; Brena, 1997)
+
+```{r, echo=FALSE, out.width='40%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/pop.jpg')
+```
 
 ---
 
