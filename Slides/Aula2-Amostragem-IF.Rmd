@@ -449,8 +449,8 @@ name: pee
 .shadow1[
 ### Parâmetro
 
-- É uma .blue[medida descritiva] (resumo) para uma variável de interesse da população.
-- Na estatística, os parâmetros são representados por .blue[letras gregas].
+- É uma .blue[estatística] usada para descrever uma variável de interesse, a partir de .blue[dados populacionais].
+- Os parâmetros são comumente representados por .blue[letras gregas].
 - Os valores dos parâmetros populacionais são .blue[normalmente desconhecidos], pois na maioria das vezes é inviável medir todos os elementos da população.
 ]
 <br>
@@ -476,11 +476,16 @@ $\mu$: letra grega mu (lê-se "mi").
 ## Parâmetro, Estimador e Estimativa
 
 .shadow1[
-### Estimador
-- É a estatística da amostra utilizada para estimar um parâmetro da população.
+### Estimador (do Parâmetro)
+- É uma .blue[estatística] usada para .blue[estimar um parâmetro da população] (para alguma característica de interesse), a partir de dados da .blue[amostra].
+- São exemplos de estimadores: $\bar{X}$, $S^2$, $S$ e outros
 
+]
 
-
+.shadow1[
+### Estimativa (do Parâmetro)
+- É valor assumido pelo estimador para dados obtidos a partir de uma amostra.
+- Estimativa = é um valor aproximado (do Parâmetro).
 ]
 
 ---
