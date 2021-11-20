@@ -355,16 +355,17 @@ Uma .blue[variável quantitativa (ou numérica)] é expressa por números que t�
 ---
 
 ## Variáveis em Inventários Florestais
-<br><br>
+<br>
 
 .pull-left-5[
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/au1/dap.jpg')
 ```
-.magenta[.font90[d<sub>1,3</sub> = diâmetro a 1,30 m do solo]]
+.font90[.magenta[d<sub>1,3</sub> = diâmetro a 1,30 m do solo] (Fita diamétrica)]
+<br><br><br><br><br><br>
 
+.font80[**Fotos**: Acervo pessoal.]
 ]
-
 
 .pull-left-5[
 ```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
@@ -384,15 +385,17 @@ knitr::include_graphics('fig/au1/dtoco.jpg')
 ```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/au1/alt.jpg')
 ```
-.magenta[.font90[h = altura de árvores]]
+.font90[.magenta[h = altura de árvores] 
 
-<br>
+(Vara telescópica)]
 
-.font80[**Fotos**: Acervo pessoal.]
 ]
 
 
 ---
+name: ua
+## Unidade de Amostra (Ou Parcela)
+
 
 
 
