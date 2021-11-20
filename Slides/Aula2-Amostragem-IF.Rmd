@@ -573,7 +573,33 @@ name: peifa
 
 ---
 name: ia
+<br>
 ## Intensidade Amostral (ou Suficiência Amostral)
+
+.shadow1[
+### Intensidade Amostral (n)
+
+- Estimador simbolizado pelo letra **n**.
+- É uma .blue[estimativa do número de parcelas] (unidades amostrais) a serem alocadas (medidas) em campo, para garantir um erro máximo admissível para estimativa da média da variável de interesse, sob um determinado nível de probabilidade.
+- Comumente a variável de interesse é o .blue[volume de madeira].
+]
+<br>
+
+.center[.green[**Quantas parcelas (unidades de amostras) estabelecer em campo?**]]
+
+---
+<br>
+## Intensidade Amostral (ou Suficiência Amostral)
+<br><br>
+
+**A intensidade de amostragem é dependente da(o):** (Péllico Netto; Brena, 1997)
+<br><br>
+
+1 - Variabilidade (entre parcelas) da variável de interesse
+
+2 - Erro de amostragem máximo admissível
+
+3 - Nível de confiança fixado.
 
 ---
 name: ma
