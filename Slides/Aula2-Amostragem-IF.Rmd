@@ -206,12 +206,135 @@ layout: true
 name: pa
 ## População x Amostra
 
+.shadow1[
+## População
+
+Do ponto de vista estatístico, uma população é o conjunto de todos os indivíduos, elementos ou unidades sobre os quais se deseja desenvolver estudos, visando conhecer determinadas características (QUEIROZ, 1998).
+]
+
+
+.shadow1[
+## Amostra
+
+Quando somente uma parte dos elementos ou unidades de uma população é selecionada para o procedimento das análises, tem-se o que se denomina de amostra (QUEIROZ, 1998).
+
+]
+<br>
+
+.red[**Atenção**]`r anicon::faa("exclamation-triangle", colour="red")`: .blue[**A amostra deve ser representativa da população estudada!**]
+
+---
+
+## População x Amostra
+<br>
+
+**EXEMPLO**
+
+.font90[
+- Suponha que um povoamento plantado de *Pinus* sp. foi estabelecido em uma área de .blue[225m<sup>2</sup> (15m x 15m)]. (.green[Obviamente é uma área pequena, mas é útil para entender o conceito!])]
+--
+.font90[
+- O .blue[espaçamento inicial] foi de .blue[1m x 1m], com .blue[espaço vital] de .blue[1m<sup>2</sup>].]
+--
+.font90[
+- Baseado no espaçamento e tamanho da área, pode-se determinar a .blue[quantidade de árvores] no povoamento (sem admitir mortalidade) `r emo::ji("point_right")` **225 árvores**.]
+--
+.font90[
+- Portanto, neste exemplo, a população de *Pinus* sp. é composta de 225 árvores. Assim, em IF comumente o .blue[número total de elemento na população] é simbolizado por **N**.]
+
+---
+
+## População x Amostra
+<br>
+
+**EXEMPLO**
+
+.font90[
+- Agora, suponha que aos 5 anos de idade deseja-se estimar o volume de madeira ( $v_i = g_i× ht × 0,5$ ).magenta[<sup>1</sup>] desse pequeno povoamento: Ter-se-ia 2 opções `r emo::ji("point_right")` .magenta[Censo Florestal ou Amostragem].]
+--
+.font90[
+- **Censo Florestal**: Todos as árvores devem ser medidas para a característica de interesse.
+- **Amostragem**: Apenas parte das árvores devem ser medidas para a característica de interesse.
+
+<br><br><br>
+.magenta[<sup>1</sup>]Equação usada em [Lima et al. (2013)](https://www.scielo.br/j/floram/a/FVtWMSMjgDxHh4D9SCZfrkt/?format=pdf&lang=pt)
+
+.magenta[Efeito do Espaçamento no Desenvolvimento Volumétrico de *Pinus taeda* L.]
+]
+
+---
+
+## População x Amostra
+
+.left-column[
+#### População Florestal (*Pinus* sp.)
+
+```{r eval = T, echo = F, fig.width=.8, fig.height=.8}
+
+grid <- expand.grid(
+  x = seq(0, 20, length = 15),
+  y = seq(0, 3, length = 15)
+  )
+
+img <- "fig/au1/pinus1.png"
+
+grid %>% 
+  ggplot(aes(x, y)) + 
+  geom_image(image=img, size=.1) +
+  theme_bw() +
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        axis.title=element_blank())
+
+```
+]
+
+.right-column[
+#### Amostra da População (*Pinus* sp.)
+
+```{r eval = T, echo = F, fig.width=.8, fig.height=.8}
+
+grid <- expand.grid(
+  x = seq(0, 20, length = 15),
+  y = seq(0, 3, length = 15)
+  ) %>%
+  mutate(image = sample(c("fig/au1/pinus1.png",
+                          "fig/au1/pinus2.png"),
+                        size = length(y), replace = TRUE))
+
+grid %>%
+  ggplot(aes(x, y)) + 
+  geom_image(aes(image=image), size=.1) +
+  theme_bw() +
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        axis.title=element_blank())
+
+```
+
+]
+
+
 
 ---
 
 ## Referências
 
 <br><br>
+CAMPOS, J. C. C.; LEITE, H. G. Mensuração florestal: perguntas e respostas. 3ª ed. - Viçosa, MG: Ed. UFV, 2009. 548 p.
+<br><br>
 PÉLLICO NETTO, S.; BRENA, D.A. Inventário Florestal. Curitiba: editorado pelos autores, 1997. 316p.
 <br><br>
+QUEIROZ, W. T. de. Técnicas de amostragem em inventário florestal nos trópicos. Belém: FCAP. Serviço de Documentação e Informação, 1998. 147 p.
+
+
+---
+
+## Referências
+
+<br><br>
 SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J.D.P. Inventários florestais: planejamento e execução. 2ª ed. Curitiba. 2009. 316p.
+<br><br>
+SCOLFORO, J. R. S.; MELLO, J. M. de. Inventário Florestal. Lavras: UFLA/FAEPE, 1997. 341 p.
+<br><br>
+SOARES, C. P. B.; PAULA NETO, F. de; SOUZA, A. L. de. Dendrometria e inventário florestal. 2ª ed. - Viçosa, MG: Ed. UFV, 2011. 272 p.
