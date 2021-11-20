@@ -527,13 +527,12 @@ name: peifa
 
 ---
 name: ia
-&lt;br&gt;
-## Intensidade Amostral (ou Suficiência Amostral)
+## Principais Estimadores em IF por Amostragem
 
 .shadow1[
 ### Intensidade Amostral (n)
 
-- Estimador simbolizado pelo letra **n**.
+- Estimador simbolizado por **n**, também chamado Suficiência Amostral.
 - É uma .blue[estimativa do número de parcelas] (unidades amostrais) a serem alocadas (medidas) em campo, para garantir um erro máximo admissível para estimativa da média da variável de interesse, sob um determinado nível de probabilidade.
 - Comumente a variável de interesse é o .blue[volume de madeira].
 ]
@@ -542,8 +541,8 @@ name: ia
 .center[.green[**Quantas parcelas (unidades de amostras) estabelecer em campo?**]]
 
 ---
-&lt;br&gt;
-## Intensidade Amostral (ou Suficiência Amostral)
+
+## Principais Estimadores em IF por Amostragem
 &lt;br&gt;&lt;br&gt;
 
 **A intensidade de amostragem é dependente da(o):** (Péllico Netto; Brena, 1997)
@@ -557,11 +556,52 @@ name: ia
 
 ---
 name: ma
-## Média Aritmética
+## Principais Estimadores em IF por Amostragem
+&lt;br&gt;
+
+.shadow1[
+### Média Aritmética 
+- É o estimador da média populacional (chamado também de média amostral).
+- É simbolizado por `\(\bar{X}\)` (lê-se "X-barra").
+- **Conceito matemático**: É a razão entre a soma de todos os valores assumidos pela variável e o número de observações.
+&lt;br&gt;
+
+`$$\large\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i$$`
+]
 
 ---
 name: dp
-## Desvio Padrão, Variância e Coeficiente de Variação
+## Principais Estimadores em IF por Amostragem
+&lt;br&gt;
+
+.shadow1[
+### Variância, Desvio Padrão e Coeficiente de Variação
+
+- São estimadores da dipersão populacional em relação à alguma medida de tendência central (comumente a média aritmética).
+- `\(S^2\)` (lê-se "S-Quadrado"): é o estimador da variância populacional.
+- `\(S\)`: é o estimador do desvio padrão populacional.
+- `\(CV\)`: é o estimador do coeficiente de variaçao populacional (dispersão relativa).
+
+]
+
+.pull-left-8[
+$$
+\normalsize
+S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2
+$$
+]
+
+.pull-left-8[
+$$
+S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}
+$$
+]
+
+.pull-left-8[
+$$
+CV(\%) = \left ( \frac{S}{\bar{X}} \right ).100
+$$
+]
 
 ---
 name: vm
