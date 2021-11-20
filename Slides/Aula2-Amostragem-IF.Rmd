@@ -240,7 +240,7 @@ Quando somente uma parte dos elementos ou unidades de uma população é selecio
 - Baseado no espaçamento e tamanho da área, pode-se determinar a .blue[quantidade de árvores] no povoamento (sem admitir mortalidade) `r emo::ji("point_right")` **225 árvores**.]
 --
 .font90[
-- Portanto, neste exemplo, a população de *Pinus* sp. é composta de 225 árvores. Assim, em IF comumente o .blue[número total de elemento na população] é simbolizado por **N**.]
+- Portanto, neste exemplo, a população de *Pinus* sp. é composta de 225 árvores.]
 
 ---
 
@@ -255,8 +255,18 @@ Quando somente uma parte dos elementos ou unidades de uma população é selecio
 .font90[
 - **Censo Florestal**: Todos as árvores devem ser medidas para a característica de interesse.
 - **Amostragem**: Apenas parte das árvores devem ser medidas para a característica de interesse.
+]
 
-<br><br><br>
+--
+
+<br>
+.font90[
+Na estatística, comumente o .blue[número total de elemento na população] é simbolizado por **N**, e o número de elementos na amostra é representado por **n**. 
+]
+--
+
+<br><br>
+.font90[
 .magenta[<sup>1</sup>]Equação usada em [Lima et al. (2013)](https://www.scielo.br/j/floram/a/FVtWMSMjgDxHh4D9SCZfrkt/?format=pdf&lang=pt)
 
 .magenta[Efeito do Espaçamento no Desenvolvimento Volumétrico de *Pinus taeda* L.]
@@ -313,6 +323,40 @@ grid %>%
 ```
 
 ]
+
+---
+name: var
+## Variável
+
+.pull-left-4[
+- É qualquer .blue[característica que varia] de uma unidade (indivíduo ou parcela) para outra (CAMPOS; LEITE, 2009).
+]
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/au1/TV.png')
+```
+
+---
+name: var
+## Variável
+<br>
+
+### Tipos de Variáveis (Vieira, 2010)
+<br>
+
+A .blue[variável é qualitativa] (ou categórica) quando seus valores são distribuídos em categorias mutuamente exclusivas. Pode ser classificada em 2 tipos: .magenta[Variável nominal] ou .magenta[Variável ordinal].
+
+
+--
+<br>
+
+Uma .blue[variável quantitativa (ou numérica)] é expressa por números que têm significado em uma escala numérica. Pode ser classificada em 2 tipos:  .magenta[Variável discreta] ou .magenta[Variável contínua].
+
+---
+
+## Variáveis em Inventários Florestais
+<br><br>
+
 
 
 
