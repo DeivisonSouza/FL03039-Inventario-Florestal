@@ -651,7 +651,18 @@ $$
 
 ---
 name: vm
-## Variância da Média
+## Principais Estimadores em IF por Amostragem
+<br>
+
+.shadow1[
+### Variância da Média
+
+- É o estimador da variância da média...
+- É simbolizado por $S_\bar{X}^2$ (lê-se: "S-Quadrado X-barra").
+- Representa a variação teórica das médias das diversas unidades de amostras que poderiam ser hipoteticamente tomadas na população.
+
+]
+
 
 ---
 name: epm
