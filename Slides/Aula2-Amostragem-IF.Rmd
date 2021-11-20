@@ -395,7 +395,28 @@ knitr::include_graphics('fig/au1/alt.jpg')
 ---
 name: ua
 ## Unidade de Amostra (Ou Parcela)
+<br>
 
+.shadow1[
+## Unidade de Amostra
+
+- É o espaço físico sobre o qual são observadas e medidas as características quantitativas e qualitativas da população (PÉLLICO NETTO; BRENA, 1997).
+- Comumente, em IF uma .blue[Amostra] é constituída por um conjunto de .blue[Unidades Amostrais] (ou Parcelas) de mesma dimensão.
+
+]
+
+---
+
+## Unidade de Amostra (Ou Parcela) - Exemplos
+<br>
+
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/parcelas.png')
+```
+
+.font80[
+Fonte: [Viane et al. (2013)](https://www.researchgate.net/publication/304073085_Pacto_pela_restauracao_da_Mata_Atlantica_-_Protocolo_de_monitoramento_para_programas_e_projetos_de_restauracao_florestal)
+]
 
 
 
