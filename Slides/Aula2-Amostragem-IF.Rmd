@@ -5,6 +5,9 @@ author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
 date: 
 encoding: "UTF-8"
+header-includes: 
+   - \usepackage{xcolor}
+   - \usepackage{amsmath}
 output:
   xaringan::moon_reader:
     css: 
@@ -15,8 +18,6 @@ output:
     seal: false
     includes:
       in_header: "assets/mathjax-equation-numbers.html"
-      header-includes:
-         - \usepackage{relsize}
     nature:
       beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
       highlightStyle: googlecode
@@ -578,8 +579,9 @@ name: ia
 .shadow1[
 ### Intensidade Amostral (n)
 
-- Estimador simbolizado por **n**, também chamado Suficiência Amostral.
-- É uma .blue[estimativa do número de parcelas] (unidades amostrais) a serem alocadas (medidas) em campo, para garantir um erro máximo admissível para estimativa da média da variável de interesse, sob um determinado nível de probabilidade.
+- É o estimador da intensidade amostral (ou Suficiência Amostral).
+- É simbolizado por .blue[*n*].
+- Estimativa: .blue[estima o número de parcelas] a serem alocadas (medidas) em campo, para garantir um erro máximo admissível para estimativa da média da variável de interesse, sob um determinado nível de probabilidade.
 - Comumente a variável de interesse é o .blue[volume de madeira].
 ]
 <br>
@@ -608,12 +610,16 @@ name: ma
 .shadow1[
 ### Média Aritmética 
 - É o estimador da média populacional (chamado também de média amostral).
-- É simbolizado por $\bar{X}$ (lê-se "X-barra").
+- É simbolizado por $\color{blue}{\bar{X}}$ (lê-se "X-barra").
 - **Conceito matemático**: É a razão entre a soma de todos os valores assumidos pela variável e o número de observações.
 <br>
 
 $$\large\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i$$
 ]
+
+.font90[
+- Nos IFs, é mais usual trabalhar com quantidades por unidade de área (parcela). Por exemplo, m<sup>3</sup>.ha<sup>-1</sup>
+].
 
 ---
 name: dp
@@ -624,9 +630,9 @@ name: dp
 ### Variância, Desvio Padrão e Coeficiente de Variação
 
 - São estimadores da dipersão populacional em relação à alguma medida de tendência central (comumente a média aritmética).
-- $S^2$ (lê-se "S-Quadrado"): é o estimador da variância populacional.
-- $S$: é o estimador do desvio padrão populacional.
-- $CV$: é o estimador do coeficiente de variação populacional (dispersão relativa).
+- $\color{blue}{S^2}$ (lê-se "S-Quadrado"): é o estimador da variância populacional.
+- $\color{blue}{S}$: é o estimador do desvio padrão populacional.
+- $\color{blue}{CV}$: é o estimador do coeficiente de variação populacional (dispersão relativa).
 
 ]
 
@@ -652,14 +658,86 @@ $$
 ---
 name: vm
 ## Principais Estimadores em IF por Amostragem
-<br>
 
 .shadow1[
-### Variância da Média
+### Variância da Média (Amostral)
 
-- É o estimador da variância da média...
-- É simbolizado por $S_\bar{X}^2$ (lê-se: "S-Quadrado X-barra").
-- Representa a variação teórica das médias das diversas unidades de amostras que poderiam ser hipoteticamente tomadas na população.
+- É o estimador da variância da média amostral.
+- É simbolizado por $\color{blue}{S_\bar{X}^2}$ (lê-se: "S-Quadrado X-barra").
+- Representa a variação teórica das médias amostrais, se diversas amostras pudessem, hipoteticamente, ser tomadas na população.
+- Portanto, é uma medida da .blue[incerteza] (confiança) associada à estimativa da média populacional.
+
+]
+
+--
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='35%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif')
+```
+<div style='font-size:50%'>([Source link](http://www.reactiongifs.com/suspicious-3/?utm_source=rss&utm_medium=rss&utm_campaign=suspicious-3), accessed jun 06, 2014)</div>  
+]
+
+---
+
+## Principais Estimadores em IF por Amostragem
+<br>
+
+### Variância da Média (Amostral) - Cont.
+<br>
+
+**EXEMPLO**:
+
+.font90[
+- Retornemos ao povoamento plantado de *Pinus* sp. (A = 225m<sup>2</sup>, E = 1m x 1m e N = 225 árvores);]
+
+--
+
+.font90[
+- Agora, suponha que uma .blue[amostra aleatória de 50 árvores] foi tomada (n = 50);
+]
+
+--
+
+.font90[
+- Em seguida, o volume de madeira de cada árvore foi calculado por $v_i = g_i× ht × 0,5$ e, obteve-se a média aritmética amostral (do volume);
+]
+
+--
+
+.font90[
+- **Agora reflita**: Se você realizasse uma .blue[nova amostra aleatória] de igual tamanho (n = 50), o que aconteceria com a .blue[nova média amostral]?
+]
+
+--
+
+.font90[
+**Resposta**: Certamente a nova média amostral seria diferente da primeira!
+]
+
+
+
+---
+
+## Principais Estimadores em IF por Amostragem
+<br>
+
+### Variância da Média (Amostral) - Cont.
+<br>
+
+**EXEMPLO** (Cont.):
+
+.font90[
+- Assim, se continuássemos tomando diversas (muitas e muitas vezes!) amostras aleatórias (n = 50), .blue[seria possível calcular a variância da média amostral];
+- Obviamente, isso é .blue[inviável na prática]! Não é razoável ficar realizando diversas amostras de mesmo tamanho. .blue[Imaginem o custo e tempo!];
+- Porém, ainda sim é importante obter uma estimativa da variância das médias amostrais. Isso pode ser feito pela fórmula:
+
+$$
+S_\bar{X}^2 = \dfrac{S²}{n}
+$$
+
+
+- A estimativa da variância da média diminui à medida que o tamanho da amostra (n) é aumentado.
 
 ]
 
