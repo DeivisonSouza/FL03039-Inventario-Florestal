@@ -760,12 +760,19 @@ $$
 ]
 ]
 
-
-
-
 ---
 name: ea
-## Erro de Amostragem
+## Principais Estimadores em IF por Amostragem
+
+.shadow1[
+### Erro de Amostragem
+.font90[
+
+- É o estimador do erro cometido devido realizar uma amostragem, ou seja, não medir toda a população.
+- É simbolizado por $\color{blue}{E_a}$ (Erro de Amostragem Absoluto) ou $\color{blue}{E_r}$ (Erro de Amostragem Relativo).
+
+]
+]
 
 ---
 name: icm
