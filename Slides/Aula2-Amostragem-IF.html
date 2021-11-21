@@ -678,19 +678,22 @@ name: vm
 
 **EXEMPLO** (Cont.):
 
-.font90[
+.font80[
 - Assim, se continuássemos tomando diversas (muitas e muitas vezes!) amostras aleatórias (n = 50), .blue[seria possível calcular a variância da média amostral];
 - Obviamente, isso é .blue[inviável na prática]! Não é razoável ficar realizando diversas amostras de mesmo tamanho. .blue[Imaginem o custo e tempo!];
-- Porém, ainda sim é importante obter uma estimativa da variância das médias amostrais. Isso pode ser feito pela fórmula:
+- Porém, ainda sim é importante obter uma estimativa da variância das médias amostrais. É dada pelo estimador:
 
 $$
 S_\bar{X}^2 = \dfrac{S²}{n}
 $$
 
-
-- A estimativa da variância da média diminui à medida que o tamanho da amostra (n) é aumentado.
+- Quanto menor for `\(\color{blue}{S_\bar{X}^2}\)`, mais próximas estarão as médias amostrais da média populacional `\(\mu\)`.
+- O valor de `\(\color{blue}{S_\bar{X}^2}\)` diminui à medida que o tamanho da amostra (n) é aumentado.
 
 ]
+
+
+
 
 ---
 name: epm
@@ -706,7 +709,7 @@ name: epm
 $$
 S_\bar{X} = \dfrac{S}{\sqrt{n}}
 $$
-- Na prática, `\(\color{blue}{S_\bar{X}^2}\)` e `\(\color{blue}{S_\bar{X}}\)` estimam a mesma coisa. Ou seja, a incerteza (variabilidade) da estimativa da média populacional. Mas, a diferença é que `\(\color{blue}{S_\bar{X}}\)` é .blue[dado na mesma unidade de medida da variável de interesse]. Isso é mais conveniente!
+- Na prática, `\(\color{blue}{S_\bar{X}^2}\)` e `\(\color{blue}{S_\bar{X}}\)` estimam a mesma coisa. Ou seja, a incerteza (variabilidade) da estimativa da média populacional ( `\(\mu\)` ). Mas, a diferença é que `\(\color{blue}{S_\bar{X}}\)` é .blue[dado na mesma unidade de medida da variável de interesse]. Isso é mais conveniente!
 
 ]
 ]
@@ -750,6 +753,47 @@ E_r = \pm\dfrac{t.S_\bar{X}}{\bar{X}}.100~~(\%)
 $$
 ]
 
+---
+
+## Principais Estimadores em IF por Amostragem
+&lt;br&gt;
+
+### Erro de Amostragem - Fatores influentes
+&lt;br&gt;
+
+**O erro de amostragem de um inventário florestal varia em função do(a):**
+
+- Tamanho da amostra (n)
+- Variabilidade da variável de interesse entre unidades amostrais
+- Processo de amostragem utilizado (AAS, AS, etc.)
+
+---
+
+## Um parêntese...
+&lt;br&gt;
+
+- Em um IF, podem ocorrer 2 tipos de erros: 1) .blue[Erros amostrais]; e 2) .blue[Erros não-amostrais] (Péllico Netto; Brena, 1997)
+&lt;br&gt;
+
+.shadow3[
+### Erros não-amostrais
+.font90[
+- São aqueles que não estão inter-relacionados com o processo de amostragem.
+- Podem ocorrer tanto em IF-100%, quanto em IF por amostragem.
+- Podem ser originados por inúmeras causas:
+
+.right[
+**Imperfeições nos equipamentos (desajustados)**
+
+**Limitações humanas (inabilidade do operador)**
+
+**Negligência na marcação das unidades amostrais**
+
+**Erros de registro (ou digitação) dos dados**
+
+]
+]
+]
 
 ---
 name: icm
@@ -759,9 +803,19 @@ name: icm
 ### Intervalo de Confiança Para Média
 .font90[
 
+- .blue[Intervalo de Confiança (IC)] é um tipo de estimador por intervalo de um parâmetro populacional desconhecido.
+- Se o parâmetro populacional desconhecido é `\(\mu\)` (média populacional), então o IC para Média é simbolizado por: `\(\color{blue}{IC_\bar{X}}\)`.
+- **Ideia básica**: fornecer um .blue[intervalo] de valores plausíveis para um .blue[parâmetro populacional] (mais comumente `\(\mu\)`), baseado em dados amostrais.
+- Na prática, é calculado um intervalo (.blue[limite inferior] e .blue[limite superior]) que deve conter o valor verdadeiro do parâmetro `\(\mu\)` (média populacional), sob algum nível de confiança.
+]
+]
 
-]
-]
+$$
+\Large
+`\begin{equation*}
+IC_\bar{X} = \bar{X} - (t.S_\bar{X}) \leq \mu \leq \bar{X} + (t.S_\bar{X})
+\end{equation*}`
+$$
 
 
 ---
