@@ -800,10 +800,18 @@ $$
 ]
 
 
-
 ---
 name: icm
-## Intervalo de Confiança Para Média
+## Principais Estimadores em IF por Amostragem
+
+.shadow1[
+### Intervalo de Confiança Para Média
+.font90[
+
+
+]
+]
+
 
 ---
 name: tp
