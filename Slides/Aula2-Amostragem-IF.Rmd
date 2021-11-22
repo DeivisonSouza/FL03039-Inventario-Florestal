@@ -912,7 +912,7 @@ $$
 --
 
 .font90[
-- Portanto, ao se tomar uma amostra (n = 50) dos diâmetros das árvores poderíamos ter, por exemplo, $\color{blue}{\bar{X}}$ = 20cm $\neq$ $\mu$.
+- Portanto, ao se tomar uma amostra (n = 50) das árvores poderíamos ter, por exemplo, $\color{blue}{\bar{V}}$ = 1,5m<sup>3</sup> $\neq$ $\mu$.
 ]
 
 --
@@ -927,13 +927,43 @@ $$
 
 ---
 name: tp
-## Total da População
+## Principais Estimadores em IF por Amostragem
+
+.shadow1[
+### Total da População
+.font90[
+
+- É o estimador para o montante (quantitativo) existente da variável de interesse (por exemplo, volume) na população florestal.
+- É simbolizado por $\color{blue}{\hat{X}}$ (X-Chapéu (hat)).
+
+$$
+\Large
+\begin{equation*}
+\hat{X} = N.\bar{X}
+\end{equation*}
+$$
+
+]
+]
 
 ---
 name: icptp
-## IC Para o Total da População
+## Principais Estimadores em IF por Amostragem
 
+.shadow1[
+### IC Para o Total da População
+.font90[
 
+- A ideia é a mesma discutida para $\color{blue}{IC_\bar{X}}$.
+- É simbolizado por $\color{blue}{IC_\hat{X}}$
+- No entanto, neste caso, o interesse é encontrar o intervalo de confiança para o total (por exemplo, volume total de madeira) da população.
+
+]
+]
+<br><br>
+
+.center[
+**O quão podemos estar confiantes de que o total estimado de uma quantidade (Por exemplo, volume de madeira) é uma boa estimativa do total populacional (verdadeira quantidade de madeira)?**]
 
 ---
 
