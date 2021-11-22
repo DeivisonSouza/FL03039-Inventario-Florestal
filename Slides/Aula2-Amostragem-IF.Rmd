@@ -1091,6 +1091,76 @@ knitr::include_graphics('fig/class2/marginais.png')
 
 ---
 
+## Métodos de Amostragem
+
+.shadow3[
+### Método de Área Fixa - .font70[.black[UA Quadradas] (Sanquetta et al., 2009)]
+.font90[
+- Maior facilidade de instalação (alinhamentos de plantios bem definidos).
+- **Inventários pré-corte**: 400 a 900m<sup>2</sup>.
+- **Florestas naturais**: 900m<sup>2</sup> (30 x 30m) a 10.000m<sup>2</sup> (100 x 100m).
+- Bastante usadas no monitoramento da dinâmica de florestas naturais <br> (Inventário Florestal Contínuo).
+
+]
+]
+
+```{r, echo=FALSE, out.width='30%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/quad.png')
+```
+.center[.font70[**Fonte**: Sanquetta et al. (2009)]]
+
+
+---
+
+## Métodos de Amostragem
+
+.shadow3[
+### Método de Área Fixa - .font70[.black[UA Retangulares] (Sanquetta et al., 2009)]
+.font90[
+
+- Recomendada para situações de maior heterogeneidade da formação vegetal
+- Tamanhos recomendados: 1.000m<sup>2</sup> (10m x 100m ou 20m x 50m) a 10.000m<sup>2</sup> (20m x 500m)
+- Tamanho mais usual: 2.500m<sup>2</sup> (10m x 250m)
+
+]
+]
+<br>
+
+```{r, echo=FALSE, out.width='50%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/retag.png')
+```
+.center[.font70[**Fonte**: Sanquetta et al. (2009)]]
+
+---
+
+## Métodos de Amostragem
+
+.shadow3[
+### Método de Área Fixa - .font90[.black[Fator de Proporcionalidade]]
+.font90[
+
+- No método de área fixa, a variável de interesse é medida em parcelas amostrais com tamanho de área definido.
+- Por exemplo, se a variável de interesse é volume de madeira e a área da parcela é 1ha, então o volume será expresso em m<sup>3</sup>.ha<sup>-1</sup> (m<sup>3</sup>/ha).
+- No entanto, nem sempre são usadas parcelas de área igual a 1 hectare. Por exemplo, se empregada uma parcela de 2500m<sup>2</sup>, então volume será expresso em m<sup>3</sup>/2500m<sup>2</sup>.
+- Nos IFs, é usual e recomendável sempre apresentar os parâmetros estimados por hectare. Portanto, pode-se fazer uma simples extrapolação usando um **Fator de Proporcionalidade**.
+]
+
+$$
+\Large
+\begin{equation*}
+FP = \frac{A}{a}
+\end{equation*}
+$$
+
+]
+
+
+
+---
+
+
+---
+
 ## Referências
 
 <br><br>
