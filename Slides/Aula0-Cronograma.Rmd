@@ -236,7 +236,7 @@ p <- calendR::calendR(year = 2021,
         text = c(
           "Amostragem \n Sistemática", 
           "Raiana Nava \n Ângela Hentz \n Ernandes Neto",
-          "Jamerson Rodrigo \n (ASV-SINAFLOR)", 
+          "Jamerson Rodrigo \n Marcelo Galdino", 
           "Joberto Freitas \n (UFAM/SFB)",
           "Amostragem em \n Conglomerados", 
           "Alex Soares \n(SEMAS) \n Cássio Silva \n(BIOCEV)",
@@ -290,6 +290,13 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 **Empresa**: XXXXXXXXXXXXXXXXXXXXXXX
 <br><br>
+
+
+.green[**Palestra 2**]: **Planejamento, Execução e Custos de Censo Florestal** (10h:30min)
+
+**Palestrante**: .blue[Marcelo Galdino] (Engenheiro Florestal)
+
+**Empresa**: Instituto Floresta Tropical
 
 
 <!-- Slide 7 -->
