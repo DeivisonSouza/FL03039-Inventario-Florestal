@@ -980,7 +980,7 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Amostragem em Inventários Florestais</div>
 
 ---
-
+name: 
 ## Métodos de Amostragem
 
 .shadow1[
@@ -1144,20 +1144,140 @@ knitr::include_graphics('fig/class2/retag.png')
 - No entanto, nem sempre são usadas parcelas de área igual a 1 hectare. Por exemplo, se empregada uma parcela de 2500m<sup>2</sup>, então volume será expresso em m<sup>3</sup>/2500m<sup>2</sup>.
 - Nos IFs, é usual e recomendável sempre apresentar os parâmetros estimados por hectare. Portanto, pode-se fazer uma simples extrapolação usando um **Fator de Proporcionalidade**.
 ]
+]
+<br>
 
+.pull-left-4[
 $$
 \Large
 \begin{equation*}
 FP = \frac{A}{a}
 \end{equation*}
 $$
+]
+
+.pull-right-4[
+Em que:
+
+$A$ = área de 1 hectare
+
+$a$ = área da unidade amostral
 
 ]
 
+---
 
+## Métodos de Amostragem
+<br>
+
+### Método de Área Fixa - .font90[.black[Fator de Proporcionalidade]]
+<br>
+
+**EXEMPLO:**
+<br>
+
+- Qual o Fator de Proporcionalidade (FP) para os seguintes tamanhos de unidades de amostrais? (**Lembre**: 1ha = 10.000m<sup>2</sup>)
+
+20m x 50m `r emo::ji("point_right")` (FP = 1ha/0,1ha) ou (FP = 10.000<sup>2</sup>/1.000<sup>2</sup>) `r emo::ji("point_right")` .blue[**FP = 10**]
+
+100m x 100m `r emo::ji("point_right")` .red[**?**]
+
+10m x 250m `r emo::ji("point_right")` .red[**?**]
+
+20m x 250m `r emo::ji("point_right")` .red[**?**]
 
 ---
 
+## Métodos de Amostragem
+<br>
+
+### Método de Área Fixa - .font90[.black[Fator de Proporcionalidade]]
+<br>
+.font90[
+- Uma vez calculado o FP pode-se extrapolar os parâmetros estimados para hectare (Péllico Netto; Brena, 1997; Sanquetta et al., 2009):
+<br>
+]
+
+.pull-left-4[
+.font90[**Estimativa do número de árvores por hectare (N):**]
+
+$$
+\large
+\begin{equation*}
+N = m.FP
+\end{equation*}
+$$
+
+.font90[**Estimativa da área basal por hectare (G):**]
+
+$$
+\large
+\begin{equation*}
+G = \sum_{i}^{m}g_i.FP
+\end{equation*}
+$$
+
+]
+
+.pull-right-4[
+
+.font90[**Estimativa do volume por hectare (V):**]
+
+$$
+\large
+\begin{equation*}
+V = \sum_{i}^{m}v_i.FP
+\end{equation*}
+$$
+.font90[
+Em que:
+
+$m$ = nº de árvores incluídas na UA
+
+$g_i$ = área transversal da $i$-ésima árvore da UA
+
+$v_i$ = volume da $i$-ésima árvore da UA
+]
+]
+
+---
+name: proca
+## Processos de Amostragem
+
+.shadow1[
+### Processos de Amostragem - Conceito e Tipos
+.font90[
+- É a forma de abordagem da população referente ao conjunto de unidades amostrais (Péllico Netto; Brena, 1997).
+- É a forma com que as unidades de amostra são distribuídas dentro de uma população, visando gerar estimativas da variável de interesse (Sanquetta et al., 2009).
+- Os processos de amostragem classificam-se em:
+.center[
+**Amostragem Aleatória Simples**
+
+**Amostragem Sistemática**
+
+**Amostragem Estratificada**
+
+**Amostragem em Dois estágios**
+
+**Amostragem em Conglomerado**
+]
+]
+]
+
+---
+
+## Processos de Amostragem
+<br>
+
+### Qual Processos de Amostragem Escolher?
+
+<br>
+**A escolha do Processo de Amostragem depende de vários fatores, como:**
+
+- Tamanho da área
+- Grau de variabilidade (homegeneidade) da variável de interesse na população florestal
+- Acessibilidade, relevo e existência de infraestrutura da área a ser inventariada
+- Recursos financeiros disponíveis, entre outros.
 
 ---
 
