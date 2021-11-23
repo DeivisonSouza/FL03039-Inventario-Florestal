@@ -746,11 +746,11 @@ h2 {
 .title-slide h5 {
   color: white !important;
   font-size: 15px;
-  font-weight: bold;
-  padding-top: 10px;
+  font-weight: normal;
+  padding-top: 0px;
   padding-left: 0px;
   padding-bottom: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   margin-top: 0px;
   margin-left: 0px;
   text-align: center;
