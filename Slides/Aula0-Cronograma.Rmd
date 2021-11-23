@@ -69,8 +69,7 @@ use_logo(
 #### Faculdade de Engenharia Florestal
 #### E-mail: deivisonvs@ufpa.br
 <br>
-##### `r format(Sys.Date(),"%d/%B/%Y")`
-##### Altamira, Pará
+##### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
 
 ---
 layout: true
