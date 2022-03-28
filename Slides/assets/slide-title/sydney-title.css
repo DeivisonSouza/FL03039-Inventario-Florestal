@@ -485,6 +485,24 @@ slides > slide {
   text-justify: inter-word;
 }
 
+.shadow1a {
+  box-shadow: 0 60px 15px -10px rgba(28, 205, 0, 0.3) inset,
+              0 20px 15px -10px rgba(28, 205, 0, 0.3) inset,
+              0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 950px;
+  border-radius: 7px;
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .shadow2 {
   box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
               10px 10px rgba(0, 98, 90, 0.3),

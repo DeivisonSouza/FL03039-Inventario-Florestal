@@ -200,8 +200,6 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 &nbsp;&nbsp;[1.4 - Análise do IF para Supressão](#ifs)
 
-
-
 ]
 ]
 ]
@@ -222,9 +220,17 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 1 - Conceito e Características</div2> </div>
 
 ---
-name: pa
-## XXXXXXXXXXXXXXXXXx
+name: con
+## Amostragem Aleatória Simples
+<br>
 
+.shadow1a[
+### Características (QUEIROZ, 1998)
+
+- A Amostragem Aleatória Simples (AAS) é baseada em um processo estritamente aleatório;
+- As unidades amostrais (parcelas) são escolhidas sob igual probabilidade (**1/N**); <br> (**N** = número de UA que compõem o espaço amostral)
+
+]
 
 
 ---
@@ -232,11 +238,11 @@ name: pa
 ## Referências
 
 <br><br>
-CAMPOS, J. C. C.; LEITE, H. G. Mensuração florestal: perguntas e respostas. 3ª ed. - Viçosa, MG: Ed. UFV, 2009. 548 p.
+CAMPOS, J. C. C.; LEITE, H. G. **Mensuração florestal: perguntas e respostas**. 3ª ed. - Viçosa, MG: Ed. UFV, 2009. 548 p.
 <br><br>
-PÉLLICO NETTO, S.; BRENA, D.A. Inventário Florestal. Curitiba: editorado pelos autores, 1997. 316p.
+PÉLLICO NETTO, S.; BRENA, D. A. **Inventário Florestal**. Curitiba: editorado pelos autores, 1997. 316p.
 <br><br>
-QUEIROZ, W. T. de. Técnicas de amostragem em inventário florestal nos trópicos. Belém: FCAP. Serviço de Documentação e Informação, 1998. 147 p.
+QUEIROZ, W. T. **Técnicas de amostragem em inventário florestal nos trópicos**. Belém: FCAP. Serviço de Documentação e Informação, 1998. 147 p.
 
 
 ---
