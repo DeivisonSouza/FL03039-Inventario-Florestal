@@ -148,7 +148,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [3 - Quando usar a AAS?](#qu)
 
-[4 - Vantagens e Limitações](#vl)
+[4 - Contra-argumentos](#vl)
 
 ]
 ]
@@ -251,7 +251,7 @@ name: car
 <br>
 
 .shadow1a[
-### Características (QUEIROZ, 1998)
+### Características (Queiroz, 1998)
 
 - A Amostragem Aleatória Simples (AAS) é baseada em um processo estritamente aleatório;
 - As unidades amostrais (parcelas) são escolhidas sob igual probabilidade (**1/N**); <br> (**N** = número de UA que compõem o espaço amostral).
@@ -266,7 +266,7 @@ name: car
 ### Método de Seleção da Unidade de Amostra
 <br>
 
-A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio **COM** ou **SEM** reposição (PÉLLICO NETTO; BRENA, 1997):
+A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio **COM** ou **SEM** reposição (Péllico Netto; Brena, 1997):
 <br>
 
 - **Sorteio com reposição**: Uma unidade de amostra poderá ser sorteada .magenta[mais de uma vez] para compor a amostra.
@@ -372,6 +372,20 @@ Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
 ]
 ]
 
+<!-- Slide XX -->
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/au1/sec.png)
+background-size: cover
+
+.font200[.yellow2[**Estimadores: <br> Amostragem Aleatória Simples**]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 2 - Estimadores da AAS</div2> </div>
 
 
 
