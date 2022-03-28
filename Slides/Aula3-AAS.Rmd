@@ -53,6 +53,9 @@ use_logo(
   width = "140px",
   height = "140px"
 )
+
+use_scribble()
+
 ```
 
 ```{r icon, echo=FALSE}
@@ -68,9 +71,6 @@ library(ggplot2)
 library(dplyr)
 library(ggimage)
 ```
-
-
-
 
 
 <!-- title-slide -->
@@ -238,8 +238,10 @@ name: con
 
 .pull-right-3[
 .pull-down[
-`r anicon::faa("tree", size = 7, speed = "slow", animate = 'vertical', color = "green")`
-`r anicon::faa("tree", size = 7, speed = "slow", animate = 'vertical', color = "green")`
+`r anicon::faa("tree", size = 5, speed = "slow", animate = 'vertical', color = "green")`
+`r anicon::faa("tree", size = 5, speed = "slow", animate = 'vertical', color = "green")`
+`r anicon::faa("tree", size = 5, speed = "slow", animate = 'vertical', color = "green")`
+
 ]
 ]
 
