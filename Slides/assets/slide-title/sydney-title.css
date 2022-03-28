@@ -225,12 +225,12 @@ div3 {
 }
 
 .comment {
-background-color: #DBDBDB;
+background-color: #ffe0cc;
 padding: 10px;
 border: 1px solid black;
 margin-left: 25px;
 border-radius: 5px;
-font-style: italic;
+font-style: normal;
 }
 
 
