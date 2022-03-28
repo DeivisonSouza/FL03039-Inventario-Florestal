@@ -10,8 +10,8 @@
 
 /* Custom color number slide*/
 .remark-slide-number {
-  color: #ffff00;
-  font-weight: bold;
+  color: yellow;
+  font-weight: normal;
   font-size: 10pt;
   margin-bottom: -5px;
   margin-right: 10px;
@@ -75,7 +75,7 @@ div2 {
 }
 
 div3 {
-  color: #ff9933;
+  color: #66ff33;
 }
 
 .magenta {
