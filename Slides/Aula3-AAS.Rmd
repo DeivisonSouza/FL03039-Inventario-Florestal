@@ -137,20 +137,16 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left-4[
 .pull-top[
-**Parte 1 - Conceitos Básicos para Amostragem**
+**Parte 1 - Conceito e Características**
 .font90[
 
-[1 - População x Amostra](#pa)
+[1 - Conceito](#con)
 
-[2 - População Finita x População Infinita](#pfpi)
+[2 - Seleção da Unidade de Amostra](#sua)
 
-[3 - Variável (ou característica)](#var)
+[3 - Quando usar a AAS?](#qu)
 
-[4 - Unidade de Amostra (ou Parcela)](#ua)
-
-[5 - Por que Realizar Amostragem?](#pra)
-
-[6 - Parâmetro, Estimador e Estimativa](#pee)
+[4 - Vantagens e Limitações](#vl)
 
 ]
 ]
@@ -159,11 +155,11 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-right-4[
 
-**Parte 2 - Estimadores em IF por <br> Amostragem**
+**Parte 2 - Estimadores da AAS**
 
 .font90[
 
-[1 - Principais Estimadores em IF por Amostragem](#peifa)
+[1 - Principais Estimadores da AAS](#peaas)
 
 &nbsp;&nbsp;[1.1 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
 
@@ -186,6 +182,22 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ]
 ]
 
+---
+
+## Conteúdo
+
+.pull-left-4[
+.pull-top[
+**Parte 3 - Inventário Florestal usando ASS - Estudo de Caso**
+.font90[
+
+[1 - *Tectona grandis* - Volume de Madeira?](#ptg)
+
+
+
+]
+]
+]
 
 <!-- Slide XX -->
 ---
@@ -195,12 +207,15 @@ class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
 
-.font200[.yellow2[**Conceitos básicos <br> para amostragem**]]
+.font200[.yellow2[**Conceito <br> Características**]]
 
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Amostragem em Inventários Florestais</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 1 - Conceito e Características</div2> </div>
+
+ 
+
 
 ---
 name: pa
