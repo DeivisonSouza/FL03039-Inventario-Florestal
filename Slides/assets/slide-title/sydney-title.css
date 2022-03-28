@@ -214,6 +214,25 @@ div3 {
   width: 30%;
 }
 
+.pull-left-15 {
+  float: left;
+  width: 85%;
+}
+
+.pull-right-15 {
+  float: right;
+  width: 10%;
+}
+
+.comment {
+background-color: #DBDBDB;
+padding: 10px;
+border: 1px solid black;
+margin-left: 25px;
+border-radius: 5px;
+font-style: italic;
+}
+
 
 /* use to position text at the bottom */
 .pull-down {
