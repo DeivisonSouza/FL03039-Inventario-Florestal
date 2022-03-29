@@ -339,21 +339,30 @@ A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio *
 
 .shadow1a[
 ### Contra-argumentos (Péllico Netto; Brena, 1997)
-<br>
+]
+
+--
+
+.shadow4[
 .font90[
 **1) Na fase de planejamento**
 - As UAs devem ser listadas, para posterior seleção aleatória (sorteio de unidades ou pontos amostrais);
+]
+]
 
+--
+
+.shadow4[
+.font90[
 **2) Na fase de execução (em campo)**
 - Existe a possibilidade de uma distribuição irregular da unidades amostrais;
 - Pode haver maior dificuldade para se alcançar a posição das unidades amostrais; e
 - Maior tempo improdutivo, devido ao deslocamento entre unidades amostrais.
+]
+]
+<br>
 
-.center[
 .comment[**Fatores que aumentam as dificuldades**: Florestas Inequiâneas, Tamanho da Área...]
-]
-]
-]
 
 ---
 
@@ -361,16 +370,14 @@ A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio *
 
 .shadow1a[
 ### Argumentos favoráveis
-<br>
-
-**1) Na fase de análise de dados (escritório)**
-- Os estimadores da AAS são mais simples. Portanto, as estimativas do IF são obtidas com maior facilidade.
-
-
 ]
 
+--
 
-
+.shadow4[
+**1) Na fase de análise de dados (escritório)**
+- Os estimadores da AAS são mais simples. Portanto, as estimativas do IF são obtidas com maior facilidade.
+]
 
 ---
 
@@ -383,9 +390,11 @@ Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
 
 - Pequena;
 - De fácil acesso; e
-- Relativamente .magenta[homogênea] em relação à variável de interesse (entre unidades amostrais). <br><br>
+- Relativamente .magenta[homogênea] em relação à variável de interesse. <br><br>
 
-.magenta[Homogênea]: é medida pelo estimador de variância amostral. <br><br>
+.blue[Homogeneidade]: Tem relação com o grau de variabilidade da variável de interesse entre unidades amostrais.
+
+.blue[Grau de variabilidade]: é estimado pelo estimador de variância amostral. <br><br>
 
 .center[
 .red[&#65308;] variância .red[&#65308;] intensidade amostral
@@ -407,6 +416,10 @@ background-size: cover
 layout: true
 <div class="my-header"></div>
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 2 - Estimadores da AAS</div2> </div>
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
 
 
 
