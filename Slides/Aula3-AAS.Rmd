@@ -526,9 +526,31 @@ $\mu$: letra grega mu (lê-se "mi").
 
 ]
 
+---
 
+## Estimadores da Amostragem Aleatória Simples
+<br>
 
+.shadow3[
+.center[**NOTAÇÕES**]
 
+$A$ = Área total da população
+
+$a$ = Área ou tamanho da unidade de amostra
+
+$N$ = Número de unidades de amostra possíveis na população
+
+$n$ = Número de unidades amostrais
+
+$t$ = Valor tabelado com (n-1) graus de liberdade ao nível de significância estabelecido
+
+$LE$ = Limite de erro admitido no Inventário Florestal (0,1 ou 10%)
+
+$E$ = Expectância do erro
+
+$X_i$ = Variável de interesse
+
+]
 
 ---
 
