@@ -161,25 +161,27 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .font90[
 
-[1 - Principais Estimadores da AAS](#peaas)
+[1 - Parâmetro, Estimador e Estimativa](#pee)
 
-&nbsp;&nbsp;[1.1 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
+[2 - Principais Estimadores da AAS](#peaas)
 
-&nbsp;&nbsp;[1.2 - Média Aritmética](#ma)
+&nbsp;&nbsp;[2.1 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
 
-&nbsp;&nbsp;[1.3 - Desvio Padrão, Variância e Coeficiente de Variação](#dp)
+&nbsp;&nbsp;[2.2 - Média Aritmética](#ma)
 
-&nbsp;&nbsp;[1.4 - Variância da Média](#vm)
+&nbsp;&nbsp;[2.3 - Desvio Padrão, Variância e Coeficiente de Variação](#dp)
 
-&nbsp;&nbsp;[1.5 - Erro Padrão da Média](#epm)
+&nbsp;&nbsp;[2.4 - Variância da Média](#vm)
 
-&nbsp;&nbsp;[1.6 - Erro de Amostragem](#ea)
+&nbsp;&nbsp;[2.5 - Erro Padrão da Média](#epm)
 
-&nbsp;&nbsp;[1.7 - Intervalo de Confiança Para Média](#icm)
+&nbsp;&nbsp;[2.6 - Erro de Amostragem](#ea)
 
-&nbsp;&nbsp;[1.8 - Total da População](#tp)
+&nbsp;&nbsp;[2.7 - Intervalo de Confiança Para Média](#icm)
 
-&nbsp;&nbsp;[1.9 - IC Para o Total da População](#icptp)
+&nbsp;&nbsp;[2.8 - Total da População](#tp)
+
+&nbsp;&nbsp;[2.9 - IC Para o Total da População](#icptp)
 
 ]
 ]
@@ -418,8 +420,90 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 2 - Estimadores da AAS</div2> </div>
 
 ---
+name: pee
+## Parâmetro, Estimador e Estimativa
 
-## Estimadores da Amostragem Aleatória Simples
+- Recapitulando a diferença entre: .blue[Parâmetro, Estimador e Estimativa]...
+
+
+.shadow1a[
+### Parâmetro
+]
+
+--
+
+.shadow4[
+.font90[
+- É uma .blue[estatística] usada para descrever uma característica de interesse, a partir de .blue[dados populacionais]. (**Mede-se todos os elementos da população!**)
+- Os valores dos parâmetros populacionais são .blue[normalmente desconhecidos], pois na maioria das vezes é inviável medir todos os elementos da população.
+- Os parâmetros são comumente representados por .blue[letras gregas].
+]
+]
+<br>
+
+--
+
+.center[
+.font80[
+$\mu$ = Média Populacional (ou Paramétrica)
+
+$\sigma^2$ = Variância Populacional (ou Paramétrica)
+
+$\sigma$ = Desvio Padrão Populacional (ou Paramétrica)
+]
+]
+
+.font80[
+$\sigma$: letra grega sigma.
+
+$\mu$: letra grega mu (lê-se "mi").
+]
+
+---
+
+## Parâmetro, Estimador e Estimativa
+
+.shadow1a[
+### Estimador (do Parâmetro)
+]
+
+--
+
+.shadow4[
+- É uma .blue[estatística] usada para .blue[estimar um parâmetro da população] (para alguma característica de interesse), a partir de dados da .blue[amostra].
+- São exemplos de estimadores: $\bar{X}$, $S^2$, $S$ e outros
+]
+
+--
+
+.shadow1a[
+### Estimativa (do Parâmetro)
+]
+
+--
+
+.shadow4[
+- É o valor numérico assumido pelo estimador, obtido a partir de dados amostrais.
+- Estimativa = é um valor aproximado (do Parâmetro).
+]
+
+---
+
+## Parâmetro, Estimador e Estimativa
+<br>
+
+### Formulação Matemática (Exemplos)
+
+|                                Parâmetro                                |                         Estimador (do Parâmetro)                         |                                      Descrição                                      |
+|:-----------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
+|                   $$\mu = \frac{1}{N}\sum_{i=1}^{N}X_i$$                  |                 $$\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i$$                 |        $\mu$ = média populacional <br> $\bar{X}$ = estimador da média populacional       |
+|    $$\sigma^2 = \frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2$$   |    $$S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2$$   |   $\sigma^2$ = variância populacional <br> $S^2$ = estimador da variância populacional   |
+| $$\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2}$$ | $$S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}$$ | $\sigma$ = desvio padrão populacional <br> $S$ = estimador do desvio padrão populacional |
+
+---
+
+
+
 
 
 
