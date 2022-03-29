@@ -550,8 +550,26 @@ $LE$ = Limite de erro admitido no Inventário Florestal (0,1 ou 10%)
 
 $E$ = Expectância do erro
 
-$X_i$ = Variável de interesse
+$X_i$ = i-ésimo valor da variável de interesse "X"
 
+]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.shadow1a[
+## Média aritmética amostral
+
+\begin{equation}
+\Large
+\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i
+\end{equation}
+
+- $\bar{X}$ (lê-se X-barra) = estimador da média populacional $\mu$ (lê-se "mi").
+- $n$ = número de observações.
+- $X_i$ = $i$-ésimo valor da variável de interesse $X$.
+- $\Sigma$ (sigma maiúscula) = símbolo de somatório. 
 ]
 
 ---
