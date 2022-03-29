@@ -148,7 +148,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [3 - Quando usar a AAS?](#qu)
 
-[4 - Contra-argumentos](#vl)
+[4 - Argumentos favoráveis e contra-argumentos](#vl)
 
 ]
 ]
@@ -356,7 +356,7 @@ Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
 ## Amostragem Aleatória Simples
 
 .shadow1a[
-### .font90[Contra-argumentos ao uso da AAS em IFs (Péllico Netto; Brena, 1997)]
+### .font90[Contra-argumentos (Péllico Netto; Brena, 1997)]
 <br>
 
 **1) Na fase de planejamento**
@@ -368,7 +368,7 @@ Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
 - O tempo improdutivo gasto no deslocamento entre unidades amostrais.
 
 .center[
-.comment[Em florestas naturais, as dificuldades são sem dúvida maiores!]
+.comment[**Fatores que aumentam as dificuldades**: Floresta Natural, Tamanho da Área...]
 ]
 ]
 
