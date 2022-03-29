@@ -635,7 +635,34 @@ CV = \frac{S}{\bar{X}} \left( 100 \right)
 ]
 
 
+---
 
+## Estimadores da Amostragem Aleatória Simples
+
+### Unidades de Medidas das Estimativas
+
+.pull-left-12[
+- A unidade de medida das estimativas dependerá da variável de interesse. Veja o exemplo quando a variável de interesse é o volume de madeira por hectare...
+]
+
+
+.pull-right-12[
+.font90[
+| **Estimador (do Parâmetro)**                          | Volume $\left(m³.ha^{-1}\right)$               |
+|-------------------------------------------------------|:----------------------------:|
+| 1 - Média aritmética                                  | $m³.ha^{-1}$                    |
+| 2 - Variância                                         | $\left(m³.ha^{-1}\right)^2$                       |
+| 3 - Desvio Padrão                                     | $m³.ha^{-1}$                        |
+| 4 - Coeficiente de variação                           | $\%$                       |
+| 5 - Intensidade amostral                              | $Parcelas$                        |
+| 6 - Variância da média                                | $\left(m³.ha^{-1}\right)^2$            |
+| 7 - Erro padrão da média                              | $m³.ha^{-1}$              |
+| 8 - Erro de amostragem                                | $\left(m³.ha^{-1}~ou~\% \right)$ |
+| 9 - Intervalo de confiança para média                 | $m³.ha^{-1}$             |
+| 10 - Total da população                               | $m³$                  |
+| 11 - Intervalo de confiança para o total da população | $m³$             |
+]
+]
 
 ---
 
