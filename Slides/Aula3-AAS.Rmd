@@ -540,7 +540,7 @@ $a$ = Área ou tamanho da unidade de amostra
 
 $N$ = Número de unidades de amostra possíveis na população
 
-$n$ = Número de unidades amostrais
+$n$ = Número de unidades amostradas (**medidas em campo!**)
 
 $t$ = Valor tabelado com $\left(n-1 \right)$ graus de liberdade ao nível de significância estabelecido
 
