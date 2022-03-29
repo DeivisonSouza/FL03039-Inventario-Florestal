@@ -338,17 +338,21 @@ A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio *
 ## Amostragem Aleatória Simples
 
 .shadow1a[
-### Quando usar a AAS para IF? (Sanquetta et al., 2009)
+### Contra-argumentos (Péllico Netto; Brena, 1997)
 <br>
-Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
+.font90[
+**1) Na fase de planejamento**
+- As UAs devem ser listadas, para posterior seleção aleatória (sorteio de unidades ou pontos amostrais);
 
-- Pequena;
-- De fácil acesso; e
-- Relativamente .magenta[**homogênea**] em relação à variável de interesse. <br><br>
+**2) Na fase de execução (em campo)**
+- Existe a possibilidade de uma distribuição irregular da unidades amostrais;
+- Pode haver maior dificuldade para se alcançar a posição das unidades amostrais; e
+- Maior tempo improdutivo, devido ao deslocamento entre unidades amostrais.
 
-
-.magenta[**Homogênea**]: é medida pelo estimador de variância amostral. Quanto menor a diferença no quantitativo entre unidades amostrais (parcelas) menor a variância.
-
+.center[
+.comment[**Fatores que aumentam as dificuldades**: Florestas Inequiâneas, Tamanho da Área...]
+]
+]
 ]
 
 ---
@@ -356,20 +360,37 @@ Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
 ## Amostragem Aleatória Simples
 
 .shadow1a[
-### .font90[Contra-argumentos (Péllico Netto; Brena, 1997)]
+### Argumentos favoráveis
 <br>
 
-**1) Na fase de planejamento**
-- As UAs devem ser listadas, para posterior seleção aleatória (sorteio de unidades ou pontos amostrais);
+**1) Na fase de análise de dados (escritório)**
+- Os estimadores da AAS são mais simples. Portanto, as estimativas do IF são obtidas com maior facilidade.
 
-**2) Na fase de execução (em campo)**
-- Existe a possibilidade de uma distribuição irregular da unidades amostrais;
-- Pode haver maior dificuldade para se alcançar a posição das unidades amostrais; e
-- O tempo improdutivo gasto no deslocamento entre unidades amostrais.
+
+]
+
+
+
+
+---
+
+## Amostragem Aleatória Simples
+
+.shadow1a[
+### Quando usar a AAS para IF? (Sanquetta et al., 2009)
+<br>
+Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
+
+- Pequena;
+- De fácil acesso; e
+- Relativamente .magenta[homogênea] em relação à variável de interesse (entre unidades amostrais). <br><br>
+
+.magenta[Homogênea]: é medida pelo estimador de variância amostral. <br><br>
 
 .center[
-.comment[**Fatores que aumentam as dificuldades**: Floresta Natural, Tamanho da Área...]
+.red[&#65308;] variância .red[&#65308;] intensidade amostral
 ]
+
 ]
 
 <!-- Slide XX -->
