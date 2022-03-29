@@ -165,11 +165,11 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [2 - Principais Estimadores da AAS](#peaas)
 
-&nbsp;&nbsp;[2.1 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
+&nbsp;&nbsp;[2.1 - Média Aritmética](#ma)
 
-&nbsp;&nbsp;[2.2 - Média Aritmética](#ma)
+&nbsp;&nbsp;[2.2 - Desvio Padrão, Variância e Coeficiente de Variação](#dp)
 
-&nbsp;&nbsp;[2.3 - Desvio Padrão, Variância e Coeficiente de Variação](#dp)
+&nbsp;&nbsp;[2.3 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
 
 &nbsp;&nbsp;[2.4 - Variância da Média](#vm)
 
@@ -550,12 +550,12 @@ $LE$ = Limite de erro admitido no Inventário Florestal (0,1 ou 10%)
 
 $E$ = Expectância do erro
 
-$X_i$ = i-ésimo valor da variável de interesse "X"
+$X_i$ = $i$-ésimo valor da variável de interesse $X$
 
 ]
 
 ---
-
+name: ma
 ## Estimadores da Amostragem Aleatória Simples
 
 .shadow1a[
@@ -566,7 +566,7 @@ $X_i$ = i-ésimo valor da variável de interesse "X"
 \bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i
 \end{equation}
 
-- $\bar{X}$ (lê-se: X-barra) = estimador da média populacional $\mu$ (lê-se: "mi").
+- $\bar{X}$ (lê-se: X-barra) = estimador da média aritmética populacional $\mu$ (lê-se: "mi").
 - $n$ = número de observações.
 - $\Sigma$ (sigma maiúscula) = símbolo de somatório. 
 - $X_i$ = $i$-ésimo valor da variável de interesse $X$.
@@ -574,7 +574,7 @@ $X_i$ = i-ésimo valor da variável de interesse "X"
 ]
 
 ---
-
+name: dp
 ## Estimadores da Amostragem Aleatória Simples
 
 .shadow1a[
@@ -590,9 +590,52 @@ S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2
 - $n$ = número de observações.
 - $\Sigma$ (sigma maiúscula) = símbolo de somatório. 
 - $X_i$ = $i$-ésimo valor da variável de interesse $X$.
-- $\bar{X}$ = estimador da média populacional $\mu$.
+- $\bar{X}$ = estimativa da média aritmética populacional $\mu$.
 ]
 ]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.shadow1a[
+## Desvio padrão amostral
+
+\begin{equation}
+\Large
+S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}
+\end{equation}
+
+.font90[
+- $S$ = estimador do desvio padrão populacional $\sigma$.
+- $n$ = número de observações.
+- $\Sigma$ (sigma maiúscula) = símbolo de somatório. 
+- $X_i$ = $i$-ésimo valor da variável de interesse $X$.
+- $\bar{X}$ = estimativa da média aritmética populacional $\mu$.
+]
+]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.shadow1a[
+## Coeficiente de variação amostral
+
+\begin{equation}
+\Large
+CV = \frac{S}{\bar{X}} \left( 100 \right)
+\end{equation}
+
+.font90[
+- $CV$ = estimador do coeficiente de variação populacional.
+- $S$ = estimativa do desvio padrão populacional $\sigma$.
+- $\bar{X}$ = estimativa da média aritmética populacional $\mu$.
+]
+]
+
+
+
 
 ---
 
