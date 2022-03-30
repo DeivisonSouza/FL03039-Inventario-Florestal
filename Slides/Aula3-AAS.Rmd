@@ -772,6 +772,75 @@ N = \frac{A}{a} = \frac{1.000.000\color{orange}{m²}}{10.000\color{orange}{m²}}
 
 ---
 
+## Estimadores da Amostragem Aleatória Simples
+<br>
+
+.shadow3[
+.center[**População Finita x População Infinita**]
+
+- Em estatística, uma população é finita quando a fração amostral é maior do que 2%.
+- A fração amostral pode ser calculada como:
+
+\begin{equation}
+\large
+f = \frac{n}{N}
+\end{equation}
+
+$n$ = número de unidades amostradas
+
+$N$ = número de unidades de amostras possíveis na população
+
+]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.pull-left-5[
+.font90[
+- Retornemos ao exemplo anterior...Qual a fração amostral?
+]
+]
+
+--
+
+.pull-right-5[
+
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class3/output.png')
+```
+]
+
+--
+
+.pull-left-5[
+.pull-down[
+
+.font90[
+**Abordagem 1: Usando a equação**
+<br>
+
+\begin{equation*}
+\normalsize
+f = \frac{n}{N} = \frac{5}{100} = 0,05 (100) = \color{blue}{5\%}
+\end{equation*}
+
+**Abordagem 2: Usando regra de 3 simples**
+<br>
+
+\begin{align*}
+& 100ha -\!\!\!-\!\!\!- 100\% \\
+& 5ha -\!\!\!-\!\!\!- x\%
+\end{align*}
+
+$$x = \frac{500}{100}=\color{blue}{5\%}$$
+
+
+- **Interpretação**: Foi amostrada 5% da <br> área total da população.
+
+]
+]
+]
 
 
 
