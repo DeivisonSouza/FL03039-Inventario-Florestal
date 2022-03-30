@@ -165,15 +165,15 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [2 - Principais Estimadores da AAS](#peaas)
 
-&nbsp;&nbsp;[2.1 - Média Aritmética](#ma)
+&nbsp;&nbsp;[2.1 - Média Aritmética Amostral](#ma)
 
 &nbsp;&nbsp;[2.2 - Desvio Padrão, Variância e Coeficiente de Variação](#dp)
 
 &nbsp;&nbsp;[2.3 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
 
-&nbsp;&nbsp;[2.4 - Variância da Média](#vm)
+&nbsp;&nbsp;[2.4 - Variância das Médias Amostrais](#vm)
 
-&nbsp;&nbsp;[2.5 - Erro Padrão da Média](#epm)
+&nbsp;&nbsp;[2.5 - Erro Padrão das Médias Amostrais](#epm)
 
 &nbsp;&nbsp;[2.6 - Erro de Amostragem](#ea)
 
