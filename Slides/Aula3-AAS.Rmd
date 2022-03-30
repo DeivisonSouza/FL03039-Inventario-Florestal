@@ -731,26 +731,50 @@ $LE$ = Limite de Erro (em %) admitido no Inventário Florestal
 
 ## Estimadores da Amostragem Aleatória Simples
 
-.pull-left-12[
+.pull-left-5[
+.font90[
 - Como determinar o número de unidades de amostras possíveis na população $\left(N\right)$?
-<br>
+]
+]
 
+--
+
+.pull-right-5[
+
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class3/output.png')
+```
+]
+
+--
+
+.pull-down[
+.pull-left-5[
+.font90[
 **Depende do tamanho da população e da parcela:**
 <br>
 
 \begin{equation}
-\large
+\normalsize
 N = \frac{A}{a}
 \end{equation}
 
+\begin{equation*}
+\normalsize
+N = \frac{A}{a} = \frac{1.000.000\color{orange}{m²}}{10.000\color{orange}{m²}} = \frac{100\color{blue}{ha}}{1\color{blue}{ha}} = 100~UA
+\end{equation*}
+
+- **Interpretação**: É possível estabelecer 100 unidades amostrais de 1ha em uma área de 100ha.
+
+]
+]
 ]
 
-.pull-right-12[
+---
 
-```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class3/output.png')
-```
-]
+
+
+
 
 ---
 
