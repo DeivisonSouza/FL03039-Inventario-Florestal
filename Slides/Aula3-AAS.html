@@ -86,7 +86,7 @@ top:.8em;right:1em;
 ##### Faculdade de Engenharia Florestal
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 29/março/2022) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 30/março/2022) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -551,7 +551,7 @@ name: pee
 
 `\(LE\)` = Limite de erro admitido no Inventário Florestal (0,1 ou 10%)
 
-`\(E\)` = Expectância do erro
+`\(E\)` = Erro admissível para estimativa da média
 
 `\(X_i\)` = `\(i\)`-ésimo valor da variável de interesse `\(X\)`
 
@@ -636,6 +636,101 @@ CV = \frac{S}{\bar{X}} \left( 100 \right)
 - `\(\bar{X}\)` = estimativa da média aritmética populacional `\(\mu\)`.
 ]
 ]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.shadow1a[
+## Intensidade amostral - Definição
+
+.font90[
+No âmbito de IFs, o estimador de intensidade amostral buscar responder:
+
+- Qual o .blue[tamanho da amostra] necessário para estimar a média aritmética (ou outro parâmetro) de uma variável de interesse (ex.: volume/ha), admitindo-se um limite de erro e sob um nível de probabilidade?
+
+&lt;br&gt;
+
+**A definição do estimador de intensidade amostral depende de duas informações preliminares:**
+
+- A natureza da população (Finita ou Infinita?).
+- Da estimativa de variabilidade da variável de interesse (Variância ou CV?).
+]
+]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.shadow1a[
+## .font90[Intensidade amostral]
+]
+
+.pull-left-4[
+.shadow3[
+.font90[
+.center[.blue[**Em função da variância amostral**]]
+
+- **Populações Finitas**
+
+`\begin{equation}
+\large
+n = \frac{Nt^2S^2}{(NE^2) + (t^2S^2)}
+\end{equation}`
+
+- **Populações Infinitas**
+
+`\begin{equation}
+\large
+n = \frac{t^2S^2}{E^2}
+\end{equation}`
+]
+]
+
+.font70[
+`\(N\)` = Número de unidades de amostra possíveis na população
+
+`\(S^2\)` = Estimativa da variância populacional
+
+`\(t_{n-1;~\alpha}\)` = Valor crítico com (n-1) GL e nível `\(\alpha\)` de significância
+
+`\(E\)` = Erro admissível para estimativa da média
+]
+
+]
+
+--
+
+.pull-right-4[
+.shadow3[
+.font90[
+.center[.blue[**Em função do CV amostral**]]
+
+- **Populações Finitas**
+
+`\begin{equation}
+\large
+n = \frac{Nt^2(CV)^2}{N(LE)^2 + t^2(CV)^2}
+\end{equation}`
+
+- **Populações Infinitas**
+
+`\begin{equation}
+\large
+n = \frac{t^2(CV)^2}{(LE)^2}
+\end{equation}`
+]
+]
+
+.font70[
+`\(CV\)` = estimativa do coeficiente de variação (em %) populacional
+
+`\(LE\)` = Limite de Erro (em %) admitido no Inventário Florestal
+]
+
+]
+
+
 
 
 ---
