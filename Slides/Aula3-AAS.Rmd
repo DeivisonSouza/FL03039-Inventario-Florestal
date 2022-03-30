@@ -727,8 +727,30 @@ $LE$ = Limite de Erro (em %) admitido no Inventário Florestal
 
 ]
 
+---
 
+## Estimadores da Amostragem Aleatória Simples
 
+.pull-left-12[
+- Como determinar o número de unidades de amostras possíveis na população $\left(N\right)$?
+<br>
+
+**Depende do tamanho da população e da parcela:**
+<br>
+
+\begin{equation}
+\large
+N = \frac{A}{a}
+\end{equation}
+
+]
+
+.pull-right-12[
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class3/output.png')
+```
+]
 
 ---
 
