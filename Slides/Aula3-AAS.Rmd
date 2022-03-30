@@ -836,7 +836,7 @@ f = \frac{n}{N} = \frac{5}{100} = 0,05 (100) = \color{blue}{5\%}
 $$x = \frac{500}{100}=\color{blue}{5\%}$$
 
 
-- **Interpretação**: Foi amostrada 5% da <br> área total da população.
+- **Interpretação**: Foi amostrada 5% da <br> área total da população. <br> (**.orange[População é Finita!]**)
 
 ]
 ]
