@@ -517,8 +517,8 @@ $\mu$: letra grega mu (lê-se "mi").
 | 3 - Desvio Padrão                                     | $S$                        |
 | 4 - Coeficiente de variação                           | $CV$                       |
 | 5 - Intensidade amostral                              | $n$                        |
-| 6 - Variância da média                                | $S^2_{\bar{X}}$            |
-| 7 - Erro padrão da média                              | $S_{\bar{X}}$              |
+| 6 - Variância das médias amostrais                               | $S^2_{\bar{X}}$            |
+| 7 - Erro padrão das médias amostrais                           | $S_{\bar{X}}$              |
 | 8 - Erro de amostragem                                | $\left(E_a~ou~E_r \right)$ |
 | 9 - Intervalo de confiança para média                 | $IC_{\bar{X}}$             |
 | 10 - Total da população                               | $\hat{X}$                  |
@@ -731,42 +731,67 @@ $LE$ = Limite de Erro (em %) admitido no Inventário Florestal
 
 ## Estimadores da Amostragem Aleatória Simples
 
-.pull-left-5[
+.pull-left-14[
 .font90[
-- Como determinar o número de unidades de amostras possíveis na população $\left(N\right)$?
+**🤔 Como determinar o número de unidades de amostras possíveis na população** $\left(N\right)$?
+<br><br>
+
+**Exemplo**: 
+
+- Suponha que se deseja realizar um IF amostral em uma população florestal de 100ha para estimar o volume de madeira.
+- Admitindo-se que serão usadas parcelas de 100m x 100m, qual o valor de $\left(N\right)$?
+
 ]
 ]
 
 --
 
-.pull-right-5[
+.pull-right-14[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class3/pop.png')
+```
+]
 
-```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class3/output.png')
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.pull-right-14[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class3/pop.png')
 ```
 ]
 
 --
 
-.pull-down[
-.pull-left-5[
+.pull-left-14[
 .font90[
 **Depende do tamanho da população e da parcela:**
-<br>
+]
+]
 
+--
+
+.pull-left-14[
 \begin{equation}
 \normalsize
 N = \frac{A}{a}
 \end{equation}
+]
 
+--
+
+
+.pull-left-14[
 \begin{equation*}
 \normalsize
 N = \frac{A}{a} = \frac{1.000.000\color{orange}{m²}}{10.000\color{orange}{m²}} = \frac{100\color{blue}{ha}}{1\color{blue}{ha}} = 100~UA
 \end{equation*}
 
-- **Interpretação**: É possível estabelecer 100 unidades amostrais de 1ha em uma área de 100ha.
+<br><br>
 
-]
+.font90[
+- **Interpretação**: É possível estabelecer 100 unidades amostrais de 1ha em uma área de 100ha.
 ]
 ]
 
@@ -842,8 +867,14 @@ $$x = \frac{500}{100}=\color{blue}{5\%}$$
 ]
 ]
 
+---
 
+## Estimadores da Amostragem Aleatória Simples
 
+.shadow1a[
+## .font90[Variância das Médias Amostrais]
+
+]
 
 ---
 
@@ -865,8 +896,8 @@ $$x = \frac{500}{100}=\color{blue}{5\%}$$
 | 3 - Desvio Padrão                                     | $m³.ha^{-1}$                        |
 | 4 - Coeficiente de variação                           | $\%$                       |
 | 5 - Intensidade amostral                              | $Parcelas$                        |
-| 6 - Variância da média                                | $\left(m³.ha^{-1}\right)^2$            |
-| 7 - Erro padrão da média                              | $m³.ha^{-1}$              |
+| 6 - Variância das médias amostrais                                 | $\left(m³.ha^{-1}\right)^2$            |
+| 7 - Erro padrão das médias amostrais                                | $m³.ha^{-1}$              |
 | 8 - Erro de amostragem                                | $\left(m³.ha^{-1}~ou~\% \right)$ |
 | 9 - Intervalo de confiança para média                 | $m³.ha^{-1}$             |
 | 10 - Total da população                               | $m³$                  |
