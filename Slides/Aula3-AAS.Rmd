@@ -171,17 +171,15 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 &nbsp;&nbsp;[2.3 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
 
-&nbsp;&nbsp;[2.4 - Variância das Médias Amostrais](#vm)
+&nbsp;&nbsp;[2.4 - Erro Padrão da Média Amostral](#epm)
 
-&nbsp;&nbsp;[2.5 - Erro Padrão das Médias Amostrais](#epm)
+&nbsp;&nbsp;[2.5 - Erro de Amostragem](#ea)
 
-&nbsp;&nbsp;[2.6 - Erro de Amostragem](#ea)
+&nbsp;&nbsp;[2.6 - Intervalo de Confiança Para Média](#icm)
 
-&nbsp;&nbsp;[2.7 - Intervalo de Confiança Para Média](#icm)
+&nbsp;&nbsp;[2.7 - Total da População](#tp)
 
-&nbsp;&nbsp;[2.8 - Total da População](#tp)
-
-&nbsp;&nbsp;[2.9 - IC Para o Total da População](#icptp)
+&nbsp;&nbsp;[2.8 - IC Para o Total da População](#icptp)
 
 ]
 ]
@@ -517,12 +515,11 @@ $\mu$: letra grega mu (lê-se "mi").
 | 3 - Desvio Padrão                                     | $S$                        |
 | 4 - Coeficiente de variação                           | $CV$                       |
 | 5 - Intensidade amostral                              | $n$                        |
-| 6 - Variância das médias amostrais                               | $S^2_{\bar{X}}$            |
-| 7 - Erro padrão das médias amostrais                           | $S_{\bar{X}}$              |
-| 8 - Erro de amostragem                                | $\left(E_a~ou~E_r \right)$ |
-| 9 - Intervalo de confiança para média                 | $IC_{\bar{X}}$             |
-| 10 - Total da população                               | $\hat{X}$                  |
-| 11 - Intervalo de confiança para o total da população | $IC_{\hat{X}}$             |
+| 6 - Erro padrão da média amostral                          | $S_{\bar{X}}$              |
+| 7 - Erro de amostragem                                | $\left(E_a~ou~E_r \right)$ |
+| 8 - Intervalo de confiança para média                 | $IC_{\bar{X}}$             |
+| 9 - Total da população                               | $\hat{X}$                  |
+| 10 - Intervalo de confiança para o total da população | $IC_{\hat{X}}$             |
 
 ]
 
@@ -944,17 +941,12 @@ f = \frac{n}{N} = \frac{5}{100} = 0,05 (100) = \color{blue}{5\%}~\left(\color{or
 \end{equation*}
 ]
 
-
-
-
-
-
 ---
 
 ## Estimadores da Amostragem Aleatória Simples
 
 .shadow1a[
-## .font90[Variância das Médias Amostrais]
+## .font90[Erro Padrão da Média Amostral]
 
 ]
 
@@ -978,12 +970,11 @@ f = \frac{n}{N} = \frac{5}{100} = 0,05 (100) = \color{blue}{5\%}~\left(\color{or
 | 3 - Desvio Padrão                                     | $m³.ha^{-1}$                        |
 | 4 - Coeficiente de variação                           | $\%$                       |
 | 5 - Intensidade amostral                              | $Parcelas$                        |
-| 6 - Variância das médias amostrais                                 | $\left(m³.ha^{-1}\right)^2$            |
-| 7 - Erro padrão das médias amostrais                                | $m³.ha^{-1}$              |
-| 8 - Erro de amostragem                                | $\left(m³.ha^{-1}~ou~\% \right)$ |
-| 9 - Intervalo de confiança para média                 | $m³.ha^{-1}$             |
-| 10 - Total da população                               | $m³$                  |
-| 11 - Intervalo de confiança para o total da população | $m³$             |
+| 6 - Erro padrão da média amostral                                | $m³.ha^{-1}$              |
+| 7 - Erro de amostragem                                | $\left(m³.ha^{-1}~ou~\% \right)$ |
+| 8 - Intervalo de confiança para média                 | $m³.ha^{-1}$             |
+| 9 - Total da população                               | $m³$                  |
+| 10 - Intervalo de confiança para o total da população | $m³$             |
 ]
 ]
 
