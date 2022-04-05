@@ -86,7 +86,7 @@ top:.8em;right:1em;
 ##### Faculdade de Engenharia Florestal
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 03/abril/2022) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 05/abril/2022) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -962,6 +962,19 @@ f = \frac{n}{N} = \frac{5}{100} = 0,05 (100) = \color{blue}{5\%}~\left(\color{or
 .shadow1a[
 ## .font90[Erro Padrão da Média Amostral]
 
+.font90[
+**Estimador**: é o desvio padrão amostral dividido pela raiz quadrada do número de observações.
+
+`\begin{equation}
+\large
+S_{\bar{X}} = \frac{S}{\sqrt{n}}\sqrt{1-f}
+\end{equation}`
+
+- `\(S\)` = estimativa do desvio padrão populacional `\(\sigma\)`.
+- `\(n\)` = número de observações (Em IF, comumente é quantidade de parcelas!).
+- `\(f\)` = fração de amostragem.
+- `\(1-f\)` = **Fator de Correção (FC)**. Deve ser usado apenas quando a **População for Finita**. Portanto, no caso de **Populações Infinitas** a fração `\(\sqrt{1-f}\)` deve ser removida do estimador.
+]
 ]
 
 
