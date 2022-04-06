@@ -846,7 +846,7 @@ $N$ = número de unidades de amostras possíveis na população
 <br><br>
 
 - Retornemos ao exemplo da população florestal de *Swietenia macrophylla*...
-- Agora, suponha que foram instaladas 3 parcelas de 1 hectare cada.
+- Agora, suponha que foram aleatorizadas 3 UAs de 1 hectare cada.
 - 🤔 **Pergunta-se**: Qual a fração amostral?
 ]
 ]
@@ -991,20 +991,74 @@ S_{\bar{X}} = \frac{S}{\sqrt{n}}\sqrt{1-f}
 
 ## Estimadores da Amostragem Aleatória Simples
 
-.pull-left-4[
+.pull-left-9[
 **🤔 Mas, o que é Erro Padrão da Média?**
 .font90[
-- Primeiro, vamos resgatar o exemplo anterior...
+- Vamos supor a seleção aleatória de duas UAs (2 e 7).
 ]
 ]
 
-.pull-right-4[
-```{r, echo=FALSE, out.width='95%', fig.align='center', dpi=600}
-knitr::include_graphics('fig/class3/pop3.png')
+.pull-right-9[
+```{r, echo=FALSE, out.width='50%', fig.align='center', dpi=600}
+knitr::include_graphics('fig/class3/pop4.png')
+```
+]
+
+--
+
+.pull-left-9[
+.font90[
+- Porém, veja que a amostra sorteada é apenas uma possibilidade dentre várias combinações possíveis de amostras de mesmo tamanho.
+]
+]
+
+--
+
+.pull-left-9[
+.font90[
+- Portanto, a combinação simples de n = 10 elementos de tamanhos k = 2 é dada por:<br>
+
+\begin{equation*}
+\normalsize
+C_{n,k} =\frac{n!}{k!(n-k)!} \\~\\
+C_{10,2} =\frac{10!}{2!(10-2)!} = \frac{(10).(9).(8!)}{2!(8!)} = \frac{(10).(9)}{2} = \color{blue}{45}
+\end{equation*}
+]
+]
+
+.font70[
+**Interpretação**: Seria possível obter 45 amostras diferentes de tamanho k = 2 a partir de 10 UAs.
+]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+**🤔 Mas, o que é Erro Padrão da Média?**
+
+.pull-left-4[
+.font90[
+.center[**Combinações possíveis?**]
+- Na linguagem R, use as funções:
+
+.green[choose()] = para obter o número de combinações possíveis.
+
+.green[combn()] = para visualizar as combinações.
+]
+
+```{r comb, echo=T, eval=F}
+choose(10, 2)
+t(combn(1:10, 2))
 ```
 ]
 
 
+.pull-right-4[
+.scroll-box-20[
+```{r ref.label="comb", echo=F, eval=T, collapse=T}
+```
+]
+]
 
 ---
 
