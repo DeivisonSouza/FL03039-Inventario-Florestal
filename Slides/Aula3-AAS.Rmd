@@ -314,7 +314,7 @@ A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio *
 ## Amostragem Aleatória Simples
 
 .pull-left-15[
-- Vamos supor um Povoamento de *Swietenia macrophylla*...(5m x 5m)
+- Vamos supor um Povoamento de *Khaya Ivorensis*...(5m x 5m)
 
 🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
 🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳 
@@ -758,7 +758,7 @@ $LE$ = Limite de Erro (em %) admitido no Inventário Florestal
 
 **Exemplo**: 
 
-- Suponha uma população florestal de *Swietenia macrophylla*, implantada sob o espaçamento 5m x 5m (Área Total = 10ha).
+- Suponha uma população florestal de *Khaya Ivorensis* com 15 anos de idade, implantada a pleno sol sob o espaçamento 5m x 5m (Área Total = 10ha).
 - **Objetivo**: Estimar o volume de madeira/hectare.
 - **Amostragem**: Supondo o uso de parcelas de 100m x 100m, qual o valor de $\left(N\right)$?
 
@@ -845,7 +845,7 @@ $N$ = número de unidades de amostras possíveis na população
 **🤔 Como determinar a fração amostral** $\left(f\right)$?
 <br><br>
 
-- Retornemos ao exemplo da população florestal de *Swietenia macrophylla*...
+- Retornemos ao exemplo da população florestal de *Khaya Ivorensis*...
 - Agora, suponha que foram aleatorizadas 3 UAs de 1 hectare cada.
 - 🤔 **Pergunta-se**: Qual a fração amostral?
 ]
@@ -920,7 +920,7 @@ $$x = \frac{300}{10}=\color{blue}{30\%}$$
 
 .pull-left-4[
 .font90[
-- Suponha uma população florestal de *Swietenia macrophylla* com área total de 100ha e a implantação de 5 parcelas de 100m x 100m. Pergunta-se:
+- Suponha uma população florestal de *Khaya Ivorensis* com área total de 100ha e a implantação de 5 parcelas de 100m x 100m. Pergunta-se:
 ]
 ]
 
