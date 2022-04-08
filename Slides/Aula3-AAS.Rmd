@@ -162,16 +162,16 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left-4[
 .pull-top[
-**Parte 1 - Conceito e Características**
+**Parte 1 - Teoria da Amostragem Aleatória Simples**
 .font90[
 
-[1 - Conceito](#con)
+[1 - Definição e características](#con)
 
 [2 - Seleção da Unidade de Amostra](#sua)
 
-[3 - Quando usar a AAS?](#qu)
+[3 - Argumentos favoráveis e contra-argumentos](#afc)
 
-[4 - Argumentos favoráveis e contra-argumentos](#vl)
+[4 - Quando usar a AAS?](#qu)
 
 ]
 ]
@@ -190,7 +190,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 &nbsp;&nbsp;[2.1 - Média Aritmética Amostral](#ma)
 
-&nbsp;&nbsp;[2.2 - Desvio Padrão, Variância e Coeficiente de Variação](#dp)
+&nbsp;&nbsp;[2.2 - Variância, Desvio Padrão e Coeficiente de Variação](#dp)
 
 &nbsp;&nbsp;[2.3 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
 
@@ -238,12 +238,12 @@ class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
 
-.font200[.yellow2[**Conceito <br> Características**]]
+.font200[.yellow2[**Teoria da <br> Amostragem Aleatória Simples**]]
 
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 1 - Conceito e Características</div2> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 1 - Teoria da Amostragem Aleatória Simples</div2> </div>
 
 ---
 name: con
@@ -282,7 +282,7 @@ name: car
 ]
 
 ---
-
+name: sua
 ## Amostragem Aleatória Simples
 
 .shadow1a[
@@ -357,7 +357,7 @@ A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio *
 ]
 
 ---
-
+name: afc
 ## Amostragem Aleatória Simples
 
 .shadow1a[
@@ -403,7 +403,7 @@ A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio *
 ]
 
 ---
-
+name: qu
 ## Amostragem Aleatória Simples
 
 .shadow1a[
@@ -522,7 +522,7 @@ $\mu$: letra grega mu (lê-se "mi").
 | $$\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2}$$ | $$S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}$$ | $\sigma$ = desvio padrão populacional <br> $S$ = estimador do desvio padrão populacional |
 
 ---
-
+name: peaas
 ## Estimadores da Amostragem Aleatória Simples
 <br>
 
@@ -599,6 +599,8 @@ name: dp
 
 .shadow1a[
 ## Variância amostral
+.font90[
+👉 Estimar a variabilidade (ou dispersão) dos dados da amostra em relação à média aritmética.]
 
 \begin{equation}
 \Large
@@ -620,6 +622,9 @@ S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2
 
 .shadow1a[
 ## Desvio padrão amostral
+
+.font90[
+👉 Estimar a variabilidade (ou dispersão) dos dados da amostra em relação à média aritmética. Porém, **é expresso na mesma unidade de medida da variável de interesse.**]
 
 \begin{equation}
 \Large
@@ -655,7 +660,7 @@ CV = \frac{S}{\bar{X}} \left( 100 \right)
 ]
 
 ---
-
+name: ia
 ## Estimadores da Amostragem Aleatória Simples
 
 .shadow1a[
@@ -965,7 +970,7 @@ f = \frac{n}{N} = \frac{5}{100} = 0,05 (100) = \color{blue}{5\%}~\left(\color{or
 ]
 
 ---
-
+name: epm
 ## Estimadores da Amostragem Aleatória Simples
 
 .shadow1a[
@@ -995,17 +1000,6 @@ S_{\bar{X}} = \frac{S}{\sqrt{n}}\sqrt{1-f}
 **🤔 Mas, o que é Erro Padrão da Média?**
 .font90[
 - Vamos supor a seleção aleatória de duas UAs (4 e 7).
-- Todas as árvores foram medidas nas UAs sorteadas e o volume/parcela calculado.
-
-$\large v_{p4} = 142~(m^3.ha^{-1})~~~~~~$
-$\large v_{p7} = 146~(m^3.ha^{-1})$
-
-
-- Obtendo-se a média, têm-se:
-
-$\large \bar{v} = \dfrac{(142 + 146)}{2} = 144~(m^3.ha^{-1})$
-
-- O quanto posso estar confiante de que a média amostral de $144~(m^3.ha^{-1})$ representa uma boa aproximação da média populacional?
 ]
 ]
 
@@ -1015,16 +1009,14 @@ knitr::include_graphics('fig/class3/pop4.png')
 ```
 ]
 
-
-
-
-
-
----
+--
 
 .pull-left-9[
 .font90[
-- Porém, veja que a amostra sorteada é apenas uma possibilidade dentre várias combinações possíveis de amostras de mesmo tamanho.
+- Todas as árvores foram medidas nas UAs sorteadas e o volume/parcela calculado.
+
+$\large v_{p4} = 145~(m^3.ha^{-1})~~~~~~$
+$\large v_{p7} = 143~(m^3.ha^{-1})$
 ]
 ]
 
@@ -1032,17 +1024,58 @@ knitr::include_graphics('fig/class3/pop4.png')
 
 .pull-left-9[
 .font90[
-- Portanto, a combinação simples de n = 10 elementos de tamanhos k = 2 é dada por:<br>
+- Obtendo-se a média, têm-se:
 
+$\large \bar{v} = \dfrac{(145 + 143)}{2} = \color{blue}{144~(m^3.ha^{-1})}$
+]
+]
+
+--
+
+.pull-left-9[
+.font90[
+- O quanto podemos estar confiantes de que a média amostral $(144~m^3.ha^{-1})$ é uma boa aproximação da média populacional $\mu$?
+]
+]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.pull-left-9[
+**🤔 Mas, o que é Erro Padrão da Média?**
+.font90[
+- Perceba que a amostra sorteada (4 e 7) é apenas uma possibilidade dentre as várias combinações possíveis de amostras de mesmo tamanho.
+]
+]
+
+.pull-right-9[
+```{r, echo=FALSE, out.width='50%', fig.align='center', dpi=600}
+knitr::include_graphics('fig/class3/pop4.png')
+```
+]
+
+--
+
+.pull-left-9[
+.font90[
+- Portanto, teoricamente, o número de amostras de tamanhos k = 2 tomadas de n = 10 elementos pode ser determinado por combinação simples:
+]
+]
+
+--
+
+.pull-left-9[
 \begin{equation*}
 \normalsize
 C_{n,k} =\frac{n!}{k!(n-k)!} \\~\\
 C_{10,2} =\frac{10!}{2!(10-2)!} = \frac{(10).(9).(8!)}{2!(8!)} = \frac{(10).(9)}{2} = \color{blue}{45}
 \end{equation*}
 ]
-]
 
-.font70[
+--
+
+.font80[
 **Interpretação**: Seria possível obter 45 amostras diferentes de tamanho k = 2 a partir de 10 UAs.
 ]
 

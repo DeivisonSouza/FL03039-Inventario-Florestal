@@ -8,9 +8,9 @@ y <- 1:100
 choose(10, 2)
 z <- t(combn(1:10, 2))
 
-###########################################################
-# Simulando dados normais p/ DAP e H
-###########################################################
+##################################################################################
+# 1 - Simulando dados normais p/ DAP e H com mesma média e desvio p/ cada parcela
+##################################################################################
 
 # Simulação de dados p/ Mogno Africano (Khaya Ivorensis) sob espaçamento
 # 5m x 5m (400 mudas/hectare). Admitir-se-á um volume aproximado de 153m3/ha
@@ -65,9 +65,11 @@ data %>%
   )
   )
 
-# Simulando dados normais com variação da média e desvio padrão p/ cada parcela...
-###################################################
+####################################################################################
+# 2 - Simulando dados normais com variação da média e desvio padrão p/ cada parcela...
+####################################################################################
 
+set.seed(10)
 df <- data.frame(
   mean_d = runif(n = 10, min = 25, max = 27),
   sd_d = runif(n = 10, min = 1, max = 2),
