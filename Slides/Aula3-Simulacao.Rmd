@@ -43,16 +43,22 @@ knitr::include_graphics('fig/class3/pop2.png')
 
 # Simulação de dados dendrométricos
 
-- Serão simulados dados de $d$ e $h$ para as 10 parcelas possíveis de 1ha (400 árvores/parcela).
+- Serão simulados dados de $d$ (em, cm) e $h$ (em, m) para as 10 parcelas possíveis de 1ha (400 árvores/parcela).
 - Os dados serão simulados a partir da distribuição normal, variando a média e desvio padrão por parcela.
+- A função `rnorm()` pode ser usada para gerar dados aleatórios com distribuição normal. Esta possui 3 parâmetros: **n** = número de observações; **mean** = vetor de médias; e **sd** = vetor de desvio padrão.
 
 ```{r library, eval=TRUE,message = FALSE}
+## Carrega pacotes
 library(purrr)
 library(tidyr)
 library(dplyr)
 ```
 
+
 ```{r}
+## Gera valores aleatórios de médias e desvio padrão para uso na rnorm()
+## Para cada parcela será usada uma média e um desvio padrão diferente
+
 set.seed(10)
 df <- data.frame(
   mean_d = runif(n = 10, min = 25, max = 27),
@@ -65,11 +71,14 @@ df <- data.frame(
   knitr::kable(df)
 ```
 
-```{r}
-arv_parc <- 1:400
-n <- 10
 
-set.seed(10)
+```{r}
+## Simula dados normais para diâmetro p/ cada parcela
+
+arv_parc <- 1:400  # número de observações/parcela (árvores/parcela)
+n <- 10            # número de parcelas
+
+set.seed(100)
 simul_d <- map_dfr(arv_parc, ~ setNames(rnorm(n, mean = df$mean_d, sd = df$sd_d),
                                         stringr::str_c("P", 1:10))) %>%
   pivot_longer(everything(), names_to = "Parc", values_to = "d") %>%
@@ -80,9 +89,48 @@ simul_d <- map_dfr(arv_parc, ~ setNames(rnorm(n, mean = df$mean_d, sd = df$sd_d)
 
 
 ```{r}
-simul_d %>%
+## Simula dados normais para altura p/ cada parcela
+
+set.seed(100)
+simul_h <- map_dfr(arv_parc, ~ setNames(rnorm(n, mean = df$mean_h, sd = df$sd_h),
+                                        stringr::str_c("P", 1:10))) %>%
+  pivot_longer(everything(), names_to = "Parc", values_to = "h") %>%
+  mutate(across(where(is_character), forcats::as_factor)) %>%
+  mutate(across(where(is_double), round, 1)) %>%
+  arrange(Parc, desc(h))
+```
+
+
+```{r, message=F}
+## Combina data.frames e calcula volume
+
+data <- bind_cols(simul_d, simul_h[c("h")]) %>%
+  mutate(v = round(((pi*(d^2))/40000)*h*0.7), 4)
+```
+
+
+```{r, message=F}
+## Visualiza as 2 primeiras linhas de cada parcela
+
+data %>%
   group_by(Parc) %>%
-  top_n(n = 5) %>% 
+  top_n(n = 2) %>% 
   knitr::kable()
 ```
 
+
+
+```{r, message=F}
+## Calcula média, desvio e total por Parcela
+
+data %>%
+  group_by(Parc) %>%
+  summarise(across(#.cols = where(is.numeric),
+                   .cols = v,
+                   .fns = list(media=mean, desv=sd, soma=sum),
+                   na.rm = TRUE,
+                   .names = "{.col}.{.fn}"
+  )
+  ) %>% 
+  knitr::kable()
+```

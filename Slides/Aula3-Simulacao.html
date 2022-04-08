@@ -180,22 +180,27 @@ a.sourceLine {
 <div id="simulação-de-dados-dendrométricos" class="section level1" number="2">
 <h1 number="2"><span class="header-section-number">2</span> Simulação de dados dendrométricos</h1>
 <ul>
-<li>Serão simulados dados de <span class="math inline">\(d\)</span> e <span class="math inline">\(h\)</span> para as 10 parcelas possíveis de 1ha (400 árvores/parcela).</li>
+<li>Serão simulados dados de <span class="math inline">\(d\)</span> (em, cm) e <span class="math inline">\(h\)</span> (em, m) para as 10 parcelas possíveis de 1ha (400 árvores/parcela).</li>
 <li>Os dados serão simulados a partir da distribuição normal, variando a média e desvio padrão por parcela.</li>
+<li>A função <code>rnorm()</code> pode ser usada para gerar dados aleatórios com distribuição normal. Esta possui 3 parâmetros: <strong>n</strong> = número de observações; <strong>mean</strong> = vetor de médias; e <strong>sd</strong> = vetor de desvio padrão.</li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(purrr)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">10</span>)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">mean_d =</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">min =</span> <span class="dv">25</span>, <span class="at">max =</span> <span class="dv">27</span>),</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">sd_d =</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">min =</span> <span class="dv">1</span>, <span class="at">max =</span> <span class="dv">2</span>),</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">mean_h =</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">min =</span> <span class="dv">9</span>, <span class="at">max =</span> <span class="dv">10</span>),</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">sd_h =</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">min =</span> .<span class="dv">5</span>, <span class="at">max =</span> <span class="dv">1</span>)</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span> </span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">everything</span>(), round, <span class="dv">2</span>))</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(df)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Carrega pacotes</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(purrr)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Gera valores aleatórios de médias e desvio padrão para uso na rnorm()</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="do">## Para cada parcela será usada uma média e um desvio padrão diferente</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">10</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">mean_d =</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">min =</span> <span class="dv">25</span>, <span class="at">max =</span> <span class="dv">27</span>),</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">sd_d =</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">min =</span> <span class="dv">1</span>, <span class="at">max =</span> <span class="dv">2</span>),</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">mean_h =</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">min =</span> <span class="dv">9</span>, <span class="at">max =</span> <span class="dv">10</span>),</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">sd_h =</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">min =</span> .<span class="dv">5</span>, <span class="at">max =</span> <span class="dv">1</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">everything</span>(), round, <span class="dv">2</span>))</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(df)</span></code></pre></div>
 <table>
 <thead>
 <tr class="header">
@@ -268,228 +273,257 @@ a.sourceLine {
 </tr>
 </tbody>
 </table>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>arv_parc <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">400</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">10</span>)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>simul_d <span class="ot">&lt;-</span> <span class="fu">map_dfr</span>(arv_parc, <span class="sc">~</span> <span class="fu">setNames</span>(<span class="fu">rnorm</span>(n, <span class="at">mean =</span> df<span class="sc">$</span>mean_d, <span class="at">sd =</span> df<span class="sc">$</span>sd_d),</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>                                        stringr<span class="sc">::</span><span class="fu">str_c</span>(<span class="st">&quot;P&quot;</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>))) <span class="sc">%&gt;%</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;Parc&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;d&quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is_character), forcats<span class="sc">::</span>as_factor)) <span class="sc">%&gt;%</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is_double), round, <span class="dv">2</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(Parc, <span class="fu">desc</span>(d))</span></code></pre></div>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>simul_d <span class="sc">%&gt;%</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Parc) <span class="sc">%&gt;%</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">top_n</span>(<span class="at">n =</span> <span class="dv">5</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code></pre></div>
-<pre><code>Selecting by d</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Simula dados normais para diâmetro p/ cada parcela</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>arv_parc <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">400</span>  <span class="co"># número de observações/parcela (árvores/parcela)</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">10</span>            <span class="co"># número de parcelas</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">100</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>simul_d <span class="ot">&lt;-</span> <span class="fu">map_dfr</span>(arv_parc, <span class="sc">~</span> <span class="fu">setNames</span>(<span class="fu">rnorm</span>(n, <span class="at">mean =</span> df<span class="sc">$</span>mean_d, <span class="at">sd =</span> df<span class="sc">$</span>sd_d),</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>                                        stringr<span class="sc">::</span><span class="fu">str_c</span>(<span class="st">&quot;P&quot;</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>))) <span class="sc">%&gt;%</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;Parc&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;d&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is_character), forcats<span class="sc">::</span>as_factor)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is_double), round, <span class="dv">2</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(Parc, <span class="fu">desc</span>(d))</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Simula dados normais para altura p/ cada parcela</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">100</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>simul_h <span class="ot">&lt;-</span> <span class="fu">map_dfr</span>(arv_parc, <span class="sc">~</span> <span class="fu">setNames</span>(<span class="fu">rnorm</span>(n, <span class="at">mean =</span> df<span class="sc">$</span>mean_h, <span class="at">sd =</span> df<span class="sc">$</span>sd_h),</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>                                        stringr<span class="sc">::</span><span class="fu">str_c</span>(<span class="st">&quot;P&quot;</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>))) <span class="sc">%&gt;%</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="fu">everything</span>(), <span class="at">names_to =</span> <span class="st">&quot;Parc&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;h&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is_character), forcats<span class="sc">::</span>as_factor)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">where</span>(is_double), round, <span class="dv">1</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(Parc, <span class="fu">desc</span>(h))</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Combina data.frames e calcula volume</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">bind_cols</span>(simul_d, simul_h[<span class="fu">c</span>(<span class="st">&quot;h&quot;</span>)]) <span class="sc">%&gt;%</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">v =</span> ((pi<span class="sc">*</span>(d<span class="sc">^</span><span class="dv">2</span>))<span class="sc">/</span><span class="dv">40000</span>)<span class="sc">*</span>h<span class="sc">*</span><span class="fl">0.7</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(v, round, <span class="dv">4</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Visualiza as 2 primeiras linhas de cada parcela</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Parc) <span class="sc">%&gt;%</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">top_n</span>(<span class="at">n =</span> <span class="dv">2</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code></pre></div>
 <table>
 <thead>
 <tr class="header">
 <th align="left">Parc</th>
 <th align="right">d</th>
+<th align="right">h</th>
+<th align="right">v</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">P1</td>
-<td align="right">30.35</td>
+<td align="right">30.77</td>
+<td align="right">12.1</td>
+<td align="right">0.6298372</td>
 </tr>
 <tr class="even">
 <td align="left">P1</td>
-<td align="right">30.25</td>
-</tr>
-<tr class="odd">
-<td align="left">P1</td>
-<td align="right">30.22</td>
-</tr>
-<tr class="even">
-<td align="left">P1</td>
-<td align="right">30.09</td>
-</tr>
-<tr class="odd">
-<td align="left">P1</td>
-<td align="right">29.72</td>
-</tr>
-<tr class="even">
-<td align="left">P2</td>
-<td align="right">29.58</td>
+<td align="right">30.40</td>
+<td align="right">11.9</td>
+<td align="right">0.6046194</td>
 </tr>
 <tr class="odd">
 <td align="left">P2</td>
-<td align="right">29.51</td>
+<td align="right">30.80</td>
+<td align="right">11.4</td>
+<td align="right">0.5945580</td>
 </tr>
 <tr class="even">
 <td align="left">P2</td>
-<td align="right">29.14</td>
-</tr>
-<tr class="odd">
-<td align="left">P2</td>
-<td align="right">28.96</td>
-</tr>
-<tr class="even">
-<td align="left">P2</td>
-<td align="right">28.76</td>
+<td align="right">30.20</td>
+<td align="right">11.2</td>
+<td align="right">0.5615906</td>
 </tr>
 <tr class="odd">
 <td align="left">P3</td>
-<td align="right">29.78</td>
+<td align="right">29.46</td>
+<td align="right">11.7</td>
+<td align="right">0.5582635</td>
 </tr>
 <tr class="even">
 <td align="left">P3</td>
-<td align="right">28.74</td>
+<td align="right">29.12</td>
+<td align="right">11.5</td>
+<td align="right">0.5361280</td>
 </tr>
 <tr class="odd">
-<td align="left">P3</td>
-<td align="right">28.51</td>
-</tr>
-<tr class="even">
-<td align="left">P3</td>
-<td align="right">28.28</td>
-</tr>
-<tr class="odd">
-<td align="left">P3</td>
-<td align="right">28.24</td>
+<td align="left">P4</td>
+<td align="right">31.04</td>
+<td align="right">12.1</td>
+<td align="right">0.6409390</td>
 </tr>
 <tr class="even">
 <td align="left">P4</td>
-<td align="right">31.44</td>
+<td align="right">30.74</td>
+<td align="right">11.9</td>
+<td align="right">0.6182194</td>
 </tr>
 <tr class="odd">
 <td align="left">P4</td>
-<td align="right">30.82</td>
-</tr>
-<tr class="even">
-<td align="left">P4</td>
-<td align="right">30.61</td>
-</tr>
-<tr class="odd">
-<td align="left">P4</td>
-<td align="right">30.60</td>
-</tr>
-<tr class="even">
-<td align="left">P4</td>
-<td align="right">30.19</td>
-</tr>
-<tr class="odd">
-<td align="left">P5</td>
-<td align="right">28.84</td>
+<td align="right">30.74</td>
+<td align="right">11.9</td>
+<td align="right">0.6182194</td>
 </tr>
 <tr class="even">
 <td align="left">P5</td>
-<td align="right">28.70</td>
+<td align="right">28.88</td>
+<td align="right">11.3</td>
+<td align="right">0.5181563</td>
 </tr>
 <tr class="odd">
 <td align="left">P5</td>
 <td align="right">28.66</td>
-</tr>
-<tr class="even">
-<td align="left">P5</td>
-<td align="right">28.61</td>
-</tr>
-<tr class="odd">
-<td align="left">P5</td>
-<td align="right">28.47</td>
+<td align="right">11.2</td>
+<td align="right">0.5057761</td>
 </tr>
 <tr class="even">
 <td align="left">P6</td>
-<td align="right">30.74</td>
+<td align="right">29.98</td>
+<td align="right">12.5</td>
+<td align="right">0.6176767</td>
 </tr>
 <tr class="odd">
 <td align="left">P6</td>
-<td align="right">30.00</td>
-</tr>
-<tr class="even">
-<td align="left">P6</td>
-<td align="right">29.76</td>
-</tr>
-<tr class="odd">
-<td align="left">P6</td>
-<td align="right">28.92</td>
-</tr>
-<tr class="even">
-<td align="left">P6</td>
-<td align="right">28.91</td>
-</tr>
-<tr class="odd">
-<td align="left">P7</td>
-<td align="right">29.11</td>
+<td align="right">29.87</td>
+<td align="right">12.4</td>
+<td align="right">0.6082471</td>
 </tr>
 <tr class="even">
 <td align="left">P7</td>
-<td align="right">28.58</td>
+<td align="right">28.67</td>
+<td align="right">12.5</td>
+<td align="right">0.5648763</td>
 </tr>
 <tr class="odd">
 <td align="left">P7</td>
-<td align="right">28.55</td>
-</tr>
-<tr class="even">
-<td align="left">P7</td>
-<td align="right">28.39</td>
-</tr>
-<tr class="odd">
-<td align="left">P7</td>
-<td align="right">28.16</td>
-</tr>
-<tr class="even">
-<td align="left">P8</td>
-<td align="right">29.43</td>
-</tr>
-<tr class="odd">
-<td align="left">P8</td>
-<td align="right">28.44</td>
-</tr>
-<tr class="even">
-<td align="left">P8</td>
-<td align="right">28.34</td>
-</tr>
-<tr class="odd">
-<td align="left">P8</td>
 <td align="right">28.29</td>
+<td align="right">12.2</td>
+<td align="right">0.5368014</td>
 </tr>
 <tr class="even">
 <td align="left">P8</td>
-<td align="right">28.23</td>
+<td align="right">29.09</td>
+<td align="right">12.0</td>
+<td align="right">0.5582858</td>
 </tr>
 <tr class="odd">
-<td align="left">P9</td>
-<td align="right">30.34</td>
+<td align="left">P8</td>
+<td align="right">28.76</td>
+<td align="right">11.7</td>
+<td align="right">0.5320489</td>
 </tr>
 <tr class="even">
 <td align="left">P9</td>
-<td align="right">30.15</td>
+<td align="right">30.08</td>
+<td align="right">12.1</td>
+<td align="right">0.6019064</td>
 </tr>
 <tr class="odd">
 <td align="left">P9</td>
-<td align="right">30.09</td>
+<td align="right">29.84</td>
+<td align="right">11.9</td>
+<td align="right">0.5825491</td>
 </tr>
 <tr class="even">
-<td align="left">P9</td>
-<td align="right">29.93</td>
+<td align="left">P10</td>
+<td align="right">30.55</td>
+<td align="right">11.3</td>
+<td align="right">0.5798141</td>
+</tr>
+<tr class="odd">
+<td align="left">P10</td>
+<td align="right">30.53</td>
+<td align="right">11.3</td>
+<td align="right">0.5790552</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Calcula média, desvio e total por Parcela</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Parc) <span class="sc">%&gt;%</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="co">#.cols = where(is.numeric),</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>                   <span class="at">.cols =</span> v,</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>                   <span class="at">.fns =</span> <span class="fu">list</span>(<span class="at">media=</span>mean, <span class="at">desv=</span>sd, <span class="at">soma=</span>sum),</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>                   <span class="at">na.rm =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>                   <span class="at">.names =</span> <span class="st">&quot;{.col}.{.fn}&quot;</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Parc</th>
+<th align="right">v.media</th>
+<th align="right">v.desv</th>
+<th align="right">v.soma</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">P1</td>
+<td align="right">0.3706923</td>
+<td align="right">0.0761387</td>
+<td align="right">148.2769</td>
+</tr>
+<tr class="even">
+<td align="left">P2</td>
+<td align="right">0.3539239</td>
+<td align="right">0.0656684</td>
+<td align="right">141.5696</td>
+</tr>
+<tr class="odd">
+<td align="left">P3</td>
+<td align="right">0.3631822</td>
+<td align="right">0.0503250</td>
+<td align="right">145.2729</td>
+</tr>
+<tr class="even">
+<td align="left">P4</td>
+<td align="right">0.3629812</td>
+<td align="right">0.0851533</td>
+<td align="right">145.1925</td>
+</tr>
+<tr class="odd">
+<td align="left">P5</td>
+<td align="right">0.3292851</td>
+<td align="right">0.0610605</td>
+<td align="right">131.7140</td>
+</tr>
+<tr class="even">
+<td align="left">P6</td>
+<td align="right">0.3512315</td>
+<td align="right">0.0755997</td>
+<td align="right">140.4926</td>
+</tr>
+<tr class="odd">
+<td align="left">P7</td>
+<td align="right">0.3576341</td>
+<td align="right">0.0611945</td>
+<td align="right">143.0537</td>
+</tr>
+<tr class="even">
+<td align="left">P8</td>
+<td align="right">0.3352313</td>
+<td align="right">0.0666387</td>
+<td align="right">134.0925</td>
 </tr>
 <tr class="odd">
 <td align="left">P9</td>
-<td align="right">29.72</td>
+<td align="right">0.3769277</td>
+<td align="right">0.0708417</td>
+<td align="right">150.7711</td>
 </tr>
 <tr class="even">
 <td align="left">P10</td>
-<td align="right">32.88</td>
-</tr>
-<tr class="odd">
-<td align="left">P10</td>
-<td align="right">32.61</td>
-</tr>
-<tr class="even">
-<td align="left">P10</td>
-<td align="right">31.47</td>
-</tr>
-<tr class="odd">
-<td align="left">P10</td>
-<td align="right">30.91</td>
-</tr>
-<tr class="even">
-<td align="left">P10</td>
-<td align="right">30.76</td>
+<td align="right">0.3461682</td>
+<td align="right">0.0751872</td>
+<td align="right">138.4673</td>
 </tr>
 </tbody>
 </table>
