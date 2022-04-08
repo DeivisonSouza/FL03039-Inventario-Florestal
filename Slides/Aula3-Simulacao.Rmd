@@ -105,7 +105,8 @@ simul_h <- map_dfr(arv_parc, ~ setNames(rnorm(n, mean = df$mean_h, sd = df$sd_h)
 ## Combina data.frames e calcula volume
 
 data <- bind_cols(simul_d, simul_h[c("h")]) %>%
-  mutate(v = round(((pi*(d^2))/40000)*h*0.7), 4)
+  mutate(v = ((pi*(d^2))/40000)*h*0.7) %>% 
+  mutate(across(c(v), round, 4))
 ```
 
 
