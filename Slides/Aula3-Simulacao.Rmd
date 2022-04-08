@@ -17,6 +17,12 @@ output:
     toc: yes
 ---
 
+```{r setup, include=TRUE}
+library(rmarkdown)
+knitr::opts_chunk$set(fig.align="center", cache=TRUE, prompt=FALSE, comment = NA, eval = TRUE)
+```
+
+
 # Informações gerais para simulação
 
 ## Objetivos
@@ -35,7 +41,16 @@ output:
 knitr::include_graphics('fig/class3/pop2.png')
 ```
 
-# Simulação de dados biométricos
+# Simulação de dados dendrométricos
+
+- Serão simulados dados de $d$ e $h$ para as 10 parcelas possíveis de 1ha (400 árvores/parcela).
+- Os dados serão simulados a partir da distribuição normal, variando a média e desvio padrão por parcela.
+
+```{r library, eval=TRUE,message = FALSE}
+library(purrr)
+library(tidyr)
+library(dplyr)
+```
 
 ```{r}
 set.seed(10)
@@ -44,6 +59,30 @@ df <- data.frame(
   sd_d = runif(n = 10, min = 1, max = 2),
   mean_h = runif(n = 10, min = 9, max = 10),
   sd_h = runif(n = 10, min = .5, max = 1)
-)
+) %>% 
+  mutate(across(everything(), round, 2))
+
+  knitr::kable(df)
+```
+
+```{r}
+arv_parc <- 1:400
+n <- 10
+
+set.seed(10)
+simul_d <- map_dfr(arv_parc, ~ setNames(rnorm(n, mean = df$mean_d, sd = df$sd_d),
+                                        stringr::str_c("P", 1:10))) %>%
+  pivot_longer(everything(), names_to = "Parc", values_to = "d") %>%
+  mutate(across(where(is_character), forcats::as_factor)) %>%
+  mutate(across(where(is_double), round, 2)) %>%
+  arrange(Parc, desc(d))
+```
+
+
+```{r}
+simul_d %>%
+  group_by(Parc) %>%
+  top_n(n = 5) %>% 
+  knitr::kable()
 ```
 
