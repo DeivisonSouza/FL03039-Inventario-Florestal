@@ -35,7 +35,7 @@ knitr::opts_chunk$set(fig.align="center", cache=TRUE, prompt=FALSE, comment = NA
 - Admitir-se-á uma população florestal de *Khaya Ivorensis* com 15 anos de idade, implantada a pleno sol e sob o espaçamento 5m x 5m.
 - Admitir-se-á uma área total de 10 hectares.
 - Admitir-se-á o uso de parcelas de 100m x 100m, ou seja, 1ha. Portanto, o número de parcelas possíveis na população será igual a 10 (N = 10).
-- Admitindo-se um espaçamento de 5m x 5m, em 1ha são possíveis 400 árvores (sem mortalidade!).
+- Admitindo-se um espaçamento de 5m x 5m, em 1ha são possíveis 400 árvores (sem mortalidade!). Portanto, a população de *Khaya Ivorensis* será composta de 4000 árvores.
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class3/pop2.png')
@@ -120,7 +120,6 @@ data %>%
 ```
 
 
-
 ```{r, message=F}
 ## Calcula média, desvio e total por Parcela
 
@@ -134,4 +133,19 @@ data %>%
   )
   ) %>% 
   knitr::kable()
+```
+
+**Considerações finais**
+
+- Veja que simulamos dados dendrométricos para uma população de *Khaya Ivorensis* (10 ha) com 4000 árvores. **Portanto, via simulação temos os dados populacionais!**
+- Porém, na prática, na maioria das vezes não teremos acesso aos dados populacionais. 
+- Em Inventários Florestais, comumente são sorteadas algumas parcelas para medição em campo.
+
+# Selecão de uma amostra
+
+- Agora vamos supor o sorteio de 2 parcelas
+
+```{r}
+## Simula
+
 ```
