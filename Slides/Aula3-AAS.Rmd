@@ -977,7 +977,8 @@ name: epm
 ## .font90[Erro Padrão da Média Amostral]
 
 .font90[
-**Estimador**: é o desvio padrão amostral dividido pela raiz quadrada do número de observações.
+👉 Estimar a variação das médias amostrais que poderiam ser, hipoteticamente, tomadas na população.
+
 
 \begin{equation}
 \large
@@ -1030,13 +1031,54 @@ $\large \bar{v} = \dfrac{(145 + 143)}{2} = \color{blue}{144~(m^3.ha^{-1})}$
 ]
 ]
 
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.pull-left-9[
+**🤔 Mas, o que é Erro Padrão da Média?**
+]
+
+.pull-right-9[
+```{r, echo=FALSE, out.width='50%', fig.align='center', dpi=600}
+knitr::include_graphics('fig/class3/pop4.png')
+```
+]
+
 --
 
 .pull-left-9[
 .font90[
-- O quanto podemos estar confiantes de que a média amostral $(144~m^3.ha^{-1})$ é uma boa aproximação da média populacional $\mu$?
+👉 **Questão:** Mas, se uma nova amostra de mesmo tamanho (n = 2) fosse sorteada da população, o que aconteceria com a média amostral?
 ]
 ]
+
+--
+
+.pull-left-9[
+.font90[
+- A média amostral seria a mesma? 👎
+- A média amostral poderia variar em função da amostra selecionada? 👍 (.blue[Mais provável!])
+]
+]
+
+--
+
+.pull-left-9[
+.font90[
+**O estimador de erro padrão da média fornecerá a resposta para essa pergunta!**
+]
+]
+
+--
+
+.pull-left-9[
+.font90[
+Em outras palavras, o $S_\bar{X}$ permite inferir o quanto podemos estar confiantes de que a média amostral $\bar{X}$ é uma boa aproximação da média populacional $\mu$.
+]
+]
+
+
 
 ---
 
@@ -1078,6 +1120,17 @@ C_{10,2} =\frac{10!}{2!(10-2)!} = \frac{(10).(9).(8!)}{2!(8!)} = \frac{(10).(9)}
 .font80[
 **Interpretação**: Seria possível obter 45 amostras diferentes de tamanho k = 2 a partir de 10 UAs.
 ]
+
+
+---
+
+.pull-left-9[
+.font90[
+- O quanto podemos estar confiantes de que a média amostral $(144~m^3.ha^{-1})$ é uma boa aproximação da média populacional $\mu$?
+]
+]
+
+
 
 ---
 
