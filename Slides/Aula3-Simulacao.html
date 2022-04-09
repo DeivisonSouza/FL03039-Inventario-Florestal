@@ -134,7 +134,7 @@ a.sourceLine {
 <h1 class="title toc-ignore">Simulação de dados</h1>
 <h2 class="subtitle">(Khaya Ivorensis - Mogno Africano)</h2>
 <h3 class="author">Prof. Dr. Deivison Venicio Souza</h3>
-<h3 class="date">08/abril/2022</h3>
+<h3 class="date">09/abril/2022</h3>
 </div>
 </header>
 
@@ -299,7 +299,9 @@ a.sourceLine {
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">bind_cols</span>(simul_d, simul_h[<span class="fu">c</span>(<span class="st">&quot;h&quot;</span>)]) <span class="sc">%&gt;%</span></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">v =</span> ((pi<span class="sc">*</span>(d<span class="sc">^</span><span class="dv">2</span>))<span class="sc">/</span><span class="dv">40000</span>)<span class="sc">*</span>h<span class="sc">*</span><span class="fl">0.7</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">c</span>(v), round, <span class="dv">4</span>))</span></code></pre></div>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="fu">c</span>(v), round, <span class="dv">4</span>))</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>writexl<span class="sc">::</span><span class="fu">write_xlsx</span>(data, <span class="st">&#39;data/Khaya-simulado.xlsx&#39;</span>)</span></code></pre></div>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Visualiza as 2 primeiras linhas de cada parcela</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span></span>

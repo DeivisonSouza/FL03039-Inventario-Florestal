@@ -107,6 +107,8 @@ simul_h <- map_dfr(arv_parc, ~ setNames(rnorm(n, mean = df$mean_h, sd = df$sd_h)
 data <- bind_cols(simul_d, simul_h[c("h")]) %>%
   mutate(v = ((pi*(d^2))/40000)*h*0.7) %>% 
   mutate(across(c(v), round, 4))
+
+# writexl::write_xlsx(data, 'data/Khaya-simulado.xlsx')
 ```
 
 
