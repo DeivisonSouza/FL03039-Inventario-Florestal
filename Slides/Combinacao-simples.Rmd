@@ -1,28 +1,30 @@
 ---
-title: "Combinação simples no R"
-subtitle: ""
-author: Prof. Dr. Deivison Venicio Souza
+title: "Combinação Simples no R:"
+subtitle: "Noção para inventário florestal"
+author:
+- affiliation: Universidade Federal do Pará
+  name: 'Deivison Venicio Souza'
 fontsize: 14pt
 lang: pt-BR
 date: '`r format(Sys.Date(),"%d/%B/%Y")`'
 
 output:
   prettydoc::html_pretty:
-    theme: architect
-    highlight: vignette
+    theme: leonids
+    highlight: github
     toc: yes
+    toc_float: true
     df_print: paged
     number_sections: yes
-  pdf_document:
-    toc: yes
 ---
 
 ```{r setup, include=TRUE, echo = F}
 library(rmarkdown)
 knitr::opts_chunk$set(fig.align="center", cache=TRUE, prompt=FALSE, comment = NA, eval = TRUE)
+library("distill")
 ```
 
-# Combinação simples no R
+# Combinação Simples no R
 
 ## Objetivos
 
