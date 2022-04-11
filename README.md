@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file.. -->
+<!-- README.md is generated from README.Rmd. Please edit that file. -->
 <!-- badges: start -->
 <!-- badges: end -->
 <!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
@@ -54,7 +54,9 @@ Florestal** (IF-FL03039) estão detalhados a seguir.
 | Slides/Aula1-IF-Conceitos-Tipos.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula1-IF-Conceitos-Tipos.html> |
 | Slides/Aula2-Amostragem-IF.html      | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula2-Amostragem-IF.html>      |
 | Slides/Aula3-AAS.html                | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula3-AAS.html>                |
+| Slides/Combinacao-simples.html       | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Combinacao-simples.html>       |
 | Slides/Simulacao-khaya.html          | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html>          |
+| Slides/combinacao-simples.html       | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/combinacao-simples.html>       |
 
 # Facilitador :deciduous\_tree:
 
