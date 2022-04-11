@@ -17,7 +17,7 @@ output:
     toc: yes
 ---
 
-```{r setup, include=TRUE}
+```{r setup, include=T, echo=F}
 library(rmarkdown)
 knitr::opts_chunk$set(fig.align="center", cache=TRUE, prompt=FALSE, comment = NA, eval = TRUE)
 ```
@@ -49,6 +49,7 @@ knitr::include_graphics('fig/class3/pop2.png')
 
 ```{r library, eval=TRUE,message = FALSE}
 ## Carrega pacotes
+
 library(purrr)
 library(tidyr)
 library(dplyr)
