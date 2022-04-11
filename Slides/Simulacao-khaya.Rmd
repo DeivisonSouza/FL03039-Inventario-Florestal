@@ -30,7 +30,7 @@ knitr::opts_chunk$set(fig.align="center", cache=TRUE, prompt=FALSE, comment = NA
 - Simular dados para a váriável diâmetro a 1,30m do solo ($d$) e altura ($h$) para a espécie *Khaya Ivorensis*.
 - Calcular o volume das árvores usando a fórmula $v_i = \dfrac{(\pi d^2)}{40000}(h)(0,7)$.
 
-## Informações admitidas para simulação
+## Características admitidas para simulação
 
 - Admitir-se-á uma população florestal de *Khaya Ivorensis* com 15 anos de idade, implantada a pleno sol e sob o espaçamento 5m x 5m.
 - Admitir-se-á uma área total de 10 hectares.
