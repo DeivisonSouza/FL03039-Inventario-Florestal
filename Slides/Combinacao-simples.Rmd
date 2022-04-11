@@ -13,7 +13,6 @@ output:
     theme: leonids
     highlight: github
     toc: yes
-    toc_float: true
     df_print: paged
     number_sections: yes
 ---
