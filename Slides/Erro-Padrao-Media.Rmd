@@ -1,0 +1,105 @@
+---
+title: "Erro Padrão da Média Amostral"
+subtitle: "(Dados simulados para uma população de Khaya Ivorensis)"
+author:
+- name: Deivison Venicio Souza
+  email: |
+   | deivisonvs@ufpa.br
+   | https://github.com/DeivisonSouza
+  affiliation: Universidade Federal do Pará - UFPA
+fontsize: 14pt
+lang: pt-BR
+date: |
+  | 1ª versão: 11/Abril/2022
+  | (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`)
+
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+    toc: yes
+    df_print: paged
+    number_sections: yes
+---
+
+```{r setup, include=T, echo=F}
+library(rmarkdown)
+knitr::opts_chunk$set(fig.align="center", cache=TRUE, prompt=FALSE, comment = NA, eval = TRUE)
+```
+
+# Contextualização
+
+- No tutorial [Simulação de Dados Dendrométricos](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html) foram simulados dados para as variáveis diâmetro a 1,30m do solo ($d$) e altura ($h$) para uma população florestal de *Khaya Ivorensis* (10 hectares) e, em seguida, o volume individual das árvores foi calculado usando a fórmula $v_i = \dfrac{(\pi d^2)}{40000}(h)(0,7)$.
+- O dados obtidos por simulação estão disponíveis no arquivo [khaya-simulado.xlsx](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/khaya-simulado.xlsx).
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class3/pop2.png')
+```
+
+```{r library, eval=TRUE,message = FALSE}
+## Carrega pacotes
+
+library(purrr)
+library(tidyr)
+library(dplyr)
+```
+
+```{r}
+## Carrega os dados simulados
+
+data <- readxl::read_excel('data/Khaya-simulado.xlsx')
+```
+
+```{r, message=FALSE}
+## Visualiza as 2 primeiras linhas de cada parcela
+
+data %>%
+  group_by(Parc) %>%
+  top_n(n = 2) %>% 
+  knitr::kable()
+```
+
+
+```{r, message=F}
+## Calcula total do volume por Parcela
+
+v_Parc <- data %>%
+  group_by(Parc) %>%
+  summarise(across(#.cols = where(is.numeric),
+                   .cols = v,
+                   .fns = list(Total=sum),
+                   na.rm = TRUE,
+                   .names = "Volume_{.fn}"
+  )
+  )
+
+  knitr::kable(v_Parc)
+```
+
+- A média de volume por hectare $(\mu)$ para a população é:
+
+```{r}
+## Média de volume por hectare (População)
+
+data %>%
+  summarise(media_pop = mean(v_Parc$Volume_Total), n = n())
+```
+
+- A média populacional $(\mu)$ para a variável volume é $141,8906~(m^3.ha^{⁻1})$.
+- O volume por parcela (1ha) para todas as parcelas possíveis na população também é conhecido. **Simplesmente por que foram simulados!**😀
+- **Por enquanto, guarde essas informações!**
+
+# Erro Padrão da Média
+
+- Na seção anterior foram carregados os dados populacionais simulados de um povoamento florestal de *Khaya Ivorensis* (10 hectares).
+- Porém, lembre-se que dados populacionais raramente estarão disponíveis.
+- Em **inventários florestais**, na prática, comumente os dados dendrométricos são medidos em **parcelas amostrais sob algum processo de amostragem** e, em seguida, a variável de interesse é extrapolada para a população (inferência).
+
+```{r}
+## Carrega os dados simulados
+
+#dt$v.soma
+#x <- t(combn(dt$v.soma, 2))
+#class(x)
+
+```

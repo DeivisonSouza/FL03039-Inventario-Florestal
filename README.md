@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file.. -->
+<!-- README.md is generated from README.Rmd. Please edit that file. -->
 <!-- badges: start -->
 <!-- badges: end -->
 <!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
