@@ -1,5 +1,5 @@
 ---
-title: "Simulação de dados"
+title: "Amostragem Aleatória Simples - AAS"
 subtitle: "(Khaya Ivorensis - Mogno Africano)"
 author: Prof. Dr. Deivison Venicio Souza
 fontsize: 14pt
