@@ -1,0 +1,35 @@
+---
+title: "Simulação de dados"
+subtitle: "(Khaya Ivorensis - Mogno Africano)"
+author: Prof. Dr. Deivison Venicio Souza
+fontsize: 14pt
+lang: pt-BR
+date: '`r format(Sys.Date(),"%d/%B/%Y")`'
+
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: vignette
+    toc: yes
+    df_print: paged
+    number_sections: yes
+  pdf_document:
+    toc: yes
+---
+
+```{r setup, include=TRUE}
+library(rmarkdown)
+knitr::opts_chunk$set(fig.align="center", cache=TRUE, prompt=FALSE, comment = NA, eval = TRUE)
+```
+
+# Amostragem Aleatória Simples - AAS
+
+- Na seção 2, simulamos dados para uma população de *Khaya Ivorensis* (10 ha) com 4000 árvores. **Portanto, via simulação temos os dados populacionais!**
+- Porém, em inventários florestais, comumente utiliza-se de algum processo de amostragem para estimar a variável de interesse.
+- Portanto, agora, vamos supor que a Amostragem Aleatória Simples - AAS foi usada, e 2 parcelas (Parcelas 4 e 7) foram sorteadas para medição das árvores dentre as 10 parcelas possíveis.
+- Vamos admitir que os dados das parcelas 4 e 7 são os simulados na seção 2.
+
+```{r, echo=FALSE, out.width='30%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class3/pop4.png')
+```
+
