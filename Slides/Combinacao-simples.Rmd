@@ -9,7 +9,10 @@ author:
   affiliation: Universidade Federal do Pará - UFPA
 fontsize: 14pt
 lang: pt-BR
-date: '`r format(Sys.Date(),"%d/%B/%Y")`'
+date: |
+  | 1ª versão: 11/Abril/2022
+  | (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`)
+
 output:
   prettydoc::html_pretty:
     theme: leonids
@@ -29,7 +32,7 @@ library("distill")
 
 ## Objetivos
 
-- Usar uma população florestal de *Khaya Ivorensis* hipotética (`Aula3-AAS.Rmd`) como base para demostrar o uso da combinação simples no contexto do inventário florestal por amostragem.
+- Usar uma população florestal de *Khaya Ivorensis* hipotética ([Aula3-AAS.Rmd](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula3-AAS.html)) como base para demostrar o uso da combinação simples no contexto do inventário florestal por amostragem.
 - Demonstrar funções existentes na linguagem R para obter os resultados (quantas e quais combinações possíveis?) de uma análise de combinação simples.
 
 ## Características da população hipotética
@@ -42,7 +45,7 @@ library("distill")
 - Suponha que você (Engenheiro Florestal) foi consultado para realizar um inventário florestal no povoamento de *Khaya Ivorensis* com o objetivo de quantificar o volume de madeira nos 10 hectares.
 - **Existe duas opções**: Censo ou Amostragem? Qual você escolheria e porque?
 - **Inventário Piloto**: Em inventários florestais por amostragem é comum a realização de Inventários Pilotos (IP), com um número reduzido de unidades de amostras, com fins de capturar a variabilidade da variável de interesse. Esse IP pode (ou não) ser considerado inventário definitivo (ID) a depender da precisão requerida, e entre outros fatores.
-- Na população florestal de *Khaya Ivorensis* hipotética, se admitido o uso de parcelas amostrais de 100m x 100m (1ha), seria possível estabelecer 10 parcelas no povoamento. (Ver aula `Aula3-AAS.Rmd`) (**Ver Figura**)
+- Na população florestal de *Khaya Ivorensis* hipotética, se admitido o uso de parcelas amostrais de 100m x 100m (1ha), seria possível estabelecer 10 parcelas no povoamento. (Ver aula [Aula3-AAS.Rmd](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula3-AAS.html)) (**Ver Figura**)
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class3/pop2.png')
