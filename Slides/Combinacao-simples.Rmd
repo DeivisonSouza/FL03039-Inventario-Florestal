@@ -1,13 +1,15 @@
 ---
 title: "Combinação Simples no R:"
-subtitle: "Noção para inventário florestal"
+subtitle: "Noção para inventário florestal amostral"
 author:
-- affiliation: Universidade Federal do Pará
-  name: 'Deivison Venicio Souza'
+- name: Deivison Venicio Souza
+  email: |
+   | deivisonvs@ufpa.br
+   | https://github.com/DeivisonSouza
+  affiliation: Universidade Federal do Pará - UFPA
 fontsize: 14pt
 lang: pt-BR
 date: '`r format(Sys.Date(),"%d/%B/%Y")`'
-
 output:
   prettydoc::html_pretty:
     theme: leonids
@@ -27,8 +29,8 @@ library("distill")
 
 ## Objetivos
 
-- Demonstrar funções para obter resultados (quantas e quais combinações possíveis?) de uma análise de combinação simples;
-- Usar a população florestal de *Khaya Ivorensis* hipotética (`Aula3-AAS.Rmd`) como base.
+- Usar uma população florestal de *Khaya Ivorensis* hipotética (`Aula3-AAS.Rmd`) como base para demostrar o uso da combinação simples no contexto do inventário florestal por amostragem.
+- Demonstrar funções existentes na linguagem R para obter os resultados (quantas e quais combinações possíveis?) de uma análise de combinação simples.
 
 ## Características da população hipotética
 
@@ -80,4 +82,3 @@ combn(1:10, 2)
 ```{r}
 t(combn(1:10, 2))
 ```
-
