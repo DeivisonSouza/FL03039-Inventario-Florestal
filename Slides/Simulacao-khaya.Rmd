@@ -1,20 +1,25 @@
 ---
-title: "Simulação de dados"
+title: "Simulação de Dados Dendrométricos"
 subtitle: "(Khaya Ivorensis - Mogno Africano)"
-author: Prof. Dr. Deivison Venicio Souza
+author:
+- name: Deivison Venicio Souza
+  email: |
+   | deivisonvs@ufpa.br
+   | https://github.com/DeivisonSouza
+  affiliation: Universidade Federal do Pará - UFPA
 fontsize: 14pt
 lang: pt-BR
-date: '`r format(Sys.Date(),"%d/%B/%Y")`'
+date: |
+  | 1ª versão: 10/Abril/2022
+  | (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`)
 
 output:
   prettydoc::html_pretty:
-    theme: architect
-    highlight: vignette
+    theme: leonids
+    highlight: github
     toc: yes
     df_print: paged
     number_sections: yes
-  pdf_document:
-    toc: yes
 ---
 
 ```{r setup, include=T, echo=F}
@@ -126,7 +131,7 @@ data %>%
 
 
 ```{r, message=F}
-## Calcula média, desvio e total por Parcela
+## Calcula média, desvio e total do volume por Parcela
 
 data %>%
   group_by(Parc) %>%
