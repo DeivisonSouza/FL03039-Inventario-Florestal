@@ -82,18 +82,25 @@ v_Parc <- data %>%
 ## Média de volume por hectare (População)
 
 data %>%
-  summarise(media_pop = mean(v_Parc$Volume_Total), n = n())
+  summarise(n = n(),
+            media_pop = mean(v_Parc$Volume_Total), 
+            sd_pop = sd(v_Parc$Volume_Total)
+            )
 ```
 
-- A média populacional $(\mu)$ para a variável volume é $141,8906~(m^3.ha^{⁻1})$.
+- A média populacional $(\mu)$ para a variável volume é $141,8906~(m^3.ha^{⁻1})$ e o desvio da população $(\sigma)$ é aproximadamente $5,98~(m^3.ha^{⁻1})$.
 - O volume por parcela (1ha) para todas as parcelas possíveis na população também é conhecido. **Simplesmente por que foram simulados!**😀
 - **Por enquanto, guarde essas informações!**
 
 # Erro Padrão da Média
 
-- Na seção anterior foram carregados os dados populacionais simulados de um povoamento florestal de *Khaya Ivorensis* (10 hectares).
-- Porém, lembre-se que dados populacionais raramente estarão disponíveis.
-- Em **inventários florestais**, na prática, comumente os dados dendrométricos são medidos em **parcelas amostrais sob algum processo de amostragem** e, em seguida, a variável de interesse é extrapolada para a população (inferência).
+- Para os dados simulado, a média populacional $(\mu)$ para a variável volume é $141,8906~(m^3.ha^{⁻1})$ e o desvio da população é aproximadamente $5,98~(m^3.ha^{⁻1})$. (<span style="color:blue">Porém, lembre-se que dados populacionais raramente estarão disponíveis!</span>)
+- Portanto, em inventários florestais (IF), na prática, comumente os dados dendrométricos são medidos em <span style="color:blue">parcelas amostrais</span> sob algum processo de amostragem e, em seguida, a variável de interesse é extrapolada para a população (inferência).
+- Agora, suponha a decisão de sortear uma amostra aleatória sem reposição de duas parcelas amostrais. Aplicando a fórmula da combinação simples (n = 10, k = 2) existem 45 possibilidades de combinação.
+
+
+
+
 
 ```{r}
 ## Carrega os dados simulados

@@ -140,7 +140,7 @@ Universidade Federal do Pará - UFPA<br><a class="author_email" href="mailto:#">
 <a href="https://github.com/DeivisonSouza" class="uri">https://github.com/DeivisonSouza</a></div></a>
 </address>
 <span class="author_bio mbm"><div class="line-block">1ª versão: 11/Abril/2022<br />
-(Atualizado em: 11/abril/2022)</div></span>
+(Atualizado em: 12/abril/2022)</div></span>
 </div>
 </div>
 </div>
@@ -385,14 +385,17 @@ Universidade Federal do Pará - UFPA<br><a class="author_email" href="mailto:#">
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Média de volume por hectare (População)</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">media_pop =</span> <span class="fu">mean</span>(v_Parc<span class="sc">$</span>Volume_Total), <span class="at">n =</span> <span class="fu">n</span>())</span></code></pre></div>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(),</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">media_pop =</span> <span class="fu">mean</span>(v_Parc<span class="sc">$</span>Volume_Total), </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">sd_pop =</span> <span class="fu">sd</span>(v_Parc<span class="sc">$</span>Volume_Total)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>            )</span></code></pre></div>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
-{"columns":[{"label":["media_pop"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["n"],"name":[2],"type":["int"],"align":["right"]}],"data":[{"1":"141.8906","2":"4000"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+{"columns":[{"label":["n"],"name":[1],"type":["int"],"align":["right"]},{"label":["media_pop"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["sd_pop"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"4000","2":"141.8906","3":"5.976314"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
 <ul>
-<li>A média populacional <span class="math inline">\((\mu)\)</span> para a variável volume é <span class="math inline">\(141,8906~(m^3.ha^{⁻1})\)</span>.</li>
+<li>A média populacional <span class="math inline">\((\mu)\)</span> para a variável volume é <span class="math inline">\(141,8906~(m^3.ha^{⁻1})\)</span> e o desvio da população <span class="math inline">\((\sigma)\)</span> é aproximadamente <span class="math inline">\(5,98~(m^3.ha^{⁻1})\)</span>.</li>
 <li>O volume por parcela (1ha) para todas as parcelas possíveis na população também é conhecido. <strong>Simplesmente por que foram simulados!</strong>😀</li>
 <li><strong>Por enquanto, guarde essas informações!</strong></li>
 </ul>
@@ -400,9 +403,9 @@ Universidade Federal do Pará - UFPA<br><a class="author_email" href="mailto:#">
 <div id="erro-padrão-da-média" class="section level1" number="2">
 <h1 number="2"><span class="header-section-number">2</span> Erro Padrão da Média</h1>
 <ul>
-<li>Na seção anterior foram carregados os dados populacionais simulados de um povoamento florestal de <em>Khaya Ivorensis</em> (10 hectares).</li>
-<li>Porém, lembre-se que dados populacionais raramente estarão disponíveis.</li>
-<li>Em <strong>inventários florestais</strong>, na prática, comumente os dados dendrométricos são medidos em <strong>parcelas amostrais sob algum processo de amostragem</strong> e, em seguida, a variável de interesse é extrapolada para a população (inferência).</li>
+<li>Para os dados simulado, a média populacional <span class="math inline">\((\mu)\)</span> para a variável volume é <span class="math inline">\(141,8906~(m^3.ha^{⁻1})\)</span> e o desvio da população é aproximadamente <span class="math inline">\(5,98~(m^3.ha^{⁻1})\)</span>. (<span style="color:blue">Porém, lembre-se que dados populacionais raramente estarão disponíveis!</span>)</li>
+<li>Portanto, em inventários florestais (IF), na prática, comumente os dados dendrométricos são medidos em <span style="color:blue">parcelas amostrais</span> sob algum processo de amostragem e, em seguida, a variável de interesse é extrapolada para a população (inferência).</li>
+<li>Agora, suponha a decisão de sortear uma amostra aleatória sem reposição de duas parcelas amostrais. Aplicando a fórmula da combinação simples (n = 10, k = 2) existem 45 possibilidades de combinação.</li>
 </ul>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Carrega os dados simulados</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
