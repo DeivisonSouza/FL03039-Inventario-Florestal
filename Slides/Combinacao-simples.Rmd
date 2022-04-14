@@ -51,8 +51,8 @@ library("distill")
 knitr::include_graphics('fig/class3/pop2.png')
 ```
 
-- **Perfeito!** Sabe-se que o número de parcelas possíveis na população florestal de *Khaya Ivorensis* é 10. Se a decisão for por usar amostragem, por exemplo, amostragem aleatória simples, poder-se-ia simplesmente fazer um sorteio sem reposição das parcelas que serão medidas. Porém, é necessário definir, a priori, quantas parcelas serão amostradas no IP.
-- Então, suponha a decisão de sortear 2 parcelas amostrais dentre as possíveis. A figura a seguir é apenas uma das possibilidades de combinação do sorteio sem reposição. Veja que foram sorteadas as **parcelas 4 e 7**.
+- **Perfeito!** Sabe-se que o número de parcelas possíveis de 1ha (100m x 100m) na população florestal de *Khaya Ivorensis* é 10. Se a decisão for por usar amostragem, por exemplo, amostragem aleatória simples, poder-se-ia simplesmente fazer um sorteio sem reposição das parcelas que serão medidas. Porém, é necessário definir, a priori, quantas parcelas serão amostradas no IP.
+- Então, suponha a decisão de sortear 2 parcelas amostrais dentre as 10 possíveis. A figura a seguir é apenas uma das possibilidades de combinação do sorteio sem reposição. Admita que foram sorteadas as **parcelas 4 e 7**, cujos volumes de madeira por parcela foi $145m^3$ e $143m^3$, respectivamente.
 
 ```{r, echo=FALSE, out.width='30%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class3/pop4.png')
