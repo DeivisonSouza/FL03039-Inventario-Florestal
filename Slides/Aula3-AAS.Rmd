@@ -1115,8 +1115,14 @@ C_{n,k} =\frac{n!}{k!(n-k)!}
 \end{equation*}
 ]
 
+--
+
+.pull-left-9[
 .font80[
-**Acesse o tutorial**: [Combinação Simples no R](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Combinacao-simples.html) para uma melhor intuição das combinações teóricas possíveis.
+`r anicon::faa("hand-point-right", animate="horizontal")` **Acesse o tutorial**: [Combinação Simples no R](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Combinacao-simples.html) para uma melhor intuição das combinações teóricas possíveis.
+
+`r anicon::faa("hand-point-right", animate="horizontal")` **Acesse o tutorial**: [Simulação de Dados Dendrométricos](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html) para acessar os dados simulados para as 10 parcelas.
+]
 ]
 
 ---
