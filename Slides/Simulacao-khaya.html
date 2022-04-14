@@ -175,10 +175,10 @@ Universidade Federal do Pará - UFPA<br><a class="author_email" href="mailto:#">
 <h2 number="1.2"><span class="header-section-number">1.2</span> Características admitidas para simulação</h2>
 <p>Com objetivo de simular dados condizentes aos encontrados na natureza será admitido que:</p>
 <ul>
-<li>A população florestal de <em>Khaya Ivorensis</em> possui 15 anos de idade, e foi implantada usando o espaçamento 5m x 5m e pleno sol. Sob este espaçamento são possíveis estabelecer até 400 árvores por hectare.</li>
+<li>A população florestal de 🌳<em>Khaya Ivorensis</em>🌳 possui 15 anos de idade, e foi implantada usando o espaçamento 5m x 5m e pleno sol. Sob este espaçamento são possíveis estabelecer até 400 árvores por hectare.</li>
 <li>A população florestal é um retângulo de 500m x 200m, ou seja, com área total de 10 hectares. (Obviamente, na natureza ter-se-á polígonos irregulares!)</li>
 <li>A população florestal será subdividida em áreas de 100m x 100m (1 hectare). Portanto, o número de parcelas possíveis na população será igual a 10 (N = 10). (<strong>Será útil na AAS!</strong>)</li>
-<li>Não ocorreu mortalidade no plantio até os 15 anos de idade (Um sonho!😀). Portanto, a população de <em>Khaya Ivorensis</em> será composta de 4000 árvores.</li>
+<li>Não ocorreu mortalidade no plantio até os 15 anos de idade (Um sonho!😀). Portanto, a população de 🌳<em>Khaya Ivorensis</em>🌳 será composta de 4000 árvores.</li>
 <li>O intervalo de variação dos diâmetros a 1,30m do solo na população é de 25cm (mínimo) a 27cm (máximo).</li>
 <li>O intervalo de variação das alturas comerciais na população é de 9m (mínimo) a 10m (máximo).</li>
 </ul>
@@ -188,10 +188,10 @@ Universidade Federal do Pará - UFPA<br><a class="author_email" href="mailto:#">
 <div id="simulação-de-dados-dendrométricos" class="section level1" number="2">
 <h1 number="2"><span class="header-section-number">2</span> Simulação de dados dendrométricos</h1>
 <ul>
-<li>Serão simulados dados de <span class="math inline">\(d\)</span> (em, cm) e <span class="math inline">\(h\)</span> (em, m) para as 10 parcelas possíveis de 1ha (400 árvores/parcela).</li>
+<li>Serão simulados dados de <span class="math inline">\(d\)</span> (cm) e <span class="math inline">\(h\)</span> (m) para as 10 parcelas possíveis de 1 hectare (400 árvores/parcela).</li>
 <li>Os dados serão simulados a partir da distribuição normal, variando a média e desvio padrão por parcela.</li>
-<li>A função <code>runif()</code> foi usada para gerar dados aleatórios da distribuição uniforme para os valores de média e desvio padrão usados na <code>rnorm()</code>. Por exemplo, para os diâmetros das árvores, em cada parcela, admitiu-se para a média um valor mínimo e máximo de 25cm e 27cm, respectivamente.</li>
-<li>A função <code>rnorm()</code> foi usada para gerar dados aleatórios com distribuição normal. Esta possui 3 parâmetros: <strong>n</strong> = número de observações; <strong>mean</strong> = vetor de médias; e <strong>sd</strong> = vetor de desvio padrão.</li>
+<li>A função <code>runif()</code> será usada para gerar dados aleatórios da distribuição uniforme para os valores de média e desvio padrão usados na <code>rnorm()</code>.</li>
+<li>A função <code>rnorm()</code> foi usada para gerar dados aleatórios da distribuição normal. Esta possui 3 parâmetros: <strong>n</strong> = número de observações; <strong>mean</strong> = vetor de médias; e <strong>sd</strong> = vetor de desvio padrão.</li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Carrega pacotes</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -541,7 +541,7 @@ Universidade Federal do Pará - UFPA<br><a class="author_email" href="mailto:#">
 </table>
 <p><strong>Consideração Final</strong></p>
 <ul>
-<li>Simulamos dados para uma população de <em>Khaya Ivorensis</em> (10 ha) com 4000 árvores e, admitindo que 10 parcelas de 1ha são possíveis de serem instaladas na população. <strong>Portanto, via simulação temos os dados populacionais!</strong>.</li>
+<li>Simulamos dados para uma população florestal de 🌳<em>Khaya Ivorensis</em>🌳 (10 hectares) com 4000 árvores, admitindo que 10 parcelas de 1ha são possíveis de serem instaladas na população. <strong>Portanto, via simulação temos os dados populacionais!</strong>.</li>
 <li>Porém, na prática, em <strong>inventários florestais</strong>, comumente os dados dendrométricos são medidos em <strong>parcelas amostrais sob algum processo de amostragem</strong> e, em seguida, a variável de interesse é extrapolada para a população (inferência).</li>
 <li>Portanto, na sequência, vamos admitir esses dados para simular o uso da amostragem aleatória simples. Ou seja, vamos admitir que apenas <strong>dados de algumas parcelas amostrais estarão disponíveis!</strong></li>
 </ul>
