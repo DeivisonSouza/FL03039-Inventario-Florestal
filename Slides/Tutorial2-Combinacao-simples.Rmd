@@ -23,12 +23,11 @@ output:
     number_sections: yes
 ---
 
-```{r setup, include = T, echo = F}
+```{r setup, include=T, echo=F}
 library(rmarkdown)
-knitr::opts_chunk$set(fig.align="center", 
-                      cache=TRUE, 
-                      prompt=FALSE,
-                      dpi = 600,
+knitr::opts_chunk$set(fig.align = "center", 
+                      cache = FALSE, 
+                      prompt = FALSE, 
                       comment = NA, 
                       eval = TRUE)
 ```

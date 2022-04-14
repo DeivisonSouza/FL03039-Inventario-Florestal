@@ -25,7 +25,11 @@ output:
 
 ```{r setup, include=T, echo=F}
 library(rmarkdown)
-knitr::opts_chunk$set(fig.align="center", cache=TRUE, prompt=FALSE, comment = NA, eval = TRUE)
+knitr::opts_chunk$set(fig.align = "center", 
+                      cache = FALSE, 
+                      prompt = FALSE, 
+                      comment = NA, 
+                      eval = TRUE)
 ```
 
 # Contextualização
