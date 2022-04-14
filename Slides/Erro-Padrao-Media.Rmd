@@ -1,9 +1,10 @@
 ---
-title: "Erro Padrão da Média Amostral"
+title: "Desvio Padrão e Erro Padrão da Média Amostral"
 subtitle: "(Dados simulados para uma população de Khaya Ivorensis)"
 author:
 - name: Deivison Venicio Souza
   email: |
+   | 🌳🌳🌳🌳🌳🌳
    | deivisonvs@ufpa.br
    | https://github.com/DeivisonSouza
   affiliation: Universidade Federal do Pará - UFPA
@@ -29,20 +30,28 @@ knitr::opts_chunk$set(fig.align="center", cache=TRUE, prompt=FALSE, comment = NA
 
 # Contextualização
 
-- No tutorial [Simulação de Dados Dendrométricos](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html) foram simulados dados para as variáveis diâmetro a 1,30m do solo ($d$) e altura ($h$) para uma população florestal de *Khaya Ivorensis* (10 hectares) e, em seguida, o volume individual das árvores foi calculado usando a fórmula $v_i = \dfrac{(\pi d^2)}{40000}(h)(0,7)$.
+- No tutorial [Simulação de Dados Dendrométricos](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html) foram simulados dados para as variáveis diâmetro a 1,30m do solo ($d$) e altura ($h$) para uma população florestal de 🌳*Khaya Ivorensis*🌳 (10 hectares) e, em seguida, o volume individual das árvores foi calculado usando a fórmula $v_i = \dfrac{(\pi d^2)}{40000}(h)(0,7)$.
 - O dados obtidos por simulação estão disponíveis no arquivo [khaya-simulado.xlsx](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/khaya-simulado.xlsx).
+
+**Na simulação, as seguintes características foram admitidas para a população florestal:**
+
+- A população florestal de 🌳*Khaya Ivorensis*🌳 possui 15 anos de idade, e foi implantada usando o espaçamento 5m x 5m e pleno sol. Sob este espaçamento são possíveis estabelecer até 400 árvores por hectare.
+- A população florestal é um retângulo de 500m x 200m, ou seja, com área total de 10 hectares.
+- A população florestal será subdividida em áreas de 100m x 100m (1 hectare). Portanto, o número de parcelas possíveis na população será igual a 10 (N = 10).
+- Não ocorreu mortalidade no plantio até os 15 anos de idade (Um sonho!😀). Portanto, a população de 🌳*Khaya Ivorensis*🌳 será composta de 4000 árvores.
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class3/pop2.png')
 ```
 
-```{r library, eval=TRUE,message = FALSE}
-## Carrega pacotes
+# Objetivos
 
-library(purrr)
-library(tidyr)
-library(dplyr)
-```
+- Usar os dados simulados para a população florestal de 🌳*Khaya Ivorensis*🌳 ([Simulação de Dados Dendrométricos](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html)) para entender a diferença entre o <span style="color:blue">desvio padrão</span> e a <span style="color:blue">erro padrão da média</span>.
+- Demonstrar alguns pacotes e funções disponíveis na linguagem R.
+
+[Teste](https://deivisonsouza.github.io/SCIFLOR-2021/Slides/data/data.csv)
+
+# Carrega os dados simulados
 
 ```{r}
 ## Carrega os dados simulados
@@ -52,6 +61,8 @@ data <- readxl::read_excel('data/Khaya-simulado.xlsx')
 
 ```{r, message=FALSE}
 ## Visualiza as 2 primeiras linhas de cada parcela
+
+library(dplyr)
 
 data %>%
   group_by(Parc) %>%
@@ -96,10 +107,7 @@ data %>%
 
 - Para os dados simulado, a média populacional $(\mu)$ para a variável volume é $141,8906~(m^3.ha^{⁻1})$ e o desvio da população é aproximadamente $5,98~(m^3.ha^{⁻1})$. (<span style="color:blue">Porém, lembre-se que dados populacionais raramente estarão disponíveis!</span>)
 - Portanto, em inventários florestais (IF), na prática, comumente os dados dendrométricos são medidos em <span style="color:blue">parcelas amostrais</span> sob algum processo de amostragem e, em seguida, a variável de interesse é extrapolada para a população (inferência).
-- Agora, suponha a decisão de sortear uma amostra aleatória sem reposição de duas parcelas amostrais. Aplicando a fórmula da combinação simples (n = 10, k = 2) existem 45 possibilidades de combinação.
-
-
-
+- Agora, suponha a decisão de sortear uma amostra aleatória sem reposição de duas parcelas amostrais. Aplicando a fórmula da combinação simples (n = 10, k = 2) existem 45 possibilidades de combinação. (Ver tutorial [Combinação Simples no R](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Combinacao-simples.html))
 
 
 ```{r}
