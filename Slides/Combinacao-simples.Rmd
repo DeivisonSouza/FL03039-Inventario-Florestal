@@ -4,6 +4,7 @@ subtitle: "Noção para inventário florestal amostral"
 author:
 - name: Deivison Venicio Souza
   email: |
+   | 🌳🌳🌳🌳🌳🌳
    | deivisonvs@ufpa.br
    | https://github.com/DeivisonSouza
   affiliation: Universidade Federal do Pará - UFPA
@@ -32,7 +33,7 @@ library("distill")
 
 ## Objetivos
 
-- Usar uma população florestal de *Khaya Ivorensis* hipotética ([Aula3-AAS.Rmd](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula3-AAS.html)) como base para demostrar o uso da combinação simples no contexto do inventário florestal por amostragem.
+- Usar uma população florestal de 🌳*Khaya Ivorensis*🌳 hipotética ([Aula3-AAS.Rmd](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula3-AAS.html)) como base para demostrar o uso da combinação simples no contexto do inventário florestal por amostragem.
 - Demonstrar funções existentes na linguagem R para obter os resultados (quantas e quais combinações possíveis?) de uma análise de combinação simples.
 
 ## Características da população hipotética
