@@ -38,21 +38,24 @@ library("distill")
 
 ## Características da população hipotética
 
-- Admitir-se-á uma população florestal de *Khaya Ivorensis* com área total de 10 hectares e com 15 anos de idade, implantada a pleno sol e sob o espaçamento 5m x 5m.
-- Admitindo-se um espaçamento de 5m x 5m, em 1ha são possíveis 400 árvores. Portanto, pode-se admitir que a população de *Khaya Ivorensis* será composta de 4000 árvores (**sem mortalidade!**).
+Em relação à população florestal hipotética será admitido que:
+
+- A população florestal de 🌳*Khaya Ivorensis*🌳 possui 15 anos de idade, e foi implantada usando o espaçamento 5m x 5m e pleno sol. Sob este espaçamento são possíveis estabelecer até 400 árvores por hectare.
+- A população florestal é um retângulo de 500m x 200m, ou seja, com área total de 10 hectares. (Obviamente, na natureza ter-se-á polígonos irregulares!)
+- A população florestal será subdividida em áreas de 100m x 100m (1 hectare). Portanto, o número de parcelas possíveis na população será igual a 10 (N = 10). (**Será útil na AAS!**)
 
 ## Amostragem Aleatória Simples - AAS
 
-- Suponha que você (Engenheiro Florestal) foi consultado para realizar um inventário florestal no povoamento de *Khaya Ivorensis* com o objetivo de quantificar o volume de madeira nos 10 hectares.
+- Suponha que você (Engenheiro Florestal) foi consultado para realizar um inventário florestal no povoamento de 🌳*Khaya Ivorensis*🌳 com o objetivo de quantificar o volume de madeira nos 10 hectares.
 - **Existe duas opções**: Censo ou Amostragem? Qual você escolheria e porque?
 - **Inventário Piloto**: Em inventários florestais por amostragem é comum a realização de Inventários Pilotos (IP), com um número reduzido de unidades de amostras, com fins de capturar a variabilidade da variável de interesse. Esse IP pode (ou não) ser considerado inventário definitivo (ID) a depender da precisão requerida, e entre outros fatores.
-- Na população florestal de *Khaya Ivorensis* hipotética, se admitido o uso de parcelas amostrais de 100m x 100m (1ha), seria possível estabelecer 10 parcelas no povoamento. (Ver aula [Aula3-AAS.Rmd](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula3-AAS.html)) (**Ver Figura**)
+- Na população florestal de 🌳*Khaya Ivorensis*🌳 hipotética, se admitido o uso de parcelas amostrais de 100m x 100m (1ha), seria possível estabelecer 10 parcelas no povoamento. (Ver aula [Aula3-AAS.Rmd](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula3-AAS.html)) (**Ver Figura**)
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class3/pop2.png')
 ```
 
-- **Perfeito!** Sabe-se que o número de parcelas possíveis de 1ha (100m x 100m) na população florestal de *Khaya Ivorensis* é 10. Se a decisão for por usar amostragem, por exemplo, amostragem aleatória simples, poder-se-ia simplesmente fazer um sorteio sem reposição das parcelas que serão medidas. Porém, é necessário definir, a priori, quantas parcelas serão amostradas no IP.
+- **Perfeito!** Sabe-se que o número de parcelas possíveis de 1ha (100m x 100m) na população florestal de 🌳*Khaya Ivorensis*🌳 é 10. Se a decisão for por usar amostragem, por exemplo, amostragem aleatória simples, poder-se-ia simplesmente fazer um sorteio sem reposição das parcelas que serão medidas. Porém, é necessário definir, a priori, quantas parcelas serão amostradas no IP.
 - Então, suponha a decisão de sortear 2 parcelas amostrais dentre as 10 possíveis. A figura a seguir é apenas uma das possibilidades de combinação do sorteio sem reposição. Admita que foram sorteadas as **parcelas 4 e 7**, cujos volumes de madeira por parcela foi $145m^3$ e $143m^3$, respectivamente.
 
 ```{r, echo=FALSE, out.width='30%', fig.align='center', fig.cap='', dpi=600}
