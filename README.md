@@ -58,6 +58,20 @@ Florestal** (IF-FL03039) estão detalhados a seguir.
 | Slides/Erro-Padrao-Media.html        | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Erro-Padrao-Media.html>        |
 | Slides/Simulacao-khaya.html          | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html>          |
 
+# Conjunto de dados
+
+Conjunto de dados usados na disciplina:
+
+1 - **Khaya-simulado.xlsx**
+![\\rightarrow](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5Crightarrow "\rightarrow")
+São dados simulados de uma população florestal de 🌳*Khaya Ivorensis*🌳
+com 15 anos de idade, implantada a pleno sol sob o espaçamento 5m x 5m,
+com dimensões de 500m x 200m (10 hectares).
+
+| Slide                           | Link                                                                                           |
+|:--------------------------------|:-----------------------------------------------------------------------------------------------|
+| Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
+
 # Facilitador :deciduous\_tree:
 
 **Deivison Venicio Souza** possui graduação em :deciduous\_tree:

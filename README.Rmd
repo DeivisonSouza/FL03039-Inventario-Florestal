@@ -88,6 +88,23 @@ knitr::kable(
 )
 ```
 
+# Conjunto de dados
+
+Conjunto de dados usados na disciplina:
+
+1 - **Khaya-simulado.xlsx** $\rightarrow$ São dados simulados de uma população florestal de 🌳*Khaya Ivorensis*🌳 com 15 anos de idade, implantada a pleno sol sob o espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
+
+```{r, echo = FALSE}
+knitr::kable(
+  tibble::tibble(
+    Slide = list_github_files(repo=repo, "Slides/data", "xlsx"),
+    Link = paste0("https://deivisonsouza.github.io/", repo, "/", Slide)
+  ) %>% 
+    dplyr::filter(!stringr::str_detect(Slide,
+                                       "file"))
+)
+```
+
 # Facilitador :deciduous_tree:
 
 **Deivison Venicio Souza** possui graduação em :deciduous_tree: **Engenharia Florestal** :deciduous_tree: pela Universidade Federal Rural da Amazônia (2008), Mestrado em Ciências Florestais pela Universidade Federal Rural da Amazônia (2011) e Doutorado em Engenharia Florestal pela Universidade Federal do Paraná (2020). No período de 2009 a 2011 exerceu o cargo de Analista Ambiental da Secretaria Estadual de Meio Ambiente do Pará, na Gerência de Projetos Agrossilvipastoris (GEPAF), com atuação direta na etapa de análise técnica, para fins de licenciamento ambiental, de Planos de Manejo Florestal Sustentável (PMFS), Projetos de Desbastes e Reflorestamento e Supressão Florestal. Desde 2011 é professor da Faculdade de Engenharia Florestal da Universidade Federal do Pará, Campus Universitário de Altamira, Pará. É responsável por ministrar as disciplinas Estatística Básica, Dendrometria, Experimentação Florestal e Inventário Florestal, integrantes do desenho curricular do Curso de Graduação em Engenharia Florestal. Tem experiência na área de Gestão e Manejo dos Recursos Florestais, com ênfase em Silvicultura de Florestas Naturais, Inventário Florestal e Mensuração Florestal. Atualmente, seus interesses científicos incluem o uso da inteligência artificial na conservação da biodiversidade (com ênfase no uso de visão computacional) e emprego de técnicas de aprendizado de máquina na modelagem preditiva de variáveis biométricas, com uso das Linguagens R e Python.
