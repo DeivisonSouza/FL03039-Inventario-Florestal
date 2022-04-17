@@ -43,10 +43,10 @@ n. 5.332, de 22 de dezembro de
 que aprovou o Calendário Acadêmico da Universidade Federal do Pará para
 o ano de 2021.
 
-# Programação da disciplina
+# Slides da disciplina
 
-A programação, o conteúdo e os slides da disciplina **Inventário
-Florestal** (IF-FL03039) estão detalhados a seguir.
+A programação e os slides da disciplina **Inventário Florestal**
+(IF-FL03039) estão detalhados a seguir.
 
 | Slide                                | Link                                                                                                |
 |:-------------------------------------|:----------------------------------------------------------------------------------------------------|
@@ -54,9 +54,17 @@ Florestal** (IF-FL03039) estão detalhados a seguir.
 | Slides/Aula1-IF-Conceitos-Tipos.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula1-IF-Conceitos-Tipos.html> |
 | Slides/Aula2-Amostragem-IF.html      | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula2-Amostragem-IF.html>      |
 | Slides/Aula3-AAS.html                | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula3-AAS.html>                |
-| Slides/Combinacao-simples.html       | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Combinacao-simples.html>       |
-| Slides/DP-vs-EPM.html                | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/DP-vs-EPM.html>                |
-| Slides/Simulacao-khaya.html          | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html>          |
+
+# Tutoriais da disciplina
+
+Alguns tutoriais estão disponíveis para melhor compreensão/intuição de
+alguns conteúdos da disciplina.
+
+| Slide                                    | Link                                                                                                    |
+|:-----------------------------------------|:--------------------------------------------------------------------------------------------------------|
+| Slides/Tutorial1-Simulacao-khaya.html    | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html>    |
+| Slides/Tutorial2-Combinacao-simples.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial2-Combinacao-simples.html> |
+| Slides/Tutorial3-DP-vs-EPM.html          | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial3-DP-vs-EPM.html>          |
 
 # Conjunto de dados
 
@@ -64,9 +72,10 @@ Conjunto de dados usados na disciplina:
 
 1 - **Khaya-simulado.xlsx**
 ![\\rightarrow](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5Crightarrow "\rightarrow")
-São dados simulados de uma população florestal de 🌳*Khaya Ivorensis*🌳
-com 15 anos de idade, implantada a pleno sol sob o espaçamento 5m x 5m,
-com dimensões de 500m x 200m (10 hectares).
+São dados simulados (assumindo a distribuição normal) para uma população
+florestal de 🌳*Khaya Ivorensis*🌳 com 15 anos de idade, implantada a
+pleno sol sob o espaçamento 5m x 5m, com dimensões de 500m x 200m (10
+hectares).
 
 | Slide                           | Link                                                                                           |
 |:--------------------------------|:-----------------------------------------------------------------------------------------------|

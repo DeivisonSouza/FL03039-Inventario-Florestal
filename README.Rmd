@@ -73,9 +73,9 @@ list_github_files <- function(repo, dir = NULL, ext = NULL) {
 
 Este repositório guarda os slides em .html, códigos R, arquivos .Rmd, figuras, conjunto de dados (e outros) utilizados na disciplina de **Inventário Florestal** (FL03039-IF) ministrada pelo **Prof. Deivison Venicio Souza** no curso de graduação em **Engenharia Florestal** da **Universidade Federal do Pará** (UFPA). O curso será ofertado na modalidade Presencial na [Universidade Federal do Pará (UFPA)](https://portal.ufpa.br/index.php),em consonância à [Resolução n. 5.332, de 22 de dezembro de 2020](http://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2020/5332%20Aprova%20o%20calendario%20academico%20para%20o%20ano%20letivo%20de%202021.pdf), que aprovou o Calendário Acadêmico da Universidade Federal do Pará para o ano de 2021.
 
-# Programação da disciplina
+# Slides da disciplina
 
-A programação, o conteúdo e os slides da disciplina **Inventário Florestal** (IF-FL03039) estão detalhados a seguir.
+A programação e os slides da disciplina **Inventário Florestal** (IF-FL03039) estão detalhados a seguir.
 
 ```{r, echo = FALSE}
 knitr::kable(
@@ -84,7 +84,22 @@ knitr::kable(
     Link = paste0("https://deivisonsouza.github.io/", repo, "/", Slide)
   ) %>% 
     dplyr::filter(!stringr::str_detect(Slide,
-                                       "_files/|_cache/|assets"))
+                                       "_files/|_cache/|assets|Tutorial"))
+)
+```
+
+# Tutoriais da disciplina
+
+Alguns tutoriais estão disponíveis para melhor compreensão/intuição de alguns conteúdos da disciplina.
+
+```{r, echo = FALSE}
+knitr::kable(
+  tibble::tibble(
+    Slide = list_github_files(repo=repo, "Slides/", "html"),
+    Link = paste0("https://deivisonsouza.github.io/", repo, "/", Slide)
+  ) %>% 
+    dplyr::filter(!stringr::str_detect(Slide,
+                                       "_files/|_cache/|assets|Aula"))
 )
 ```
 
@@ -92,7 +107,7 @@ knitr::kable(
 
 Conjunto de dados usados na disciplina:
 
-1 - **Khaya-simulado.xlsx** $\rightarrow$ São dados simulados de uma população florestal de 🌳*Khaya Ivorensis*🌳 com 15 anos de idade, implantada a pleno sol sob o espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
+1 - **Khaya-simulado.xlsx** $\rightarrow$ São dados simulados (assumindo a distribuição normal) para uma população florestal de 🌳*Khaya Ivorensis*🌳 com 15 anos de idade, implantada a pleno sol sob o espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 
 ```{r, echo = FALSE}
 knitr::kable(
