@@ -81,6 +81,13 @@ hectares).
 |:--------------------------------|:-----------------------------------------------------------------------------------------------|
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
 
+# Materias de apoio
+
+-   **Livros**
+
+Silva, P. L. N.; Bianchini, Z. M; Dias, A. J. R. [Amostragem: Teoria e
+Prática Usando R](https://amostragemcomr.github.io/livro/index.html).
+
 # Facilitador :deciduous\_tree:
 
 **Deivison Venicio Souza** possui graduação em :deciduous\_tree:
