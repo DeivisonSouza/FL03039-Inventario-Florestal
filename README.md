@@ -88,6 +88,9 @@ hectares).
 Silva, P. L. N.; Bianchini, Z. M; Dias, A. J. R. [Amostragem: Teoria e
 Prática Usando R](https://amostragemcomr.github.io/livro/index.html).
 
+Filipe J. Zabala. [Estatística
+Básica](http://www.filipezabala.com/enrs/amostragem-1.html#exm:urna-aass)
+
 # Facilitador :deciduous\_tree:
 
 **Deivison Venicio Souza** possui graduação em :deciduous\_tree:
