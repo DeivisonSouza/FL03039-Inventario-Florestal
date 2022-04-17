@@ -42,7 +42,7 @@ knitr::opts_chunk$set(fig.align = "center",
 
 ## Características admitidas para simulação
 
-Com objetivo de simular dados condizentes aos encontrados na natureza será admitido que:
+As seguintes características serão admitidas para a população florestal:
 
 - A população florestal de 🌳*Khaya Ivorensis*🌳 possui 15 anos de idade, e foi implantada usando o espaçamento 5m x 5m e pleno sol. Sob este espaçamento são possíveis estabelecer até 400 árvores por hectare.
 - A população florestal é um retângulo de 500m x 200m, ou seja, com área total de 10 hectares. (Obviamente, na natureza ter-se-á polígonos irregulares!)
@@ -51,17 +51,21 @@ Com objetivo de simular dados condizentes aos encontrados na natureza será admi
 - O intervalo de variação dos diâmetros a 1,30m do solo na população é de 25cm (mínimo) a 27cm (máximo).
 - O intervalo de variação das alturas comerciais na população é de 9m (mínimo) a 10m (máximo).
 
-```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='População Hipotética de *Khaya Ivorensis*.', dpi=600}
 knitr::include_graphics('fig/class3/pop2.png')
 ```
 
 # Simulação de dados dendrométricos
 
-- Serão simulados dados de $d$ (cm) e $h$ (m) para as 10 parcelas possíveis de 1 hectare (400 árvores/parcela).
-- Os dados serão simulados a partir da distribuição normal, variando a média e desvio padrão por parcela. 
-- A função `runif()` será usada para gerar dados aleatórios da distribuição uniforme para os valores de média e desvio padrão usados na `rnorm()`.
-- A função `rnorm()` foi  usada para gerar dados aleatórios da distribuição normal. Esta possui 3 parâmetros: **n** = número de observações; **mean** = vetor de médias; e **sd** = vetor de desvio padrão.
+Na simulação admitiu-se que:
 
+- Os dados das variáveis ($d$ e $h$) seguem a distribuição Gaussiana (Normal). 
+- A média aritmética e desvio padrão das variáveis variam por parcela.
+
+**Foram usadas as seguintes funções para obter dados aleatórios:**
+
+- **A função** `runif()`: usada para gerar dados aleatórios da distribuição uniforme para os valores de média e desvio padrão para cada variável ($d$ e $h$). Esta possui 3 parâmetros: **n** = número de observações; **min** = limite inferior da distribuição; e **max** = limite superior da distribuição. Esses valores serão usados na função `rnorm()`.
+- **A função** `rnorm()`: usada para gerar dados aleatórios da distribuição normal para as variáveis $d$ e $h$. Esta possui 3 parâmetros: **n** = número de observações; **mean** = vetor de médias; e **sd** = vetor de desvio padrão.
 
 ```{r library, eval=TRUE,message = FALSE}
 ## Carrega pacotes
@@ -73,7 +77,7 @@ library(dplyr)
 
 
 ```{r}
-## Gera valores aleatórios de médias e desvio padrão para uso na rnorm()
+## Gera dados aleatórios da distribuição uniforme
 ## Para cada parcela será usada uma média e um desvio padrão diferente
 
 set.seed(10)
@@ -90,7 +94,7 @@ df <- data.frame(
 
 
 ```{r}
-## Simula dados normais para diâmetro p/ cada parcela
+## Simula dados com distribuição normal para a variável diâmetro (para cada parcela)
 
 arv_parc <- 1:400  # número de observações/parcela (árvores/parcela)
 n <- 10            # número de parcelas
@@ -106,7 +110,7 @@ simul_d <- map_dfr(arv_parc, ~ setNames(rnorm(n, mean = df$mean_d, sd = df$sd_d)
 
 
 ```{r}
-## Simula dados normais para altura p/ cada parcela
+## Simula dados com distribuição normal para a variável altura (para cada parcela)
 
 set.seed(100)
 simul_h <- map_dfr(arv_parc, ~ setNames(rnorm(n, mean = df$mean_h, sd = df$sd_h),
@@ -119,7 +123,7 @@ simul_h <- map_dfr(arv_parc, ~ setNames(rnorm(n, mean = df$mean_h, sd = df$sd_h)
 
 
 ```{r, message=F}
-## Combina data.frames e calcula volume
+## Combina dados simulados e calcula volume de madeira individual
 
 data <- bind_cols(simul_d, simul_h[c("h")]) %>%
   mutate(v = ((pi*(d^2))/40000)*h*0.7) %>% 
@@ -156,7 +160,8 @@ data %>%
 
 **Consideração Final**
 
-- Simulamos dados para uma população florestal de 🌳*Khaya Ivorensis*🌳 (10 hectares) com 4000 árvores, admitindo que 10 parcelas de 1ha são possíveis de serem instaladas na população. **Portanto, via simulação temos os dados populacionais!**.
-- Porém, na prática, em **inventários florestais**, comumente os dados dendrométricos são medidos em **parcelas amostrais sob algum processo de amostragem** e, em seguida, a variável de interesse é extrapolada para a população (inferência).
-- Portanto, na sequência, vamos admitir esses dados para simular o uso da amostragem aleatória simples. Ou seja, vamos admitir que apenas **dados de algumas parcelas amostrais estarão disponíveis!**
+- Foram simulados dados aleatórios (com distribuição normal) para uma população florestal de 🌳*Khaya Ivorensis*🌳 (10 hectares) com 4000 árvores (sem mortalidade!). **Portanto, via simulação temos os dados populacionais!**.
+- Supondo a realização de IF amostral, admitiu-se o uso de parcelas de 100m x 100m (1ha). Portanto, seria possível instalar 10 parcelas de 1ha na população florestal.
+- Na prática, porém, em inventários florestais, comumente os dados dendrométricos são medidos em **parcelas amostrais sob algum processo de amostragem**. Em seguida, a variável de interesse é extrapolada para a população (inferência).
+- Portanto, na sequência, vamos admitir esses dados para simular o uso da Amostragem Aleatória Simples - AAS em inventários florestais. Ou seja, admitir-se-á que apenas **dados de algumas parcelas amostrais estarão disponíveis!**
 
