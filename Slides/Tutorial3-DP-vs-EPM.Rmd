@@ -32,17 +32,19 @@ knitr::opts_chunk$set(fig.align = "center",
                       eval = TRUE)
 ```
 
-# Contextualização
+# Contextualização (<span style="color:blue">Ainda em construção!</span>)
 
-- No tutorial [Simulação de Dados Dendrométricos](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html) foram simulados dados para as variáveis diâmetro a 1,30m do solo ($d$) e altura ($h$) para uma população florestal de 🌳*Khaya Ivorensis*🌳 (10 hectares) e, em seguida, o volume individual das árvores foi calculado usando a fórmula $v_i = \dfrac{(\pi d^2)}{40000}(h)(0,7)$.
+- No tutorial [Simulação de Dados Dendrométricos](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html) foram simulados dados (assumindo distribuição normal) para as variáveis diâmetro a 1,30m do solo ($d$) e altura ($h$) para uma população florestal hipotética de 🌳*Khaya Ivorensis*🌳 (10 hectares). Em seguida, o volume individual das árvores foi calculado usando a fórmula $v_i = \dfrac{(\pi d^2)}{40000}(h)(0,7)$.
 - O dados obtidos por simulação estão disponíveis no arquivo [Khaya-simulado.xlsx](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx).
 
 **Na simulação, as seguintes características foram admitidas para a população florestal:**
 
 - A população florestal de 🌳*Khaya Ivorensis*🌳 possui 15 anos de idade, e foi implantada usando o espaçamento 5m x 5m e pleno sol. Sob este espaçamento são possíveis estabelecer até 400 árvores por hectare.
-- A população florestal é um retângulo de 500m x 200m, ou seja, com área total de 10 hectares.
+- A população florestal é um retângulo de 500m x 200m, ou seja, com área total de 10 hectares. (Obviamente, na natureza ter-se-á polígonos irregulares!)
 - A população florestal será subdividida em áreas de 100m x 100m (1 hectare). Portanto, o número de parcelas possíveis na população será igual a 10 (N = 10).
 - Não ocorreu mortalidade no plantio até os 15 anos de idade (Um sonho!😀). Portanto, a população de 🌳*Khaya Ivorensis*🌳 será composta de 4000 árvores.
+- O intervalo de variação dos diâmetros a 1,30m do solo na população é de 25cm (mínimo) a 27cm (máximo).
+- O intervalo de variação das alturas comerciais na população é de 9m (mínimo) a 10m (máximo).
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class3/pop2.png')
@@ -73,6 +75,12 @@ data %>%
 ```
 
 
+# Desvio Padrão (Amostral vs Populacional)
+
+
+
+
+
 ```{r, message=F}
 ## Calcula total do volume por Parcela
 
@@ -89,10 +97,10 @@ v_Parc <- data %>%
   knitr::kable(v_Parc)
 ```
 
-- A média de volume por hectare $(\mu)$ para a população é:
+- Uma vez que os dados da população florestal estão disponíveis, os parâmetros $\mu$ e $\sigma$ são conhecidos:
 
 ```{r}
-## Média de volume por hectare (População)
+## Média e desvio padrão populacional da variável "volume por hectare"
 
 data %>%
   summarise(n = n(),
@@ -104,6 +112,7 @@ data %>%
 - A média populacional $(\mu)$ para a variável volume é $141,8906~(m^3.ha^{⁻1})$ e o desvio da população $(\sigma)$ é aproximadamente $5,98~(m^3.ha^{⁻1})$.
 - O volume por parcela (1ha) para todas as parcelas possíveis na população também é conhecido. **Simplesmente por que foram simulados!**😀
 - **Por enquanto, guarde essas informações!**
+
 
 # Erro Padrão da Média
 
