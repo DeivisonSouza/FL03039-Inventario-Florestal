@@ -86,7 +86,7 @@ top:.8em;right:1em;
 ##### Faculdade de Engenharia Florestal
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 14/abril/2022) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 17/abril/2022) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -1111,13 +1111,42 @@ C_{n,k} =\frac{n!}{k!(n-k)!}
 ]
 
 ---
+name: ea
+## Estimadores da Amostragem Aleatória Simples
+
+.shadow1a[
+## .font90[Erro de Amostragem]
+
+.font90[
+👉 Estimar o erro devido ao uso da amostragem. Pode ser expresso em valores absolutos - na unidade de medida da variável de interesse - e relativo (em, %).
+
+
+`\begin{equation}
+\large{
+E_{a} = \pm tS_{\bar{X}} \\~\\
+E_{r} = \pm \left(\dfrac{tS_{\bar{X}}}{\bar{X}}\right).100
+}
+\end{equation}`
+
+- `\(S\)` = estimativa do desvio padrão populacional `\(\sigma\)`.
+- `\(n\)` = número de observações (Em IF, comumente é quantidade de parcelas!).
+- `\(f\)` = fração de amostragem.
+- `\(1-f\)` = **Fator de Correção (FC)**. Deve ser usado apenas quando a **População for Finita**. Portanto, no caso de **Populações Infinitas** a fração `\(\sqrt{1-f}\)` deve ser removida do estimador.
+]
+]
+
+
+---
 
 ## Estimadores da Amostragem Aleatória Simples
 
 ### Unidades de Medidas das Estimativas
+&lt;br&gt;
 
 .pull-left-12[
-- A unidade de medida das estimativas dependerá da variável de interesse. Veja o exemplo quando a variável de interesse é o volume de madeira por hectare..
+.font90[
+- A unidade de medida das estimativas dependerá da variável de interesse. Veja o exemplo quando a variável de interesse é o volume de madeira por hectare...
+]
 ]
 
 
