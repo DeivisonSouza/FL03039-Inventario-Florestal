@@ -1,0 +1,130 @@
+---
+title: "Distribuição t-Student"
+subtitle: "(Construindo a tabela usando R)"
+author:
+- name: Deivison Venicio Souza
+  email: |
+   | 🌳🌳🌳🌳🌳🌳
+   | deivisonvs@ufpa.br
+   | https://github.com/DeivisonSouza
+  affiliation: Universidade Federal do Pará - UFPA
+fontsize: 14pt
+lang: pt-BR
+date: |
+  | 1ª versão: 18/Abril/2022
+  | (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`)
+
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+    toc: yes
+    df_print: paged
+    number_sections: yes
+---
+
+```{r setup, include=T, echo=F}
+library(rmarkdown)
+knitr::opts_chunk$set(fig.align = "center", 
+                      cache = FALSE, 
+                      prompt = FALSE, 
+                      comment = NA, 
+                      eval = TRUE)
+```
+
+
+# Objetivos
+
+- Construir a tabela de distribuição t de Student usando a linguagem R.
+- Aprender a encontrar o valor t crítico, com base nos graus de liberdade ($n-1$) e no nível de confiança ($\alpha$) estabelecido.
+- O valor t é exigido nos estimadores de erro de amostragem e intervalo de confiança para a estimativa da média populacional da variável de interesse.
+
+
+# Construindo a tabela (Bicaudal)
+
+- A função `qt()` pode ser usada para obter os valores críticos da Distribuição t-Student. Os principais argumentos da função são: **p** = vetor de probabilidades; e **df** = degrees of freedom (graus de liberdade).
+
+```{r, message=F}
+## Função para gerar os valores da distribuição t de Student (Bicaudal)
+
+library(dplyr)
+
+table_t <- function(cl, df){
+  mat <- matrix(data = NA, 
+                nrow = length(df), 
+                ncol = length(cl),
+                dimnames = list(df, cl)
+                )
+  
+  for(i in seq_along(df)) {
+    for(j in seq_along(cl)) {
+      mat[i,j] = abs(qt(p = cl[j]/2, df = df[i], lower.tail = F))
+    }
+  }
+  return(mat)
+}
+```
+
+
+```{r}
+## Cria vetores com valores para nível de confiança e graus de liberdade
+
+cl <- c(0.1, 0.05, 0.025, 0.01, 0.005, 0.001, 0.0005)
+df <- c(1:30, seq(from = 40, to = 120, by = 10))
+```
+
+```{r}
+## Imprime a tabela da distribuição t-Student
+
+table_t(cl=cl, df=df)
+```
+
+**Produzindo uma tabela mais elegante...**
+
+```{r}
+library(DT)
+
+# Custom container
+sketch <- htmltools::withTags(table(
+  class = 'display',
+  thead(
+    tr(
+      th(rowspan = 2, 'gl'),
+      th(class = 'dt-center', colspan = 7, 'α')
+    ),
+    tr(
+      lapply(cl, th)
+    )
+  )
+))
+
+
+datatable(table_t(cl=cl, df=df) %>% 
+            as_tibble(rownames = NA) %>% 
+            tibble::rownames_to_column("gl"),
+          container = sketch,
+          rownames = F,
+          style = "default",
+          class = "display",
+          extensions=c("Buttons",'ColReorder'),
+          options = list(
+            colReorder = TRUE,
+            pageLength = 39,
+            dom = 'Bfrtip',
+            buttons = c('copy', 'csv', 'excel', 'pdf', 'print', I('colvis')),
+            scroller = TRUE,
+            lengthChange = FALSE,
+            searchHighlight = TRUE,
+            initComplete = JS(
+              "function(settings, json) {",
+              "$(this.api().table().header()).css({'background-color': '#517fb9', 'color': '#fff'});","}"
+              )
+            ),
+          caption = htmltools::tags$caption(
+            style = 'caption-side: bottom; text-align: center;',
+            'Table: ', htmltools::em('Distribuição t-Student (Bicaudal)')
+            )
+          ) %>% 
+  formatRound(columns = -1, digits = 4) %>% 
+  formatStyle(columns = c("gl"), fontWeight = 'bold', `text-align` = 'left')
+```
