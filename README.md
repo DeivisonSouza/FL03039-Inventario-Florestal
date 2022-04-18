@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file. -->
+<!-- README.md is generated from README.Rmd. Please edit that file.. -->
 <!-- badges: start -->
 <!-- badges: end -->
 <!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
@@ -65,6 +65,7 @@ alguns conteúdos da disciplina.
 | Slides/Tutorial1-Simulacao-khaya.html    | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html>    |
 | Slides/Tutorial2-Combinacao-simples.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial2-Combinacao-simples.html> |
 | Slides/Tutorial3-DP-vs-EPM.html          | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial3-DP-vs-EPM.html>          |
+| Slides/Tutorial4-Distribuicao-t.html     | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial4-Distribuicao-t.html>     |
 
 # Conjunto de dados
 
