@@ -86,7 +86,7 @@ top:.8em;right:1em;
 ##### Faculdade de Engenharia Florestal
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 17/abril/2022) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 18/abril/2022) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -1122,18 +1122,39 @@ name: ea
 
 
 `\begin{equation}
-\large{
-E_{a} = \pm tS_{\bar{X}} \\~\\
-E_{r} = \pm \left(\dfrac{tS_{\bar{X}}}{\bar{X}}\right).100
-}
+\large
+E_{a} = \pm tS_{\bar{X}}
 \end{equation}`
 
-- `\(S\)` = estimativa do desvio padrão populacional `\(\sigma\)`.
-- `\(n\)` = número de observações (Em IF, comumente é quantidade de parcelas!).
-- `\(f\)` = fração de amostragem.
-- `\(1-f\)` = **Fator de Correção (FC)**. Deve ser usado apenas quando a **População for Finita**. Portanto, no caso de **Populações Infinitas** a fração `\(\sqrt{1-f}\)` deve ser removida do estimador.
+`\begin{equation}
+\large
+E_{r} = \pm \left(\dfrac{tS_{\bar{X}}}{\bar{X}}\right).100
+\end{equation}`
+
+
+- `\(S_{\bar{X}}\)` = Estimativa do erro padrão da média amostral.
+- `\(t_{(n-1;~\alpha)}\)` = Valor crítico da distribuição *t* de *Student*. ( `\(\alpha\)` = nível de confiança; n = número de parcelas amostrais)
+- `\(\bar{X}\)` = Estimativa da média aritmética populacional `\(\mu\)`.
 ]
 ]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.pull-left-9[
+**🤔 Mas, como encontrar o valor t?**
+.font90[
+- Pode ser encontrado em tabelas da distribuição *t* de *Student*.
+- São necessárias duas informações:
+
+**1)** Grau de liberdade, dado por `\(n-1\)`;
+
+**2)** Nível de confiança `\(\alpha\)`.
+
+]
+]
+
 
 
 ---
