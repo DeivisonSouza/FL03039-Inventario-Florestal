@@ -1166,9 +1166,17 @@ E_{r} = \pm \left(\dfrac{tS_{\bar{X}}}{\bar{X}}\right).100
 **1)** Grau de liberdade, dado por $n-1$;
 
 **2)** Nível de confiança $\alpha$.
+<br><br>
+
+`r anicon::faa("hand-point-right", animate="horizontal")` **Acesse a tabela**: [Distribuição t-Student](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial4-Distribuicao-t.html).
 
 ]
 ]
+
+
+---
+
+
 
 
 
