@@ -1215,12 +1215,12 @@ legend("topright", labels, col = colour,
 
 ## Estimadores da Amostragem Aleatória Simples
 
+.font90[
 .shadow1a[
-## .font90[Intervalo de Confiança Para Média]
+## Intervalo de Confiança Para Média
 
-👉 Estimador de um intervalo numérico de ocorrência para o parâmetro populacional $\mu$, com nível de confiança $\alpha$.
+👉 É um intervalo numérico que conterá, sob o nível de confiança $\alpha$, o valor do parâmetro populacional desconhecido $\mu$ (média populacional). 
 <br>
-
 
 \begin{equation}
 \large
@@ -1228,13 +1228,12 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 \end{equation}
 <br>
 
-.font90[
 - $S_{\bar{X}}$ = Estimativa do erro padrão da média amostral.
 - $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*.
 - $\bar{X}$ = Estimativa da média aritmética populacional $\mu$.
-]
-]
 
+]
+]
 
 
 
