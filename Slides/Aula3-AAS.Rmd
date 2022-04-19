@@ -1226,7 +1226,13 @@ legend("topright", labels, col = colour,
 \large
 IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Inferior} \leq \mu \leq \underbrace{\bar{X} + (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Superior} \right]
 \end{equation}
+<br>
 
+.font90[
+- $S_{\bar{X}}$ = Estimativa do erro padrão da média amostral.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*.
+- $\bar{X}$ = Estimativa da média aritmética populacional $\mu$.
+]
 ]
 
 
