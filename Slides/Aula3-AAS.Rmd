@@ -8,6 +8,7 @@ encoding: "UTF-8"
 header-includes: 
    - \usepackage{xcolor}
    - \usepackage{amsmath}
+   - \usepackage{mathtools}
 output:
   xaringan::moon_reader:
     css: 
@@ -1168,7 +1169,7 @@ E_{r} = \pm \left(\dfrac{tS_{\bar{X}}}{\bar{X}}\right).100
 **2)** Nível de confiança $\alpha$.
 <br><br>
 
-`r anicon::faa("hand-point-right", animate="horizontal")` **Acesse a tabela**: [Distribuição t-Student](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial4-Distribuicao-t.html).
+`r anicon::faa("hand-point-right", animate="horizontal")` **Acesse o tutorial**: [Distribuição t-Student](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial4-Distribuicao-t.html).
 
 ]
 ]
@@ -1212,6 +1213,21 @@ legend("topright", labels, col = colour,
 
 ---
 
+## Estimadores da Amostragem Aleatória Simples
+
+.shadow1a[
+## .font90[Intervalo de Confiança Para Média]
+
+👉 Estimador de um intervalo numérico de ocorrência para o parâmetro populacional $\mu$, com nível de confiança $\alpha$.
+<br>
+
+
+\begin{equation}
+\large
+IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Inferior} \leq \mu \leq \underbrace{\bar{X} + (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Superior} \right]
+\end{equation}
+
+]
 
 
 
