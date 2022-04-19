@@ -128,3 +128,35 @@ datatable(table_t(cl=cl, df=df) %>%
   formatRound(columns = -1, digits = 4) %>% 
   formatStyle(columns = c("gl"), fontWeight = 'bold', `text-align` = 'left')
 ```
+
+# Visualizando a distribuição t de Student
+
+```{r}
+# Gera uma sequência de 100 valores entre -4 e 4
+x <- seq(-4, 4, length = 100)
+
+# Define vetor de valores para graus de liberdade
+df <- c(1, 4, 10, 20)
+
+# Define cores para as linhas
+colour <- c("red", "blue", "darkgreen", "gold", "black")
+
+# Plota a distribuição Normal (Gaussiana)
+plot(x, dnorm(x), type = "l", lty = 2, 
+     xlab = "Valor t", ylab = "Densidade",
+     main = "Comparação de distribuições t", 
+     col = "black")
+
+# Adiciona as linhas para as distribuições t, com diferentes graus de liberdade
+for (i in 1:4){
+  lines(x, dt(x, df[i]), col = colour[i])
+  }
+
+# Adiciona legenda
+labels <- c("df = 1", "df = 4", "df = 10", "df = 20", "Normal")
+
+legend("topright", labels, col = colour,
+       title = "Distribuições t",
+       lty = c(1, 1, 1, 1, 2)
+       )
+```
