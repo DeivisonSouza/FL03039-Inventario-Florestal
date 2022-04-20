@@ -1,47 +1,105 @@
-set.seed(10)
-m = 100;  n = 20;  mu = 140;  sigma = 4;  conf.level = .95
-x = rnorm(m*n, mu, sigma)
-MAT = matrix(x, nrow=m)  # m x n matrix: each row a sample of size n
-x.bar = rowMeans(MAT);  s = apply(MAT, 1, sd)
+# Construção de intervalos de confiança a partir de dados de diferentes amostras
 
-t.crit = qt(1-(1-conf.level)/2, n-1)
-LCL = x.bar - t.crit*s/sqrt(n);  UCL = x.bar + t.crit*s/sqrt(n)
-cover = LCL < mu & UCL > mu
-HI = max(UCL); LO = min(LCL)  # to set dimensions of the plot
+# Carrega pacotes necessários
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(ggthemes)
 
+# Gera dados aleatórios com distribuição normal e cria um matriz
+m <- 100; n <- 20; mu <- 140; sigma <- 4
 
-png("ic.png", units="in", width=8, height=4, res=600)
+set.seed(15)
+x <- rnorm(n = m*n, mean = mu, sd = sigma) # (2000 dados)
+mat <- matrix(data = x, ncol = m,
+              # dimnames = list(NULL,
+              #                 stringr::str_c("A", 1:100)
+              #                 )
+              )
 
-par(mar = c(4, 6, 2, 2))
-plot(c(0, m+1), c(HI, LO),
-     col="white", ylab="",
-     axes = FALSE,
-     xlab="Amostras aleatórias",
-     main="", xaxs="i")
+# Converte dados para o formato longo
 
-abline(h=mu, col="green2", cex=2)
+data <- mat %>%
+  as_tibble() %>%
+  pivot_longer(everything(),
+               names_to = "Amostra",
+               values_to = "v") %>%
+  mutate(Amostra = stringr::str_remove(Amostra, "[V]")) %>%
+  mutate(across(where(is.character), as.numeric))
 
-for(i in 1:m) {
-  bar="blue"
-  if (cover[i]==F) {
-    bar="red"
-    }
-  lines(c(i,i), c(UCL[i], LCL[i]), col=bar, lwd=2)
-  points(i, x.bar[i], col = "black", pch = 1)
-}
+# Calcula média e desvio padrão p/ cada amostra
 
-# Add X-axis
-axis(1, at = seq(0, 100, 10))
-#axis(2, at = c(seq(135, 139, 1), seq(141, 144, 1)))
+df <- data %>%
+  group_by(Amostra) %>%
+  summarise(
+    across(
+      .cols = where(is.numeric),
+      .fns = list(media = mean, dp = sd),
+      na.rm = TRUE,
+      .names = "{.fn}"
+      )
+    )
 
-#axis(side=2, at = c(130, 140, 2))
-mtext(expression(mu), side = 2, line=3.5, at=140,
-      adj = 1, cex=2, las = 1)
-# mtext("= 140", side = 2, line=1, at=140,
-#       adj = 1, cex=1.4, las = 1)
-mtext("= ?", side = 2, line=1, at=140,
-      adj = 1, cex=1.7, las = 1)
+# Calcula Intervalos de Confiança (ICs) p/ cada amostra
 
-dev.off()
+t_crit <- qt(p = 1-(1-.95)/2, df = n-1) # (alfa = 0,05; df = 19)
 
-##############
+df <- df %>%
+  mutate(lcl = media - t_crit*dp/sqrt(n),
+         ucl = media + t_crit*dp/sqrt(n),
+         cover = case_when(lcl < mu & ucl > mu ~ paste("Contém μ"),
+                           TRUE  ~ paste("Não contém μ"))
+         )
+
+# Visualiza os ICs para as 100 amostras
+
+df %>%
+  ggplot() +
+  geom_errorbar(aes(x = Amostra,
+                    ymin = lcl,
+                    ymax = ucl,
+                    color = ifelse(cover == "Contém μ", 'black', 'red')
+                    ),
+                alpha = 0.9,
+                size = .4,
+                width = .9
+                ) +
+  scale_color_identity(guide = "legend",
+                       labels = c("Contém μ", "Não contém μ")) +
+  geom_point(aes(x = Amostra, y = media),
+             size = 1,
+             color = "blue",
+             fill = alpha("orange", 0.1),
+             alpha = 0.5,
+             shape = 21,
+             stroke = .7) +
+  geom_hline(yintercept = mu, color = "green2") +
+  theme_base() +
+  theme(plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5),
+        text=element_text(size = 14),
+        legend.position = c(.7, .1),
+        legend.direction="horizontal",
+        legend.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.text.x = element_text(angle = 90)) +
+  labs(title = "Intervalos de Confiança (95%)",
+       subtitle = "(100 amostras aleatórias de mesmo tamanho)",
+       x = "Número da amostra",
+       y = expression(paste(mu, ' = ?'))) +
+  scale_x_continuous(breaks = seq(from = 0, to = 100, by = 10),
+                     limits = c(0, 100))
+
+ggsave("IC-Plot.png", path = "Slides/fig/class3",
+       dpi = 600, width = 16, height = 10,
+       units = "cm")
+
+# Visualiza os pontos de dados amostrais usado para calcular os ICs
+
+data %>%
+  ggplot(aes(x=Amostra, y = v, group = Amostra)) +
+  geom_point(alpha = 0.3) +
+  geom_hline(yintercept = mu) +
+  theme_base()
+
