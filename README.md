@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file.. -->
+<!-- README.md is generated from README.Rmd. Please edit that file. -->
 <!-- badges: start -->
 <!-- badges: end -->
 <!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
@@ -60,12 +60,13 @@ A programação e os slides da disciplina **Inventário Florestal**
 Alguns tutoriais estão disponíveis para melhor compreensão/intuição de
 alguns conteúdos da disciplina.
 
-| Slide                                    | Link                                                                                                    |
-|:-----------------------------------------|:--------------------------------------------------------------------------------------------------------|
-| Slides/Tutorial1-Simulacao-khaya.html    | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html>    |
-| Slides/Tutorial2-Combinacao-simples.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial2-Combinacao-simples.html> |
-| Slides/Tutorial3-DP-vs-EPM.html          | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial3-DP-vs-EPM.html>          |
-| Slides/Tutorial4-Distribuicao-t.html     | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial4-Distribuicao-t.html>     |
+| Slide                                     | Link                                                                                                     |
+|:------------------------------------------|:---------------------------------------------------------------------------------------------------------|
+| Slides/Tutorial1-Simulacao-khaya.html     | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html>     |
+| Slides/Tutorial2-Combinacao-simples.html  | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial2-Combinacao-simples.html>  |
+| Slides/Tutorial3-DP-vs-EPM.html           | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial3-DP-vs-EPM.html>           |
+| Slides/Tutorial4-Distribuicao-t.html      | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial4-Distribuicao-t.html>      |
+| Slides/Tutorial5-Intervalo-Confianca.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial5-Intervalo-Confianca.html> |
 
 # Conjunto de dados
 
