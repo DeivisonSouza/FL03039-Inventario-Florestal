@@ -1258,9 +1258,8 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 - Suponha que a variável de interesse é o .blue[volume de madeira por hectare] em uma população florestal de tamanho conhecido.
 - **Você teria duas opções**: censo florestal ou inventário por amostragem.
 - **Perfeito!** Então, suponha a decisão por realizar um inventário por amostragem. Portanto, uma .blue[estimativa do valor do parâmetro] $\color{blue}{\mu}$ será obtida usando dados de parcelas amostrais.
-- 
+- **Resultado**: ter-se-á uma estimativa do parâmetro populacional $\mu$ (Ex.: $\bar{X} = 144~m^3.ha^{-1}$). Nesse caso, o valor de $\bar{X} = 144~m^3.ha^{-1}$ representa o valor mais plausível do parâmetro $\mu$ (baseado nos dados amostrais). Portanto, denomina-se esse valor de uma .blue[estimativa pontual de] $\color{blue}{\mu}$. **Essa estimativa depende da amostra!**
 
-- Chamamos o único número que representa o valor mais plausível do parâmetro (baseado nos dados amostrais) de uma estimativa pontual de $\theta$
 ]
 ]
 
