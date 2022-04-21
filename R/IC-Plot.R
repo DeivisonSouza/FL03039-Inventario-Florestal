@@ -9,7 +9,7 @@ library(ggthemes)
 # Gera dados aleatórios com distribuição normal e cria um matriz
 m <- 100; n <- 20; mu <- 140; sigma <- 4
 
-set.seed(15)
+set.seed(25)
 x <- rnorm(n = m*n, mean = mu, sd = sigma) # (2000 dados)
 mat <- matrix(data = x, ncol = m,
               # dimnames = list(NULL,
@@ -77,10 +77,11 @@ df %>%
   theme_base() +
   theme(plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5),
-        text=element_text(size = 14),
-        legend.position = c(.7, .1),
-        legend.direction="horizontal",
+        text = element_text(size = 14),
+        legend.position = c(.24, .95),
+        legend.direction = "horizontal",
         legend.title = element_blank(),
+        legend.margin = margin(c(1, 5, 5, 5)),
         axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         axis.text.x = element_text(angle = 90)) +
@@ -89,10 +90,10 @@ df %>%
        x = "Número da amostra",
        y = expression(paste(mu, ' = ?'))) +
   scale_x_continuous(breaks = seq(from = 0, to = 100, by = 10),
-                     limits = c(0, 100))
+                     limits = c(0, 102))
 
 ggsave("IC-Plot.png", path = "Slides/fig/class3",
-       dpi = 600, width = 16, height = 10,
+       dpi = 600, width = 16, height = 12,
        units = "cm")
 
 # Visualiza os pontos de dados amostrais usado para calcular os ICs
