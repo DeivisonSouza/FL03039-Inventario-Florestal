@@ -1261,10 +1261,10 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 
 
 .pull-right-5[
-```{r echo = FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
+```{r echo = FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics("fig/class3/IC-Plot.png")
 ```
-.font80[**Tutorial para reproduzir**: [Distribuição t-Student](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial4-Distribuicao-t.html)]
+.font80[**Tutorial para reproduzir**: [Intervalo de Confiança](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial5-Intervalo-Confianca.html)]
 
 ]
 
