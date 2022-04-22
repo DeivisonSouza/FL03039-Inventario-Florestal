@@ -1212,7 +1212,7 @@ legend("topright", labels, col = colour,
 ]
 
 ---
-
+name: icm
 ## Estimadores da Amostragem Aleatória Simples
 
 .font90[
@@ -1255,18 +1255,30 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 **🤔 Idéia básica de IC para Média...**
 .font80[
 - Suponha o interesse no parâmetro populacional $\mu$, porém desconhecido, de uma variável de interesse. (**Lembre-se**: $\mu$ é a média populacional.)
-- Suponha que a variável de interesse é o .blue[volume de madeira por hectare] em uma população florestal de tamanho conhecido.
-- **Você teria duas opções**: censo florestal ou inventário por amostragem.
-- **Perfeito!** Então, suponha a decisão por realizar um inventário por amostragem. Portanto, uma .blue[estimativa do valor do parâmetro] $\color{blue}{\mu}$ será obtida usando dados de parcelas amostrais.
-- **Resultado**: ter-se-á uma estimativa do parâmetro populacional $\mu$ (Ex.: $\bar{X} = 144~m^3.ha^{-1}$). Nesse caso, o valor de $\bar{X} = 144~m^3.ha^{-1}$ representa o valor mais plausível do parâmetro $\mu$, e depende da amostra. Portanto, denomina-se esse valor de uma .blue[estimativa pontual de] $\color{blue}{\mu}$. 
-- **Fato**: Essa estimativa depende da amostra
 ]
 ]
 
 --
 
+.pull-left-9[
+.font80[
+- Suponha também que a variável de interesse é o .blue[volume de madeira por hectare] em uma população florestal de tamanho conhecido.
+]
+]
+
+--
+
+.pull-left-9[
+.font80[
+- **Você teria duas opções**: censo florestal ou inventário florestal por amostragem (IFA). **Perfeito!** Agora, suponha a decisão pela segunda opção.
+]
+]
+
+--
+
+
 .pull-right-9[
-<br><br>
+.pull-down[
 .shadow4[
 .font80[
 .center[**CENSO FLORESTAL x INVENTÁRIO POR AMOSTRAGEM**]
@@ -1278,6 +1290,47 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 **Lembre-se**: Em IF, comumente uma amostra é um conjunto de parcelas amostrais!
 ]
 ]
+]
+]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.pull-left-9[
+**🤔 Idéia básica de IC para Média...**
+.font80[
+- **Estimativa do parâmetro**: usando os dados de parcelas amostrais pode-se obter uma .blue[estimativa do valor do parâmetro populacional] $\color{blue}{\mu}$ (Ex.: $\bar{X} = 144~m^3.ha^{-1}$). 
+]
+]
+
+--
+
+.pull-left-9[
+.font80[
+- Nesse caso, o valor de $\bar{X} = 144~m^3.ha^{-1}$, por exemplo, representaria o valor mais plausível do parâmetro $\mu$, baseado nos dados da amostra. Esse único valor - estimado a partir de uma amostra - é chamado de .blue[estimativa pontual de] $\color{blue}{\mu}$.
+
+]
+]
+
+--
+
+.pull-left-9[
+.font80[
+- Perceba, porém, que o valor estimado para o parâmetro $\mu$ depende da amostra tomada. Ou seja, se outra amostra aleatória de mesmo tamanho fosse realizada na população, esperar-se-ia um valor diferente para a estimativa de $\mu$.
+]
+]
+
+--
+
+.pull-left-9[
+.font80[
+- Ok. Então, não seria mais interessante/informativo estimar um intervalo númerico no qual se esperaria, com certa probabilidade, que o parâmetro $\mu$ estivesse contido?
+]
+]
+
+.pull-right-5[
+![understand](https://media4.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)  
 ]
 
 ---

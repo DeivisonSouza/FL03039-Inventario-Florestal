@@ -237,7 +237,8 @@ font-style: normal;
 /* use to position text at the bottom */
 .pull-down {
   position: absolute;
-  bottom: 50px;
+  bottom: 80px;
+  width: 38%;
 }
 
 /* Change default inverse background colour */
