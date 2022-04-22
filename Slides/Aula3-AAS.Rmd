@@ -1322,15 +1322,16 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 ]
 
 --
+<br><br>
 
-.pull-left-9[
+.pull-right-9[
+.pull-down[
 .font80[
-- Ok. Então, não seria mais interessante/informativo estimar um intervalo númerico no qual se esperaria, com certa probabilidade, que o parâmetro $\mu$ estivesse contido?
-]
-]
+- Ok. Então, não seria mais informativo estimar um intervalo númerico no qual se esperaria, com certa probabilidade, que o parâmetro $\mu$ estivesse contido? <br> .blue[**Essa é a idéia básica de intervalo de confiança!**]]
 
-.pull-right-5[
+
 ![understand](https://media4.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)  
+]
 ]
 
 ---
