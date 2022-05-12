@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file. -->
+<!-- README.md is generated from README.Rmd. Please edit that file.. -->
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -50,11 +50,11 @@ list_github_files <- function(repo, dir = NULL, ext = NULL) {
 
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
-:calendar: **Novembro: 22 a 27, 29 e 30**
+:calendar: **Maio: 16 a 21 (semana 1); 23 e 28 (semana 1); 30 e 31 (semana 3)**
 
-:calendar: **Dezembro: 1 a 4 e 6 a 8**
+:calendar: **Julho: 1**
 
-:alarm_clock: **7h30min - 12h50min**
+:alarm_clock: **13h30min - 18h50min**
 
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-2975-0927" href="https://orcid.org/0000-0002-2975-0927" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-2975-0927</a></div>
 

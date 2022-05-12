@@ -1,16 +1,17 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file. -->
+<!-- README.md is generated from README.Rmd. Please edit that file.. -->
 <!-- badges: start -->
 <!-- badges: end -->
 <!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
 
 # Seja bem vindo(a)! :deciduous\_tree: :smiley: :grin:
 
-:calendar: **Novembro: 22 a 27, 29 e 30**
+:calendar: **Maio: 16 a 21 (semana 1); 23 e 28 (semana 1); 30 e 31
+(semana 3)**
 
-:calendar: **Dezembro: 1 a 4 e 6 a 8**
+:calendar: **Julho: 1**
 
-:alarm\_clock: **7h30min - 12h50min**
+:alarm\_clock: **13h30min - 18h50min**
 
 <div itemscope="" itemtype="https://schema.org/Person">
 
