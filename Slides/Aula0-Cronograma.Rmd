@@ -151,28 +151,28 @@ Email: deivisonvs@ufpa.br
 <!-- Slide 2 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+## Cronograma .black[.font80[(**Horário: 13h30min - 18h50min**)]]
 
 ```{r echo=FALSE, eval=TRUE, warning=FALSE, dpi=600, fig.width = 35, fig.height = 17}
 library(calendR)
 library(ggplot2)
 
-dates <- seq(as.Date("2021-11-01"), as.Date("2021-11-30"), by = "1 day")
+dates <- seq(as.Date("2022-05-01"), as.Date("2022-05-31"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6,7), "Final de semana", NA)
-#events[c(12)] <- "Aniversário do Professor"
-events[c(25)] <- "Curso ggplot2 - SIINGEF"
+events[c(8)] <- "Dia das Mães"
+#events[c(25)] <- "Curso ggplot2 - SIINGEF"
 
-p <- calendR::calendR(year = 2021,
-        month = 11,
+p <- calendR::calendR(year = 2022,
+        month = 5,
         start = "M",
-        title = "Novembro (Ano 2021)",
+        title = "Maio (Ano 2022)",
         title.size = 50, 
         subtitle.size = 20, 
-        title.col = 2,  
+        title.col = 2,
+        special.days = events,
         subtitle = "",   
         subtitle.col = 3,
         weeknames.size = 15,
-        special.days = events,
         legend.pos = "bottom",
         special.col = c("lightgreen", rgb(1, 0, 0, 0.1)),
         col = "black",                  
@@ -188,31 +188,37 @@ p <- calendR::calendR(year = 2021,
         text = c(
           "Introdução \nao Inventário \nFlorestal", 
           "Teoria de \nAmostragem",
-          "Aula Prática \n (Parcelas) ", 
-          "Curso ggplot2",
+          "Aula Prática \n(Parcelas)",
           "Amostragem \nAleatória \nSimples", 
           "Amostragem \nEstratificada",
           "Revisão \n(1ª Avaliação)", 
-          "1ª Avaliação"),
-        text.pos = c(22:27,29,30), 
+          "1ª Avaliação",
+          "Amostragem \nSistemática", 
+          "Aula Prática \n(LabGeo)",
+          "Amostragem \nem Múltiplas \nOcasiões",
+          "Aula Prática \n(PPMs)",
+          "Jairo Fidelis \n(AGRORURAL)", 
+          "Alex Soares \n(SEMAS)",
+          "Censo \nFlorestal"),
+        text.pos = c(16:21, 23:28, 30:31), 
         text.size = 12,
         text.col = 1)
 
-p + theme(legend.key.size = unit(2, 'cm'),
-          legend.text = element_text(size=30))
+ p + theme(legend.key.size = unit(2, 'cm'),
+           legend.text = element_text(size = 30))
 
 ```
 
 <!-- Slide 3 -->
 ---
-## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+## Cronograma .black[.font80[(**Horário: 13h30min - 18h50min**)]]
 
 ```{r echo=FALSE, eval=TRUE, warning=FALSE, dpi=600, fig.width = 35, fig.height = 17}
 
-p <- calendR::calendR(year = 2021,
-        month = 12,
+p <- calendR::calendR(year = 2022,
+        month = 6,
         start = "M",
-        title = "Dezembro (Ano 2021)",
+        title = "Junho (Ano 2022)",
         title.size = 50, 
         subtitle.size = 20, 
         title.col = 2,  
@@ -233,14 +239,8 @@ p <- calendR::calendR(year = 2021,
         day.size = 18,
         bg.img = "",
         text = c(
-          "Amostragem \n Sistemática", 
-          "Raiana Nava \n Ângela Hentz \n Ernandes Neto",
-          "Jamerson Rodrigo \n Marcelo Galdino", 
-          "Joberto Freitas \n (UFAM/SFB)",
-          "Amostragem em \n Conglomerados", 
-          "Alex Soares \n(SEMAS) \n Cássio Silva \n(BIOCEV)",
           "2ª Avaliação"),
-        text.pos = c(1:4, 6:8), 
+        text.pos = c(1), 
         text.size = 12,
         text.col = 1)
 
@@ -251,86 +251,31 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 <!-- Slide 6 -->
 ---
-## Palestras
+## Palestras com profissionais externos
+<br>
 
-- **Dia 02/12** (Período da tarde) - A partir das 14h:00min
+- **Dia 28/05** (Período da manhã) - A partir das 09h:00min
 
-.green[**Palestra 1**]: **Inventário Florestal na Suzano** (14h:00min)
+.green[**Palestra 1**]: **Inventário Florestal para Licenciamento Ambiental** (09h:00min)
 
-**Palestrante**: .blue[Raiana Arnaud Nava] (Engenheira Florestal)
+**Palestrante**: .blue[Jairo Ferreira Fidelis] (Engenheiro Florestal)
 
-**Empresa**: Suzano/Analista de Planejamento Florestal Jr.
-<br><br>
-
-.green[**Palestra 2**]: **Uso de Sensoriamento Remoto para Estimativas Florestais** (15h:30min)
-
-**Palestrante**: .blue[Ângela Maria Klein Hentz] (Engenheira Florestal)
-
-**Empresa**: Carbon Credits Consulting
-<br><br>
-
-.green[**Palestra 3**]: **Aplicações de Lidar na Engenharia Florestal** (16h:30min)
-
-**Palestrante**: .blue[Ernandes Macedo da Cunha Neto] (Engenheiro Florestal)
-
-**Vínculo**: Doutorando UFPR
+**Empresa**: Agrorural Engenharia Ltda
 
 
 <!-- Slide 7 -->
 ---
-## Palestras
+## Prática
 <br>
 
-- **Dia 03/12** (Período da manhã) - A partir das 8h:00min
+- **Dia 30/05** (Período da tarde) - A partir das 14h:00min
 
-.green[**Palestra 1**]: **Inventário Florestal Aplicado à Solicitação de Autorização para Supressão da Vegetação (ASV) e SINAFLOR** (8h:00min)
+.green[**Mão na massa!**]: **Análise de Inventário Florestal 100%** (14h:00min)
 
-**Palestrante**: .blue[Jamerson Rodrigo dos Prazeres Campos] (Engenheiro Florestal)
-
-**Empresa**: XXXXXXXXXXXXXXXXXXXXXXX
-<br><br>
-
-
-.green[**Palestra 2**]: **Planejamento, Execução e Custos de Censo Florestal** (10h:30min)
-
-**Palestrante**: .blue[Marcelo Galdino] (Engenheiro Florestal)
-
-**Empresa**: Instituto Floresta Tropical
-
-
-<!-- Slide 7 -->
----
-## Palestras
-<br>
-
-- **Dia 04/12** (Período da manhã) - A partir das 8h:00min
-
-.green[**Palestra 1**]: **Inventário Florestal Nacional** (8h:00min)
-
-**Palestrante**: .blue[Joberto Veloso de Freitas] (Engenheiro Florestal)
-
-**Empresa**: Universidade Federal do Amazonas (UFAM)/Serviço Florestal Brasileira (SFB)
-<br><br>
-
-<!-- Slide 8 -->
----
-## Palestras
-<br>
-
-- **Dia 07/12** (Período da tarde) - A partir das 15h:00min
-
-.green[**Palestra 1**]: **Análise Técnica de PMFS e Censo Florestal** (15h:00min)
-
-**Palestrante**: .blue[Alex Soares de Souza] (Engenheiro Florestal)
+**Facilitador**: .blue[Alex Soares de Souza] (Engenheiro Florestal)
 
 **Orgão**: Secretaria de Estado de Meio Ambiente e Sustentabilidade - SEMAS
 <br><br>
-
-.green[**Palestra 2**]: **Inventário Florestal da BIOCEV** (17h:00min)
-
-**Palestrante**: .blue[Cássio Melo da Silva] (Engenheiro Florestal)
-
-**Empresa**: Grupo Biocev Projetos Inteligentes
 
 <!-- Slide 7 -->
 ---
@@ -370,9 +315,9 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 - **Aula Presencial** (*Sala 3 - FEF*)
 
-Aulas teóricas e práticas presenciais, realização de atividades complementares e avaliações de desempenho.
+Aulas teóricas e práticas presenciais, realização de atividades complementares e avaliações de aprendizado.
 
-**Palestras**: Palestras presenciais de egressos sobre Inventário Florestal e Análise Técnica de PMFS. 
+**Palestras**: Palestras presenciais de egressos sobre inventário florestal e prática sobre análise de inventário florestal 100% (Censo Florestal). 
 
 --
 <br><br>
@@ -403,36 +348,49 @@ Repositório com os slides em .html, arquivos .R e .Rmd, figuras, conjunto de da
 
 <!-- Slide 9 -->
 ---
+
 ## Estratégias de avaliação da aprendizagem
-<br>
 
 - **Atividades práticas**
 
-Exercícios com dados reais (quando possível) para aprendizado da matemática e estatística inerentes aos processos de amostragem.
+.font90[
+Exercícios com dados reais (quando possível) para aprendizado de cálculo de estimativas populacionais a partir de dados de diferentes processos de amostragem.
+<br><br>
+
+Aula prática de análise de IF-100% (Censo Florestal) no âmbito do Manejo Florestal Sustentável - MFS.
+]
 
 --
-<br><br>
+
+<br>
 
 - **Avaliação teórica**
 
+.font90[
 Avaliações teóricas presenciais.
+]
 
 --
-<br><br>
+
+<br>
 
 - **Participação** 
 
-O nível de participação e interação nas aulas presenciais poderá ser critério para definir uma pontuação extra nas avaliações teóricas.
+.font90[O nível de participação e interação nas aulas presenciais poderá ser critério para definir uma pontuação extra nas avaliações teóricas.
+]
 
 
 <!-- Slide 9 -->
 ---
-## Média Final e Conceito
 
-$$
+## Média Final e Conceito
+<br>
+
+\begin{equation*}
 \Large
 MF = \frac{(NA*2)+NPT}{3}
-$$
+\end{equation*}
+
 
 **MF** = Média Final
 
