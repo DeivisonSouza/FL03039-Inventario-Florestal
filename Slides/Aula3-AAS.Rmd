@@ -1315,10 +1315,18 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 .pull-right-9[
 .pull-down[
 .font80[
-- Ok. Então, não seria mais informativo estimar um intervalo númerico dentro do qual se esperaria, com determinada probabilidade, encontrar o valor verdadeiro do parâmetro $\mu$? <br> .blue[**Essa é a idéia básica de intervalo de confiança!**]]
+<br>
+- Ok. Então, não seria mais informativo estimar um intervalo númerico dentro do qual se esperaria, com determinada probabilidade, encontrar o valor verdadeiro do parâmetro μ? <br>
 
+--
 
-![understand](https://media4.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)  
+.blue[**Essa é a idéia básica de intervalo de confiança!**]]
+<br><br>
+
+```{r echo = FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("https://media4.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif")
+```
+
 ]
 ]
 
