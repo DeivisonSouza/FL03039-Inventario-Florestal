@@ -1324,6 +1324,30 @@ name: tp
 
 ]
 
+---
+name: ictp
+## Estimadores da Amostragem Aleatória Simples
+
+.font90[
+.shadow1a[
+## Intervalo de Confiança Para Total da População
+
+👉 É um intervalo numérico que conterá, sob o nível de confiança `\(\alpha\)`, o valor total da variável de interesse. 
+&lt;br&gt;
+
+`\begin{equation}
+\large
+IC_{\hat{X}} = \left[\underbrace{\hat{X} - N(t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Inferior} \leq X \leq \underbrace{\hat{X} + N(t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Superior} \right]
+\end{equation}`
+&lt;br&gt;
+
+- `\(S_{\bar{X}}\)` = Estimativa do erro padrão da média amostral.
+- `\(t_{(n-1;~\alpha)}\)` = Valor crítico da distribuição *t* de *Student*.
+- `\(\hat{X}\)` = Estimativa do total populacional.
+- `\(N\)` = Número de unidades de amostras possíveis na população.
+
+]
+]
 
 
 ---
@@ -1342,7 +1366,7 @@ name: tp
 
 .pull-right-12[
 .font90[
-| **Estimador (do Parâmetro)**                          | Volume `\(\left(m³.ha^{-1}\right)\)`               |
+| **Estimador (do Parâmetro)**                          | Volume               |
 |-------------------------------------------------------|:----------------------------:|
 | 1 - Média aritmética                                  | `\(m³.ha^{-1}\)`                    |
 | 2 - Variância                                         | `\(\left(m³.ha^{-1}\right)^2\)`                       |
