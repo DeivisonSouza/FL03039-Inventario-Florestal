@@ -38,7 +38,7 @@ background-size: 220px, 90px, cover
 knitr::opts_chunk$set(
   fig.showtext = TRUE,
   fig.align = "center", 
-  cache = TRUE,
+  cache = FALSE,
   error = FALSE,
   message = FALSE, 
   warning = FALSE, 
@@ -1575,18 +1575,19 @@ name: maEC
 ]
 
 ---
-name: dpEC
+name: varEC
 ## Inventário Florestal usando AAS
 
 .shadow1a[
 ## Variância amostral
-.font90[
-👉 Estimar a variabilidade (ou dispersão) dos dados da amostra em relação à média aritmética.]
+<br>
 
-\begin{equation}
-\Large
-S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2
-\end{equation}
+\begin{equation*}
+\normalsize
+S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2 = \frac{267,32}{16-1} = 17,82~ \left(m^3/600~m^2\right)^2
+\end{equation*}
+
+<br>
 
 .font90[
 - $S^2$ (lê-se: S-quadrado) = estimador da variância populacional $\sigma^2$ (lê-se: Sigma-quadrado).
@@ -1598,14 +1599,50 @@ S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2
 ]
 
 ---
+name: varEC
+## Inventário Florestal usando AAS
+
+.pull-left-12[
+```{r echo=F, eval=T}
+
+df <- data %>%
+  mutate(Media = round(mean(Volume), 2),
+         "xi-media" = round(Volume - mean(Volume), 6),
+         "(xi-media)²" = round(`xi-media`^2, 6))%>%
+  tibble::add_row(
+    Parcela = "Total",
+    "xi-media" = round(sum(.$`xi-media`), 1),
+    "(xi-media)²" = round(sum(.$`(xi-media)²`), 4))
+
+df %>% 
+   DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+                 class = "display", width = '250px',
+                 caption = '',
+     options=list(pageLength = 17, dom = 'tip', autoWidth = F,
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "8pt", "'});"),
+          "}")
+       ) 
+     )
+```
+
+]
+
+.pull-left-12[
+
+
+]
+
+
+
+---
 
 ## Inventário Florestal usando AAS
 
 .shadow1a[
 ## Desvio padrão amostral
-
-.font90[
-👉 Estimar a variabilidade (ou dispersão) dos dados da amostra em relação à média aritmética. Porém, **é expresso na mesma unidade de medida da variável de interesse.**]
+<br>
 
 \begin{equation}
 \Large
