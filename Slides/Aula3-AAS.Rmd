@@ -1660,15 +1660,18 @@ S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2} = \sqrt{\
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## Inventário Florestal usando AAS
 
 .shadow1a[
 ## Coeficiente de variação amostral
+<br>
 
-\begin{equation}
-\Large
-CV = \frac{S}{\bar{X}} \left( 100 \right)
-\end{equation}
+\begin{equation*}
+\normalsize
+CV = \frac{S}{\bar{X}} \left( 100 \right) = \frac{4,22}{23,83} \left( 100 \right) = 17,71\%
+\end{equation*}
+
+<br>
 
 .font90[
 - $CV$ = estimador do coeficiente de variação populacional.
