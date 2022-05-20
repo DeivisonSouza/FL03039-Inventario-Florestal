@@ -1602,7 +1602,7 @@ S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2 = \frac{267,32
 name: varEC
 ## Inventário Florestal usando AAS
 
-.pull-left-12[
+.pull-right-12[
 ```{r echo=F, eval=T}
 
 df <- data %>%
@@ -1630,24 +1630,24 @@ df %>%
 ]
 
 .pull-left-12[
-
-
+<br>
+**Na calculadora científica use o modo estatístico!**
 ]
-
-
 
 ---
 
 ## Inventário Florestal usando AAS
 
 .shadow1a[
-## Desvio padrão amostral
+## .font90[Desvio padrão amostral]
 <br>
 
-\begin{equation}
-\Large
-S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}
-\end{equation}
+\begin{equation*}
+\normalsize
+S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2} = \sqrt{\frac{267,32}{16-1}} = 4,22~ \left(m^3/600~m^2\right)
+\end{equation*}
+
+<br>
 
 .font90[
 - $S$ = estimador do desvio padrão populacional $\sigma$.
