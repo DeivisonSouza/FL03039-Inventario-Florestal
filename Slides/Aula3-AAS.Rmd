@@ -1523,6 +1523,130 @@ DT::datatable(data,
 
 ---
 
+## Inventário Florestal usando AAS
+<br>
+
+.pull-left-12[
+### .font90[Estudo de Caso - *Pinus taeda* <br> (Sanquetta et al., 2014; pg. 110)]
+<br><br>
+
+**Unidades de Medidas**
+]
+
+
+.pull-right-12[
+.font90[
+| **Estimador (do Parâmetro)**                          | Volume               |
+|-------------------------------------------------------|:----------------------------:|
+| 1 - Média aritmética                                  |  $m^3/600~m^2$                    |
+| 2 - Variância                                         | $\left(m^3/600~m^2\right)^2$                       |
+| 3 - Desvio Padrão                                     | $m^3/600~m^2$                        |
+| 4 - Coeficiente de variação                           | $\%$                       |
+| 5 - Intensidade amostral                              | $Parcelas$                        |
+| 6 - Erro padrão da média amostral                                |  $m^3/600~m^2$              |
+| 7 - Erro de amostragem                                | $\left(m^3/600~m^2~ou~\% \right)$ |
+| 8 - Intervalo de confiança para média                 |  $m^3/600~m^2$             |
+| 9 - Total da população                               | $m³$                  |
+| 10 - Intervalo de confiança para o total da população | $m³$             |
+]
+]
+
+---
+name: maEC
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## .font90[Média aritmética amostral]
+<br>
+
+\begin{equation*}
+\normalsize
+\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i = \frac{20,85+19,47+...+36,16+17,83}{16} = 23,83~(m^3/600~m^2)
+\end{equation*}
+
+<br>
+
+.font90[
+- $\bar{X}$ (lê-se: X-barra) = estimador da média aritmética populacional $\mu$ (lê-se: "mi").
+- $n$ = número de observações.
+- $\Sigma$ (sigma maiúscula) = símbolo de somatório. 
+- $X_i$ = $i$-ésimo valor da variável de interesse $X$.
+]
+]
+
+---
+name: dpEC
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## Variância amostral
+.font90[
+👉 Estimar a variabilidade (ou dispersão) dos dados da amostra em relação à média aritmética.]
+
+\begin{equation}
+\Large
+S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2
+\end{equation}
+
+.font90[
+- $S^2$ (lê-se: S-quadrado) = estimador da variância populacional $\sigma^2$ (lê-se: Sigma-quadrado).
+- $n$ = número de observações.
+- $\Sigma$ (sigma maiúscula) = símbolo de somatório. 
+- $X_i$ = $i$-ésimo valor da variável de interesse $X$.
+- $\bar{X}$ = estimativa da média aritmética populacional $\mu$.
+]
+]
+
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## Desvio padrão amostral
+
+.font90[
+👉 Estimar a variabilidade (ou dispersão) dos dados da amostra em relação à média aritmética. Porém, **é expresso na mesma unidade de medida da variável de interesse.**]
+
+\begin{equation}
+\Large
+S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}
+\end{equation}
+
+.font90[
+- $S$ = estimador do desvio padrão populacional $\sigma$.
+- $n$ = número de observações.
+- $\Sigma$ (sigma maiúscula) = símbolo de somatório. 
+- $X_i$ = $i$-ésimo valor da variável de interesse $X$.
+- $\bar{X}$ = estimativa da média aritmética populacional $\mu$.
+]
+]
+
+---
+
+## Estimadores da Amostragem Aleatória Simples
+
+.shadow1a[
+## Coeficiente de variação amostral
+
+\begin{equation}
+\Large
+CV = \frac{S}{\bar{X}} \left( 100 \right)
+\end{equation}
+
+.font90[
+- $CV$ = estimador do coeficiente de variação populacional.
+- $S$ = estimativa do desvio padrão populacional $\sigma$.
+- $\bar{X}$ = estimativa da média aritmética populacional $\mu$.
+]
+]
+
+
+
+
+
+
+---
+
 ## Referências
 
 <br><br>
