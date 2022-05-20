@@ -448,7 +448,7 @@ name: pee
 .shadow1[
 ### Parâmetro
 
-- É uma .blue[estatística] usada para descrever uma variável de interesse, a partir de .blue[dados populacionais].
+- É uma .blue[quantidade] usada para descrever uma variável de interesse, a partir de .blue[dados populacionais].
 - Os parâmetros são comumente representados por .blue[letras gregas].
 - Os valores dos parâmetros populacionais são .blue[normalmente desconhecidos], pois na maioria das vezes é inviável medir todos os elementos da população.
 ]
