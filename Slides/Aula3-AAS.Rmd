@@ -1680,8 +1680,61 @@ CV = \frac{S}{\bar{X}} \left( 100 \right) = \frac{4,22}{23,83} \left( 100 \right
 ]
 ]
 
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## .font90[Intensidade amostral (ou suficiência amostral)]
+<br>
+
+.font90[
+**Para calcular a intensidade amostral é preciso das seguintes informações:**
+
+- A natureza da população (Finita ou Infinita?).
+- A estimativa de variabilidade da variável de interesse (Variância ou CV?).
+- O número de unidades de amostras possíveis na população (N).
+]
+<br>
+
+.font90[
+**Lembre-se**: Em estatística, uma população é finita quando a .blue[fração amostral é maior do que 2%].
+]
+]
+
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## .font90[Intensidade amostral (ou suficiência amostral)]
+<br>
+
+**Passo 1**: Calcular o número de unidades de amostras possíveis na população $\left(N\right)$
+
+\begin{equation*}
+\normalsize
+N = \frac{A}{a} = \frac{400.000m^2}{600m^2} = \frac{40ha}{0,06ha} = 667~unidades~de~amostras
+\end{equation*}
 
 
+**Passo 2**: Calcular a fração amostral $\left(f\right)$
+
+\begin{equation*}
+\normalsize
+f = \frac{n}{N} = \frac{16}{667} = 0,0240 (100) = 2,4\%~(\color{Orange}{População~Finita!})
+\end{equation*}
+
+<br>
+
+.font90[
+$n$ = número de unidades amostradas
+
+$N$ = número de unidades de amostras possíveis na população
+]
+
+
+]
 
 
 
