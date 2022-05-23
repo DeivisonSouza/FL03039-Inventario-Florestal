@@ -1694,6 +1694,7 @@ CV = \frac{S}{\bar{X}} \left( 100 \right) = \frac{4,22}{23,83} \left( 100 \right
 - A natureza da população (Finita ou Infinita?).
 - A estimativa de variabilidade da variável de interesse (Variância ou CV?).
 - O número de unidades de amostras possíveis na população (N).
+- Expectância (valor esperado) do erro (E).
 ]
 <br>
 
@@ -1732,11 +1733,95 @@ $n$ = número de unidades amostradas
 
 $N$ = número de unidades de amostras possíveis na população
 ]
-
-
 ]
 
+---
 
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## .font90[Intensidade amostral (ou suficiência amostral)]
+<br>
+
+**Passo 3**: Expectância (valor esperado) do erro $\left(E\right)$
+
+\begin{equation*}
+\normalsize
+E = LE\left(\bar{X}\right) = 10\%(23,83) = 2,383~ \left(m^3/600~m^2\right)
+\end{equation*}
+
+**Passo 4**: Valor t de Student teórico (tabelado) (Nível probabilidade = 95%)
+
+\begin{equation*}
+\normalsize
+t_{(n-1;~\alpha)} = t_{(16-1;~0,05)} = t_{(15;~0,05)} = 2,131
+\end{equation*}
+
+.font90[
+`r anicon::faa("hand-point-right", animate="horizontal")` **Acesse o tutorial**: [Distribuição t-Student](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial4-Distribuicao-t.html).
+]
+
+<br>
+
+.font90[
+$LE$ = Limite de erro admissível (10%)
+
+$\bar{X}$ = Estimativa da média populacional (ou média amostral)
+]
+]
+
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## .font90[Intensidade amostral (ou suficiência amostral)]
+
+**Agora sim...Temos as informações necessárias para calcular a intensidade amostral!**
+]
+
+.pull-left-4[
+$S^2 = 17,82~ \left(m^3/600~m^2\right)^2$
+
+$N = 667~unidades~de~amostras$
+
+$f = 2,4\%~(\color{Orange}{População~Finita!})$
+
+$E = 2,383~ \left(m^3/600~m^2\right)$
+
+$t_{(15;~0,05)} = 2,131$
+]
+
+--
+
+.pull-right-4[
+.center[.blue[Em função da variância amostral (PF)]]
+
+\begin{equation*}
+\normalsize
+n = \frac{Nt^2S^2}{(NE^2) + (t^2S^2)}
+\end{equation*}
+]
+
+--
+
+.pull-right-4[
+\begin{equation*}
+\normalsize
+n = \frac{667(2,131^2)17,82}{(667(2,383^2)) + ((2,131^2)17,82)} \\~\\
+n = 13,9 \approx 14 ~unidades~de~amostras
+\end{equation*}
+]
+
+--
+
+.pull-right-4[
+<br>
+
+.font80[
+`r anicon::faa("hand-point-right", animate="horizontal")` **Pratique**: Faça o cálculo da intensidade amostral usando a fórmula em função do Coeficiente de Variação (CV)!
+]
+]
 
 ---
 
