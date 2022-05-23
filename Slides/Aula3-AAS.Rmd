@@ -1825,6 +1825,8 @@ n = 13,9 \approx 14 ~unidades~de~amostras
 
 ---
 
+## Inventário Florestal usando AAS
+
 .shadow1a[
 ## .font90[Intensidade amostral (ou suficiência amostral)]
 
@@ -1833,6 +1835,74 @@ n = 13,9 \approx 14 ~unidades~de~amostras
 
 ]
 
+<br>
+
+**Perfeito**: Agora, pode-se realizar os demais cálculos para obter as estimativas para o Inventário Definitivo!
+
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## .font90[Erro Padrão da Média Amostral]
+
+\begin{equation*}
+\large
+S_{\bar{X}} = \frac{S}{\sqrt{n}}\sqrt{1-f} = \frac{4,2214}{\sqrt{16}}\sqrt{1-0,0240} = 1,043 \left(m^3/600~m^2\right)
+\end{equation*}
+<br>
+
+.font90[
+- $S$ = estimativa do desvio padrão populacional $\sigma$.
+- $n$ = número de observações (Em IF, comumente é quantidade de parcelas!).
+- $f$ = fração de amostragem.
+- $1-f$ = **Fator de Correção (FC)**. Deve ser usado apenas quando a **População for Finita**.
+]
+]
+
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## .font90[Erro de Amostragem Absoluto]
+<br>
+
+\begin{equation*}
+\large
+E_{a} = \pm tS_{\bar{X}} = \pm 2,131(1,043) = \pm 2,223 \left(m^3/600~m^2\right)
+\end{equation*}
+
+<br>
+
+.font90[
+- $S_{\bar{X}}$ = Estimativa do erro padrão da média amostral.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; n = número de parcelas amostrais)
+]
+]
+
+
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## .font90[Erro de Amostragem Relativo (%)]
+<br>
+
+\begin{equation*}
+\large
+E_{r} = \pm \left(\dfrac{tS_{\bar{X}}}{\bar{X}}\right).100 = \pm \left(\dfrac{2,223}{23,83}\right).100 = \pm 9,33%
+\end{equation*}
+
+<br>
+
+.font90[
+- $S_{\bar{X}}$ = Estimativa do erro padrão da média amostral.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; n = número de parcelas amostrais)
+- $\bar{X}$ = Estimativa da média aritmética populacional $\mu$.
+]
+]
 
 ---
 
