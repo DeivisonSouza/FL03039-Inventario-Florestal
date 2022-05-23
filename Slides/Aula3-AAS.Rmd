@@ -1906,6 +1906,57 @@ E_{r} = \pm \left(\dfrac{tS_{\bar{X}}}{\bar{X}}\right).100 = \pm \left(\dfrac{2,
 
 ---
 
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## Intervalo de Confiança Para Média
+
+<br>
+
+\begin{equation*}
+\normalsize
+IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Inferior} \leq \mu \leq \underbrace{\bar{X} + (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Superior} \right]\\~\\
+LI = \bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}}) = 23,83 - 2,131(1,043) = 21,61 \left(m^3/600~m^2\right) \\
+LS = \bar{X} + (t_{(n-1;~\alpha)}S_{\bar{X}}) = 23,83 + 2,131(1,043) = 26,05 \left(m^3/600~m^2\right)
+\end{equation*}
+
+<br>
+
+.font90[
+- $S_{\bar{X}}$ = Estimativa do erro padrão da média amostral.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*.
+- $\bar{X}$ = Estimativa da média aritmética populacional $\mu$.
+
+]
+]
+
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## Intervalo de Confiança Para Média
+
+<br>
+
+\begin{equation*}
+\normalsize
+IC_{\bar{X}} = \left[\underbrace{21,61 \left(m^3/600~m^2\right)}_\text{Limite Inferior} \leq \mu \leq \underbrace{26,05 \left(m^3/600~m^2\right)}_\text{Limite Superior} \right]
+\end{equation*}
+
+<br>
+
+.font90[
+- $S_{\bar{X}}$ = Estimativa do erro padrão da média amostral.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*.
+- $\bar{X}$ = Estimativa da média aritmética populacional $\mu$.
+
+]
+]
+
+
+---
+
 ## Referências
 
 <br><br>
