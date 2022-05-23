@@ -1965,7 +1965,7 @@ IC_{\bar{X}} = \left[\underbrace{21,61 \left(m^3/600~m^2\right)}_\text{Limite In
 
 \begin{equation*}
 \large
-\hat{X} = N\bar{X} = 667(23,83) = 15.894,61 m^3
+\hat{X} = N\bar{X} = 667(23,83) = 15.895 m^3
 \end{equation*}
 
 <br>
@@ -1977,10 +1977,48 @@ IC_{\bar{X}} = \left[\underbrace{21,61 \left(m^3/600~m^2\right)}_\text{Limite In
 ]
 ]
 
+---
 
+## Inventário Florestal usando AAS
 
+.shadow1a[
+## Intervalo de Confiança Para Total da População
 
+<br>
 
+\begin{equation*}
+\normalsize
+IC_{\hat{X}} = \left[\underbrace{\hat{X} - N(t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Inferior} \leq X \leq \underbrace{\hat{X} + N(t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Superior} \right]
+\end{equation*}
+
+<br>
+
+.font90[
+- $S_{\bar{X}}$ = Estimativa do erro padrão da média amostral.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*.
+- $\hat{X}$ = Estimativa do total populacional.
+- $N$ = Número de unidades de amostras possíveis na população.
+]
+]
+
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## Intervalo de Confiança Para Total da População
+
+<br>
+
+\begin{equation*}
+\normalsize
+IC_{\hat{X}} = \left[\underbrace{\hat{X} - N(t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Inferior} \leq X \leq \underbrace{\hat{X} + N(t_{(n-1;~\alpha)}S_{\bar{X}})}_\text{Limite Superior} \right]\\~\\
+LI = \hat{X} - N(t_{(n-1;~\alpha)}S_{\bar{X}}) = 15.895 - 667(2,131)(1,043) = 14.413 m^3\\
+LS = \hat{X} + N(t_{(n-1;~\alpha)}S_{\bar{X}}) = 15.895 + 667(2,131)(1,043) = 17.377 m^3\\~\\
+IC_{\hat{X}} = \left[\underbrace{14.413 m^3}_\text{Limite Inferior} \leq X \leq \underbrace{17.377 m^3}_\text{Limite Superior} \right]
+\end{equation*}
+
+]
 
 ---
 
