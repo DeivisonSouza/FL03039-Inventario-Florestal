@@ -1825,6 +1825,17 @@ n = 13,9 \approx 14 ~unidades~de~amostras
 
 ---
 
+.shadow1a[
+## .font90[Intensidade amostral (ou suficiência amostral)]
+
+
+- **Interpretação**: No Inventário Piloto, foram amostradas 16 unidades de amostras (parcelas) com tamanho de 600m² cada. Após cálculo, o valor da intensidade amostral (n) foi de 14 (n = 14). Portanto, o Inventário Piloto (IP) pode ser convertido em Inventário Definitivo (ID), uma vez que seriam necessárias apenas 14 parcelas para atender a precisão requerida de 10% a uma probabilidade de 95%.
+
+]
+
+
+---
+
 ## Referências
 
 <br><br>
