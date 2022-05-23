@@ -2022,6 +2022,17 @@ IC_{\hat{X}} = \left[\underbrace{14.413 m^3}_\text{Limite Inferior} \leq X \leq 
 
 ---
 
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## .font80[Quadro de estimativas do Inventário Amostral sob AAS]
+]
+
+
+
+
+---
+
 ## Referências
 
 <br><br>
