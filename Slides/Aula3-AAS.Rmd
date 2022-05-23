@@ -1954,6 +1954,33 @@ IC_{\bar{X}} = \left[\underbrace{21,61 \left(m^3/600~m^2\right)}_\text{Limite In
 ]
 ]
 
+---
+
+## Inventário Florestal usando AAS
+
+.shadow1a[
+## Total da População
+
+<br>
+
+\begin{equation*}
+\large
+\hat{X} = N\bar{X} = 667(23,83) = 15.894,61 m^3
+\end{equation*}
+
+<br>
+
+.font90[
+- $\hat{X}$ = Estimativa do valor da variável na população.
+- $N$ = Número de unidades de amostras possíveis na população.
+- $\bar{X}$ = Estimativa da média aritmética populacional $\mu$.
+]
+]
+
+
+
+
+
 
 ---
 
