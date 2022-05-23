@@ -2025,11 +2025,26 @@ IC_{\hat{X}} = \left[\underbrace{14.413 m^3}_\text{Limite Inferior} \leq X \leq 
 ## Inventário Florestal usando AAS
 
 .shadow1a[
-## .font80[Quadro de estimativas do Inventário Amostral sob AAS]
+## .font70[Quadro de estimativas do Inventário Amostral sob AAS]
 ]
 
-
-
+.font65[
+| **Estatísticas**                                            | **Estimativa** | **Unidade de Medida**        |
+|-------------------------------------------------------------------------|----------------|------------------------------|
+| 1 - Média aritmética amostral                                           | 23,83          | $m^3/600~m^2$                |
+| 2 - Variância amostral                                                  | 17,82          | $\left(m^3/600~m^2\right)^2$ |
+| 3 - Desvio Padrão amostral                                              | 4,22           | $m^3/600~m^2$                |
+| 4 - Coeficiente de variação amostral                                    | 17,7           | %                            |
+| 5 - Intensidade amostral                                                | 14             | Parcelas                     |
+| 6 - Erro padrão da média                                                | 1,043          | $m^3/600~m^2$                |
+| 8 - Erro de amostragem absoluto                                         | 2,223          | $m^3/600~m^2$                |
+| 9 - Erro de amostragem relativo                                         | 9,33           | %                            |
+| 10 - Intervalo de confiança para média (Limite Inferior)                | 21,61          | $m^3/600~m^2$                |
+| 11 - Intervalo de confiança para média (Limite Superior)                | 26,05          | $m^3/600~m^2$                |
+| 12 - Total da população                                                 | 15.895         | $m^3$                        |
+| 13 - Intervalo de confiança para o total da população (Limite Inferior) | 14.413         | $m^3$                        |
+| 14 - Intervalo de confiança para o total da população (Limite Superior) | 17.377         | $m^3$                        |
+]
 
 ---
 
