@@ -60,7 +60,8 @@ use_logo(
 ```
 
 ```{r packages, include=FALSE}
-# remotes::install_github("dill/emoGG")
+#remotes::install_github("dill/emoGG")
+#remotes::install_github("hadley/emo")
 library(ggplot2)
 library(dplyr)
 library(ggimage)
