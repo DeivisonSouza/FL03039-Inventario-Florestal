@@ -77,8 +77,7 @@ library(ggimage)
 ##### Universidade Federal do Pará (UFPA) 
 ##### Faculdade de Engenharia Florestal
 ##### E-mail: deivisonvs@ufpa.br 
-<br>
-##### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+###### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
 
 ---
 layout: true

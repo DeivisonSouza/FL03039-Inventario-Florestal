@@ -795,6 +795,21 @@ h2 {
   vertical-align: middle;
 }
 
+/* H6 fonts */
+.title-slide h6 {
+  color: white !important;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 40px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 /* Remove slide count */
 .title-slide .remark-slide-number {
   display: none;
