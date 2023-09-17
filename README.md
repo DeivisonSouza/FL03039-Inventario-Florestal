@@ -4,14 +4,14 @@
 <!-- badges: end -->
 <!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
 
-# Seja bem vindo(a)! :deciduous\_tree: :smiley: :grin:
+# Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
-:calendar: **Maio: 16 a 21 (semana 1); 23 e 28 (semana 2); 30 e 31
-(semana 3)**
+:calendar: \*\*Setembro/2023: 18, 20, 25 e 27
 
-:calendar: **Julho: 1**
+:calendar: \*\*Outubro/2023: 2 a 07 (visita técnica); 11, 16, 18, 23 e
+25
 
-:alarm\_clock: **13h30min - 18h50min**
+:alarm_clock: **07h30min - 12h30min**
 
 <div itemscope="" itemtype="https://schema.org/Person">
 
@@ -73,20 +73,19 @@ alguns conteúdos da disciplina.
 
 Conjunto de dados usados na disciplina:
 
-1 - **Khaya-simulado.xlsx**
-![\\rightarrow](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5Crightarrow "\rightarrow")
-São dados simulados (assumindo a distribuição normal) para uma população
-florestal de 🌳*Khaya Ivorensis*🌳 com 15 anos de idade, implantada a
-pleno sol sob o espaçamento 5m x 5m, com dimensões de 500m x 200m (10
-hectares).
+1 - **Khaya-simulado.xlsx** $\rightarrow$ São dados simulados (assumindo
+a distribuição normal) para uma população florestal de 🌳*Khaya
+Ivorensis*🌳 com 15 anos de idade, implantada a pleno sol sob o
+espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 
 | Slide                           | Link                                                                                           |
 |:--------------------------------|:-----------------------------------------------------------------------------------------------|
+| Slides/data/AAS-Sanquetta.xlsx  | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/AAS-Sanquetta.xlsx>  |
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
 
 # Materias de apoio
 
--   **Livros**
+- **Livros**
 
 Silva, P. L. N.; Bianchini, Z. M; Dias, A. J. R. [Amostragem: Teoria e
 Prática Usando R](https://amostragemcomr.github.io/livro/index.html).
@@ -94,10 +93,10 @@ Prática Usando R](https://amostragemcomr.github.io/livro/index.html).
 Filipe J. Zabala. [Estatística
 Básica](http://www.filipezabala.com/enrs/amostragem-1.html#exm:urna-aass)
 
-# Facilitador :deciduous\_tree:
+# Facilitador :deciduous_tree:
 
-**Deivison Venicio Souza** possui graduação em :deciduous\_tree:
-**Engenharia Florestal** :deciduous\_tree: pela Universidade Federal
+**Deivison Venicio Souza** possui graduação em :deciduous_tree:
+**Engenharia Florestal** :deciduous_tree: pela Universidade Federal
 Rural da Amazônia (2008), Mestrado em Ciências Florestais pela
 Universidade Federal Rural da Amazônia (2011) e Doutorado em Engenharia
 Florestal pela Universidade Federal do Paraná (2020). No período de 2009
@@ -113,8 +112,20 @@ Dendrometria, Experimentação Florestal e Inventário Florestal,
 integrantes do desenho curricular do Curso de Graduação em Engenharia
 Florestal. Tem experiência na área de Gestão e Manejo dos Recursos
 Florestais, com ênfase em Silvicultura de Florestas Naturais, Inventário
-Florestal e Mensuração Florestal. Atualmente, seus interesses
-científicos incluem o uso da inteligência artificial na conservação da
-biodiversidade (com ênfase no uso de visão computacional) e emprego de
-técnicas de aprendizado de máquina na modelagem preditiva de variáveis
-biométricas, com uso das Linguagens R e Python.
+Florestal e Mensuração Florestal. Atualmente, é docente permanente do
+Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC) da
+Universidade Federal do Pará (UFPA)/Campus Altamira, responsável pela
+disciplina Estatística Computacional. Seus interesses científicos
+incluem o uso da inteligência artificial e visão computacional na
+conservação da biodiversidade (com ênfase na flora Amazônica explorada
+comercialmente) e emprego de técnicas de aprendizado de máquina na
+modelagem preditiva de variáveis biométricas, com uso das Linguagens R e
+Python. Além disso, tem atuado em projetos sustentáveis com ênfase em
+inventário e manejo florestal de produtos não madeireiros, estruturação
+e fortalecimento de cadeias produtivas da sociobiodiversidade, com
+atuação em comunidades indígenas.
+
+<div>
+<img src="Slides/fig/slide-title/Foto.jpeg" width="300" align="middle" class="center">
+<div>
+&#10;
