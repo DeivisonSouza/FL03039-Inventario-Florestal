@@ -104,12 +104,7 @@ layout: true
 4. .green[Especialização (Defesa: ano 2019)]
     - Universidade Federal do Paraná (UFPR);
     - Área: Big Data e Data Science
-    
- .center1[
-```{r echo = FALSE, out.width='20%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/slide-title/img.jpeg")
-```
-]   
+
 ]
 ]
 
@@ -150,13 +145,20 @@ knitr::include_graphics('fig/ORCID.png')
 ```
 
 Email: deivisonvs@ufpa.br
+
+ .center1[
+```{r echo = FALSE, out.width='55%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/slide-title/Foto.jpeg")
+```
+]
+
 ]
 ]
 
 <!-- Slide 2 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 13h30min - 18h50min**)]]
+## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
 
 <br>
 
@@ -168,7 +170,7 @@ knitr::include_graphics("fig/class0/Setembro.jpg")
 <!-- Slide 3 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 13h30min - 18h50min**)]]
+## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
 
 <br>
 
