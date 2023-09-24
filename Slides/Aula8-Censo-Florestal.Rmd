@@ -51,8 +51,8 @@ library(xaringanExtra)
 use_logo(
   image_url = "fig/slide-title/ufpa.png",
   position = css_position(top = ".8em", right = "1em"),
-  width = "140px",
-  height = "140px"
+  width = "110px",
+  height = "110px"
 )
 
 use_scribble()
@@ -104,7 +104,7 @@ library(ggimage)
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF)/ <div3>Censo Florestal</div3> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Inventário Florestal (FL03039 - IF)</div2>/<div3>Censo Florestal (Inventário Florestal 100%)</div3> </div>
 
 ---
 
@@ -167,29 +167,25 @@ knitr::include_graphics("fig/slide-title/Foto.jpeg")
 <br><br>
 Ao final desta aula espera-se que o discente seja capaz de...
 
-* Compreender os conceitos básicos associados ao Censo Florestal em Florestas Naturais;
+* Compreender os conceitos básicos associados ao Inventário Florestal 100% (Censo Florestal);
 * Conhecer os principais intrumentos legais (Leis, Resoluções, INs, etc.);
-* Aprender a realizar análise técnica de Censo Florestal para fins de Manejo Florestal Madeireiro;
-* 
+* Aprender a realizar análise técnica de Censo Florestal para fins de Manejo Florestal Madeireiro.
 
 ---
 
 ## Conteúdo
 
 .pull-left-4[
+<br>
 .pull-top[
-**Parte 1 - Manejo Florestal Sustentável**
-.font90[
+**Parte 1 - Manejo Florestal Sustentável - MFS**
+.font80[
 
-[1 - Conceito](#con)
+[1 - Conceito e importância](#con)
 
-[2 - Atividades do MFS para fins madeireiro](#sua)
+[2 - Etapas do MFS em Florestas Naturais](#emfs)
 
 [3 - Censo Florestal: conceito e importância](#sua)
-
-[3 - Argumentos favoráveis e contra-argumentos](#afc)
-
-[4 - Quando usar a AAS?](#qu)
 
 ]
 ]
@@ -197,30 +193,16 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 
 .pull-right-4[
+<br>
+**Parte 2 - Inventário Florestal x Licenciamento Ambiental**
 
-**Parte 2 - Estimadores da AAS**
-
-.font90[
+.font80[
 
 [1 - Parâmetro, Estimador e Estimativa](#pee)
 
 [2 - Principais Estimadores da AAS](#peaas)
 
 &nbsp;&nbsp;[2.1 - Média Aritmética Amostral](#ma)
-
-&nbsp;&nbsp;[2.2 - Variância, Desvio Padrão e Coeficiente de Variação](#dp)
-
-&nbsp;&nbsp;[2.3 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
-
-&nbsp;&nbsp;[2.4 - Erro Padrão da Média Amostral](#epm)
-
-&nbsp;&nbsp;[2.5 - Erro de Amostragem](#ea)
-
-&nbsp;&nbsp;[2.6 - Intervalo de Confiança Para Média](#icm)
-
-&nbsp;&nbsp;[2.7 - Total da População](#tp)
-
-&nbsp;&nbsp;[2.8 - IC Para o Total da População](#icptp)
 
 ]
 ]
@@ -231,26 +213,12 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left-4[
 .pull-top[
-**Parte 3 - Aplicação Inventário Florestal usando AAS**
+**Parte 3 - Análise de IF-100% (Madeireiro)**
 .font90[
 
-[1 - Estudo de Caso (Sanquetta et al., 2014; pg. 110)](#ec)
+[1 - Estudo de Caso (Fazenda XXXXXX)](#ec)
 
 &nbsp;&nbsp;[1.1 - Média Aritmética Amostral](#maEC)
-
-&nbsp;&nbsp;[1.2 - Variância, Desvio Padrão e Coeficiente de Variação](#dpEC)
-
-&nbsp;&nbsp;[1.3 - Intensidade Amostral (ou Suficiência Amostral)](#iaEC)
-
-&nbsp;&nbsp;[1.4 - Erro Padrão da Média Amostral](#epmEC)
-
-&nbsp;&nbsp;[1.5 - Erro de Amostragem](#eaEC)
-
-&nbsp;&nbsp;[1.6 - Intervalo de Confiança Para Média](#icmEC)
-
-&nbsp;&nbsp;[1.7 - Total da População](#tpEC)
-
-&nbsp;&nbsp;[1.8 - IC Para o Total da População](#icptpEC)
 
 ]
 ]
@@ -264,24 +232,22 @@ class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
 
-.font200[.yellow2[**Teoria da <br> Amostragem Aleatória Simples**]]
+.font200[**Parte 1** <br> .yellow2[**Manejo Florestal Sustentável - MFS**]]
 
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 1 - Teoria da Amostragem Aleatória Simples</div2> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 1 - Manejo Florestal Sustentável - MFS</div2>/<div3>Conceito e importância</div3> </div>
 
 ---
 name: con
-## Amostragem Aleatória Simples
+## Manejo Florestal Sustentável - MFS
 <br>
 
 .pull-left-3[
 .shadow1a[
-### Definição
-.font100[
-**Processo de amostragem** de características de uma população, cujas unidades amostrais são escolhidas de forma **aleatória** e sob **igual probabilidade** (amostragem probabilística).
-]
+### Conceito
+
 ]
 ]
 
@@ -295,33 +261,130 @@ name: con
 ]
 
 ---
-name: car
-## Amostragem Aleatória Simples
+name: imp
+## Manejo Florestal Sustentável - MFS
 <br>
 
 .shadow1a[
 ### Características (Queiroz, 1998)
 
 - A Amostragem Aleatória Simples (AAS) é baseada em um processo estritamente aleatório;
-- As unidades amostrais (parcelas) são escolhidas sob igual probabilidade (**1/N**); <br> (**N** = número de UA que compõem o espaço amostral).
 
 ]
 
 ---
-name: sua
-## Amostragem Aleatória Simples
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 1 - Manejo Florestal Sustentável - MFS</div2>/<div3>Etapas do MFS madeireiro em Florestas Naturais</div3> </div>
+
+---
+name: emfs
+## Manejo Florestal Sustentável - MFS
 
 .shadow1a[
-### Método de Seleção da Unidade de Amostra
+### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
 <br>
 
-A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio **COM** ou **SEM** reposição (Péllico Netto; Brena, 1997):
-<br>
-
-- **Sorteio com reposição**: Uma unidade de amostra poderá ser sorteada .magenta[mais de uma vez] para compor a amostra.
-- **Sorteio sem reposição**: Uma unidade de amostra poderá ser sorteada somente .magenta[uma única vez] para compor a amostra.
+```{r echo = FALSE, out.width='40%', fig.align='center', fig.cap='Etapas do MFS para fins madeireiros', dpi=600}
+knitr::include_graphics("fig/class8/MFS.jpeg")
+```
 
 ]
+
+---
+
+## Manejo Florestal Sustentável - MFS
+
+.shadow1a[
+### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
+<br>
+
+As principais etapas do MFS para fins madeireiros são:
+<br>
+
+- **1ª Etapa - Macroplanejamento**
+- **2ª Etapa - Microplanejamento (.blue[incluindo o IF-100%])**
+- **3ª Etapa - Atividades Exploratórias**
+- **4ª Etapa - Atividades Pós-Exploratórias**
+
+]
+
+---
+name: emfs
+## Manejo Florestal Sustentável - MFS
+
+.shadow1a[
+### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
+<br>
+.font80[
+**1 - Identificação e seleção das áreas com potencial ao MFS madeireiro**
+
+- Na Unidade de Manejo Florestal (UMF) existem .blue[Áreas de Preservação Permanente (APPs)]?
+- Na UMF deve constar a .blue[Área de Reserva Absoluta] (≥ 5% do total da área concedida)? (**Proibida exploração econômica!**)
+- Na UMF já existem .blue[Áreas abertas] (com construções ou sem vegetação)?
+
+]
+]
+
+---
+
+name: emfs
+## Manejo Florestal Sustentável - MFS
+
+.pull-left-9[
+.pull-top[
+.shadow1a[
+### .font70[1ª Etapa - Macroplanejamento (Balieiro et al., 2010)]
+<br>
+.font70[
+**1 - Identificação e seleção das áreas com potencial ao MFS madeireiro**
+
+- Na Unidade de Manejo Florestal (UMF) existem Áreas de Preservação Permanente (APPs)?
+]
+]
+
+.shadow1b[
+.font80[
+.center[
+[Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
+<br>
+
+**Área de Preservação Permanente (APP)** (.orange[inciso II do Art. 3º]):
+<br><br>
+
+_"**...área protegida**, coberta ou não por vegetação nativa, com a **função ambiental** de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas."_
+]
+]
+]
+]
+
+.pull-right-9[
+.pull-down[
+```{r echo = FALSE, out.width='100%', fig.align='center', fig.cap='Exemplos de APPs.', dpi=600}
+knitr::include_graphics("fig/class8/APP.png")
+```
+
+.font70[**Fonte:** [Climate Policy Initiative](https://www.climatepolicyinitiative.org/pt-br/publication/monitor-da-implementacao-do-codigo-florestal/)]
+
+]
+]
+
+---
+
+name: emfs
+## Manejo Florestal Sustentável - MFS
+
+.shadow1a[
+### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
+<br>
+.font90[
+**1 - Identificação e seleção das áreas com potencial ao MFS**
+
+]
+]
+
+
 
 ---
 
@@ -339,21 +402,9 @@ A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio *
 
 ## Referências
 
+<br>
+Balieiro, M. R.; Espada, A. L. V.; Nogueira, O; Palmieri, R.; Lentini, M. **As Concessões de Florestas Públicas na Amazônia Brasileira: Um manual para pequenos e médios produtores florestais.** 2ª edição, Piracicaba: Imaflora, SP. Belém: IFT, PA, 2010. 204p.
 <br><br>
-CAMPOS, J. C. C.; LEITE, H. G. **Mensuração florestal: perguntas e respostas**. 3ª ed. - Viçosa, MG: Ed. UFV, 2009. 548 p.
-<br><br>
-PÉLLICO NETTO, S.; BRENA, D. A. **Inventário Florestal**. Curitiba: editorado pelos autores, 1997. 316p.
-<br><br>
-QUEIROZ, W. T. **Técnicas de amostragem em inventário florestal nos trópicos**. Belém: FCAP. Serviço de Documentação e Informação, 1998. 147 p.
+Sanquetta, C. R.; Corte, A. P. D.; Rodrigues, A. L.; Watzlawick, L. F. **Inventários Florestais: Planejamento e Execução.** 4ª edição - Revista e Ampliada. Curitiba. 2023. 406p.
 
 
----
-
-## Referências
-
-<br><br>
-SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J.D.P. Inventários florestais: planejamento e execução. 2ª ed. Curitiba. 2009. 316p.
-<br><br>
-SCOLFORO, J. R. S.; MELLO, J. M. de. Inventário Florestal. Lavras: UFLA/FAEPE, 1997. 341 p.
-<br><br>
-SOARES, C. P. B.; PAULA NETO, F. de; SOUZA, A. L. de. Dendrometria e inventário florestal. 2ª ed. - Viçosa, MG: Ed. UFV, 2011. 272 p.
