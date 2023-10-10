@@ -164,28 +164,52 @@ knitr::include_graphics("fig/slide-title/Foto.jpeg")
 ---
 
 ## Objetivos
-<br><br>
+<br>
+
+.font80[
 Ao final desta aula espera-se que o discente seja capaz de...
 
 * Compreender os conceitos básicos associados ao Inventário Florestal 100% (Censo Florestal);
-* Conhecer os principais intrumentos legais (Leis, Resoluções, INs, etc.);
+* Conhecer os principais intrumentos legais (Leis, Resoluções, INs) que orientam a realização do IF-100%; e
 * Aprender a realizar análise técnica de Censo Florestal para fins de Manejo Florestal Madeireiro.
+]
 
 ---
 
 ## Conteúdo
 
 .pull-left-4[
-<br>
 .pull-top[
-**Parte 1 - Manejo Florestal Sustentável - MFS**
-.font80[
+**Parte 1 - Recursos Florestais e Legislação**
+.font70[
 
-[1 - Conceito e importância](#con)
+[1 - Definições Legais](#df)
 
-[2 - Etapas do MFS em Florestas Naturais](#emfs)
+&nbsp;&nbsp;[1.1 - Principais legislações](#pl)
 
-[3 - Censo Florestal: conceito e importância](#sua)
+&nbsp;&nbsp;[1.2 - Constituição Federal e Meio Ambiente](#cfma)
+
+&nbsp;&nbsp;[1.3 - Manejo Florestal Sustentável - MFS](#mfs)
+
+&nbsp;&nbsp;[1.4 - Área de Reserva Legal - ARL](#rl)
+
+&nbsp;&nbsp;[1.5 - Área de Preservação Permanente - APP](#app)
+
+&nbsp;&nbsp;[1.6 - Área de Uso Alternativo do Solo - AUAS](#auas)
+
+&nbsp;&nbsp;[1.7 - Área de Manejo Florestal - AMF](#amf)
+
+&nbsp;&nbsp;[1.8 - Unidade de Manejo Florestal - AMF](#umf)
+
+&nbsp;&nbsp;[1.9 - Unidade de Produção Anual - UPA](#upa)
+
+&nbsp;&nbsp;[1.10 - Unidade de Trabalho - UT](#ut)
+
+&nbsp;&nbsp;[1.11 - Plano Manejo Florestal Sustentável - PMFS](#pmfs)
+
+&nbsp;&nbsp;[1.12 - Plano Operacional Anual - POA](#poa)
+
+&nbsp;&nbsp;[1.13 - Autorização de Exploração - AUTEX](#autex)
 
 ]
 ]
@@ -193,19 +217,37 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 
 .pull-right-4[
-<br>
-**Parte 2 - Inventário Florestal x Licenciamento Ambiental**
+**Parte 2 - MFS em Florestas Naturais**
 
-.font80[
+.font70[
 
-[1 - Parâmetro, Estimador e Estimativa](#pee)
+[1 - Principais Etapas do MFS para fins madeireiros](#macro)
 
-[2 - Principais Estimadores da AAS](#peaas)
+&nbsp;&nbsp;[1.1 - Macroplanejamento](#macro)
 
-&nbsp;&nbsp;[2.1 - Média Aritmética Amostral](#ma)
+&nbsp;&nbsp;[1.2 - Microplanejamento (incluindo o IF-100%)](#micro)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 - Censo Florestal: conceito e importância](#sua)
+
+&nbsp;&nbsp;[1.3 - Atividades Exploratórias](#ae)
+
+&nbsp;&nbsp;[1.4 - Atividades Pós-Exploratórias](#ape)
 
 ]
 ]
+
+<br><br>
+.pull-right-4[
+**Parte 3 - Censo Florestal (IF-100%)**
+
+.font70[
+
+[1 - Censo Florestal: conceito e importância](#sua)
+
+]
+]
+
+
 
 ---
 
@@ -213,8 +255,8 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left-4[
 .pull-top[
-**Parte 3 - Análise de IF-100% (Madeireiro)**
-.font90[
+**Parte 4 - Análise Técnica de IF-100% (MFS madeireiro)**
+.font70[
 
 [1 - Estudo de Caso (Fazenda XXXXXX)](#ec)
 
@@ -232,50 +274,300 @@ class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
 
-.font200[**Parte 1** <br> .yellow2[**Manejo Florestal Sustentável - MFS**]]
+.font200[**Parte 1** <br> .yellow2[**Recursos Florestais e Legislação**]]
 
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 1 - Manejo Florestal Sustentável - MFS</div2>/<div3>Conceito e importância</div3> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 1 - Recursos Florestais e Legislação</div2>/<div3>Definições legais</div3> </div>
 
 ---
-name: con
-## Manejo Florestal Sustentável - MFS
+name: pl
+## Recursos Florestais e Legislações
+
+
+.shadow1b[
+.center[
+### .blue[Principais Legislações - MFS para fins madeireiros]
+]
+<br>
+.font70[
+
+- **Esfera Federal:**
+
+1 - [Constituição da República Federativa do Brasil de 1988](http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm) (Art. 225º do Capítulo VI - Do Meio Ambiente)
+
+2 - [Lei nº 6.938, de 31 de agosto de 1981](https://www.planalto.gov.br/ccivil_03/leis/l6938.htm) (Política Nacional do Meio Ambiente - PNMA)
+
+3 - [Decreto n° 5.975, de 30 de novembro 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5975.htm) (Defini fundamentos técnicos gerais do PMFS, transporte de produtos e subprodutos florestais)
+
+4 - [Norma de Execução/IBAMA 01, de 24 de 04 de 2007]()  (Diretrizes Técnicas para Elaboração dos PMFS)
+
+5 - [Lei nº 12.651, de 25 de maio de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm) (Novo Código Florestal)
+
+6 - [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578) (Parâmetros técnicos para elaboração, avaliação e execução de PMFS fins madeireiros)
+
+7 - [Portaria MMA nº 443, de 17 de dezembro de 2014]() (Lista as espécies da flora brasileira ameaçadas de extinção)
+
+8 - [Portaria MMA nº 148, de 07 de junho de 2022]() (Altera anexos da Portaria MMA nº 443, de 17 de dezembro de 2014)
+
+9 - [Instrução Normativa nº 01, de 12 de fevereiro de 2015 – MMA]()  (Regulamenta o manejo das espécies vulneráveis - VU)
+]
+]
+
+---
+name: pl
+## Recursos Florestais e Legislações
+
+
+.shadow1b[
+.center[
+### .blue[Principais Legislações - MFS para fins madeireiros]
+]
+<br>
+.font70[
+
+- **Esfera Estadual (Pará):**
+
+1 - [Instrução Normativa/SEMAS nº 09, de 22 de Junho de 2011](https://www.semas.pa.gov.br/legislacao/files/pdf/9523.pdf)  (Cadastro Ambiental Rural - CAR e Licenciamento Ambiental de Atividades Rurais – LAR)
+
+2 - [Instrução Normativa/SEMAS nº 05, de 10 de Setembro de 2015](https://www.semas.pa.gov.br/legislacao/files/pdf/184.pdf)  (Procedimentos técnicos para elaboração, apresentação, execução e avaliação técnica de PMFS nas florestas nativas exploradas ou não e suas formas de sucessão)
+
+3 - [Instrução Normativa/SEMAS nº 03, de 10 de Outubro de 2017](https://www.semas.pa.gov.br/legislacao/files/pdf/200.pdf)  (Calendário Florestal: períodos para a safra da exploração de madeira)
+
+]
+]
+
+---
+name: cfma
+## Constituição Federal e Meio Ambiente
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Constituição da República Federativa do Brasil de 1988](http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm)
+]
 <br>
 
-.pull-left-3[
-.shadow1a[
-### Conceito
+**Constituição Federal e Meio Ambiente** (.orange[Art. 225º do Capítulo VI - Do Meio Ambiente]):
+<br><br>
 
+_".orange[**Art. 225**]. **Todos têm direito ao meio ambiente ecologicamente equilibrado**, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao Poder Público e à coletividade o dever de **defendê-lo e preservá- lo para as presentes e futuras gerações**."_
+
+- § 1º Para assegurar a efetividade desse direito, incumbe ao Poder Público:
+
+VII – proteger a fauna e a flora, vedadas, na forma da lei, as práticas que coloquem em risco sua função ecológica, provoquem a extinção de espécies ou submetam os animais a crueldade.
+
+]
 ]
 ]
 
 .pull-right-3[
 .pull-down[
-`r anicon::faa("tree", size = 5, speed = "slow", animate = 'vertical', color = "green")`
-`r anicon::faa("tree", size = 5, speed = "slow", animate = 'vertical', color = "green")`
-`r anicon::faa("tree", size = 5, speed = "slow", animate = 'vertical', color = "green")`
+`r anicon::faa("seedling", size = 5, speed = "slow", animate = 'vertical', color = "green")`
+`r anicon::faa("leaf", size = 5, speed = "slow", animate = 'vertical', color = "green")`
 
 ]
 ]
 
 ---
-name: imp
+name: mfs
 ## Manejo Florestal Sustentável - MFS
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
 <br>
 
-.shadow1a[
-### Características (Queiroz, 1998)
+**Manejo Florestal Sustentável** (.orange[inciso VII do Art. 3º]):
+<br><br>
 
-- A Amostragem Aleatória Simples (AAS) é baseada em um processo estritamente aleatório;
+_".orange[**Manejo Florestal Sustentável**]: **administração da vegetação natural** para a obtenção de **benefícios econômicos, sociais e ambientais**, respeitando-se os mecanismos de sustentação do ecossistema objeto do manejo e considerando-se, cumulativa ou alternativamente, a **utilização de múltiplas espécies madeireiras ou não**, **de múltiplos produtos e subprodutos da flora**, bem como a utilização de outros **bens e serviços**."_
+]
+]
+]
+
+.pull-right-3[
+.pull-down[
+`r anicon::faa("seedling", size = 5, speed = "slow", animate = 'vertical', color = "green")`
+`r anicon::faa("leaf", size = 5, speed = "slow", animate = 'vertical', color = "green")`
 
 ]
+]
+
+---
+name: arl
+## Área de Reserva Legal - ARL
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
+
+<br>
+
+_".orange[**Reserva Legal** (inciso III do Art. 3º)]: **área** localizada no interior de uma propriedade ou posse rural, delimitada nos termos do art. 12, com a **função de assegurar o uso econômico de modo sustentável dos recursos naturais** do imóvel rural, auxiliar a **conservação e a reabilitação dos processos ecológicos** e promover a **conservação da biodiversidade**, bem como o **abrigo e a proteção de fauna silvestre e da flora nativa**."_
+
+------------------------------------------------
+
+_".orange[**Art. 12**]: Todo imóvel rural deve **manter área com cobertura de vegetação nativa**, **a título de Reserva Legal**, sem prejuízo da aplicação das normas sobre as Áreas de Preservação Permanente, observados os seguintes percentuais mínimos em relação à área do imóvel."_
+
+I - localizado na Amazônia Legal:
+
+.red[a) 80% (oitenta por cento), no imóvel situado em área de florestas.]
+
+b) 35% (trinta e cinco por cento), no imóvel situado em área de cerrado.
+
+c) 20% (vinte por cento), no imóvel situado em área de campos gerais.
+
+]
+]
+]
+
+.pull-right-3[
+.pull-down[
+`r anicon::faa("seedling", size = 3, speed = "slow", animate = 'vertical', color = "green")`
+`r anicon::faa("leaf", size = 3, speed = "slow", animate = 'vertical', color = "green")`
+
+]
+]
+
+---
+name: app
+## Área de Preservação Permanente - APP
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
+
+<br>
+
+_".orange[**Área de Preservação Permanente** (inciso II do Art. 3º)]: **área protegida**, coberta ou não por vegetação nativa, com a **função ambiental** de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas."_
+]
+]
+]
+
+---
+
+## Área de Preservação Permanente - APP
+<br>
+.font80[**Fonte:** [Climate Policy Initiative](https://www.climatepolicyinitiative.org/pt-br/publication/monitor-da-implementacao-do-codigo-florestal/)]
+
+```{r echo = FALSE, out.width='60%', fig.align='center', fig.cap='Exemplos de APPs', dpi=600}
+knitr::include_graphics("fig/class8/APP.png")
+```
+
+
+---
+name: auas
+## Área de Uso Alternativo do Solo - AUAS
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
+
+<br>
+
+_".orange[**Uso Alternativo do Solo** (inciso VI do Art. 3º)]: **substituição de vegetação nativa e formações sucessoras por outras coberturas do solo**, como atividades agropecuárias, industriais, de geração e transmissão de energia, de mineração e de transporte, assentamentos urbanos ou outras formas de ocupação humana."_
+]
+]
+]
+
+---
+name: amf
+## Área de Manejo Florestal - AMF
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+]
+
+<br>
+
+_".orange[**Área de Manejo Florestal** (inciso I do Art. 2º)]: **conjunto de Unidades de Manejo Florestal - UMF** que compõem o PMFS, contíguas ou não, localizadas em um único Estado"_
+
+<br>
+
+_".orange[**Unidade de Manejo Florestal** (inciso XII do Art. 2º)]: Área do imóvel rural a ser utilizada no manejo florestal"_
+]
+]
+]
+
+---
+name: upa
+## Unidade de Produção Anual e Unidade de Trabalho
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+]
+
+<br>
+
+_".orange[**Unidade de Produção Anual - UPA** (inciso XIII do Art. 2º)]: subdivisão da Área de Manejo Florestal, destinada a ser explorada em um ano."_
+
+<br>
+
+_".orange[**Unidade de Trabalho - UT** (inciso XIV do Art. 2º)]: subdivisão operacional da Unidade de Produção Anual."_
+]
+]
+]
+
+---
+name: pmfs
+## Documentos técnicos: PMFS, POA e AUTEX (ou AUTEF)
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+]
+
+<br>
+
+_".orange[**Plano Manejo Florestal Sustentável - PMFS** (inciso X do Art. 2º)]: documento técnico básico que apresenta as diretrizes e procedimentos para administração da floresta de acordo com os princípios do manejo florestal sustentável."_
+
+<br>
+
+_".orange[**Plano Operacional Anual - POA** (inciso XI do Art. 2º)]: documento a ser apresentado ao órgão ambiental competente, contendo as informações definidas em suas diretrizes técnicas, com a especificação das atividades a serem realizadas no período de 12 meses."_
+
+<br>
+
+_".orange[**Autorização para Exploração - AUTEX** (inciso II do Art. 2º)]: documento expedido pelo órgão competente que autoriza o início da exploração da Unidade de Produção Anual-UPA e especifica o volume máximo por espécie permitido para exploração."_
+]
+]
+]
+
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/au1/sec.png)
+background-size: cover
+
+.font200[**Parte 1** <br> .yellow2[**Etapas do MFS madeireiro em Florestas Naturais**]]
 
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 1 - Manejo Florestal Sustentável - MFS</div2>/<div3>Etapas do MFS madeireiro em Florestas Naturais</div3> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 2 - MFS madeireiro em Florestas Naturais</div2>/<div3>Principais etapas</div3> </div>
 
 ---
 name: emfs
@@ -315,8 +607,16 @@ name: emfs
 
 .shadow1a[
 ### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
-<br>
 .font80[
+<br>
+
+Etapa fundamental para a elaboração e a execução do Plano de Manejo Florestal Sustentável (PMFS):
+
+- O MFS é viável economicamente?
+- Subsidios para as demais atividades do MFS.
+
+<br>
+
 **1 - Identificação e seleção das áreas com potencial ao MFS madeireiro**
 
 - Na Unidade de Manejo Florestal (UMF) existem .blue[Áreas de Preservação Permanente (APPs)]?
