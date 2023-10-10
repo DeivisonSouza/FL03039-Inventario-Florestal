@@ -1,110 +1,98 @@
----
-title: "Inventário Florestal (FL03039 - IF)"
-subtitle: "Censo Florestal"
-author: "Prof. Dr. Deivison Venicio Souza"
-institute: "Universidade Federal do Pará (UFPA)"
-date: 
-encoding: "UTF-8"
-header-includes: 
-   - \usepackage{xcolor}
-   - \usepackage{amsmath}
-   - \usepackage{mathtools}
-output:
-  xaringan::moon_reader:
-    css: 
-      - default 
-      - assets/sydney-fonts.css
-      - assets/slide-title/sydney-title.css
-    self_contained: false
-    seal: false
-    includes:
-      in_header: "assets/mathjax-equation-numbers.html"
-    nature:
-      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
-      highlightStyle: googlecode
-      highlightLines: true
-      countIncrementalSlides: false
-      highlightLanguage: ["r", "css", "yaml"]
-      ratio: '16:9'
-      navigation:
-        scroll: false
----
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Inventário Florestal (FL03039 - IF)</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prof. Dr. Deivison Venicio Souza" />
+    <script src="Aula8-Censo-Florestal_files/header-attrs-2.24/header-attrs.js"></script>
+    <link href="Aula8-Censo-Florestal_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <script src="Aula8-Censo-Florestal_files/fabric-4.3.1/fabric.min.js"></script>
+    <link href="Aula8-Censo-Florestal_files/xaringanExtra-scribble-0.0.1/scribble.css" rel="stylesheet" />
+    <script src="Aula8-Censo-Florestal_files/xaringanExtra-scribble-0.0.1/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
+    <link href="Aula8-Censo-Florestal_files/font-awesome-animation-1.0/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="Aula8-Censo-Florestal_files/fontawesome-5.0.13/js/fontawesome-all.min.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } },
+      });
+    </script>
+    <style>
+    .mjx-mrow a {
+      color: black;
+      pointer-events: none;
+      cursor: default;
+    }
+    </style>
+    <link rel="stylesheet" href="assets/sydney-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="assets/slide-title/sydney-title.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
 class: title-slide, center, middle
 background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
 background-position: 84% 90%, 95% 90%
 background-size: 220px, 90px, cover
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  fig.showtext = TRUE,
-  fig.align = "center", 
-  cache = FALSE,
-  error = FALSE,
-  message = FALSE, 
-  warning = FALSE, 
-  collapse = TRUE ,
-  dpi = 600)
-```
 
-```{r xaringan-logo, echo=FALSE}
-library(xaringanExtra)
-use_logo(
-  image_url = "fig/slide-title/ufpa.png",
-  position = css_position(top = ".8em", right = "1em"),
-  width = "110px",
-  height = "110px"
-)
 
-use_scribble()
-
-```
-
-```{r icon, echo=FALSE}
-#remotes::install_github("mitchelloharawild/icons")
-#library(icons)
-#download_fontawesome()
-#download_simple_icons()
-```
-
-```{r customDT, echo=F}
-CustomDT <- function(data){
-  data %>% DT::datatable(editable = 'cell', rownames = FALSE,
-                         style = "default",
-                         class = "display", width = '250px',
-                         caption = '',
-     options=list(pageLength = 16, dom = 'tip', autoWidth = F,
-       initComplete = htmlwidgets::JS(
-          "function(settings, json) {",
-          paste0("$(this.api().table().container()).css({'font-size': '", "14pt", "'});"),
-          "}")
-       ) 
-     )
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 110px;
+height: 110px;
+z-index: 0;
+background-image: url(fig/slide-title/ufpa.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:.8em;right:1em;
 }
-```
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
 
-```{r packages, include=FALSE}
-# remotes::install_github("dill/emoGG")
-library(ggplot2)
-library(dplyr)
-library(ggimage)
-```
 
 
-<!-- title-slide -->
-# Inventário Florestal <br> (FL03039 - IF)
-<br>
-## .yellow2[Censo Florestal] <br> `r anicon::faa("pagelines", animate="horizontal", colour="green")` .yellow2[(Inventário Florestal 100%)] `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+
+
+
+
+
+&lt;!-- title-slide --&gt;
+# Inventário Florestal &lt;br&gt; (FL03039 - IF)
+&lt;br&gt;
+## .yellow2[Censo Florestal] &lt;br&gt; <span>&lt;i class="fab  fa-pagelines faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span> .yellow2[(Inventário Florestal 100%)] <span>&lt;i class="fab  fa-pagelines faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span>
 
 #### **Prof. Dr. Deivison Venicio Souza**
 ##### Universidade Federal do Pará (UFPA)
 ##### Faculdade de Engenharia Florestal
 ##### E-mail: deivisonvs@ufpa.br
-###### 1ª versão: 21/Setembro/2023 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+###### 1ª versão: 21/Setembro/2023 &lt;br&gt; (Atualizado em: 10/outubro/2023) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
-<div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Inventário Florestal (FL03039 - IF)</div2>/<div3>Censo Florestal (Inventário Florestal 100%)</div3> </div>
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; &lt;div2&gt;Inventário Florestal (FL03039 - IF)&lt;/div2&gt;/&lt;div3&gt;Censo Florestal (Inventário Florestal 100%)&lt;/div3&gt; &lt;/div&gt;
 
 ---
 
@@ -141,13 +129,11 @@ layout: true
 ]
 
 .pull-right-9[
-<br>
+&lt;br&gt;
 
 .shadow3C[
-<br>
-```{r echo = FALSE, out.width='55%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/slide-title/Foto.jpeg")
-```
+&lt;br&gt;
+&lt;img src="fig/slide-title/Foto.jpeg" width="55%" style="display: block; margin: auto;" /&gt;
 
 .font70[
 **Prof. Dr. Deivison Venicio Souza**
@@ -164,7 +150,7 @@ knitr::include_graphics("fig/slide-title/Foto.jpeg")
 ---
 
 ## Objetivos
-<br>
+&lt;br&gt;
 
 .font80[
 Ao final desta aula espera-se que o discente seja capaz de...
@@ -185,33 +171,33 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [1 - Definições Legais](#df)
 
-&nbsp;&nbsp;[1.1 - Principais legislações](#pl)
+&amp;nbsp;&amp;nbsp;[1.1 - Principais legislações](#pl)
 
-&nbsp;&nbsp;[1.2 - Constituição Federal e Meio Ambiente](#cfma)
+&amp;nbsp;&amp;nbsp;[1.2 - Constituição Federal e Meio Ambiente](#cfma)
 
-&nbsp;&nbsp;[1.3 - Manejo Florestal Sustentável - MFS](#mfs)
+&amp;nbsp;&amp;nbsp;[1.3 - Manejo Florestal Sustentável - MFS](#mfs)
 
-&nbsp;&nbsp;[1.4 - Área de Reserva Legal - ARL](#rl)
+&amp;nbsp;&amp;nbsp;[1.4 - Área de Reserva Legal - ARL](#rl)
 
-&nbsp;&nbsp;[1.5 - Área de Preservação Permanente - APP](#app)
+&amp;nbsp;&amp;nbsp;[1.5 - Área de Preservação Permanente - APP](#app)
 
-&nbsp;&nbsp;[1.6 - Área de Uso Alternativo do Solo - AUAS](#auas)
+&amp;nbsp;&amp;nbsp;[1.6 - Área de Uso Alternativo do Solo - AUAS](#auas)
 
-&nbsp;&nbsp;[1.7 - Área de Manejo Florestal - AMF](#amf)
+&amp;nbsp;&amp;nbsp;[1.7 - Área de Manejo Florestal - AMF](#amf)
 
-&nbsp;&nbsp;[1.8 - Unidade de Manejo Florestal - AMF](#umf)
+&amp;nbsp;&amp;nbsp;[1.8 - Unidade de Manejo Florestal - AMF](#umf)
 
-&nbsp;&nbsp;[1.9 - Área de Efetiva Exploração Florestal - AEEF](#aeef)
+&amp;nbsp;&amp;nbsp;[1.9 - Área de Efetiva Exploração Florestal - AEEF](#aeef)
 
-&nbsp;&nbsp;[1.10 - Unidade de Produção Anual - UPA](#upa)
+&amp;nbsp;&amp;nbsp;[1.10 - Unidade de Produção Anual - UPA](#upa)
 
-&nbsp;&nbsp;[1.11 - Unidade de Trabalho - UT](#ut)
+&amp;nbsp;&amp;nbsp;[1.11 - Unidade de Trabalho - UT](#ut)
 
-&nbsp;&nbsp;[1.12 - Plano Manejo Florestal Sustentável - PMFS](#pmfs)
+&amp;nbsp;&amp;nbsp;[1.12 - Plano Manejo Florestal Sustentável - PMFS](#pmfs)
 
-&nbsp;&nbsp;[1.13 - Plano Operacional Anual - POA](#poa)
+&amp;nbsp;&amp;nbsp;[1.13 - Plano Operacional Anual - POA](#poa)
 
-&nbsp;&nbsp;[1.14 - Autorização de Exploração - AUTEX](#autex)
+&amp;nbsp;&amp;nbsp;[1.14 - Autorização de Exploração - AUTEX](#autex)
 
 ]
 ]
@@ -225,20 +211,20 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [1 - Principais Etapas do MFS para fins madeireiros](#macro)
 
-&nbsp;&nbsp;[1.1 - Macroplanejamento](#macro)
+&amp;nbsp;&amp;nbsp;[1.1 - Macroplanejamento](#macro)
 
-&nbsp;&nbsp;[1.2 - Microplanejamento (incluindo o IF-100%)](#micro)
+&amp;nbsp;&amp;nbsp;[1.2 - Microplanejamento (incluindo o IF-100%)](#micro)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 - Censo Florestal: conceito e importância](#sua)
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[1.2.1 - Censo Florestal: conceito e importância](#sua)
 
-&nbsp;&nbsp;[1.3 - Atividades Exploratórias](#ae)
+&amp;nbsp;&amp;nbsp;[1.3 - Atividades Exploratórias](#ae)
 
-&nbsp;&nbsp;[1.4 - Atividades Pós-Exploratórias](#ape)
+&amp;nbsp;&amp;nbsp;[1.4 - Atividades Pós-Exploratórias](#ape)
 
 ]
 ]
 
-<br><br>
+&lt;br&gt;&lt;br&gt;
 .pull-right-4[
 **Parte 3 - Censo Florestal (IF-100%)**
 
@@ -262,13 +248,13 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [1 - Estudo de Caso (Fazenda XXXXXX)](#ec)
 
-&nbsp;&nbsp;[1.1 - Média Aritmética Amostral](#maEC)
+&amp;nbsp;&amp;nbsp;[1.1 - Média Aritmética Amostral](#maEC)
 
 ]
 ]
 ]
 
-<!-- Slide XX -->
+&lt;!-- Slide XX --&gt;
 ---
 layout: false
 name: if
@@ -276,12 +262,12 @@ class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
 
-.font200[**Parte 1** <br> .yellow2[**Recursos Florestais e Legislação**]]
+.font200[**Parte 1** &lt;br&gt; .yellow2[**Recursos Florestais e Legislação**]]
 
 ---
 layout: true
-<div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 1 - Recursos Florestais e Legislação</div2>/<div3>Definições legais</div3> </div>
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; &lt;div2&gt;Parte 1 - Recursos Florestais e Legislação&lt;/div2&gt;/&lt;div3&gt;Definições legais&lt;/div3&gt; &lt;/div&gt;
 
 ---
 name: pl
@@ -292,7 +278,7 @@ name: pl
 .center[
 ### .blue[Principais Legislações - MFS para fins madeireiros]
 ]
-<br>
+&lt;br&gt;
 .font70[
 
 - **Esfera Federal:**
@@ -307,7 +293,7 @@ name: pl
 
 5 - [Lei nº 12.651, de 25 de maio de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm) (Novo Código Florestal)
 
-6 - [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578) (Parâmetros técnicos para elaboração, avaliação e execução de PMFS fins madeireiros)
+6 - [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&amp;task=arquivo.download&amp;id=578) (Parâmetros técnicos para elaboração, avaliação e execução de PMFS fins madeireiros)
 
 7 - [Portaria MMA nº 443, de 17 de dezembro de 2014](https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Portaria/2014/p_mma_443_2014_lista_esp%C3%A9cies_amea%C3%A7adas_extin%C3%A7%C3%A3o.pdf) (Lista as espécies da flora brasileira ameaçadas de extinção)
 
@@ -326,7 +312,7 @@ name: pl
 .center[
 ### .blue[Principais Legislações - MFS para fins madeireiros]
 ]
-<br>
+&lt;br&gt;
 .font70[
 
 - **Esfera Estadual (Pará):**
@@ -350,10 +336,10 @@ name: cfma
 .center[
 ### [Constituição da República Federativa do Brasil de 1988](http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm)
 ]
-<br>
+&lt;br&gt;
 
 **Constituição Federal e Meio Ambiente** (.orange[Art. 225º do Capítulo VI - Do Meio Ambiente]):
-<br><br>
+&lt;br&gt;&lt;br&gt;
 
 _".orange[**Art. 225**]. **Todos têm direito ao meio ambiente ecologicamente equilibrado**, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao Poder Público e à coletividade o dever de **defendê-lo e preservá- lo para as presentes e futuras gerações**."_
 
@@ -367,8 +353,8 @@ VII – proteger a fauna e a flora, vedadas, na forma da lei, as práticas que c
 
 .pull-right-3[
 .pull-down[
-`r anicon::faa("seedling", size = 3, speed = "slow", animate = 'vertical', color = "green")`
-`r anicon::faa("leaf", size = 3, speed = "slow", animate = 'vertical', color = "green")`
+<span>&lt;i class="fas  fa-seedling fa-3x faa-vertical animated faa-slow " style=" color:green;"&gt;&lt;/i&gt;</span>
+<span>&lt;i class="fas  fa-leaf fa-3x faa-vertical animated faa-slow " style=" color:green;"&gt;&lt;/i&gt;</span>
 
 ]
 ]
@@ -383,10 +369,10 @@ name: mfs
 .center[
 ### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
 ]
-<br>
+&lt;br&gt;
 
 **Manejo Florestal Sustentável** (.orange[inciso VII do Art. 3º]):
-<br><br>
+&lt;br&gt;&lt;br&gt;
 
 _".orange[**Manejo Florestal Sustentável**]: **administração da vegetação natural** para a obtenção de **benefícios econômicos, sociais e ambientais**, respeitando-se os mecanismos de sustentação do ecossistema objeto do manejo e considerando-se, cumulativa ou alternativamente, a **utilização de múltiplas espécies madeireiras ou não**, **de múltiplos produtos e subprodutos da flora**, bem como a utilização de outros **bens e serviços**."_
 ]
@@ -395,8 +381,8 @@ _".orange[**Manejo Florestal Sustentável**]: **administração da vegetação n
 
 .pull-right-3[
 .pull-down[
-`r anicon::faa("seedling", size = 3, speed = "slow", animate = 'vertical', color = "green")`
-`r anicon::faa("leaf", size = 3, speed = "slow", animate = 'vertical', color = "green")`
+<span>&lt;i class="fas  fa-seedling fa-3x faa-vertical animated faa-slow " style=" color:green;"&gt;&lt;/i&gt;</span>
+<span>&lt;i class="fas  fa-leaf fa-3x faa-vertical animated faa-slow " style=" color:green;"&gt;&lt;/i&gt;</span>
 
 ]
 ]
@@ -412,7 +398,7 @@ name: arl
 ### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
 ]
 
-<br>
+&lt;br&gt;
 
 _".orange[**Reserva Legal** (inciso III do Art. 3º)]: **área** localizada no interior de uma propriedade ou posse rural, delimitada nos termos do art. 12, com a **função de assegurar o uso econômico de modo sustentável dos recursos naturais** do imóvel rural, auxiliar a **conservação e a reabilitação dos processos ecológicos** e promover a **conservação da biodiversidade**, bem como o **abrigo e a proteção de fauna silvestre e da flora nativa**."_
 
@@ -434,8 +420,8 @@ c) 20% (vinte por cento), no imóvel situado em área de campos gerais.
 
 .pull-right-3[
 .pull-down[
-`r anicon::faa("seedling", size = 3, speed = "slow", animate = 'vertical', color = "green")`
-`r anicon::faa("leaf", size = 3, speed = "slow", animate = 'vertical', color = "green")`
+<span>&lt;i class="fas  fa-seedling fa-3x faa-vertical animated faa-slow " style=" color:green;"&gt;&lt;/i&gt;</span>
+<span>&lt;i class="fas  fa-leaf fa-3x faa-vertical animated faa-slow " style=" color:green;"&gt;&lt;/i&gt;</span>
 
 ]
 ]
@@ -451,7 +437,7 @@ name: app
 ### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
 ]
 
-<br>
+&lt;br&gt;
 
 _".orange[**Área de Preservação Permanente** (inciso II do Art. 3º)]: **área protegida**, coberta ou não por vegetação nativa, com a **função ambiental** de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas."_
 ]
@@ -461,12 +447,13 @@ _".orange[**Área de Preservação Permanente** (inciso II do Art. 3º)]: **áre
 ---
 
 ## Área de Preservação Permanente - APP
-<br>
+&lt;br&gt;
 .font80[**Fonte:** [Climate Policy Initiative](https://www.climatepolicyinitiative.org/pt-br/publication/monitor-da-implementacao-do-codigo-florestal/)]
 
-```{r echo = FALSE, out.width='60%', fig.align='center', fig.cap='Exemplos de APPs', dpi=600}
-knitr::include_graphics("fig/class8/APP.png")
-```
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="fig/class8/APP.png" alt="Exemplos de APPs" width="60%" /&gt;
+&lt;p class="caption"&gt;Exemplos de APPs&lt;/p&gt;
+&lt;/div&gt;
 
 
 ---
@@ -480,7 +467,7 @@ name: auas
 ### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
 ]
 
-<br>
+&lt;br&gt;
 
 _".orange[**Uso Alternativo do Solo** (inciso VI do Art. 3º)]: **substituição de vegetação nativa e formações sucessoras por outras coberturas do solo**, como atividades agropecuárias, industriais, de geração e transmissão de energia, de mineração e de transporte, assentamentos urbanos ou outras formas de ocupação humana."_
 ]
@@ -495,14 +482,14 @@ name: amf
 .shadow1b[
 .font80[
 .center[
-### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&amp;task=arquivo.download&amp;id=578)
 ]
 
-<br>
+&lt;br&gt;
 
 _".orange[**Área de Manejo Florestal** (inciso I do Art. 2º)]: **conjunto de Unidades de Manejo Florestal - UMF** que compõem o PMFS, contíguas ou não, localizadas em um único Estado"_
 
-<br>
+&lt;br&gt;
 
 _".orange[**Unidade de Manejo Florestal** (inciso XII do Art. 2º)]: Área do imóvel rural a ser utilizada no manejo florestal"_
 ]
@@ -520,11 +507,11 @@ name: aeef
 ### [Instrução Normativa/SEMAS nº 05, de 10 de Setembro de 2015](https://www.semas.pa.gov.br/legislacao/files/pdf/184.pdf)
 ]
 
-<br>
+&lt;br&gt;
 
 _".orange[**Área de Efetiva Exploração Florestal - AEE** (inciso I do Art. 2º)]: área, efetivamente, explorada na Unidade de Trabalho - UT, computando-se as áreas com árvores sem porte comercial para exploração e excluindo-se as áreas de preservação permanente, inacessíveis, de infraestrutura, antropizadas em regime ou não de pousio, bem como indisponíveis legalmente**"_
 
-<br>
+&lt;br&gt;
 
 _".orange[**Área de Efetivo Manejo** (inciso II do Art. 2º)]: área da Unidade de Manejo Florestal - UMF com potencial presente ou futuro para exploração florestal, excluídas as áreas de preservação permanente, inacessíveis, de infraestrutura, antropizadas em regime ou não de pousio, bem como indisponíveis legalmente."_
 ]
@@ -539,14 +526,14 @@ name: upa
 .shadow1b[
 .font80[
 .center[
-### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&amp;task=arquivo.download&amp;id=578)
 ]
 
-<br>
+&lt;br&gt;
 
 _".orange[**Unidade de Produção Anual - UPA** (inciso XIII do Art. 2º)]: subdivisão da Área de Manejo Florestal, destinada a ser explorada em um ano."_
 
-<br>
+&lt;br&gt;
 
 _".orange[**Unidade de Trabalho - UT** (inciso XIV do Art. 2º)]: subdivisão operacional da Unidade de Produção Anual."_
 ]
@@ -561,18 +548,18 @@ name: pmfs
 .shadow1b[
 .font80[
 .center[
-### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&amp;task=arquivo.download&amp;id=578)
 ]
 
-<br>
+&lt;br&gt;
 
 _".orange[**Plano Manejo Florestal Sustentável - PMFS** (inciso X do Art. 2º)]: documento técnico básico que apresenta as diretrizes e procedimentos para administração da floresta de acordo com os princípios do manejo florestal sustentável."_
 
-<br>
+&lt;br&gt;
 
 _".orange[**Plano Operacional Anual - POA** (inciso XI do Art. 2º)]: documento a ser apresentado ao órgão ambiental competente, contendo as informações definidas em suas diretrizes técnicas, com a especificação das atividades a serem realizadas no período de 12 meses."_
 
-<br>
+&lt;br&gt;
 
 _".orange[**Autorização para Exploração - AUTEX** (inciso II do Art. 2º)]: documento expedido pelo órgão competente que autoriza o início da exploração da Unidade de Produção Anual-UPA e especifica o volume máximo por espécie permitido para exploração."_
 ]
@@ -589,12 +576,12 @@ class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
 
-.font200[**Parte 1** <br> .yellow2[**Etapas do MFS madeireiro em Florestas Naturais**]]
+.font200[**Parte 1** &lt;br&gt; .yellow2[**Etapas do MFS madeireiro em Florestas Naturais**]]
 
 ---
 layout: true
-<div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 2 - MFS madeireiro em Florestas Naturais</div2>/<div3>Principais etapas</div3> </div>
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; &lt;div2&gt;Parte 2 - MFS madeireiro em Florestas Naturais&lt;/div2&gt;/&lt;div3&gt;Principais etapas&lt;/div3&gt; &lt;/div&gt;
 
 ---
 name: emfs
@@ -602,11 +589,12 @@ name: emfs
 
 .shadow1a[
 ### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
-<br>
+&lt;br&gt;
 
-```{r echo = FALSE, out.width='40%', fig.align='center', fig.cap='Etapas do MFS para fins madeireiros', dpi=600}
-knitr::include_graphics("fig/class8/MFS.jpeg")
-```
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="fig/class8/MFS.jpeg" alt="Etapas do MFS para fins madeireiros" width="40%" /&gt;
+&lt;p class="caption"&gt;Etapas do MFS para fins madeireiros&lt;/p&gt;
+&lt;/div&gt;
 
 ]
 
@@ -616,10 +604,10 @@ knitr::include_graphics("fig/class8/MFS.jpeg")
 
 .shadow1a[
 ### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
-<br>
+&lt;br&gt;
 
 As principais etapas do MFS para fins madeireiros são:
-<br>
+&lt;br&gt;
 
 - **1ª Etapa - Macroplanejamento**
 - **2ª Etapa - Microplanejamento (.blue[incluindo o IF-100%])**
@@ -635,14 +623,14 @@ name: emfs
 .shadow1a[
 ### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
 .font80[
-<br>
+&lt;br&gt;
 
 Etapa fundamental para a elaboração e a execução do Plano de Manejo Florestal Sustentável (PMFS):
 
 - O MFS é viável economicamente?
 - Subsidios para as demais atividades do MFS.
 
-<br>
+&lt;br&gt;
 
 **1 - Identificação e seleção das áreas com potencial ao MFS madeireiro**
 
@@ -662,7 +650,7 @@ name: emfs
 .pull-top[
 .shadow1a[
 ### .font70[1ª Etapa - Macroplanejamento (Balieiro et al., 2010)]
-<br>
+&lt;br&gt;
 .font70[
 **1 - Identificação e seleção das áreas com potencial ao MFS madeireiro**
 
@@ -675,10 +663,10 @@ name: emfs
 .center[
 [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
 ]
-<br>
+&lt;br&gt;
 
 **Área de Preservação Permanente (APP)** (.orange[inciso II do Art. 3º]):
-<br><br>
+&lt;br&gt;&lt;br&gt;
 
 _"**...área protegida**, coberta ou não por vegetação nativa, com a **função ambiental** de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas."_
 ]
@@ -688,9 +676,10 @@ _"**...área protegida**, coberta ou não por vegetação nativa, com a **funç�
 
 .pull-right-9[
 .pull-down[
-```{r echo = FALSE, out.width='100%', fig.align='center', fig.cap='Exemplos de APPs.', dpi=600}
-knitr::include_graphics("fig/class8/APP.png")
-```
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="fig/class8/APP.png" alt="Exemplos de APPs." width="100%" /&gt;
+&lt;p class="caption"&gt;Exemplos de APPs.&lt;/p&gt;
+&lt;/div&gt;
 
 .font70[**Fonte:** [Climate Policy Initiative](https://www.climatepolicyinitiative.org/pt-br/publication/monitor-da-implementacao-do-codigo-florestal/)]
 
@@ -704,7 +693,7 @@ name: emfs
 
 .shadow1a[
 ### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
-<br>
+&lt;br&gt;
 .font90[
 **1 - Identificação e seleção das áreas com potencial ao MFS**
 
@@ -720,7 +709,7 @@ name: emfs
 .shadow1a[
 ### Como funciona nos inventários florestais?
 
-- A AAS em inventários florestais é comumente conduzida por meio de um **sorteio SEM reposição** das unidades de amostras (Queiroz, 1998). <br><br>
+- A AAS em inventários florestais é comumente conduzida por meio de um **sorteio SEM reposição** das unidades de amostras (Queiroz, 1998). &lt;br&gt;&lt;br&gt;
 - **Motivo**: A inclusão de uma unidade amostral mais de uma vez na amostra refletirá uma homogeneização da variância (entre UAs) para a variável de interesse.
 
 ]
@@ -729,9 +718,152 @@ name: emfs
 
 ## Referências
 
-<br>
+&lt;br&gt;
 Balieiro, M. R.; Espada, A. L. V.; Nogueira, O; Palmieri, R.; Lentini, M. **As Concessões de Florestas Públicas na Amazônia Brasileira: Um manual para pequenos e médios produtores florestais.** 2ª edição, Piracicaba: Imaflora, SP. Belém: IFT, PA, 2010. 204p.
-<br><br>
+&lt;br&gt;&lt;br&gt;
 Sanquetta, C. R.; Corte, A. P. D.; Rodrigues, A. L.; Watzlawick, L. F. **Inventários Florestais: Planejamento e Execução.** 4ª edição - Revista e Ampliada. Curitiba. 2023. 406p.
 
 
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="assets/remark-zoom.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "googlecode",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"highlightLanguage": ["r", "css", "yaml"],
+"ratio": "16:9",
+"navigation": {
+"scroll": false
+}
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
