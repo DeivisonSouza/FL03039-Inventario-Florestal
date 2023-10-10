@@ -55,6 +55,7 @@ A programação e os slides da disciplina **Inventário Florestal**
 | Slides/Aula1-IF-Conceitos-Tipos.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula1-IF-Conceitos-Tipos.html> |
 | Slides/Aula2-Amostragem-IF.html      | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula2-Amostragem-IF.html>      |
 | Slides/Aula3-AAS.html                | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula3-AAS.html>                |
+| Slides/Aula8-Censo-Florestal.html    | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula8-Censo-Florestal.html>    |
 
 # Tutoriais da disciplina
 
