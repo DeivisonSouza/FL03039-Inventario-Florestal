@@ -586,7 +586,7 @@ class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
 
-.font200[**Parte 1** <br> .yellow2[**Etapas do MFS madeireiro em Florestas Naturais**]]
+.font200[**Parte 2** <br> .yellow2[**Etapas do MFS madeireiro em Florestas Naturais**]]
 
 ---
 layout: true
@@ -595,7 +595,7 @@ layout: true
 
 ---
 name: emfs
-## Manejo Florestal Sustentável - MFS
+## Manejo Florestal Sustentável Para Fins Madeireiros
 
 .shadow1a[
 ### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
@@ -609,7 +609,7 @@ knitr::include_graphics("fig/class8/MFS.jpeg")
 
 ---
 
-## Manejo Florestal Sustentável - MFS
+## Manejo Florestal Sustentável Para Fins Madeireiros
 
 .shadow1a[
 ### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
@@ -626,8 +626,8 @@ As principais etapas do MFS para fins madeireiros são:
 ]
 
 ---
-name: emfs
-## Manejo Florestal Sustentável - MFS
+
+## Manejo Florestal Sustentável Para Fins Madeireiros
 
 .shadow1a[
 ### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
@@ -652,52 +652,7 @@ Etapa fundamental para a elaboração e a execução do Plano de Manejo Floresta
 
 ---
 
-name: emfs
-## Manejo Florestal Sustentável - MFS
-
-.pull-left-9[
-.pull-top[
-.shadow1a[
-### .font70[1ª Etapa - Macroplanejamento (Balieiro et al., 2010)]
-<br>
-.font70[
-**1 - Identificação e seleção das áreas com potencial ao MFS madeireiro**
-
-- Na Unidade de Manejo Florestal (UMF) existem Áreas de Preservação Permanente (APPs)?
-]
-]
-
-.shadow1b[
-.font80[
-.center[
-[Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
-]
-<br>
-
-**Área de Preservação Permanente (APP)** (.orange[inciso II do Art. 3º]):
-<br><br>
-
-_"**...área protegida**, coberta ou não por vegetação nativa, com a **função ambiental** de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas."_
-]
-]
-]
-]
-
-.pull-right-9[
-.pull-down[
-```{r echo = FALSE, out.width='100%', fig.align='center', fig.cap='Exemplos de APPs.', dpi=600}
-knitr::include_graphics("fig/class8/APP.png")
-```
-
-.font70[**Fonte:** [Climate Policy Initiative](https://www.climatepolicyinitiative.org/pt-br/publication/monitor-da-implementacao-do-codigo-florestal/)]
-
-]
-]
-
----
-
-name: emfs
-## Manejo Florestal Sustentável - MFS
+## Manejo Florestal Sustentável Para Fins Madeireiros
 
 .shadow1a[
 ### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
@@ -708,21 +663,43 @@ name: emfs
 ]
 ]
 
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/au1/sec.png)
+background-size: cover
 
+.font200[**Parte 3** <br> .yellow2[**Censo Florestal (IF-100%)**]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 3 - Censo Florestal (IF-100%)</div2>/<div3>Aspectos Técnicos</div3> </div>
 
 ---
 
-## Amostragem Aleatória Simples
 
-.shadow1a[
-### Como funciona nos inventários florestais?
 
-- A AAS em inventários florestais é comumente conduzida por meio de um **sorteio SEM reposição** das unidades de amostras (Queiroz, 1998). <br><br>
-- **Motivo**: A inclusão de uma unidade amostral mais de uma vez na amostra refletirá uma homogeneização da variância (entre UAs) para a variável de interesse.
-
-]
 
 ---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/au1/sec.png)
+background-size: cover
+
+.font200[**Parte 4** <br> .yellow2[**Análise Técnica de IF-100%**]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 4 - Análise Técnica de IF-100%</div2>/<div3>Estudo de Caso</div3> </div>
+
+---
+
+
+
 
 ## Referências
 
