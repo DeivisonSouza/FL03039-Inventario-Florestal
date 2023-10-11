@@ -180,12 +180,12 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left-4[
 .pull-top[
-**Parte 1 - Recursos Florestais e Legislação**
+**Parte 1 - MFS para fins madeireiros e Legislação**
 .font70[
 
-[1 - Definições Legais](#df)
+[1 - Conceitos chaves para o MFS madeireiro](#df)
 
-&nbsp;&nbsp;[1.1 - Principais legislações](#pl)
+&nbsp;&nbsp;[1.1 - Principais Legislações](#pl)
 
 &nbsp;&nbsp;[1.2 - Constituição Federal e Meio Ambiente](#cfma)
 
@@ -211,7 +211,13 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 &nbsp;&nbsp;[1.13 - Plano Operacional Anual - POA](#poa)
 
-&nbsp;&nbsp;[1.14 - Autorização de Exploração - AUTEX](#autex)
+&nbsp;&nbsp;[1.14 - Autorização de Exploração - AUTEX (ou AUTEF)](#autex)
+
+&nbsp;&nbsp;[1.15 - Ciclo de Corte](#cc)
+
+&nbsp;&nbsp;[1.16 - Diâmetro Mínimo de Corte](#dmc)
+
+&nbsp;&nbsp;[1.17 - Intensidade Máxima de Corte](#imc)
 
 ]
 ]
@@ -238,31 +244,53 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ]
 ]
 
-<br><br>
-.pull-right-4[
-**Parte 3 - Censo Florestal (IF-100%)**
-
-.font70[
-
-[1 - Censo Florestal: conceito e importância](#sua)
-
-]
-]
-
-
-
 ---
 
 ## Conteúdo
 
 .pull-left-4[
-.pull-top[
-**Parte 4 - Análise Técnica de IF-100% (MFS madeireiro)**
+**Parte 3 - Censo Florestal (IF-100%)**
+
 .font70[
 
-[1 - Estudo de Caso (Fazenda XXXXXX)](#ec)
+[1 - Censo florestal e legislação](#censo)
 
-&nbsp;&nbsp;[1.1 - Média Aritmética Amostral](#maEC)
+[2 - Etapas do censo florestal](#etapas)
+
+&nbsp;&nbsp;[2.1 - Identificação de árvores](#id)
+
+&nbsp;&nbsp;[2.2 - Medição e estimativa de variáveis dendrométricas](#med)
+
+&nbsp;&nbsp;[2.3 - Avaliação da qualidade do fuste (tronco)](#qf)
+
+&nbsp;&nbsp;[2.4 - Detecção de presença de oco](#oco)
+
+&nbsp;&nbsp;[2.5 - Corte de cipós pré-exploratório no IF-100%](#cipo)
+
+&nbsp;&nbsp;[2.6 - Seleção de árvores matrizes](#matr)
+
+&nbsp;&nbsp;[2.7 - Plaqueamento de árvores](#placa)
+
+&nbsp;&nbsp;[2.8 - Mapeamento de árvores](#mapa)
+
+[3 - Equipe, equipamentos e materiais](#equip)
+
+[4 - Produtos do censo florestal](#prod)
+
+&nbsp;&nbsp;[4.1 - Cálculos de medidas derivadas](#md)
+
+&nbsp;&nbsp;[4.2 - Mapa de corte e colheita](#corte)
+
+]
+]
+
+
+.pull-right-4[
+.pull-top[
+**Parte 4 - Análise Técnica de IF-100%**
+.font70[
+
+[1 - Estudo de Caso (Fazenda Maringá)](#ec)
 
 ]
 ]
@@ -276,16 +304,16 @@ class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
 
-.font200[**Parte 1** <br> .yellow2[**Recursos Florestais e Legislação**]]
+.font200[**Parte 1** <br> .yellow2[**MFS para fins madeireiros e Legislação**]]
 
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 1 - Recursos Florestais e Legislação</div2>/<div3>Definições legais</div3> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 1 - MFS para fins madeireiros e Legislação</div2>/<div3>Conceitos chaves para o MFS</div3> </div>
 
 ---
 name: pl
-## Recursos Florestais e Legislações
+## Manejo Florestal Sustentável para fins madeireiros
 
 
 .shadow1b[
@@ -678,6 +706,8 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div2>Parte 3 - Censo Florestal (IF-100%)</div2>/<div3>Aspectos Técnicos</div3> </div>
 
 ---
+
+
 
 
 
