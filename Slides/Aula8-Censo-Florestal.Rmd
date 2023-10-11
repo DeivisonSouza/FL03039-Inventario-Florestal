@@ -668,7 +668,6 @@ knitr::include_graphics("fig/class8/AUTEF/4.jpg")
 ]
 
 
-
 ---
 name: pmfs
 ## Outros conceitos
