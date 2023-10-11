@@ -229,6 +229,16 @@ div3 {
   width: 90%;
 }
 
+.pull-left-17 {
+  float: left;
+  width: 55%;
+}
+
+.pull-right-17 {
+  float: right;
+  width: 55%;
+}
+
 .comment {
 background-color: #ffe0cc;
 padding: 10px;
