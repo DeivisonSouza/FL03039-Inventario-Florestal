@@ -329,19 +329,21 @@ name: pl
 
 2 - [Lei nº 6.938, de 31 de agosto de 1981](https://www.planalto.gov.br/ccivil_03/leis/l6938.htm) (Política Nacional do Meio Ambiente - PNMA)
 
-3 - [Decreto n° 5.975, de 30 de novembro 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5975.htm) (Defini fundamentos técnicos gerais do PMFS, transporte de produtos e subprodutos florestais)
+3 - [Decreto nº 5.975, de 30 de novembro 2006](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5975.htm) (Defini fundamentos técnicos gerais do PMFS, transporte de produtos e subprodutos florestais)
 
-4 - [Norma de Execução/IBAMA 01, de 24 de 04 de 2007]()  (Diretrizes Técnicas para Elaboração dos PMFS)
+4 - [Lei nº 11.284, de 02 de março de 2006](https://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Lei/L11284.htm) (Lei de gestão de florestas públicas para a produção sustentável)
 
-5 - [Lei nº 12.651, de 25 de maio de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm) (Novo Código Florestal)
+5 - [Norma de Execução/IBAMA 01, de 24 de 04 de 2007](https://www.legisweb.com.br/legislacao/?id=91545)  (Diretrizes Técnicas para Elaboração dos PMFS)
 
-6 - [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578) (Parâmetros técnicos para elaboração, avaliação e execução de PMFS fins madeireiros)
+6 - [Lei nº 12.651, de 25 de maio de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm) (Novo Código Florestal)
 
-7 - [Portaria MMA nº 443, de 17 de dezembro de 2014](https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Portaria/2014/p_mma_443_2014_lista_esp%C3%A9cies_amea%C3%A7adas_extin%C3%A7%C3%A3o.pdf) (Lista as espécies da flora brasileira ameaçadas de extinção)
+7 - [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578) (Parâmetros técnicos para elaboração, avaliação e execução de PMFS fins madeireiros)
 
-8 - [Portaria MMA nº 148, de 07 de junho de 2022](https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Portaria/2020/P_mma_148_2022_altera_anexos_P_mma_443_444_445_2014_atualiza_especies_ameacadas_extincao.pdf) (Altera anexos da Portaria MMA nº 443, de 17 de dezembro de 2014)
+8 - [Portaria MMA nº 443, de 17 de dezembro de 2014](https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Portaria/2014/p_mma_443_2014_lista_esp%C3%A9cies_amea%C3%A7adas_extin%C3%A7%C3%A3o.pdf) (Lista as espécies da flora brasileira ameaçadas de extinção)
 
-9 - [Instrução Normativa nº 01, de 12 de fevereiro de 2015 – MMA]()  (Regulamenta o manejo das espécies vulneráveis - VU)
+9 - [Portaria MMA nº 148, de 07 de junho de 2022](https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Portaria/2020/P_mma_148_2022_altera_anexos_P_mma_443_444_445_2014_atualiza_especies_ameacadas_extincao.pdf) (Altera anexos da Portaria MMA nº 443, de 17 de dezembro de 2014)
+
+10 - [Instrução Normativa nº 01, de 12 de fevereiro de 2015 – MMA](https://www.ibama.gov.br/sophia/cnia/legislacao/MMA/IN0001-12022015.pdf)  (Regulamenta o manejo das espécies vulneráveis - VU)
 ]
 ]
 
