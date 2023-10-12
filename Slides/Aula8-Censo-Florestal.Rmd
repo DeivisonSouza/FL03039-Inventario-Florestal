@@ -374,7 +374,6 @@ name: pl
 name: cfma
 ## Constituição Federal e Meio Ambiente
 
-.pull-left-15[
 .shadow1b[
 .font80[
 .center[
@@ -393,7 +392,6 @@ VII – proteger a fauna e a flora, vedadas, na forma da lei, as práticas que c
 
 ]
 ]
-]
 
 .pull-right-3[
 .pull-down[
@@ -407,7 +405,6 @@ VII – proteger a fauna e a flora, vedadas, na forma da lei, as práticas que c
 name: mfs
 ## Manejo Florestal Sustentável - MFS: Definição
 
-.pull-left-15[
 .shadow1b[
 .font80[
 .center[
@@ -419,7 +416,6 @@ name: mfs
 <br><br>
 
 _.orange[**Manejo Florestal Sustentável**]: **administração da vegetação natural** para a obtenção de **benefícios econômicos, sociais e ambientais**, respeitando-se os mecanismos de sustentação do ecossistema objeto do manejo e considerando-se, cumulativa ou alternativamente, a **utilização de múltiplas espécies madeireiras ou não**, **de múltiplos produtos e subprodutos da flora**, bem como a utilização de outros **bens e serviços**._
-]
 ]
 ]
 
@@ -435,7 +431,6 @@ _.orange[**Manejo Florestal Sustentável**]: **administração da vegetação na
 name: arl
 ## Área de Reserva Legal - ARL
 
-.pull-left-15[
 .shadow1b[
 .font80[
 .center[
@@ -457,7 +452,6 @@ d) Servir de abrigo e a proteção de fauna silvestre e da flora nativa.
 
 ]
 ]
-]
 
 .pull-right-3[
 .pull-down[
@@ -471,7 +465,6 @@ d) Servir de abrigo e a proteção de fauna silvestre e da flora nativa.
 
 ## Área de Reserva Legal - ARL
 
-.pull-left-15[
 .shadow1b[
 .font80[
 .center[
@@ -492,7 +485,6 @@ b) 35% (trinta e cinco por cento), no imóvel situado em área de cerrado.
 
 c) 20% (vinte por cento), no imóvel situado em área de campos gerais.
 
-]
 ]
 ]
 
@@ -525,7 +517,6 @@ knitr::include_graphics("fig/class8/Amazonia_Legal_2022.jpg")
 
 -------------------------------------------------------------------------
 
-.pull-left-15[
 .shadow1b[
 .font80[
 .center[
@@ -542,7 +533,6 @@ _.orange[**Art. 20**]: No manejo sustentável da vegetação florestal da Reserv
 
 ]
 ]
-]
 
 ---
 
@@ -556,7 +546,6 @@ _.orange[**Art. 20**]: No manejo sustentável da vegetação florestal da Reserv
 
 -------------------------------------------------------------------------
 
-.pull-left-15[
 .shadow1b[
 .font80[
 .center[
@@ -577,7 +566,6 @@ III - técnicas que não coloquem em risco a sobrevivência de indivíduos e da 
 
 ]
 ]
-]
 
 ---
 
@@ -591,7 +579,6 @@ III - técnicas que não coloquem em risco a sobrevivência de indivíduos e da 
 
 -------------------------------------------------------------------------
 
-.pull-left-15[
 .shadow1b[
 .font80[
 .center[
@@ -612,13 +599,11 @@ III - conduzir o manejo de espécies exóticas com a adoção de medidas que fav
 
 ]
 ]
-]
 
 ---
 name: app
 ## Área de Preservação Permanente - APP
 
-.pull-left-15[
 .shadow1b[
 .font80[
 .center[
@@ -651,7 +636,6 @@ g) Assegurar o bem-estar das populações humanas.
 `r anicon::faa("exclamation-triangle", colour="red")` **No MFS para fins madeireiros não pode explorar árvores em APP!**
 ]
 ]
-]
 
 ---
 
@@ -663,6 +647,51 @@ g) Assegurar o bem-estar das populações humanas.
 knitr::include_graphics("fig/class8/APP.png")
 ```
 
+
+---
+
+## Área de Preservação Permanente - APP
+
+.pull-left-18[
+.shadow1b[
+.font70[
+.center[
+### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
+
+<br>
+
+**Seção I - Da Delimitação das Áreas de Preservação Permanente**
+
+_.orange[**Art. 4**]: Considera-se Área de Preservação Permanente, em zonas rurais ou urbanas:_
+
+_.blue[**I**] - **as faixas marginais de qualquer curso d’água natural perene e intermitente**, excluídos os efêmeros, desde a borda da calha do leito regular, em largura mínima de:_
+
+a) 30 (trinta) metros, para os cursos d’água de menos de 10 (dez) metros de largura;
+
+b) 50 (cinquenta) metros, para os cursos d’água que tenham de 10 (dez) a 50 (cinquenta) metros de largura;
+
+c) 100 (cem) metros, para os cursos d’água que tenham de 50 (cinquenta) a 200 (duzentos) metros de largura;
+
+d) 200 (duzentos) metros, para os cursos d’água que tenham de 200 (duzentos) a 600 (seiscentos) metros de largura; e
+
+e) 500 (quinhentos) metros, para os cursos d’água que tenham largura superior a 600 (seiscentos) metros.
+]
+]
+]
+
+.pull-right-18[
+
+<br>
+
+| Largura do curso d´água (m) |  Faixa da APP (m)    |
+|:---------------------------:|:--------------------:|
+|            < 10             |           30         |
+|           10 a 50           |           50         |
+|           50 a 200          |          100         |
+|           200 a 600         |          200         |
+|            > 600            |          500         |
+]
 
 ---
 name: auas

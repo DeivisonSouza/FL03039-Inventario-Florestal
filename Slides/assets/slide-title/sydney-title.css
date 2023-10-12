@@ -239,6 +239,17 @@ div3 {
   width: 55%;
 }
 
+.pull-left-18 {
+  float: left;
+  width: 75%;
+}
+
+.pull-right-18 {
+  float: right;
+  width: 25%;
+}
+
+
 .comment {
 background-color: #ffe0cc;
 padding: 10px;
@@ -546,7 +557,7 @@ slides > slide {
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  max-width: 950px;
+  max-width: 1000px;
   border-radius: 7px;
   padding-top: 0px;
   padding-left: 15px;
