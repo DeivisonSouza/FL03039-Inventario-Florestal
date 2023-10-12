@@ -304,7 +304,7 @@ class: inverse, middle, center
 background-image: url(fig/au1/sec.png)
 background-size: cover
 
-.font200[**Parte 1** <br> .yellow2[**MFS para fins madeireiros e Legislação**]]
+.font200[**Parte 1** <br> .yellow2[**MFS e Legislação**]]
 
 ---
 layout: true
@@ -313,7 +313,7 @@ layout: true
 
 ---
 name: pl
-## Manejo Florestal Sustentável para fins madeireiros
+## Manejo Florestal Sustentável - MFS
 
 
 .shadow1b[
@@ -349,7 +349,7 @@ name: pl
 
 ---
 name: pl
-## Manejo Florestal Sustentável para fins madeireiros
+## Manejo Florestal Sustentável - MFS
 
 
 .shadow1b[
@@ -405,7 +405,7 @@ VII – proteger a fauna e a flora, vedadas, na forma da lei, as práticas que c
 
 ---
 name: mfs
-## Manejo Florestal Sustentável - MFS
+## Manejo Florestal Sustentável - MFS: Definição
 
 .pull-left-15[
 .shadow1b[
@@ -444,11 +444,45 @@ name: arl
 
 <br>
 
-_.orange[**Reserva Legal** (inciso III do Art. 3º)]: **área** localizada no interior de uma **propriedade ou posse rural**, delimitada nos termos do .orange[art. 12], com a **função de assegurar o uso econômico de modo sustentável dos recursos naturais** do imóvel rural, auxiliar a **conservação e a reabilitação dos processos ecológicos** e promover a **conservação da biodiversidade**, bem como o **abrigo e a proteção de fauna silvestre e da flora nativa**._
+_.orange[**Reserva Legal** (inciso III do Art. 3º)]: **área** localizada no interior de uma **propriedade ou posse rural**, delimitada nos termos do .orange[art. 12], com a função de:_
 
-------------------------------------------------
 
-_.orange[**Art. 12**]: Todo **imóvel rural deve manter área com cobertura de vegetação nativa**, **a título de Reserva Legal**, sem prejuízo da aplicação das normas sobre as Áreas de Preservação Permanente, observados os seguintes percentuais mínimos em relação à área do imóvel._
+a) Assegurar o uso econômico de modo sustentável dos recursos naturais do imóvel rural;
+
+b) Auxiliar a conservação e a reabilitação dos processos ecológicos; 
+
+c) Promover a conservação da biodiversidade; e
+
+d) Servir de abrigo e a proteção de fauna silvestre e da flora nativa.
+
+]
+]
+]
+
+.pull-right-3[
+.pull-down[
+`r anicon::faa("seedling", size = 3, speed = "slow", animate = 'vertical', color = "green")`
+`r anicon::faa("leaf", size = 3, speed = "slow", animate = 'vertical', color = "green")`
+
+]
+]
+
+---
+
+## Área de Reserva Legal - ARL
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
+
+<br>
+
+_.orange[**Art. 12**]: Todo **imóvel rural deve manter área com cobertura de vegetação nativa**, **a título de Reserva Legal**, sem prejuízo da aplicação das normas sobre as Áreas de Preservação Permanente, observados os seguintes **percentuais mínimos em relação à área do imóvel**._
+
+<br>
 
 I - localizado na **Amazônia Legal**:
 
@@ -480,6 +514,107 @@ knitr::include_graphics("fig/class8/Amazonia_Legal_2022.jpg")
 .center[.font40[**Fonte**: [IBGE](https://www.ibge.gov.br/geociencias/cartas-e-mapas/mapas-regionais/15819-amazonia-legal.html)]]
 
 ---
+
+## Área de Reserva Legal - ARL
+
+<br>
+
+**É permitida a exploração econômica direta da RL?**
+
+**Resposta**: .green[**Sim, sob regime de manejo sustentável.**] `r anicon::faa("thumbs-up", colour="green", animate = "vertical")` 
+
+-------------------------------------------------------------------------
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
+
+- O Novo código florestal admite o manejo sustentável da vegetação da RL:
+
+**Seção II - Do Regime de Proteção da Reserva Legal**
+
+_.orange[**§ 1º do Art. 17**]: **Admite-se a exploração econômica da Reserva Legal** mediante **manejo sustentável**, previamente aprovado pelo órgão competente do Sisnama, de acordo com as modalidades previstas no art. 20._
+
+_.orange[**Art. 20**]: No manejo sustentável da vegetação florestal da Reserva Legal, serão adotadas práticas de exploração seletiva nas modalidades de **manejo sustentável sem propósito comercial** para consumo na propriedade e **manejo sustentável para exploração florestal com propósito comercial**._
+
+]
+]
+]
+
+---
+
+## Área de Reserva Legal - ARL
+
+<br>
+
+**É permitida a exploração econômica direta da RL?**
+
+**Resposta**: .green[**Sim, sob regime de manejo sustentável.**] `r anicon::faa("thumbs-up", colour="green", animate = "vertical")` 
+
+-------------------------------------------------------------------------
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
+
+- O Novo código florestal admite o manejo sustentável da vegetação da RL:
+
+**Seção II - Do Regime de Proteção da Reserva Legal**
+
+_.orange[**Art. 21**]: É livre a coleta de **produtos florestais não madeireiros**, tais como frutos, cipós, folhas e sementes, devendo-se observar:_
+
+I - os períodos de coleta e volumes fixados em regulamentos específicos, quando houver;
+
+II - a época de maturação dos frutos e sementes; e
+
+III - técnicas que não coloquem em risco a sobrevivência de indivíduos e da espécie coletada no caso de coleta de flores, folhas, cascas, óleos, resinas, cipós, bulbos, bambus e raízes.
+
+]
+]
+]
+
+---
+
+## Área de Reserva Legal - ARL
+
+<br>
+
+**É permitida a exploração econômica direta da RL?**
+
+**Resposta**: .green[**Sim, sob regime de manejo sustentável.**] `r anicon::faa("thumbs-up", colour="green", animate = "vertical")` 
+
+-------------------------------------------------------------------------
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Lei nº 12.651, de 25 de maio de 2012 - Novo Código Florestal](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm)
+]
+
+- O Novo código florestal admite o manejo sustentável da vegetação da RL:
+
+**Seção II - Do Regime de Proteção da Reserva Legal**
+
+_.orange[**Art. 22**]: O **manejo florestal sustentável da vegetação da Reserva Legal com propósito comercial depende de autorização do órgão competente** e deverá atender as seguintes diretrizes e orientações:_
+
+I - não descaracterizar a cobertura vegetal e não prejudicar a conservação da vegetação nativa da área;
+
+II - assegurar a manutenção da diversidade das espécies; e
+
+III - conduzir o manejo de espécies exóticas com a adoção de medidas que favoreçam a regeneração de espécies nativas.
+
+]
+]
+]
+
+---
 name: app
 ## Área de Preservação Permanente - APP
 
@@ -492,7 +627,28 @@ name: app
 
 <br>
 
-_.orange[**Área de Preservação Permanente** (inciso II do Art. 3º)]: **área protegida**, coberta ou não por vegetação nativa, com a **função ambiental** de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas._
+_.orange[**Área de Preservação Permanente** (inciso II do Art. 3º)]: **área protegida**, **coberta ou não por vegetação nativa**, com a **função ambiental de preservar**:_
+
+a) Os recursos hídricos;
+
+b) A paisagem;
+
+c) A estabilidade geológica;
+
+d) A biodiversidade; 
+
+e) Facilitar o fluxo gênico de fauna e flora;
+
+f) Proteger o solo; e 
+
+g) Assegurar o bem-estar das populações humanas.
+
+
+<br>
+
+`r anicon::faa("exclamation-triangle", colour="red")` **Área Protegida! Não é permitida a exploração econômica direta!**
+
+`r anicon::faa("exclamation-triangle", colour="red")` **No MFS para fins madeireiros não pode explorar árvores em APP!**
 ]
 ]
 ]
