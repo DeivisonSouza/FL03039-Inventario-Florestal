@@ -444,13 +444,13 @@ name: arl
 
 <br>
 
-_.orange[**Reserva Legal** (inciso III do Art. 3º)]: **área** localizada no interior de uma propriedade ou posse rural, delimitada nos termos do art. 12, com a **função de assegurar o uso econômico de modo sustentável dos recursos naturais** do imóvel rural, auxiliar a **conservação e a reabilitação dos processos ecológicos** e promover a **conservação da biodiversidade**, bem como o **abrigo e a proteção de fauna silvestre e da flora nativa**._
+_.orange[**Reserva Legal** (inciso III do Art. 3º)]: **área** localizada no interior de uma **propriedade ou posse rural**, delimitada nos termos do .orange[art. 12], com a **função de assegurar o uso econômico de modo sustentável dos recursos naturais** do imóvel rural, auxiliar a **conservação e a reabilitação dos processos ecológicos** e promover a **conservação da biodiversidade**, bem como o **abrigo e a proteção de fauna silvestre e da flora nativa**._
 
 ------------------------------------------------
 
-_.orange[**Art. 12**]: Todo imóvel rural deve **manter área com cobertura de vegetação nativa**, **a título de Reserva Legal**, sem prejuízo da aplicação das normas sobre as Áreas de Preservação Permanente, observados os seguintes percentuais mínimos em relação à área do imóvel._
+_.orange[**Art. 12**]: Todo **imóvel rural deve manter área com cobertura de vegetação nativa**, **a título de Reserva Legal**, sem prejuízo da aplicação das normas sobre as Áreas de Preservação Permanente, observados os seguintes percentuais mínimos em relação à área do imóvel._
 
-I - localizado na Amazônia Legal:
+I - localizado na **Amazônia Legal**:
 
 .red[a) 80% (oitenta por cento), no imóvel situado em área de florestas.]
 
@@ -469,6 +469,15 @@ c) 20% (vinte por cento), no imóvel situado em área de campos gerais.
 
 ]
 ]
+
+---
+name: al
+## Amazônia Legal
+
+```{r echo = FALSE, out.width='66%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/Amazonia_Legal_2022.jpg")
+```
+.center[.font40[**Fonte**: [IBGE](https://www.ibge.gov.br/geociencias/cartas-e-mapas/mapas-regionais/15819-amazonia-legal.html)]]
 
 ---
 name: app
@@ -530,11 +539,11 @@ name: amf
 
 <br>
 
-_.orange[**Área de Manejo Florestal** (inciso I do Art. 2º)]: **conjunto de Unidades de Manejo Florestal - UMF** que compõem o PMFS, contíguas ou não, localizadas em um único Estado_
+_.orange[**Área de Manejo Florestal** (inciso I do Art. 2º)]: **conjunto de Unidades de Manejo Florestal - UMF** que compõem o PMFS, contíguas ou não, localizadas em um único Estado._
 
 <br>
 
-_.orange[**Unidade de Manejo Florestal** (inciso XII do Art. 2º)]: Área do imóvel rural a ser utilizada no manejo florestal_
+_.orange[**Unidade de Manejo Florestal** (inciso XII do Art. 2º)]: Área do imóvel rural a ser utilizada no manejo florestal._
 ]
 ]
 ]
@@ -548,7 +557,7 @@ _.orange[**Unidade de Manejo Florestal** (inciso XII do Art. 2º)]: Área do im�
 
 <br>
 
-_.orange[**Unidade de Manejo Florestal** (inciso XXIV do Art. 2º)]: área do imóvel rural ou sob contrato de concessão que se constitui parte integrante da Área de Manejo Florestal – AMF_
+_.orange[**Unidade de Manejo Florestal** (inciso XXIV do Art. 2º)]: área do imóvel rural ou sob contrato de concessão que se constitui parte integrante da Área de Manejo Florestal – AMF._
 
 ]
 ]
@@ -611,7 +620,7 @@ _.orange[**Área de Efetivo Manejo** (inciso II do Art. 2º)]: área da Unidade 
 
 ---
 name: pmfs
-## Documentos técnicos: PMFS, POA e AUTEX (ou AUTEF)
+## Documentos técnicos: PMFS e POA
 
 .pull-left-15[
 .shadow1b[
@@ -627,10 +636,38 @@ _.orange[**Plano Manejo Florestal Sustentável - PMFS** (inciso X do Art. 2º)]:
 <br>
 
 _.orange[**Plano Operacional Anual - POA** (inciso XI do Art. 2º)]: documento a ser apresentado ao órgão ambiental competente, contendo as informações definidas em suas diretrizes técnicas, com a especificação das atividades a serem realizadas no período de 12 meses._
+]
+]
+]
+
+---
+name: autef
+## Documentos técnicos: AUTEX ou AUTEF
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+]
 
 <br>
 
 _.orange[**Autorização para Exploração - AUTEX** (inciso II do Art. 2º)]: documento expedido pelo órgão competente que autoriza o início da exploração da Unidade de Produção Anual-UPA e especifica o volume máximo por espécie permitido para exploração._
+]
+]
+]
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Instrução Normativa/SEMAS nº 05, de 10 de Setembro de 2015](https://www.semas.pa.gov.br/legislacao/files/pdf/184.pdf)
+]
+
+<br>
+
+_.orange[**Autorização para Exploração Florestal - AUTEF** (inciso VI do Art. 2º)]: documento expedido pela Secretaria de Estado de Meio Ambiente e Sustentabilidade do Pará - SEMAS/PA, que autoriza o início da exploração da Unidade de Produção Anual - UPA, do ano a que se refere, e especifica o volume máximo por espécie e volume total permitido para exploração, com a validade para uma safra._
 ]
 ]
 ]
