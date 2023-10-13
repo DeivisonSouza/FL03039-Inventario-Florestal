@@ -946,6 +946,15 @@ _.orange[**Intensidade de Corte** (inciso VI do Art. 2º)]: volume comercial das
 ]
 
 ---
+
+## Ciclo de Corte
+
+```{r echo = FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UPA.png")
+```
+
+
+---
 layout: false
 name: if
 class: inverse, middle, center
@@ -1058,7 +1067,7 @@ layout: true
 
 - .blue[**Objetivo**]: Definir dos limites físicos da UT.
 - .blue[**Tamanho**]: É comum (.red[Não é uma regra!]) a delimitação de UTs com área de 100ha (1000m x 1000m).
-- .blue[**Largura das faixas**]:
+- .blue[**Largura das faixas**]: Comumente de 50m de largura.
 
 **3 - Realizar a abertura das trilhas de orientação.**
 
