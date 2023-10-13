@@ -1050,14 +1050,17 @@ layout: true
 .shadow1b[
 ### Antes do IF-100% deve-se:
 <br>
-.font90[
-**1 - Delimitar as Unidades de Trabalho - UT.**
+.font80[
+**1 - Mapa de localização (UPA e UTs).**
+- .blue[**Objetivo**]: Auxiliar em campo na delimitação da UT (Azimute da linha base da UT).
+
+**2 - Delimitar as Unidades de Trabalho - UT.**
 
 - .blue[**Objetivo**]: Definir dos limites físicos da UT.
 - .blue[**Tamanho**]: É comum (.red[Não é uma regra!]) a delimitação de UTs com área de 100ha (1000m x 1000m).
 - .blue[**Largura das faixas**]:
 
-**2 - Realizar a abertura das trilhas de orientação.**
+**3 - Realizar a abertura das trilhas de orientação.**
 
 - Divisão interna da UT por meio da abertura de trilhas ou picadas perpendiculares à linha  base, formando faixas, que nortearão a realização do IF-100% e outras atividades do MFS.
 
@@ -1073,11 +1076,6 @@ layout: true
 ### Estrutura da Unidade de Trabalho
 <br>
 .font90[
-**1 - Definição do tamanho da UT.**
-
-- É comum (.red[Não é uma regra!]) a delimitação de UTs com área de 100ha (1000m x 1000m).
-
-**2 - Largura das faixas.**
 
 ]
 ]
