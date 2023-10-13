@@ -963,7 +963,7 @@ layout: true
 name: emfs
 ## Manejo Florestal Sustentável Para Fins Madeireiros
 
-.shadow1a[
+.shadow1b[
 ### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
 <br>
 
@@ -977,7 +977,7 @@ knitr::include_graphics("fig/class8/MFS.jpeg")
 
 ## Manejo Florestal Sustentável Para Fins Madeireiros
 
-.shadow1a[
+.shadow1b[
 ### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
 <br>
 
@@ -995,7 +995,7 @@ As principais etapas do MFS para fins madeireiros são:
 
 ## Manejo Florestal Sustentável Para Fins Madeireiros
 
-.shadow1a[
+.shadow1b[
 ### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
 .font80[
 <br>
@@ -1020,7 +1020,7 @@ Etapa fundamental para a elaboração e a execução do Plano de Manejo Floresta
 
 ## Manejo Florestal Sustentável Para Fins Madeireiros
 
-.shadow1a[
+.shadow1b[
 ### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
 <br>
 .font90[
@@ -1045,9 +1045,67 @@ layout: true
 
 ---
 
+## Etapas Precedentes ao Censo Florestal (IF-100%)
+
+.shadow1b[
+### Antes do IF-100% deve-se:
+<br>
+.font90[
+**1 - Delimitar as Unidades de Trabalho - UT.**
+
+- .blue[**Objetivo**]: Definir dos limites físicos da UT.
+- .blue[**Tamanho**]: É comum (.red[Não é uma regra!]) a delimitação de UTs com área de 100ha (1000m x 1000m).
+- .blue[**Largura das faixas**]:
+
+**2 - Realizar a abertura das trilhas de orientação.**
+
+- Divisão interna da UT por meio da abertura de trilhas ou picadas perpendiculares à linha  base, formando faixas, que nortearão a realização do IF-100% e outras atividades do MFS.
+
+]
+]
+
+---
+
+## Unidade de Trabalho: Estrutura
+
+
+.shadow1b[
+### Estrutura da Unidade de Trabalho
+<br>
+.font90[
+**1 - Definição do tamanho da UT.**
+
+- É comum (.red[Não é uma regra!]) a delimitação de UTs com área de 100ha (1000m x 1000m).
+
+**2 - Largura das faixas.**
+
+]
+]
 
 
 
+
+---
+
+## Dados coletados no Censo Florestal (IF-100%)
+
+```{r echo = FALSE, out.width='50%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/Etapas.jpg")
+```
+
+
+
+---
+
+## Etapas do Censo Florestal (IF-100%)
+
+.shadow1b[
+### Identificação de espécies
+<br>
+
+
+
+]
 
 
 ---
