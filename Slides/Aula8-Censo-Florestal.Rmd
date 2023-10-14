@@ -993,6 +993,37 @@ _.orange[**Ciclo de Corte** (inciso III do Art. 2º)]: **período de tempo**, em
 ]
 ]
 
+---
+
+## Ciclo de Corte
+
+```{r echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UPA.png")
+```
+- .font80[**Exemplo**: Suponha uma UMF de 30.000ha. Poder-se-ia dividi-lá em 30 UPAs (1000ha). E cada UPA podería ser subdividida em 10 UTs de 100ha. A cada ano uma UPA poderia ser explorada.]
+
+
+---
+name: ic
+## Intensidade de Corte
+
+.pull-left-15[
+.shadow1b[
+.font80[
+.center[
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+]
+
+<br>
+
+_.orange[**Intensidade de Corte** (inciso VI do Art. 2º)]: volume comercial das árvores derrubadas para aproveitamento, estimado por meio de equações volumétricas previstas no PMFS e com base nos dados do IF-100%, expresso em metros cúbicos por unidade de área (m³/ha) de efetiva exploração florestal, calculada para cada Unidade de Trabalho (UT)._
+
+
+_.orange[**Intensidades Máximas de Corte** (inciso IV do Art. 4º)]: _
+
+]
+]
+]
 
 ---
 name: pmfs
@@ -1020,15 +1051,6 @@ _.orange[**Intensidade de Corte** (inciso VI do Art. 2º)]: volume comercial das
 ]
 ]
 ]
-
----
-
-## Ciclo de Corte
-
-```{r echo = FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class8/UPA.png")
-```
-
 
 ---
 layout: false
