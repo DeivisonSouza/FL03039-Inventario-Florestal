@@ -811,7 +811,7 @@ knitr::include_graphics("fig/class8/UMF_UPA_UT.png")
 
 ---
 name: aeef
-## Área de Efetiva Exploração (ou Manejo) Florestal
+## Área de Efetiva Exploração Florestal
 
 .pull-left-16[
 .shadow1b[
@@ -822,11 +822,51 @@ name: aeef
 
 <br>
 
-_.orange[**Área de Efetiva Exploração Florestal - AEE** (inciso I do Art. 2º)]: área, efetivamente, explorada na Unidade de Trabalho - UT, computando-se as áreas com árvores sem porte comercial para exploração e excluindo-se as áreas de preservação permanente, inacessíveis, de infraestrutura, antropizadas em regime ou não de pousio, bem como indisponíveis legalmente**_
+_.orange[**Área de Efetiva Exploração Florestal - AEE** (inciso I do Art. 2º)]: **área efetivamente explorada na .blue[Unidade de Trabalho - UT]**, computando-se as áreas com árvores sem porte comercial para exploração e excluindo-se:_
 
 <br>
 
-_.orange[**Área de Efetivo Manejo** (inciso II do Art. 2º)]: área da Unidade de Manejo Florestal - UMF com potencial presente ou futuro para exploração florestal, excluídas as áreas de preservação permanente, inacessíveis, de infraestrutura, antropizadas em regime ou não de pousio, bem como indisponíveis legalmente._
+a) Áreas de preservação permanente;
+
+b) Áreas inacessíveis;
+
+c) Áreas de infraestrutura;
+
+d) Áreas antropizadas (em regime ou não de pousio); e
+
+e) Áreas indisponíveis legalmente.
+
+]
+]
+]
+
+---
+name: aemf
+## Área de Efetivo Manejo Florestal
+
+.pull-left-16[
+.shadow1b[
+.font80[
+.center[
+### [Instrução Normativa/SEMAS nº 05, de 10 de Setembro de 2015](https://www.semas.pa.gov.br/legislacao/files/pdf/184.pdf)
+]
+
+<br>
+
+_.orange[**Área de Efetivo Manejo** (inciso II do Art. 2º)]: **área da .blue[Unidade de Manejo Florestal - UMF] com potencial presente ou futuro para exploração florestal**, excluídas:_
+
+<br>
+
+a) Áreas de preservação permanente;
+
+b) Áreas inacessíveis;
+
+c) Áreas de infraestrutura;
+
+d) Áreas antropizadas (em regime ou não de pousio); e
+
+e) Áreas indisponíveis legalmente.
+
 ]
 ]
 ]
