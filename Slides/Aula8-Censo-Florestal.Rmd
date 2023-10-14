@@ -997,10 +997,10 @@ _.orange[**Ciclo de Corte** (inciso III do Art. 2º)]: **período de tempo**, em
 
 ## Ciclo de Corte
 
-```{r echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+```{r echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics("fig/class8/UPA.png")
 ```
-- .font80[**Exemplo**: Suponha uma UMF de 30.000ha. Poder-se-ia dividi-lá em 30 UPAs (1000ha). E cada UPA podería ser subdividida em 10 UTs de 100ha. A cada ano uma UPA poderia ser explorada.]
+- .font80[**Exemplo**: Um empreendimento florestal com UMF de 30.000ha, poderia subdividir a área em 30 UPAS (1.000ha) e adotar um ciclo de corte de 30 anos (Intensidade de corte de ≅ 25 m³/ha). Cada UPA podería ser subdividida em 10 UTs de 100ha.]
 
 
 ---
@@ -1018,10 +1018,43 @@ name: ic
 
 _.orange[**Intensidade de Corte** (inciso VI do Art. 2º)]: volume comercial das árvores derrubadas para aproveitamento, estimado por meio de equações volumétricas previstas no PMFS e com base nos dados do IF-100%, expresso em metros cúbicos por unidade de área (m³/ha) de efetiva exploração florestal, calculada para cada Unidade de Trabalho (UT)._
 
+<br>
 
 _.orange[**Intensidades Máximas de Corte** (inciso IV do Art. 4º)]: _
 
+.blue[Qual máximo de metros cúbicos (de madeira) posso explorar por hectare?]
+
+<br>
+
+| **Arraste de Tora** |   **Intensidade Máxima <br> de corte**  |   **Ciclo de corte inicial**|
+|:-------------------:|:---------------------------------------:|:---------------------------:|
+|    Com maquinário   |           30 m³/ha                      |               35 anos       |
+|    Sem maquinário   |           10 m³/ha                      |               10 anos       |
+
 ]
+]
+]
+
+---
+name: rel
+## Relação entre EPA, CC e IC
+
+.shadow1b[
+.font80[
+.center[
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+]
+
+<br>
+
+_.orange[**Estimativa da Produtividade Anual - EPA** (inciso I do Art. 4º)]: a EPA da floresta manejada para o grupo de espécies comerciais, quando não houver estudos para a área, será de .blue[**0,86 m³/ha/ano**] para PMFS com uso de máquinas para arraste de toras._
+
+- Em PMFS com arraste mecanizado, em geral, usa-se a EPA (.blue[**0,86 m³/ha/ano**]) para definir o Ciclo de Corte (CC) adequado em função da Intensidade de Corte (IC), ou vice-versa. Por exemplo:
+
+**a) Qual ciclo de corte para um PMFS que prevê uma intensidade de exploração de 30m³/ha?**
+
+**b) Qual intensidade de exploração máxima para um PMFS que prevê um ciclo de corte de 30 anos?**
+
 ]
 ]
 
