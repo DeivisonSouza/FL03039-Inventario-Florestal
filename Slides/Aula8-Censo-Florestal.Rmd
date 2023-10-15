@@ -1249,13 +1249,44 @@ knitr::include_graphics("fig/class8/UT.jpeg")
 ]
 
 .pull-right-1[
-.center[**Recomendações**]
+<br>
+.center[**Recomendações** (Reis et al., 2013)]
 .font80[
-- **Linha Base**: Sempre que possível, no sentido norte-sul.
-- **Trilhas de orientação**: Sempre que possível, no sentido leste-oeste.
+- **Linha Base**: Sempre que possível, no .blue[sentido norte-sul].
+- **Trilhas de orientação**: Sempre que possível, no .blue[sentido leste-oeste].
+
+<br>
+
+**Por que priorizar esses sentidos?**
+
+- Facilita a construção de estradas secundárias no sentido leste-oeste (melhor ventilação, exposição ao sol e manutenção).
 ]
 ]
 
+---
+name: estr
+## Unidade de Trabalho: Estrutura
+
+.pull-left-2[
+```{r echo = FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-1[
+<br>
+.center[**Recomendações** (Reis et al., 2013)]
+.font80[
+- **Equipe**: 4 pessoas (1 coordenador e 3 trabalhadores)
+
+**Coordenador**: Usar a bússola e definir os ângulos de orientação.
+
+**Trabalhadores**: Abrir as trilhas com facão, cortar e colocar piquetes (com indicação da distância) e medir distâncias entre piquetes.
+
+]
+]
 
 ---
 name: delim
