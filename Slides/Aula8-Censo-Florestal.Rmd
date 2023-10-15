@@ -518,7 +518,7 @@ c) 20% (vinte por cento), no imóvel situado em área de campos gerais.
 knitr::include_graphics("fig/class8/RL.jpg")
 ```
 
-.font50[**Fonte:** [https://www.behance.net](https://www.behance.net/gallery/13486573/Fazenda-Brasil-infografia-sobre-o-codigo-florestal)]
+.center[.font50[**Fonte:** [https://www.behance.net](https://www.behance.net/gallery/13486573/Fazenda-Brasil-infografia-sobre-o-codigo-florestal)]]
 
 ---
 name: al
@@ -709,13 +709,13 @@ b) 30 (trinta) metros, em zonas urbanas.
 knitr::include_graphics("fig/class8/APP2.png")
 ```
 
-.font50[**Fonte:** Adaptado de [https://www.inteliagro.com.br/](https://www.inteliagro.com.br/quanto-deve-medir-uma-app-area-de-preservacao-permanente-de-um-rio/)]
+.center[.font50[**Fonte:** Adaptado de [https://www.inteliagro.com.br/](https://www.inteliagro.com.br/quanto-deve-medir-uma-app-area-de-preservacao-permanente-de-um-rio/)]]
 
 ---
 
 ## Área de Preservação Permanente - APP
 <br>
-.font80[**Fonte:** [Climate Policy Initiative](https://www.climatepolicyinitiative.org/pt-br/publication/monitor-da-implementacao-do-codigo-florestal/)]
+.center[.font80[**Fonte:** [Climate Policy Initiative](https://www.climatepolicyinitiative.org/pt-br/publication/monitor-da-implementacao-do-codigo-florestal/)]]
 
 ```{r echo = FALSE, out.width='60%', fig.align='center', fig.cap='Exemplos de APPs', dpi=600}
 knitr::include_graphics("fig/class8/APP.png")
@@ -795,11 +795,11 @@ name: umf
 ## UMF, UPA e UT
 <br>
 
-```{r echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class8/UMF_UPA_UT.png")
+```{r echo = FALSE, out.width='50%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UMF-UPA-UT.jpeg")
 ```
 
-.font80[**Fonte:** [Pinheiro et al., 2020.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
 
 ---
 name: aeef
@@ -886,7 +886,7 @@ _.orange[**Plano Operacional Anual - POA** (inciso XI do Art. 2º)]: documento a
 ```{r echo = FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics("fig/class8/PMFS-Categ.png")
 ```
-.font50[**Fonte:** O Autor. [(Baseado na Instrução Normativa/SEMAS nº 05, de 10 de Setembro de 2015)](https://www.semas.pa.gov.br/legislacao/files/pdf/184.pdf)]
+.center[.font50[**Fonte:** O Autor. [(Baseado na Instrução Normativa/SEMAS nº 05, de 10 de Setembro de 2015)](https://www.semas.pa.gov.br/legislacao/files/pdf/184.pdf)]]
 
 ---
 name: autef
@@ -977,11 +977,18 @@ _.orange[**Ciclo de Corte** (inciso III do Art. 2º)]: **período de tempo**, em
 
 ## Ciclo de Corte
 
-```{r echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class8/UPA.png")
+.pull-left-3[
+```{r echo = FALSE, out.width='55%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/CC.jpeg")
 ```
-- .font80[**Exemplo**: Um empreendimento florestal com UMF de 30.000ha, poderia subdividir a área em 30 UPAS (1.000ha) e adotar um ciclo de corte de 30 anos (Intensidade de corte de ≅ 25 m³/ha). Cada UPA podería ser subdividida em 10 UTs de 100ha.]
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
 
+]
+
+.pull-right-3[
+
+- .font80[**Exemplo**: Uma UMF de 30.000ha, poderia ser dividida em 30 UPAS (1.000ha) e adotar um ciclo de corte de 30 anos (Intensidade de corte de ≅ 25 m³/ha). Cada UPA podería ser subdividida em 10 UTs de 100ha.]
+]
 
 ---
 name: ic
@@ -1192,16 +1199,36 @@ layout: true
 
 ---
 
+## Censo Florestal (IF-100%)
+
+.shadow1b[
+### Definição
+<br>
+.font90[
+É uma .blue[atividade pré-exploratória] que consite na coleta de .blue[características quantitativas e qualitativas de todas as árvores] de valor comercial (e potencial) existentes em uma área destinada ao manejo florestal.
+]
+]
+
+.pull-right-3[
+.pull-down[
+`r anicon::faa("seedling", size = 3, speed = "slow", animate = 'vertical', color = "green")`
+`r anicon::faa("leaf", size = 3, speed = "slow", animate = 'vertical', color = "green")`
+
+]
+]
+
+---
+name: etapas
 ## Etapas Precedentes ao Censo Florestal (IF-100%)
 
 .shadow1b[
 ### Antes do IF-100% deve-se:
 <br>
 .font80[
-**1 - Mapa de localização (UPA e UTs).**
+**1 - Elaborar o mapa de localização (UPA e UTs).**
 - .blue[**Objetivo**]: Auxiliar em campo na delimitação da UT (Azimute da linha base da UT).
 
-**2 - Delimitar as Unidades de Trabalho - UT.**
+**2 - Delimitar (em campo) as Unidades de Trabalho - UT.**
 
 - .blue[**Objetivo**]: Definir dos limites físicos da UT.
 - .blue[**Tamanho**]: É comum (.red[Não é uma regra!]) a delimitação de UTs com área de 100ha (1000m x 1000m).
@@ -1235,13 +1262,11 @@ layout: true
 
 ---
 
-## Dados coletados no Censo Florestal (IF-100%)
+## Censo Florestal (IF-100%): Quais etapas/variáveis?
 
 ```{r echo = FALSE, out.width='50%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics("fig/class8/Etapas.jpg")
 ```
-
-
 
 ---
 
@@ -1281,5 +1306,7 @@ layout: true
 Balieiro, M. R.; Espada, A. L. V.; Nogueira, O; Palmieri, R.; Lentini, M. **As Concessões de Florestas Públicas na Amazônia Brasileira: Um manual para pequenos e médios produtores florestais.** 2ª edição, Piracicaba: Imaflora, SP. Belém: IFT, PA, 2010. 204p.
 <br><br>
 Pinheiro, C. S.; Costa, P. F.; Galdino, M.; Pires, I. P. Encarte Técnico. **Planejamento e Construção da Delimitação em Áreas Florestais**. Instituto Floresta Tropical - IFT. Belém-PA, 2020.
+<br><br>
+Reis, S. L.; Couto, C. S.; Pinheiro, C. S.; Espada, A. L. V.; Lima, J. A.; Lentini, M. W. **Técnicas Pré-Exploratórias para o Planejamento da Exploração de Impacto Reduzido no Manejo Florestal Comunitário e Familiar**. Belém: IFT, 2013.
 <br><br>
 Sanquetta, C. R.; Corte, A. P. D.; Rodrigues, A. L.; Watzlawick, L. F. **Inventários Florestais: Planejamento e Execução.** 4ª edição - Revista e Ampliada. Curitiba. 2023. 406p.
