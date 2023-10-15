@@ -1085,6 +1085,10 @@ _.orange[**Diâmetro Mínimo de Corte** (inciso V do Art. 2º)]: diâmetro míni
 
 _.orange[**Art. 6º**]: Fica estabelecido o .blue[**DMC de 50 cm**] para todas as espécies, para as quais ainda não se estabeleceu o DMC específico._
 
+<br>
+
+.center[`r anicon::faa("exclamation-triangle", colour="red")` .blue[**Apenas árvores com diâmetro a 1,30 m do solo (d) ≥ 50 cm podem ser destinadas para corte!**]]
+
 ]
 ]
 
