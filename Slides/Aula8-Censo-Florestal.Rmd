@@ -1419,6 +1419,31 @@ knitr::include_graphics("fig/class8/UT-Passo1.jpeg")
 ## Unidade de Trabalho: Delimitação
 
 .shadow1b[
+### Delimitação da UT: Passo a Passo (Reis et al., 2013)
+]
+
+.pull-left-4[
+```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT-Passo2.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-4[
+<br>
+.center[**Passo 2** (Reis et al., 2013)]
+.font80[
+- **Início do balizamento**: Iniciar o balizamento para abertura da linha base. 
+
+]
+]
+
+---
+
+## Unidade de Trabalho: Delimitação
+
+.shadow1b[
 ### Delimitação da UT:
 - .blue[**Procedimento**]:
 
