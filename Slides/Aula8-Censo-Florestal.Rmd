@@ -1309,10 +1309,80 @@ name: mat
 name: delim
 ## Unidade de Trabalho: Delimitação
 
+.shadow1b[
+### Delimitação da UT: 3 abordagens (Reis et al., 2013)
+]
 
+.pull-left-2[
+```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT-del1.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
 
+]
 
+.pull-right-1[
+<br>
+.center[**Abordagem 1** (Reis et al., 2013)]
+.font80[
 
+- **Esquadrejamento da UT**: A ideia é fechar o quadrado (esquadrejamento) da UT. Na sequência, abre-se as trilhas de orientação internas.
+]
+]
+
+---
+
+## Unidade de Trabalho: Delimitação
+
+.shadow1b[
+### Delimitação da UT: 3 abordagens (Reis et al., 2013)
+]
+
+.pull-left-2[
+```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT-del2.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-1[
+<br>
+.center[**Abordagem 2** (Reis et al., 2013)]
+.font80[
+
+- **Abrir dois lados (ângulo de 90º)**: A ideia é abrir dois lados (a linha base e uma trilha de orientação), formando um ângulo de 90º. Na sequência, prosseguir a abertura das trilhas internas (zigue-zague), e ao mesmo tempo fechando os lados da UT.
+]
+]
+
+---
+
+## Unidade de Trabalho: Delimitação
+
+.shadow1b[
+### Delimitação da UT: 3 abordagens (Reis et al., 2013)
+]
+
+.pull-left-2[
+```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT-del3.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-1[
+<br>
+.center[**Abordagem 3** (Reis et al., 2013)]
+.font80[
+
+- **UTs irregulares**:
+
+**Problema**: Não é possível (ou muito difícil) esquadrejar todo o perímetro da UT. Portanto, a UT não terá uma forma regular (quadradas ou retangulares).
+
+**Ideia**: Caminhar até o início da área que não poderá ser manejada (encostas de morros, APPs). Esse ponto será limite final da trilha de orientação.
+]
+]
 
 ---
 
