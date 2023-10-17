@@ -232,7 +232,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 **Parte 3 - Aplicação Inventário Florestal usando AAS**
 .font90[
 
-[1 - Estudo de Caso (Sanquetta et al., 2014; pg. 110)](#ec)
+[1 - Estudo de Caso (Sanquetta et al., 2023; pg. 124)](#ec)
 
 &nbsp;&nbsp;[1.1 - Média Aritmética Amostral](#maEC)
 
@@ -1463,7 +1463,7 @@ background-size: cover
 
 .font200[.yellow2[**Aplicação de <br> Inventário Florestal usando AAS**]]
 
-.font150[.white[**Estudo de Caso <br> (Sanquetta et al., 2014; pg. 110)**]]
+.font150[.white[**Estudo de Caso <br> (Sanquetta et al., 2023; pg. 124)**]]
 
 ---
 layout: true
@@ -1475,7 +1475,7 @@ name: ecap
 ## Inventário Florestal usando AAS
 <br>
 
-### .font90[Estudo de Caso - *Pinus taeda* (Sanquetta et al., 2014; pg. 110)]
+### .font90[Estudo de Caso - *Pinus taeda* (Sanquetta et al., 2023; pg. 124)]
 <br>
 
 .font90[
@@ -1496,7 +1496,7 @@ name: data
 
 .pull-left-4[
 <br><br>
-### .font90[Estudo de Caso - *Pinus taeda* <br> (Sanquetta et al., 2014; pg. 110)]
+### .font90[Estudo de Caso - *Pinus taeda* <br> (Sanquetta et al., 2023; pg. 124)]
 <br>
 
 (**Unidade de medida**: $m^3/parcela$ ou $m^3/600~m^2$)
@@ -1526,7 +1526,7 @@ DT::datatable(data,
 <br>
 
 .pull-left-12[
-### .font90[Estudo de Caso - *Pinus taeda* <br> (Sanquetta et al., 2014; pg. 110)]
+### .font90[Estudo de Caso - *Pinus taeda* <br> (Sanquetta et al., 2023; pg. 124)]
 <br><br>
 
 **Unidades de Medidas**
@@ -2062,7 +2062,7 @@ QUEIROZ, W. T. **Técnicas de amostragem em inventário florestal nos trópicos*
 ## Referências
 
 <br><br>
-SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J.D.P. Inventários florestais: planejamento e execução. 2ª ed. Curitiba. 2009. 316p.
+SANQUETTA, C.R.; CORTE, A.P.D.; RODRIGUES, A. L.; WATZLAWICK, L.F. Inventários florestais: planejamento e execução. 4ª ed. Curitiba, PR. 2023. 406p.
 <br><br>
 SCOLFORO, J. R. S.; MELLO, J. M. de. Inventário Florestal. Lavras: UFLA/FAEPE, 1997. 341 p.
 <br><br>
