@@ -26,8 +26,8 @@
 **Este repositório está licenciado nos termos da licença MIT.**
 
 <div>
-<img src="Slides/fig/slide-title/ufpa.png" width="100" align="middle" class="center">
-<img src="Slides/fig/slide-title/forest.png" width="100" align="middle" class="center">
+<img src="Slides/fig/slide-title/ufpa.png" width="150" align="middle" class="center">
+<img src="Slides/fig/slide-title/LMFTCA.png" width="150" align="middle" class="center">
 <div>
 
 # Inventário Florestal (FL03039-IF)
