@@ -464,19 +464,40 @@ knitr::include_graphics('fig/class0/Pellico.png')
 ]
 
 ---
-## 📖 Bibliografia básica
 
+## Bibliografia básica
+
+<br>
+.pull-left-4[
+SOARES, C. P. B.; PAULA NETO, F.; SOUZA, A. L. **Dendrometria e Inventário Florestal**. 2ª ed. - Viçosa, MG: Ed. UFV, 2011. 272 p.
 <br><br>
-SCOLFORO, J. R. S.; MELLO, J. M. **Inventário Florestal**. Lavras: UFLA/FAEPE, 2006. 561p.
+
+**.green[Capítulos do livro estão na Web]** `r anicon::faa("hand-point-down", animate="vertical")`
+
+Link: http://www.mensuracaoflorestal.com.br/sobre-o-site
+
+
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://editoraufv.cdn.plataformaneo.com.br/produto/3492395282_dendrometria-e-inventario-florestal.jpg')
+```
+
+]
 
 <!-- Slide 14 -->
 ---
+
 ## 📖 Bibliografia complementar
 
+.font80[
 <br><br>
 AVERY, T. E.; BURKHART, H. E. **Forest Measurements**. McGraw Hill Book Co., Nova York, 1994, 408p.
 <br><br>
 QUEIROZ, W. T. **Técnicas de amostragem em inventário florestal nos trópicos**. Belém: FCAP. Serviço de Documentação e Informação, 1998. 147 p.
 <br><br>
+SCOLFORO, J. R. S.; MELLO, J. M. **Inventário Florestal**. Lavras: UFLA/FAEPE, 2006. 561p.
+<br><br>
 SOARES, C. P. B.; PAULA NETO, F.; SOUZA, A. L. **Dendrometria e inventário florestal**. 2ª ed. - Viçosa, MG: Ed. UFV, 2011. 272p.
-
+]
