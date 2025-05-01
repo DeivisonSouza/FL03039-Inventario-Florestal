@@ -182,9 +182,9 @@ Email: deivisonvs@ufpa.br
 <!-- Slide 7 -->
 ---
 
-## Ementa da disciplina (FL03039).
+## Ementa da disciplina (FL03039)
 
-.shadow2[
+.shadow4[
 <br>
 1 - Introdução aos Inventários Florestais; 
 
@@ -213,7 +213,7 @@ Email: deivisonvs@ufpa.br
 <!-- Slide 2 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+## Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
 
 <br>
 
@@ -361,10 +361,9 @@ Disciplina os aspectos gerais e comuns da estruturação e do funcionamento dos 
 
 Aprova o Regulamento do Ensino de Graduação da Universidade Federal do Pará.
 
-- [Resolução n. 5.550, de 25 de agosto de 2022](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2022/5550%20Resolu%C3%A7%C3%A3o%20Calend%C3%A1rio%20Acad%C3%AAmico%202023.pdf)
+- [Resolução  n. 5.845, de 16 de dezembro de 2024](https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2024/5845%20Aprova%20o%20Calend%C3%A1rio%20Acad%C3%AAmico%20da%20UFPA%20-%202025.pdf)
 
-Aprova o Calendário Acadêmico da Universidade Federal do Pará (UFPA), para o ano de 2023.
-
+Aprovou o Calendário Acadêmico da Universidade Federal do Pará para o ano de 2025.
 
 <!-- Slide 12 -->
 ---
