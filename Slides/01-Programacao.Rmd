@@ -77,8 +77,9 @@ use_logo(
 
 ---
 layout: true
+class: with-logo logo-ufpa
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - EF) - Programação e Orientações </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Programação e Orientações</div2> </div>
 
 ---
 
@@ -121,8 +122,8 @@ knitr::include_graphics("fig/slide-title/Foto4.jpg")
 ### **Sobre o facilitador**
 
 .pull-left[
-.font90[
-#### **Interesses atuais**
+#### 👉 **Interesses atuais**
+.font80[
 1. .green[Linguagem de programação]
     - R
     - Python
@@ -138,9 +139,8 @@ knitr::include_graphics("fig/slide-title/Foto4.jpg")
 ]
 
 .pull-right[
-.font90[
-#### **Websites e contatos**
-
+#### 👉 **Websites e contatos**
+.font80[
 `r icons::simple_icons("github")` GitHub: https://github.com/DeivisonSouza
 
 <span class="iconify" data-icon="fa-brands:orcid" data-inline="false"></span>
@@ -161,31 +161,59 @@ Email: deivisonvs@ufpa.br
 ## 👋 Olá, sejam bem vindos!
 <br>
 
-### **Projetos de Pesquisa/Extensão finalizados** (com fomento)
+### 🕵 **Projetos de Pesquisa/Extensão Finalizados** (com fomento)
 
 .font90[
-- 1) Sistema de Visão Computacional para Reconhecer Espécies no Manejo Florestal Madeireiro na Amazônia Brasileira. (**Financiador**: Centro de Indústrias Produtoras e Exportadoras de Madeira do Estado de Mato Grosso - CIPEM) - ([https://cipem.org.br/](https://cipem.org.br/)) <br><br>
-- 2) Projeto Ipa’wã (Copaíba): Etnomapeamento e inventário de copaibais nativos na TI Xipaya (Aldeias Tukamã, Tukayá e Kaarimã). (**Financiador**: Fundo Brasileiro para a Biodiversidade - FUNBIO) - ([https://www.funbio.org.br/](https://www.funbio.org.br/)) (Parceria entre Associação Indígena Pyjahyry Xipaia – AIPHX e UFPA)
+<br>
+✔️ 1) Sistema de Visão Computacional para Reconhecer Espécies no Manejo Florestal Madeireiro na Amazônia Brasileira. (**Financiador**: Centro de Indústrias Produtoras e Exportadoras de Madeira do Estado de Mato Grosso - CIPEM) - ([https://cipem.org.br/](https://cipem.org.br/))
+<br><br>
+
+✔️ 2) Projeto Ipa’wã (Copaíba): Etnomapeamento e inventário de copaibais nativos na TI Xipaya (Aldeias Tukamã, Tukayá e Kaarimã). (**Financiador**: Fundo Brasileiro para a Biodiversidade - FUNBIO) - ([https://www.funbio.org.br/](https://www.funbio.org.br/)) (Parceria entre Associação Indígena Pyjahyry Xipaia – AIPHX e UFPA)
+]
+
+---
+
+## 👋 Olá, sejam bem vindos!
 <br>
 
-----------------------------------------
+### 🕵 **Projetos de Pesquisa/Extensão em Andamento** (com/sem fomento)
 
-**Siga o Instagram**: [@pyjahyryxipaia](https://www.instagram.com/pyjahyryxipaia/) (Associação Indígena Pyjahyry Xipaia)
+.font90[
+<br>
+✔️ 1) DeepWood: Reconhecimento de Espécies Florestais Baseado em Imagens de Madeira e Aprendizado Profundo (Portaria/UFPA N. 130/2024). (**Sem Financiador**) - (**Parceria**: Laboratório de Anatomia e Qualidade da Madeira LANAQM/UFPR e LMFTCA/UFPA)
+<br><br>
 
-**Siga o Instagram**: [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/) (Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas)
-
-**Site do LMFTCA**:
-[https://www.lmftca.com.br/](https://www.lmftca.com.br/)
-(Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas)
+✔️ 2) Apoio ao Fortalecimento da Gestão Territorial e Ambiental da Terra Indígena Xipaya (TI Xipaya) - (Portaria/UFPA N. 95/2025). (**Financiador**: Indigenous Peoples Assistance Facility - IPAF) (**Parceria**: Associação Indígena Pyjahyry Xipaia e LMFTCA/UFPA) - **Proponente**: AIPHX
 ]
+
+---
+
+## 👋 Olá, sejam bem vindos!
+<br>
+
+### 💻 **Siga nossas redes sociais e de parceiros...**
+<br>
+
+👉 **Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas - LMFTCA**
+
+✔️ *Instagram LMFTCA*: [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
+
+✔️ *Site do LMFTCA*:
+[https://www.lmftca.com.br/](https://www.lmftca.com.br/)
+<br><br>
+
+👉 **Associação Indígena Pyjahyry Xipaia - AIPHX**
+
+✔️ *Instagram AIPHX*: [@pyjahyryxipaia](https://www.instagram.com/pyjahyryxipaia/)
 
 <!-- Slide 7 -->
 ---
 
-## Ementa da disciplina (FL03039)
+## 📚 Ementa da disciplina (FL03039 - EF)
 
 .shadow4[
 <br>
+.font90[
 1 - Introdução aos Inventários Florestais; 
 
 2 - Amostragem em Inventários Florestais;
@@ -207,110 +235,127 @@ Email: deivisonvs@ufpa.br
 10 - Inventário Florestal Nacional; e
 
 11 - Planejamento e Custo de Inventários Florestais.
-
+]
 ]
 
 <!-- Slide 2 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
+## 🗓️ Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
 
 <br>
 
-```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics("fig/class0/Setembro.jpg")
 ```
-
 
 <!-- Slide 3 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+## 🗓️ Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
 
 <br>
 
-```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics("fig/class0/Outubro.jpg")
 ```
 
-<!-- Slide 7 -->
 ---
-## Estratégias e Ferramentas de Ensino
+
+## 🗓️ Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
+
 <br>
 
-- **Aula Presencial** (*Sala 3 - FEF*)
+```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class0/Outubro.jpg")
+```
+
+---
+
+## 🗓️ Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
+
+<br>
+
+```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class0/Outubro.jpg")
+```
+
+
+<!-- Slide 7 -->
+---
+
+## 👨🏻‍🏫 Estratégias e Ferramentas de Ensino
+<br>
+
+.font80[
+
+👉 **Aula Presencial** (*Sala 3 - FEF*)
 
 Aulas teóricas e práticas presenciais, realização de atividades complementares e avaliações de aprendizado.
 
--------------------------------------------------------------------
-
-- **Vistas Técnicas**: Visitas Técnicas à Empresas de Base Florestal (Paragominas, PA)
-
---
 <br>
 
--------------------------------------------------------------------
+👉 **Vista Técnica**: Visita Técnica em Área da Empresa Mombak (Uruará, PA) - Remoção de carbono (Ainda em conversas)
 
-- **Turma virtual** (*SIGAA*)
+<br>
+
+👉 **Turma virtual** (*SIGAA*)
 
 Comunicação, envio de atividades complementares e de conteúdos digitas.
 
---
 <br>
 
--------------------------------------------------------------------
-
-- **Repositório GitHub**
+👉 **Repositório GitHub**
 
 Repositório com os slides em .html, arquivos .R e .Rmd, figuras, conjunto de dados (e outros). O repositório pode ser acessado em: [FL03039-IF](https://github.com/DeivisonSouza/FL03039-IF)
-
+]
 
 <!-- Slide 9 -->
 ---
 
-## Estratégias de avaliação da aprendizagem
+## ✍ Estratégias de avaliação da aprendizagem
 
-- **Atividades práticas**
+.font80[
 
-.font90[
+<br>
+
+👉 **Atividades práticas**
+
 Exercícios com dados reais (quando possível) para aprendizado de cálculo de estimativas populacionais a partir de dados de diferentes processos de amostragem.
-<br><br>
 
-Aula prática de análise de IF-100% (Censo Florestal) no âmbito do Manejo Florestal Sustentável - MFS.
-]
+Aula prática de análise de IF-100% em Excel para fins de Projetos de Manejo Florestal Sustentável - PMFS. (Usando dados reais)
 
---
+<br>
 
--------------------------------------------------------------------
+👉 **Aulas de campo**
 
-- **Avaliação teórica**
+Aula de campo para prática de instalação e medição de parcelas usando diferentes sistemas de amostragem.
 
-.font90[
+<br>
+
+👉 **Avaliação teórica**
+
 Avaliações teóricas presenciais.
+
+<br>
+
+👉 **Participação** 
+
+O nível de participação e interação nas aulas presenciais poderá ser critério para definir uma pontuação extra nas avaliações teóricas.
 ]
-
---
-
--------------------------------------------------------------------
-
-- **Participação** 
-
-.font90[O nível de participação e interação nas aulas presenciais poderá ser critério para definir uma pontuação extra nas avaliações teóricas.
-]
-
 
 <!-- Slide 9 -->
 ---
 
-## Média Final e Conceito
+## 📝 Média Final e Conceito
 <br>
 
 \begin{equation*}
-\Large
+\large
 MF = \frac{(NA*2)+NPT}{3}
 \end{equation*}
 
-
+.font80[
 **MF** = Média Final
 
 **NA** = Nota das Atividade (Soma das atividades será 10 pts.)
@@ -325,11 +370,11 @@ MF = \frac{(NA*2)+NPT}{3}
 | Bom          | 7,0 ≤ MF ≤ 8,9   |
 | Regular      | 5,0 ≤ MF ≤ 6,9 |
 | Insuficiente | 0 ≤ MF ≤ 4,9   |
-
+]
 
 <!-- Slide 10 -->
 ---
-## Plano de Ensino
+## 📑 Plano de Ensino
 <br><br>
 
 O plano de ensino da disciplina pode ser acessado em:
@@ -339,20 +384,27 @@ O plano de ensino da disciplina pode ser acessado em:
 
 <!-- Slide 11 -->
 ---
-## Reprovação
+
+## 👎 Reprovação
+
 <br>
+
+.font80[
 Conforme o Regimento Geral da UFPA, será considerado reprovado o discente que:
 
 - Obtiver o conceito Insuficiente (INS), isto é, nota inferior a 5 (cinco); (.green[**Aplicável**])
 - Sem Avaliação (SA); ou (.green[**Aplicável**])
 - Não obtiver a frequência mínima de 75% na disciplina, isto é, Sem Frequência (SF). (.green[**Aplicável**])
-
+]
 
 <!-- Slide 12 -->
 ---
 
-## Normativas da UFPA
+## 📜 Normativas da UFPA
 
+<br>
+
+.font80[
 - [Regimento geral da UFPA de 29/12/2006](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.ufpa.br/images/docs/regimento_geral.pdf)
 
 Disciplina os aspectos gerais e comuns da estruturação e do funcionamento dos órgãos e serviços da Universidade Federal do Pará (UFPA), cujo Estatuto regulamenta. 
@@ -364,21 +416,62 @@ Aprova o Regulamento do Ensino de Graduação da Universidade Federal do Pará.
 - [Resolução  n. 5.845, de 16 de dezembro de 2024](https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2024/5845%20Aprova%20o%20Calend%C3%A1rio%20Acad%C3%AAmico%20da%20UFPA%20-%202025.pdf)
 
 Aprovou o Calendário Acadêmico da Universidade Federal do Pará para o ano de 2025.
+]
 
 <!-- Slide 12 -->
 ---
-## Bibliografia básica
 
+## 📖 Bibliografia básica
+
+<br>
+.pull-left-4[
+.font80[
+SANQUETTA, C. R.; CORTE, A. P. D.; RODRIGUES, A. L.; WATZLAWICK, L. F. **Inventários Florestais: Planejamento e execução**. 2023, 406 p. 4ª Edição.
+
+<br>
+
+👉 **Acesso em**: [Inventários Florestais: Planejamento e execução](https://www.editoraufv.com.br/produto/inventarios-florestais-planejamento-e-execucao-4-edicao/1965483?srsltid=AfmBOoop0gyo-kLMzP9hB7ILWmIX3qxJR2DKLW1LUWpZzTDt-dthnAZG)
+
+]
 <br><br>
-PÉLLICO NETTO, S.; BRENA, D.A. **Inventário florestal**. Curitiba: editorado pelos autores, 1997. 316p.
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class0/IF-Sanquetta.jpg')
+```
+
+]
+
+---
+
+## 📖 Bibliografia básica
+
+<br>
+.pull-left-4[
+.font80[
+PÉLLICO NETTO, S.; BRENA, D.A. **Inventário florestal**. Curitiba: editorado pelos autores, 1997. 316 p.
+
+]
 <br><br>
-SANQUETTA, C. R.; CORTE, A. P. D.; RODRIGUES, A. L.; WATZLAWICK, L. F. **Inventários Florestais: Planejamento e execução**. 2014, 409 p. 3ª Edição. 
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class0/Pellico.png')
+```
+
+]
+
+---
+## 📖 Bibliografia básica
+
 <br><br>
 SCOLFORO, J. R. S.; MELLO, J. M. **Inventário Florestal**. Lavras: UFLA/FAEPE, 2006. 561p.
 
 <!-- Slide 14 -->
 ---
-## Bibliografia complementar
+## 📖 Bibliografia complementar
 
 <br><br>
 AVERY, T. E.; BURKHART, H. E. **Forest Measurements**. McGraw Hill Book Co., Nova York, 1994, 408p.

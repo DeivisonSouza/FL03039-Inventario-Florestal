@@ -74,7 +74,7 @@ div2 {
 }
 
 div3 {
-  color: #fd7b25;
+  color: #DAF7A6;
   font-weight: bold;
 }
 
@@ -681,20 +681,30 @@ h1 {
   padding-top: 0px;
 }
 
-h3, h4 {
-  padding-top: -15px;
+h2 {
+  padding-top: 20px;
   padding-bottom: 00px;
-  color: #00cc00;
+  color: #b83505;
   text-shadow: none;
   font-weight: 400;
   margin-left: 5px;
   margin-bottom: 0px;
 }
 
-h2 {
-  padding-top: -20px;
+h3, h4 {
+  padding-top: -15px;
   padding-bottom: 00px;
-  color: #006633;
+  color: #dd7321;
+  text-shadow: none;
+  font-weight: 400;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  padding-top: -15px;
+  padding-bottom: 00px;
+  color: #ed4406;
   text-shadow: none;
   font-weight: 400;
   margin-left: 5px;
@@ -761,7 +771,7 @@ h2 {
 
 /* H5 fonts */
 .title-slide h5 {
-  color: white !important;
+  color: #DAF7A6 !important;
   font-size: 15px;
   font-weight: normal;
   padding-top: 0px;
