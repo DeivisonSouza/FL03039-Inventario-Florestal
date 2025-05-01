@@ -246,7 +246,7 @@ Email: deivisonvs@ufpa.br
 <br>
 
 ```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Setembro.jpg")
+knitr::include_graphics("fig/class0/Maio.png")
 ```
 
 <!-- Slide 3 -->
@@ -257,7 +257,7 @@ knitr::include_graphics("fig/class0/Setembro.jpg")
 <br>
 
 ```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Outubro.jpg")
+knitr::include_graphics("fig/class0/Junho.png")
 ```
 
 ---
@@ -267,7 +267,7 @@ knitr::include_graphics("fig/class0/Outubro.jpg")
 <br>
 
 ```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Outubro.jpg")
+knitr::include_graphics("fig/class0/Julho.png")
 ```
 
 ---
@@ -277,7 +277,7 @@ knitr::include_graphics("fig/class0/Outubro.jpg")
 <br>
 
 ```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Outubro.jpg")
+knitr::include_graphics("fig/class0/Agosto.png")
 ```
 
 
