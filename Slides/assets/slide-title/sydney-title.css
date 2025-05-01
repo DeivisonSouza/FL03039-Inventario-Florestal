@@ -691,7 +691,7 @@ h2 {
   margin-bottom: 0px;
 }
 
-h3, h4 {
+h3 {
   padding-top: -15px;
   padding-bottom: 00px;
   color: #dd7321;
@@ -707,6 +707,16 @@ h4 {
   color: #ed4406;
   text-shadow: none;
   font-weight: 400;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  padding-top: -15px;
+  padding-bottom: 00px;
+  color: #ed4406;
+  text-shadow: none;
+  font-weight: 300;
   margin-left: 5px;
   margin-bottom: 0px;
 }

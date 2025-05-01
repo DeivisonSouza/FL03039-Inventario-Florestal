@@ -95,7 +95,7 @@ class: with-logo logo-ufpa
 
 .shadow4[
 <br>
-.font80[
+.font90[
 1 - Introdução aos Inventários Florestais; 
 
 2 - Amostragem em Inventários Florestais;
@@ -124,19 +124,18 @@ class: with-logo logo-ufpa
 
 ## 🎯 Objetivos
 <br><br>
-.font80[
 Ao final desta aula espera-se que o discente seja capaz de...
 
 * Compreender os principais conceitos associados à inventários florestais;
-* Compreender, diferenciar e definir os principais tipos de inventários florestais; e
-* Compreender a importância dos inventários florestais na quantificação de recursos florestais.
-]
+* Compreender, diferenciar e definir os principais tipos de inventários florestais;
+* Compreender a importância dos inventários florestais na quantificação de recursos; e
+* Compreender as principais questões técnicas associadas ao planejamento de inventários florestais.
 
 ---
 
 ## 📙 Conteúdo
-<br>
-👉 **Inventários Florestais: Conceito, Importância e Tipos**
+
+**Parte 1 - Inventários Florestais: Conceito, Importância e Tipos**
 
 .pull-left[
 .pull-top[
@@ -191,6 +190,37 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ]
 ]
 
+---
+
+## Conteúdo
+<br>
+
+.pull-top[
+**Parte 2 - Planejamento de Inventários Florestais**
+.font90[
+[1 - Definição de Questões Técnicas](#dqt)
+
+&nbsp;&nbsp;[1.1 - Qual o objetivo geral do IF?](#qogif)
+
+&nbsp;&nbsp;[1.2 - Quais as características da área?](#qca)
+
+&nbsp;&nbsp;[1.3 - Quais as legislações (Leis, Resoluções, INs)?](#ql)
+
+&nbsp;&nbsp;[1.4 - Qual tipo de IF realizar?](#qtif)
+
+&nbsp;&nbsp;[1.5 - Quais dados coletar?](#qdc)
+
+&nbsp;&nbsp;[1.6 - Qual a precisão exigida para as estimativas de parâmetros?](#qpe)
+
+&nbsp;&nbsp;[1.7 - Qual o sistema de amostragem?](#qsa)
+
+&nbsp;&nbsp;[1.8 - Quantas parcelas estabelecer em campo?](#qp)
+
+&nbsp;&nbsp;[1.9 - Qual o apoio logístico?](#qal)
+]
+]
+
+
 <!-- Slide XX -->
 ---
 layout: false
@@ -203,15 +233,13 @@ background-size: cover
 
 ---
 layout: true
-class: with-logo logo-ufpa
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Introdução aos Inventários Florestais</div2> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Introdução ao Inventário Florestal</div>
 
 ---
 name: ifci
-## 🌳 Inventário Florestal
+## Inventário Florestal
 <br><br>
-
 .shadow1[
 ## Conceito
 É uma atividade que visa obter informações **qualitativas** e **quantitativas** dos recursos florestais existentes em uma área pré-especificada (PÉLLICO NETTO; BRENA, 1997), com o objetivo de bem administrá-los, seja através da seu uso racional racional, seja por meio de formulação de políticas públicas.
@@ -219,7 +247,7 @@ name: ifci
 
 ---
 name: tif
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br>
 
 **Péllico Netto e Brena (1997)** classificam os IFs quanto à/ao(s):
@@ -231,27 +259,23 @@ knitr::include_graphics('fig/au1/IF_Tipos.png')
 
 ---
 name: qo
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br><br>
 .shadow1[
-.font80[
-## 1 - Quanto ao objetivo
-<br>
+### 1 - Quanto ao objetivo
 a) Inventário florestal de cunho tático; e
 
 b) Inventário florestal de cunho estratégico.
 ]
-]
 
 ---
 name: ifct
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 
 .pull-left-4[
-.font80[
-## a) Inventário Florestal de Cunho Tático
+### a) Inventário Florestal de Cunho Tático
 <br>
-
+.font90[
 São inventários realizados para atender .blue[demandas técnicas] específicas de uma empresa ou propriedade florestal (PMFS, dinâmica, outros).
 ]
 ]
@@ -259,10 +283,9 @@ São inventários realizados para atender .blue[demandas técnicas] específicas
 --
 name: ifce
 .pull-right-4[
-.font80[
-##### b) Inventário Florestal de Cunho Estratégico
+### b) Inventário Florestal de Cunho Estratégico
 <br>
-
+.font90[
 **Realizados com o objetivo de:**
 
 - Instruir o poder público na formulação de políticas públicas de conservação, desenvolvimento e uso dos recursos florestais;
@@ -273,10 +296,10 @@ name: ifce
 
 ---
 name: qai
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br><br>
 .shadow1[
-### 2 - Quanto à Abrangência das Informações
+## 2 - Quanto à Abrangência das Informações
 a) Inventário florestal nacional;
 
 b) Inventário florestal regional; e
@@ -286,7 +309,7 @@ c) Inventário florestal de área restrita.
 
 ---
 name: ifn
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br>
 
 .pull-left-4[
@@ -317,7 +340,7 @@ knitr::include_graphics('https://snif.florestal.gov.br/images/img/recursos_flore
 
 ---
 name: ifr
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br>
 
 .pull-left-4[
@@ -336,7 +359,8 @@ name: ifr
 
 ---
 name: ifar
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
+<br>
 
 .pull-left-4[
 .font90[
@@ -351,6 +375,7 @@ name: ifar
 
 --
 
+<br>
 .pull-right-4[
 .font90[
 
@@ -380,7 +405,7 @@ Instrução Normativa/SEMAS nº. 05 de 10/09/2015
 
 ---
 name: qmodc
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br><br>
 .shadow1[
 ### 3 - Quanto à Maneira de Obtenção dos Dados de Campo
@@ -393,7 +418,7 @@ c) Inventário por fontes secundárias.
 
 ---
 name: if100
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 
 .pull-left-4[
 .font90[
@@ -423,7 +448,7 @@ knitr::include_graphics('fig/au1/img1.jpg')
 
 ---
 name: ia
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 
 .pull-left-4[
 .font90[
@@ -450,12 +475,12 @@ name: ia
 
 ---
 
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 
 .left-column[
 ### População Florestal
 
-```{r eval = T, echo = F, fig.width=.7, fig.height=.7}
+```{r eval = T, echo = F, fig.width=.8, fig.height=.8}
 
 grid <- expand.grid(
   x = seq(0, 20, length = 15),
@@ -478,7 +503,7 @@ grid %>%
 .right-column[
 ### Amostra da População
 
-```{r eval = T, echo = F, fig.width=.7, fig.height=.7}
+```{r eval = T, echo = F, fig.width=.8, fig.height=.8}
 
 grid <- expand.grid(
   x = seq(0, 20, length = 15),
@@ -503,7 +528,7 @@ grid %>%
 
 ---
 name: ifs
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 
 .pull-left-4[
 .font90[
@@ -527,7 +552,7 @@ b) IF contínuos (ou de múltiplas ocasiões).
 
 ---
 name: ift
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 
 .pull-left-4[
 .font70[
@@ -544,7 +569,7 @@ name: ift
 
 ---
 name: ifc
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 
 .pull-left-4[
 .font70[
@@ -577,9 +602,10 @@ name: ifc
 ]
 ]
 
+
 ---
 
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br>
 
 .pull-left-12[
@@ -602,7 +628,7 @@ knitr::include_graphics('fig/au1/ppm.png')
 
 ---
 
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br>
 
 .pull-left-3[
@@ -626,7 +652,7 @@ knitr::include_graphics('fig/au1/classes.png')
 
 ---
 name: qdr
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br><br>
 .shadow1[
 ### 5 - Quanto ao Grau de Detalhamento dos Resultados
@@ -639,7 +665,7 @@ c) Inventários Detalhados.
 
 ---
 name: ife
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br>
 
 .pull-left-4[
@@ -668,7 +694,7 @@ name: ife
 
 ---
 name: ifd
-## 🌳 Tipos de Inventários Florestais
+## Tipos de Inventários Florestais
 <br>
 
 .pull-left-4[
@@ -689,29 +715,373 @@ name: ifd
 
 ]
 
+<!-- Slide XX -->
+---
+name: pif
+layout: false
+name: conc
+class: inverse, middle, center
+background-image: url(fig/au1/sec.png)
+background-size: cover
+
+.font200[.yellow2[**Planejamento de <br> Inventários Florestais**]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Introdução ao Inventário Florestal</div>
+
 ---
 
-## 📖 Referências
+## Planejamento de Inventários Florestais
+<br>
+
+.pull-left-4[
+De acordo com Sanquetta et al. (2009):
+
+- As bases para o planejamento do inventário florestal variam em função dos .blue[objetivos] e dos .blue[recursos] necessários para sua execução. 
+- Verificar as .blue[necessidades do cliente] e as especificações técnicas exigidas pelas .blue[normais legais].
+]
+
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/au1/mogno.png')
+```
+.center[
+.font90[
+**Fonte**: O autor.
+
+**Foto**: Vistoria (SEMA) de plantio de Mogno.
+]
+]
+]
+
+---
+name: dqt
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+
+.pull-left-4[
+- Durante a fase de planejamento de um Inventário Florestal, algumas questões técnicas precisam ser previamente definidas.
+<br><br>
+
+.center[**Quais seriam essas questões?**]
+]
+
+.pull-right-4[
+![think](https://media0.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif)  
+<div style='font-size:50%'>([Source link](https://twitter.com/Kingwole/status/826485113731047426), accessed jan 31, 2017)</div>   
+
+]
+
+---
+
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+.font90[
+**1.** Qual o objetivo geral do inventário florestal?
+
+**2.** Quais as características da área a ser inventariada?
+
+**3.** Quais as legislações (Leis, Resoluções, INs) vigentes que regulamentam a atividade?
+
+**4.** Qual tipo de IF realizar para atender ao objetivo geral?
+
+**5.** Quais dados devem ser coletados?
+
+**6.** Qual a precisão exigida para as estimativas dos parâmetros populacionais (IF Amostral)?
+
+**7.** Qual o sistema de amostragem será utilizado (método + processo de amostragem) - (IF Amostral)?
+
+**8.** Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF de Diagnóstico)?
+
+**9.** Qual o apoio logístico? 
+
+]
+
+---
+name: qogif
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**1. Qual o objetivo geral do inventário florestal?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
+
+--
+
+.pull-left-4[
+.font90[
+- Identificar, mapear espécies e quantificar o .blue[volume de madeira] em floresta natural a ser manejada;<br>
+(.magenta[Planos de Manejo Florestal Sustentável])
+]
+
+
+.font90[
+- Quantificar a .blue[produção volumétrica] de determinada espécie em um povoamento .blue[plantado];<br>
+(.magenta[Projetos de Desbastes])
+]
+]
+
+
+--
+
+.pull-right-4[
+.font90[
+- Monitoramento da .blue[dinâmica, composição florística e estrutura] populacional de floresta natural; <br>
+(.magenta[IFC - Parcelas Permanentes])
+]
+
+
+.font90[
+- Avaliar a .blue[composição florística, área basal, volume] de uma área para supressão de vegetação. <br>
+(.magenta[Projetos de Supressão Vegetal])
+]
+]
+
+---
+name: qca
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**2. Quais as características da área a ser inventariada?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
+
+.pull-left-5[
+.font90[
+Para subsidiar o planejamento de um IF deve-se conhecer de antemão (ou então buscar) todas as .blue[informações] disponíveis e necessárias para melhor .blue[caracterizar a área] a ser inventariada (SANQUETTA et al., 2009).
+]
+]
+
+--
+
+.pull-right-5[
+.font90[
+- Qual o tamanho da área a ser inventariada? (Mapa da área)
+- Qual o uso do solo da propriedade? 
+
+(Floresta, pasto, agricultura, área de preservação permanente, áreas desmatadas, áreas com infraestrutura, etc.)
+
+- Qual a acessibilidade da área?
+
+Mapa com as vias de acesso (rios, estradas, etc.);
+Tipo de relevo;
+Meios de transporter para se chegar até a área de inventário; e
+Infraestrutura existente para apoio durante o levantamento de campo.
+
+]
+]
+
+---
+name: ql
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**3. Quais as legislações (Leis, Resoluções, INs) vigentes que regulamentam a atividade?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
+<br><br>
+
+.font90[
+Lei nº 12.651 de 25/05/2012 (novo Código Florestal)
+
+Instrução Normativa/MMA nº. 05 de 11/12/2006 `r emo::ji("point_right")` PMFS
+
+Resolução CONAMA nº. 406 de 02/02/2009 `r emo::ji("point_right")` PMFS
+
+Instrução Normativa/SEMAS nº. 05/2011`r emo::ji("point_right")` PMFS
+
+Instrução Normativa/SEMAS nº. 05 de 10/09/2015 `r emo::ji("point_right")` PMFS
+]
+
+---
+name: qtif
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**4. Qual tipo de IF realizar para atender ao objetivo geral?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
+
+--
+
+.font90[
+- Inventário Florestal 100% (ou Censo Florestal) `r emo::ji("point_right")` Projetos de Manejo Florestal Sustentável.
+]
+
+--
+
+.font90[
+- Inventário Florestal Amostral `r emo::ji("point_right")` Projetos de Desbaste (ou Corte Raso), Projetos de Supressão da Vegetação (e outros)
+]
+
+--
+
+.font90[
+- Inventário Florestal Contínuo `r emo::ji("point_right")` Monitoramento da vegetação (crescimento, produção, florística)
+]
+
+---
+name: qdc
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**5. Quais dados devem ser coletados?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
+
+--
+
+.font90[
+- .magenta[Projetos de Manejo Florestal Sustentável] `r emo::ji("point_right")` IF-100% `r emo::ji("point_right")` Delimitar áreas, identificar e mapear espécies, medir variáveis dendrométricas (d<sub>1,3</sub>, altura), e outros. (**Objetivo:** Manejo para fins madeireiros)
+
+]
+
+--
+
+.font90[
+- .magenta[Projetos de Desbaste] `r emo::ji("point_right")` IF Amostral `r emo::ji("point_right")` Medir Variáveis Dendrométricas (d<sub>1,3</sub>, altura). (**Objetivo:** Quantificar a produção de madeira)
+]
+
+
+--
+
+.font90[
+- .magenta[Projetos de Supressão de Vegetação] `r emo::ji("point_right")` IF Amostral `r emo::ji("point_right")` Medir Variáveis Dendrométricas (d<sub>1,3</sub>, altura) e Identificar Espécies. (**Objetivo:** Quantificar a área basal e volume por espécie)
+]
+
+--
+
+.font90[
+- .magenta[Projetos de Monitoramento da Flora] `r emo::ji("point_right")` IF Amostral `r emo::ji("point_right")` Identificar e Mapear Espécies/Registros Fotográficos/Coletas Botânicas/Fenologia. (**Objetivo:** Monitorar o comportamento da Vegetação, por exemplo, após algum empreendimento)
+]
+
+---
+name: qpe
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**6. Qual a precisão exigida para as estimativas dos parâmetros populacionais (IF Amostral)?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
+
+- A decisão deve obedecer a(s) norma(s) legal(is) vigente(s);
+
+.magenta[IF para Projetos de Supressão] = 5%, 10% ou 15% de erro máximo admissível para a estimativa da média da população?
+
+---
+name: qsa
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**7. Qual o sistema de amostragem será utilizado - (IF Amostral)**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
+
+.magenta[Sistema de Amostragem] = .blue[Método Amostragem + Processo de Amostragem]
+
+.pull-left-4[
+.font90[
+**Sobre o Método de Amostragem?**
+
+- Método de Amostragem: Área fixa ou de Área variável?
+- A forma e o tamanho das unidades de amostra dependem do método de amostragem.
+]
+]
+
+--
+
+.pull-right-4[
+.font90[
+**Sobre o Processo de Amostragem?**
+
+- Amostragem Aleatória Simples (mais comum)
+- Amostragem Estratificada
+- Amostragem Sistemática
+- Amostragem em Dois Estágios
+- Amostragem em Conglomerado (Inventário Florestal Nacional)
+]
+]
+
+---
+name: qp
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**8. Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF Piloto)?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
+
+.pull-left-4[
+.font90[
+- .magenta[Inventário Piloto - IP]: um inventário com número reduzido de parcelas (ou unidades de amostras).
+<br><br>
+
+.center[**Quantas parcelas estabelecer em campo para atender a precisão requerida?**]
+
+]
+]
+
+.pull-right-4[
+
+```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif')
+```
+
+<div style='font-size:50%'>([Source link](http://www.reactiongifs.com/suspicious-3/?utm_source=rss&utm_medium=rss&utm_campaign=suspicious-3), accessed jun 06, 2014)</div>  
+
+]
+
+---
+
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**8. Quantas parcelas serão necessárias para atender a precisão exigida (IF Amostral - IF Piloto)?**`r anicon::faa("check-circle", animate="horizontal", colour="green")`
+<br><br>
+
+**Como funciona na prática?**
+
+.font90[
+1) Estabelece-se um .magenta[número reduzido de parcelas] em campo;
+
+2) Os .magenta[dados] são coletadas dentro das parcelas (d<sub>1,3</sub>, altura);
+
+3) A partir desses dados é possível determinar a .magenta[intensidade amostral (n)]. O estimador de *n* dependerá do Processo de Amostragem; e
+
+4) Determinar se o .magenta[IF Piloto] pode ser considerado .magenta[IF Definitivo].
+]
+
+---
+name: qal
+## Planejamento de Inventários Florestais
+<br>
+### Definição de Questões Técnicas
+<br>
+
+**9. Qual o apoio logístico?** `r anicon::faa("check-circle", animate="horizontal", colour="green")`
+.font90[
+- Mapas de vegetação, relevo e hidrografia em escala adequada disponível;
+- Definir o número de equipes de campo necessárias para realizar o IF, ponderando o tempo disponível;
+- Definir a composição de cada equipe em função dos dados a serem medidos no campo;
+- Determinar a duração do levantamento de campo;
+- Identificar e contratar os meios de transporte para as equipes de campo; 
+- Identificar e disponibilizar a infraestrutura de apoio para as equipes de levantamento de campo, entre outros.
+]
+
+---
+
+## Referências
 
 <br><br>
 PÉLLICO NETTO, S.; BRENA, D.A. Inventário Florestal. Curitiba: editorado pelos autores, 1997. 316p.
 <br><br>
 SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J.D.P. Inventários florestais: planejamento e execução. 2ª ed. Curitiba. 2009. 316p.
-
----
-
-layout: false
-name: etim
-class: inverse, middle, center
-background-image: url(fig/class0/sec.png)
-background-size: cover
-
-## .font200[Obrigado!]
-
-```{r, echo=FALSE, out.width='20%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/slide-title/LMFTCA.png')
-```
-
-👨🏻‍👩🏻‍👦🏻‍👦🏻 [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
-
-🌎 [https://www.lmftca.com.br/](https://www.lmftca.com.br/)

@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Inventário Florestal (FL03039 - IF)</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prof. Dr. Deivison Venicio Souza" />
+    <script src="02-IF-Conceitos-Tipos_files/header-attrs-2.29/header-attrs.js"></script>
+    <link href="02-IF-Conceitos-Tipos_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="02-IF-Conceitos-Tipos_files/font-awesome-animation-1.0/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="02-IF-Conceitos-Tipos_files/fontawesome-5.0.13/js/fontawesome-all.min.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } },
+      });
+    </script>
+    <style>
+    .mjx-mrow a {
+      color: black;
+      pointer-events: none;
+      cursor: default;
+    }
+    </style>
+    <link rel="stylesheet" href="assets/sydney-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="assets/slide-title/sydney-title.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: title-slide, center, middle
+background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufpa.png), url(fig/slide-title/capa.png)
+background-position: 90% 90%, 10% 90%
+background-size: 150px, 150px, cover
+
+
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 140px;
+height: 140px;
+z-index: 0;
+background-image: url(fig/slide-title/ufpa.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:.8em;right:1em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+
+
+
+&lt;!-- title-slide --&gt;
+# .font120[Inventário Florestal &lt;br&gt; (FL03039 - EF)]
+
+## <span>&lt;i class="fab  fa-pagelines faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span> Introdução ao <span>&lt;i class="fab  fa-pagelines faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span> &lt;br&gt; Inventário Florestal
+###### Conceito, Importância e Tipos
+
+##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
+##### ᨒ
+##### .font120[**Prof. Dr. Deivison Venicio Souza**]
+##### Universidade Federal do Pará (UFPA)
+##### Faculdade de Engenharia Florestal
+##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
+##### E-mail: deivisonvs@ufpa.br
+&lt;br&gt;
+##### 1ª versão: 22/Novembro/2021 &lt;br&gt; (Atualizado em: 01/maio/2025) &lt;br&gt; Altamira, Pará
+
+---
+layout: true
+class: with-logo logo-ufpa
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; &lt;div3&gt;Inventário Florestal (FL03039 - EF)&lt;/div3&gt;/ &lt;div2&gt;Introdução aos Inventários Florestais&lt;/div2&gt; &lt;/div&gt;
+
+---
+
+## 📚 Ementa da disciplina (FL03039 - EF)
+
+.shadow4[
+&lt;br&gt;
+.font80[
+1 - Introdução aos Inventários Florestais; 
+
+2 - Amostragem em Inventários Florestais;
+
+3 - Amostragem Aleatória Simples;
+
+4 - Amostragem Estratificada;
+
+5 - Amostragem Sistemática; 
+
+6 - Amostragem em Dois Estágios;
+
+7 - Amostragem em Conglomerados;
+
+8 - Censo Florestal (Inventário Florestal 100%); 
+
+9 - Amostragem em Múltiplas Ocasiões;
+
+10 - Inventário Florestal Nacional; e
+
+11 - Planejamento e Custo de Inventários Florestais.
+]
+]
+
+---
+
+## 🎯 Objetivos
+&lt;br&gt;&lt;br&gt;
+.font80[
+Ao final desta aula espera-se que o discente seja capaz de...
+
+* Compreender os principais conceitos associados à inventários florestais;
+* Compreender, diferenciar e definir os principais tipos de inventários florestais; e
+* Compreender a importância dos inventários florestais na quantificação de recursos florestais.
+]
+
+---
+
+## 📙 Conteúdo
+&lt;br&gt;
+👉 **Inventários Florestais: Conceito, Importância e Tipos**
+
+.pull-left[
+.pull-top[
+.font80[
+
+[1 - Conceito e Importância](#ifci)
+
+[2 - Tipos de Inventários Florestais (Péllico Netto; Brena, 1997)](#tif)
+
+&amp;nbsp;&amp;nbsp;[2.1 - Quanto ao Objetivo](#qo)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.1.1 - Inventário Florestal de Cunho tático](#ifct)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.1.2 - Inventário Florestal de Cunho Estratégico](#ifce)
+
+&amp;nbsp;&amp;nbsp;[2.2 - Quanto à Abrangência das Informações](#qai)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.2.1 - Inventário Florestal Nacional ](#ifn)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.2.2 - Inventário Florestal Regional](#ifr)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.2.3 - Inventário Florestal de Área Restrita](#ifar)
+]
+]
+]
+
+.pull-right[
+
+.font80[
+&amp;nbsp;&amp;nbsp;[2.3 - Quanto à Maneira de Obtenção dos Dados de Campo](#qmodc)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.3.1 - Inventário Florestal 100% (Censo Florestal)](#if100)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.3.2 - Inventário por Amostragem](#ia)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.3.3 - Inventário por Fontes Secundárias](#ifs)
+
+&amp;nbsp;&amp;nbsp;[2.4 - Quanto à Abordagem da População no Tempo](#qapt)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.4.1 - Inventário Florestal Temporário](#ift)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.4.2 - Inventário Florestal Contínuo](#ifc)
+
+&amp;nbsp;&amp;nbsp;[2.5 - Quanto ao Grau de Detalhamento dos Resultados](#qgdr)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.5.1 - Inventários Exploratórios](#ie)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.5.2 - Inventários de Reconhecimento](#ir)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[2.5.3 - Inventários Detalhados](#id)
+
+]
+]
+
+&lt;!-- Slide XX --&gt;
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/au1/sec.png)
+background-size: cover
+
+.font200[.yellow2[**Inventários Floretais: &lt;br&gt; Conceito, Importância e Tipos**]]
+
+---
+layout: true
+class: with-logo logo-ufpa
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; &lt;div3&gt;Inventário Florestal (FL03039 - EF)&lt;/div3&gt;/ &lt;div2&gt;Introdução aos Inventários Florestais&lt;/div2&gt; &lt;/div&gt;
+
+---
+name: ifci
+## 🌳 Inventário Florestal
+&lt;br&gt;&lt;br&gt;
+
+.shadow1[
+## Conceito
+É uma atividade que visa obter informações **qualitativas** e **quantitativas** dos recursos florestais existentes em uma área pré-especificada (PÉLLICO NETTO; BRENA, 1997), com o objetivo de bem administrá-los, seja através da seu uso racional racional, seja por meio de formulação de políticas públicas.
+]
+
+---
+name: tif
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;
+
+**Péllico Netto e Brena (1997)** classificam os IFs quanto à/ao(s):
+&lt;br&gt;&lt;br&gt;
+
+&lt;img src="fig/au1/IF_Tipos.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+---
+name: qo
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;&lt;br&gt;
+.shadow1[
+.font80[
+## 1 - Quanto ao objetivo
+&lt;br&gt;
+a) Inventário florestal de cunho tático; e
+
+b) Inventário florestal de cunho estratégico.
+]
+]
+
+---
+name: ifct
+## 🌳 Tipos de Inventários Florestais
+
+.pull-left-4[
+.font80[
+## a) Inventário Florestal de Cunho Tático
+&lt;br&gt;
+
+São inventários realizados para atender .blue[demandas técnicas] específicas de uma empresa ou propriedade florestal (PMFS, dinâmica, outros).
+]
+]
+
+--
+name: ifce
+.pull-right-4[
+.font80[
+##### b) Inventário Florestal de Cunho Estratégico
+&lt;br&gt;
+
+**Realizados com o objetivo de:**
+
+- Instruir o poder público na formulação de políticas públicas de conservação, desenvolvimento e uso dos recursos florestais;
+- Subsidiar o planejamento e administração das florestas em nível nacional, estadual ou regional; e
+- Subsidiar a análise de impactos ambientais que seriam causados pela implantação de determinado empreendimento.
+]
+]
+
+---
+name: qai
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;&lt;br&gt;
+.shadow1[
+### 2 - Quanto à Abrangência das Informações
+a) Inventário florestal nacional;
+
+b) Inventário florestal regional; e
+
+c) Inventário florestal de área restrita.
+]
+
+---
+name: ifn
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;
+
+.pull-left-4[
+.font90[
+### a) Inventário Florestal Nacional - IFN
+&lt;br&gt;
+- São inventários extensivos que .blue[cobrem países inteiros];
+
+**O objetivo é:**
+
+- Fornecer informações para a definição de políticas, administração florestal, e elaboração de planos de desenvolvimento e uso das florestas; e
+- **IFN-Brasil**: [https://www.florestal.gov.br/inventario-florestal-nacional](https://www.florestal.gov.br/inventario-florestal-nacional)
+
+]
+]
+
+.pull-right-4[
+&lt;img src="https://i0.wp.com/florestalbrasil.com/wp-content/uploads/2017/01/Servi25C325A7o-Florestal-Brasileiro.png?fit=1004%2C500&amp;ssl=1" width="45%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="https://snif.florestal.gov.br/images/img/recursos_florestais/Logo_IFN.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+---
+name: ifr
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;
+
+.pull-left-4[
+.font90[
+### b) Inventário Florestal Regional - IFR
+&lt;br&gt;
+- São IF de .blue[grandes áreas], cobrindo regiões, estados ou a região de ocorrência natural de uma espécie;
+
+**O objetivo é:**
+
+- Embasar planos estratégicos de desenvolvimento regional;
+- Subsidiar a adoção de medidas para preservar certas espécies;
+- Avaliar a viabilidade de instalação de indústrias madeireiras, outros.
+]
+]
+
+---
+name: ifar
+## 🌳 Tipos de Inventários Florestais
+
+.pull-left-4[
+.font90[
+### c) Inventário Florestal de Área Restrita
+&lt;br&gt;
+- São IF que cobrem .blue[menores áreas] em .blue[regiões restritas];
+- São mais comuns e constituem a maioria dos IF realizados por empresas florestais; e
+- São de cunho tático.
+
+]
+]
+
+--
+
+.pull-right-4[
+.font90[
+
+**O objetivo é:**
+
+- O objetivo é determinar o potencial florestal (produtos madeireiros e não madeireiros) para uso sustentável; e
+- No contexto madeireiro, as informações do IF são a base para a elaboração de PMFS.
+&lt;br&gt;
+]
+&lt;br&gt;
+
+.font80[
+.blue[
+
+Lei nº 12.651 de 25/05/2012 (novo Código Florestal)
+
+Instrução Normativa/MMA nº. 05 de 11/12/2006
+
+Resolução CONAMA nº. 406 de 02/02/2009
+
+Instrução Normativa/SEMAS nº. 05/2011
+
+Instrução Normativa/SEMAS nº. 05 de 10/09/2015
+]
+]
+]
+
+---
+name: qmodc
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;&lt;br&gt;
+.shadow1[
+### 3 - Quanto à Maneira de Obtenção dos Dados de Campo
+a) Inventário Florestal 100% (Censo Florestal);
+
+b) Inventário por amostragem; e
+
+c) Inventário por fontes secundárias.
+]
+
+---
+name: if100
+## 🌳 Tipos de Inventários Florestais
+
+.pull-left-4[
+.font90[
+### a) Inventário Florestal 100% (Censo Florestal)
+&lt;br&gt;
+- Inventário de .blue[todas as árvores] da população florestal;
+- Também chamado de .blue[IF por Enumeração Total];
+- No MFS para fins madeireiro, o IF-100% é uma .blue[etapa fundamental e obrigatória]; e
+- As informações do IF-100% são usadas para .blue[elaborar PMFS], que serão apresentados aos orgãos ambientais competentes.
+
+]
+]
+
+.pull-right-4[
+&lt;img src="fig/au1/img1.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+&lt;br&gt;&lt;br&gt;
+
+.font80[
+*MFS* = Manejo Florestal Sustentável
+
+*PMFS* = Plano de Manejo Florestal Sustentável
+]
+]
+
+
+---
+name: ia
+## 🌳 Tipos de Inventários Florestais
+
+.pull-left-4[
+.font90[
+### b) Inventário por Amostragem
+&lt;br&gt;
+- No IF amostral mede-se .blue[parte da população] florestal;
+- Os .blue[parâmetros populacionais são estimados] com base em dados amostrais; e
+- Na prática, são realizados com uso de parcelas (ou unidades) amostrais.
+]
+]
+
+--
+&lt;br&gt;&lt;br&gt;
+
+.pull-left-4[
+.font90[
+
+**Qual motivo?**
+
+- Quando a população florestal a ser inventariada é grandes demais, uma abordagem exaustiva (ou de 100%) de todos os indivíduos torna-se delongada e onerosa.
+
+]
+]
+
+---
+
+## 🌳 Tipos de Inventários Florestais
+
+.left-column[
+### População Florestal
+
+&lt;img src="02-IF-Conceitos-Tipos_files/figure-html/unnamed-chunk-5-1.png" style="display: block; margin: auto;" /&gt;
+]
+
+.right-column[
+### Amostra da População
+
+&lt;img src="02-IF-Conceitos-Tipos_files/figure-html/unnamed-chunk-6-1.png" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+---
+name: ifs
+## 🌳 Tipos de Inventários Florestais
+
+.pull-left-4[
+.font90[
+### c) Inventário por Fontes Secundárias
+&lt;br&gt;
+- **RADAM BRASIL**: foi responsável, nos anos 70 e 80, pelo levantamento dos recursos naturais de todo o território brasileiro.
+
+]
+]
+
+---
+name: qapt
+## Tipos de Inventários Florestais
+&lt;br&gt;&lt;br&gt;
+.shadow1[
+### 4 - Quanto à Abordagem da População no Tempo
+a) IF temporários (ou de uma ocasião); e
+
+b) IF contínuos (ou de múltiplas ocasiões).
+]
+
+---
+name: ift
+## 🌳 Tipos de Inventários Florestais
+
+.pull-left-4[
+.font70[
+### a) Inventários Florestais Temporários (ou de uma ocasião)]
+&lt;br&gt;
+
+.font90[
+- São caracterizados por uma única abordagem da população no tempo; e
+- A estrutura da amostragem não é duradoura.
+
+]
+]
+
+
+---
+name: ifc
+## 🌳 Tipos de Inventários Florestais
+
+.pull-left-4[
+.font70[
+### b) Inventários Florestais Contínuos (ou de múltiplas ocasiões)]
+&lt;br&gt;
+
+.font90[
+- São caracterizados por várias abordagens da população no tempo. Isto é, o inventário é .blue[repetido periodicamente];
+- Na prática, são .blue[áreas (parcelas) demarcadas na floresta] em que a vegetação (árvores, arvoretas, varas e mudas) é identificada e medida; e
+- Comumente a área demarcada é chamada de .blue[Parcela Permanente de Monitoramento (PPM)].
+
+]
+]
+
+--
+&lt;br&gt;&lt;br&gt;
+
+.pull-right-4[
+.font90[
+**Importância?**
+
+- Os dados coletados em PPMs são essenciais para o sucesso do manejo florestal sustentável; 
+
+**A partir de dados de PPMs pode-se entender:**
+
+* A composição florística;
+* A estrutura e a dinâmica da floresta; e
+* As taxas de crescimento, ingresso e mortalidade (e outros).
+
+]
+]
+
+---
+
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;
+
+.pull-left-12[
+&lt;br&gt;&lt;br&gt;
+
+.center[
+**Acesse a diretriz** <span>&lt;i class="fas  fa-hand-point-down faa-vertical animated "&gt;&lt;/i&gt;</span>
+
+[Diretrizes para instalação e medição de parcelas permanentes em florestas naturais da Amazônia brasileira](http://bommanejo.cpatu.embrapa.br/arquivos/6-Silvaetal2006.pdf)
+(Silva et al., 2005)
+
+]
+]
+
+.pull-right-12[
+&lt;img src="fig/au1/ppm.png" width="45%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;
+
+.pull-left-3[
+[Diretrizes para instalação e medição de parcelas permanentes em florestas naturais da Amazônia brasileira](http://bommanejo.cpatu.embrapa.br/arquivos/6-Silvaetal2006.pdf)
+(Silva et al., 2005)
+]
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+.pull-left-2[
+&lt;img src="fig/au1/parcela.png" width="85%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right-1[
+&lt;img src="fig/au1/classes.png" width="110%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+name: qdr
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;&lt;br&gt;
+.shadow1[
+### 5 - Quanto ao Grau de Detalhamento dos Resultados
+a) Inventários Exploratórios;
+
+b) Inventários de Reconhecimento; e
+
+c) Inventários Detalhados.
+]
+
+---
+name: ife
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;
+
+.pull-left-4[
+
+### a) Inventários Florestais Exploratórios
+- Realizado em grandes áreas, em nível de estado ou país.
+
+**Objetiva:**
+
+- Avaliar a cobertura florestal de determinada região, sua extensão, localização, e caracterizar os tipos florestais existentes.
+
+]
+
+.pull-right-4[
+
+### b) Inventários Florestais de Reconhecimento
+
+- Realizado em nível estadual ou regional;
+
+**Objetiva:**
+
+- Caracterizar os tipos de formações florestais;
+- Determinar estimativas de volume sem controle de precisão; e
+- Definir áreas de preservação, potencial madeireiro, etc.
+]
+
+---
+name: ifd
+## 🌳 Tipos de Inventários Florestais
+&lt;br&gt;
+
+.pull-left-4[
+
+### c) Inventários Florestais Detalhados
+- São os mais comuns. Em geral, realizados em pequenas áreas, com maior detalhamento das informações e controle de precisão.
+
+]
+&lt;br&gt;&lt;br&gt;
+
+.pull-right-4[
+
+**Objetiva:**
+- Avaliar a cobertura florestal;
+- Caracterizar os tipos florestais;
+- Determinar a composição de espécies; 
+- Determinar estimativas de volume com controle de precisão, etc.
+
+]
+
+---
+
+## 📖 Referências
+
+&lt;br&gt;&lt;br&gt;
+PÉLLICO NETTO, S.; BRENA, D.A. Inventário Florestal. Curitiba: editorado pelos autores, 1997. 316p.
+&lt;br&gt;&lt;br&gt;
+SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J.D.P. Inventários florestais: planejamento e execução. 2ª ed. Curitiba. 2009. 316p.
+
+---
+
+layout: false
+name: etim
+class: inverse, middle, center
+background-image: url(fig/class0/sec.png)
+background-size: cover
+
+## .font200[Obrigado!]
+
+&lt;img src="fig/slide-title/LMFTCA.png" width="20%" style="display: block; margin: auto;" /&gt;
+
+👨🏻‍👩🏻‍👦🏻‍👦🏻 [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
+
+🌎 [https://www.lmftca.com.br/](https://www.lmftca.com.br/)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="assets/remark-zoom.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+  "highlightStyle": "googlecode",
+  "highlightLines": true,
+  "countIncrementalSlides": false,
+  "highlightLanguage": ["r", "css", "yaml"],
+  "ratio": "16:9",
+  "navigation": {
+    "scroll": false
+  }
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
