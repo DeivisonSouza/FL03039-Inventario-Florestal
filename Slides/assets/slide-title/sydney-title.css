@@ -696,7 +696,7 @@ h3 {
   padding-bottom: 00px;
   color: #dd7321;
   text-shadow: none;
-  font-weight: 400;
+  font-weight: 200;
   margin-left: 5px;
   margin-bottom: 0px;
 }
@@ -707,16 +707,6 @@ h4 {
   color: #ed4406;
   text-shadow: none;
   font-weight: 400;
-  margin-left: 5px;
-  margin-bottom: 0px;
-}
-
-h5 {
-  padding-top: -15px;
-  padding-bottom: 00px;
-  color: #ed4406;
-  text-shadow: none;
-  font-weight: 300;
   margin-left: 5px;
   margin-bottom: 0px;
 }
