@@ -156,28 +156,28 @@ Email: deivisonvs@ufpa.br
 ]
 ]
 
-<!-- Slide 2 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
-
+## 👋 Olá, sejam bem vindos!
 <br>
 
-```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Setembro.jpg")
-```
+### **Projetos de Pesquisa/Extensão finalizados** (com fomento)
 
-
-<!-- Slide 3 -->
----
-
-## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
-
+.font90[
+- 1) Sistema de Visão Computacional para Reconhecer Espécies no Manejo Florestal Madeireiro na Amazônia Brasileira. (**Financiador**: Centro de Indústrias Produtoras e Exportadoras de Madeira do Estado de Mato Grosso - CIPEM) - ([https://cipem.org.br/](https://cipem.org.br/)) <br><br>
+- 2) Projeto Ipa’wã (Copaíba): Etnomapeamento e inventário de copaibais nativos na TI Xipaya (Aldeias Tukamã, Tukayá e Kaarimã). (**Financiador**: Fundo Brasileiro para a Biodiversidade - FUNBIO) - ([https://www.funbio.org.br/](https://www.funbio.org.br/)) (Parceria entre Associação Indígena Pyjahyry Xipaia – AIPHX e UFPA)
 <br>
 
-```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Outubro.jpg")
-```
+----------------------------------------
+
+**Siga o Instagram**: [@pyjahyryxipaia](https://www.instagram.com/pyjahyryxipaia/) (Associação Indígena Pyjahyry Xipaia)
+
+**Siga o Instagram**: [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/) (Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas)
+
+**Site do LMFTCA**:
+[https://www.lmftca.com.br/](https://www.lmftca.com.br/)
+(Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas)
+]
 
 <!-- Slide 7 -->
 ---
@@ -210,6 +210,28 @@ knitr::include_graphics("fig/class0/Outubro.jpg")
 
 ]
 
+<!-- Slide 2 -->
+---
+
+## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+
+<br>
+
+```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class0/Setembro.jpg")
+```
+
+
+<!-- Slide 3 -->
+---
+
+## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+
+<br>
+
+```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class0/Outubro.jpg")
+```
 
 <!-- Slide 7 -->
 ---
