@@ -26,9 +26,9 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
-background-position: 84% 90%, 95% 90%
-background-size: 220px, 90px, cover
+background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufpa.png), url(fig/slide-title/capa.png)
+background-position: 90% 90%, 10% 90%
+background-size: 150px, 150px, cover
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
@@ -67,32 +67,38 @@ library(dplyr)
 library(ggimage)
 ```
 
-
 <!-- title-slide -->
-# Inventário Florestal <br> (FL03039 - IF)
-<br>
-## .yellow2[Introdução ao] <br> `r anicon::faa("pagelines", animate="horizontal", colour="green")` .yellow2[Inventário Florestal] `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+# .font120[Inventário Florestal <br> (FL03039 - EF)]
 
-#### **Prof. Dr. Deivison Venicio Souza**
-##### Universidade Federal do Pará (UFPA) 
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Introdução ao `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> Inventário Florestal
+###### Conceito, Importância e Tipos
+
+##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
+##### ᨒ
+##### .font120[**Prof. Dr. Deivison Venicio Souza**]
+##### Universidade Federal do Pará (UFPA)
 ##### Faculdade de Engenharia Florestal
-##### E-mail: deivisonvs@ufpa.br 
-###### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
+##### E-mail: deivisonvs@ufpa.br
+<br>
+##### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
 
 ---
 layout: true
+class: with-logo logo-ufpa
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Introdução ao Inventário Florestal</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Introdução aos Inventários Florestais</div2> </div>
 
 ---
 
-## Ementa da disciplina (FL03039 - IF)
+## 📚 Ementa da disciplina (FL03039 - EF)
 
-.pull-left-3[
 .shadow4[
-**1 - Introdução aos Inventários Florestais;**
+<br>
+.font90[
+1 - Introdução aos Inventários Florestais; 
 
-2 - Amostragem em Inventários Florestais; 
+2 - Amostragem em Inventários Florestais;
 
 3 - Amostragem Aleatória Simples;
 
@@ -108,18 +114,15 @@ layout: true
 
 9 - Amostragem em Múltiplas Ocasiões;
 
-10 - Inventário Florestal Nacional;
+10 - Inventário Florestal Nacional; e
 
-11 - Planejamento e Custo de Inventários Florestais; e
-
-12 - Tecnologias em Inventários Florestais.
+11 - Planejamento e Custo de Inventários Florestais.
 ]
 ]
-
 
 ---
 
-## Objetivos
+## 🎯 Objetivos
 <br><br>
 Ao final desta aula espera-se que o discente seja capaz de...
 
@@ -130,13 +133,13 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 ---
 
-## Conteúdo
+## 📙 Conteúdo
 
 **Parte 1 - Inventários Florestais: Conceito, Importância e Tipos**
 
 .pull-left[
 .pull-top[
-.font90[
+.font80[
 
 [1 - Conceito e Importância](#ifci)
 
@@ -161,7 +164,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-right[
 
-.font90[
+.font80[
 &nbsp;&nbsp;[2.3 - Quanto à Maneira de Obtenção dos Dados de Campo](#qmodc)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[2.3.1 - Inventário Florestal 100% (Censo Florestal)](#if100)
