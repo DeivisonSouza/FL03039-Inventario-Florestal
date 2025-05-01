@@ -1,6 +1,6 @@
 ---
-title: "Inventário Florestal (FL03039 - IF)"
-subtitle: "Cronograma da disciplina"
+title: "Inventário Florestal (FL03039 - EF)"
+subtitle: "Programação da disciplina"
 author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
 date: 
@@ -26,9 +26,9 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
-background-position: 84% 90%, 95% 90%
-background-size: 220px, 90px, cover
+background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufpa.png), url(fig/slide-title/capa.png)
+background-position: 90% 90%, 10% 90%
+background-size: 150px, 150px, cover
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
@@ -60,61 +60,69 @@ use_logo(
 ```
 
 <!-- title-slide -->
-# Inventário Florestal <br> (FL03039 - IF)
-<br><br>
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Cronograma da disciplina `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+# .font120[Inventário Florestal <br> (FL03039 - EF)]
 
-#### **Prof. Dr. Deivison Venicio Souza**
-##### Universidade Federal do Pará (UFPA) 
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Programação da Disciplina `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> 🌲🌳🌲🌳🌲🌳🌲🌳
+###### Período Letivo 2025.2
+
+##### 〰〰〰〰〰〰🌱〰〰〰〰〰〰
+##### ᨒ
+##### .font120[**Prof. Dr. Deivison Venicio Souza**]
+##### Universidade Federal do Pará (UFPA)
 ##### Faculdade de Engenharia Florestal
+##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### E-mail: deivisonvs@ufpa.br
-###### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+<br>
+##### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
 
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Cronograma da disciplina</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - EF) - Programação e Orientações </div>
 
 ---
 
 ## 👋 Olá, sejam bem vindos!
 <br>
-
 ### **Sobre o facilitador**
+
 .pull-left[
-.font90[
+.font60[
 1. .green[Graduação (Titulação: ano 2008)]
     - Universidade Federal Rural da Amazônia (UFRA); e
     - Título: Bacharel em Engenharia Florestal.
-
+    
 2. .green[Mestrado (Titulação: ano 2011)]
     - Universidade Federal Rural da Amazônia (UFRA);
     - Programa de Pós-graduação em Ciências Florestais (PPGCF); e
     - Área de Concentração: Manejo de ecossistemas florestais.
+
+3. .green[Especialização (Titulação: ano 2019)]
+    - Universidade Federal do Paraná (UFPR);
+    - Área: Big Data e Data Science
+    
+4. .green[Doutorado (Titulação: ano 2020)]
+    - Universidade Federal do Paraná (UFPR);
+    - Programa de Pós-graduação em Engenharia Florestal (PPGEF); e
+    - Área de Concentração: Manejo Florestal.
 ]
 ]
 
 .pull-right[
-.font90[
-3. .green[Doutorado (Titulação: ano 2020)]
-    - Universidade Federal do Paraná (UFPR);
-    - Programa de Pós-graduação em Engenharia Florestal (PPGEF); e
-    - Área de Concentração: Manejo Florestal.
-    
-4. .green[Especialização (Defesa: ano 2019)]
-    - Universidade Federal do Paraná (UFPR);
-    - Área: Big Data e Data Science
-
-]
+```{r echo = FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/slide-title/Foto4.jpg")
+```
 ]
 
 ---
 
 ## 👋 Olá, sejam bem vindos!
+<br>
+### **Sobre o facilitador**
 
 .pull-left[
 .font90[
-### **Interesses atuais**
+#### **Interesses atuais**
 1. .green[Linguagem de programação]
     - R
     - Python
@@ -131,7 +139,7 @@ layout: true
 
 .pull-right[
 .font90[
-### **Websites e contatos**
+#### **Websites e contatos**
 
 `r icons::simple_icons("github")` GitHub: https://github.com/DeivisonSouza
 
@@ -145,13 +153,6 @@ knitr::include_graphics('fig/ORCID.png')
 ```
 
 Email: deivisonvs@ufpa.br
-
- .center1[
-```{r echo = FALSE, out.width='55%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/slide-title/Foto.jpeg")
-```
-]
-
 ]
 ]
 

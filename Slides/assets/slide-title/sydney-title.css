@@ -1,17 +1,17 @@
 /***********
  Slide margins and spacings
- ***********/
+ ************/
 
 .remark-slide-content {
-  padding-top: 25px;
+  padding-top: 5px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
 /* Custom color number slide*/
 .remark-slide-number {
-  color: yellow;
-  font-weight: normal;
+  color: black;
+  font-weight: bold;
   font-size: 10pt;
   margin-bottom: -5px;
   margin-right: 10px;
@@ -20,15 +20,18 @@
 /*
 To specify the margin of the first title h1
 */
+
 .remark-slide-content > h1:first-of-type {
-  margin-top: 5px;
-  margin-bottom: -40px;
+  margin-top: 20px;
+  margin-bottom: -10px;
 }
+
 .remark-slide-content > h2:first-of-type {
-  color: #e64626;
-  margin-top: 5px;
+  color: #006633;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
+
 .remark-slide-content > h3:first-of-type {
   margin-top: 5px;
   margin-bottom: 10px;
@@ -38,12 +41,25 @@ To specify the margin of the first title h1
   margin-bottom: 10px;
 }
 
+/* Logo */
+
+.logo {
+  background-image: url(fig/slide-title/sciflor.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 110px;
+  height: 128px;
+  z-index: 0;
+}
 
 /* footer and header */
 
 div.my-header {
-    background-color: #006600;
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffb76b), color-stop(0%,#ffa73d), color-stop(0%,#ffffff), color-stop(10%,#ffffff), color-stop(25%,#006600), color-stop(100%,#006600));
+    background-color: #fb7318;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#e06411), color-stop(0%,#922B21), color-stop(0%,#e06411), color-stop(10%,#e06411), color-stop(25%,#fb7318), color-stop(100%,#fb7318));
     position: fixed;
     top: 0px;
     left: 0px;
@@ -52,15 +68,33 @@ div.my-header {
     text-align: left;
 }
 
+div2 {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+div3 {
+  color: #fd7b25;
+  font-weight: bold;
+}
+
+.brown{
+ color: brown;
+}
+
+.magenta{
+ color: magenta;
+}
+
 div.my-footer {
-    background-color: #006600;
+    background-color: #fb7318;
     position: absolute;
     bottom: 0px;
     left: 0px;
     height: 30px;
     width: 100%;
     text-align: left;
-    color: white;
+    color: black;
 }
 
 div.my-footer span {
@@ -68,22 +102,6 @@ div.my-footer span {
     position: absolute;
     left: 15px;
     bottom: 5px;
-}
-
-div2 {
-  color: yellow;
-}
-
-div3 {
-  color: #66ff33;
-}
-
-.magenta {
-  color: #ff00ff;
-}
-
-.yellow2 {
-  color: #ffff99;
 }
 
 /*************************
@@ -211,60 +229,19 @@ div3 {
 
 .pull-right-14 {
   float: right;
-  width: 65%;
-}
-
-.pull-left-15 {
-  float: left;
-  width: 85%;
+  width: 30%;
 }
 
 .pull-right-15 {
   float: right;
-  width: 10%;
-}
-
-.pull-left-16 {
-  float: left;
-  width: 90%;
-}
-
-.pull-left-17 {
-  float: left;
-  width: 55%;
-}
-
-.pull-right-17 {
-  float: right;
-  width: 55%;
-}
-
-.pull-left-18 {
-  float: left;
-  width: 75%;
-}
-
-.pull-right-18 {
-  float: right;
-  width: 25%;
-}
-
-
-.comment {
-background-color: #ffe0cc;
-padding: 10px;
-border: 1px solid black;
-margin-left: 25px;
-border-radius: 5px;
-font-style: normal;
+  width: 100%;
 }
 
 
 /* use to position text at the bottom */
 .pull-down {
   position: absolute;
-  bottom: 80px;
-  width: 38%;
+  bottom: 50px;
 }
 
 /* Change default inverse background colour */
@@ -334,7 +311,7 @@ it from other content slides */
 
 /* link colour */
 a {
-  color: blue;
+  color: green;
   font-weight: normal;
 }
 
@@ -463,8 +440,6 @@ slides > slide {
     flex: 1 1 auto;
 }
 
-
-
 /***********
  Changed CSS
  **************/
@@ -531,43 +506,6 @@ slides > slide {
   text-justify: inter-word;
 }
 
-.shadow1a {
-  box-shadow: 0 60px 15px -10px rgba(28, 205, 0, 0.3) inset,
-              0 20px 15px -10px rgba(28, 205, 0, 0.3) inset,
-              0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 0px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  max-width: 950px;
-  border-radius: 7px;
-  padding-top: 0px;
-  padding-left: 15px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.shadow1b {
-  box-shadow: 0 60px 15px -10px rgba(183, 31, 0, 0.3) inset,
-              0 20px 15px -10px rgba(183, 31, 0, 0.3) inset,
-              0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 0px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  max-width: 1000px;
-  border-radius: 7px;
-  padding-top: 0px;
-  padding-left: 15px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-
 .shadow2 {
   box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
               10px 10px rgba(0, 98, 90, 0.3),
@@ -622,12 +560,12 @@ slides > slide {
   box-shadow: 0 10px 10px rgba(28, 205, 0, 0.3);
   margin-top: 0.1em;
   margin-bottom: 0.2em;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-right: 10px;
-  max-width: 950px;
+  max-width: 900px;
   border-radius: 2px;
   padding-top: -5px;
-  padding-left: 5px;
+  padding-left: 15px;
   padding-right: 10px;
   text-align: justify;
   text-justify: inter-word;
@@ -678,10 +616,6 @@ slides > slide {
   font-size: 50%;
 }
 
-.font40 {
-  font-size: 40%;
-}
-
 .font90 {
   font-size: 90%;
 }
@@ -726,7 +660,7 @@ slides > slide {
   /* background-image: url(https://sydney.edu.au/etc/designs/corporate-commons/bower_components/corporate-frontend/dist/assets/img/USydLogo.svg); */
   /*background-position: 20% 1%, 30% 3%, left, right;*/
   /*background-size: 100px, 100px, 600px 1500px, 600px 710px;*/
-  background-color: #006600;
+  background-color: #ffffff;
   text-align:right;
   border-bottom: none;
   vertical-align: top;
@@ -741,16 +675,16 @@ slides > slide {
 h1 {
   font-weight: normal;
   text-shadow: none;
-  margin-top: 20px;
-  margin-left: 120px;
-  color: #006600;
-  padding-top: -30px;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: black;
+  padding-top: 0px;
 }
 
 h3, h4 {
   padding-top: -15px;
   padding-bottom: 00px;
-  color: #006600;
+  color: #00cc00;
   text-shadow: none;
   font-weight: 400;
   margin-left: 5px;
@@ -758,9 +692,9 @@ h3, h4 {
 }
 
 h2 {
-  padding-top: -15px;
+  padding-top: -20px;
   padding-bottom: 00px;
-  color: #006600;
+  color: #006633;
   text-shadow: none;
   font-weight: 400;
   margin-left: 5px;
@@ -770,12 +704,12 @@ h2 {
 /* H1 fonts */
 .title-slide h1 {
   color: black; /* first of type is master brand red */
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-left: 0px;
   padding-right: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 50px;
   margin-left: 0px;
   margin-top: 0px;
   text-align: center;
@@ -785,12 +719,12 @@ h2 {
 
 /* H2 fonts */
 .title-slide h2 {
-  color: #ffffff !important; /* first of type is master brand red */
+  color: white !important; /* first of type is master brand red */
   font-size: 50px;
   font-weight: bold;
-  padding-top: 100px;
+  padding-top: 30px;
   padding-left: 0px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   margin-top: 0px;
   margin-left: 0px;
   text-align: center;
@@ -799,14 +733,11 @@ h2 {
 
 /* H3 fonts */
 .title-slide h3 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: normal;
   color: #00cc00;
-  padding-left: 10px;
-  padding-top: 40px;
-  padding-bottom: 10px;
+  padding-left: 20px;
   margin: 0px;
-  letter-spacing: 0.08em;
   line-height: 1;
   text-align: left;
   margin-left: 70px;
@@ -817,12 +748,11 @@ h2 {
 /* H4 fonts */
 .title-slide h4 {
   color: white !important;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   padding-top: 0px;
   padding-left: 0px;
-  padding-bottom: -5px;
-  margin-bottom: 0px;
+  padding-bottom: 0px;
   margin-top: 0px;
   margin-left: 0px;
   text-align: center;
@@ -846,10 +776,10 @@ h2 {
 
 /* H6 fonts */
 .title-slide h6 {
-  color: white !important;
-  font-size: 14px;
+  color: orange !important;
+  font-size: 30px;
   font-weight: normal;
-  padding-top: 40px;
+  padding-top: 0px;
   padding-left: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -942,7 +872,6 @@ ul li::before {
   color: black;
 }
 
-
 .center2 {
   margin: 0;
   position: absolute;
@@ -950,6 +879,11 @@ ul li::before {
   left: 50%;
   /*-ms-transform: translate(-50%, -50%);*/
   transform: translate(-50%, -5%);
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
 }
 
 /* if wanted to change mathjax formatting
