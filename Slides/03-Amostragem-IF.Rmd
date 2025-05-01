@@ -29,9 +29,9 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
-background-position: 84% 90%, 95% 90%
-background-size: 220px, 90px, cover
+background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufpa.png), url(fig/slide-title/capa.png)
+background-position: 90% 90%, 10% 90%
+background-size: 150px, 150px, cover
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
@@ -71,15 +71,20 @@ library(ggimage)
 
 
 <!-- title-slide -->
-# Inventário Florestal <br> (FL03039 - IF)
-<br>
-## .yellow2[Amostragem em] <br> `r anicon::faa("pagelines", animate="horizontal", colour="green")` .yellow2[Inventários Florestais] `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+# .font120[Inventário Florestal <br> (FL03039 - EF)]
 
-#### **Prof. Dr. Deivison Venicio Souza**
-##### Universidade Federal do Pará (UFPA) 
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Amostragem em `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> Inventários Florestais
+###### Conceito, Importância e Tipos
+
+##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
+##### ᨒ
+##### .font120[**Prof. Dr. Deivison Venicio Souza**]
+##### Universidade Federal do Pará (UFPA)
 ##### Faculdade de Engenharia Florestal
+##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### E-mail: deivisonvs@ufpa.br
-###### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+<br>
+##### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
 
 ---
 layout: true
