@@ -73,8 +73,8 @@ library(ggimage)
 <!-- title-slide -->
 # .font120[Inventário Florestal <br> (FL03039 - EF)]
 
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Amostragem em `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> Inventários Florestais
-###### Conceito, Importância e Tipos
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Amostragem em Inventários`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> Florestais
+###### Conceitos e Estimadores
 
 ##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
 ##### ᨒ
@@ -102,7 +102,7 @@ class: with-logo logo-ufpa
 .font90[
 1 - Introdução aos Inventários Florestais; 
 
-2 - Amostragem em Inventários Florestais;
+**2 - Amostragem em Inventários Florestais**;
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.1 - Amostragem Aleatória Simples;
 
@@ -196,32 +196,36 @@ Ao final desta aula espera-se que o discente seja capaz de...
 layout: false
 name: if
 class: inverse, middle, center
-background-image: url(fig/au1/sec.png)
+background-image: url(fig/class0/sec.png)
 background-size: cover
 
-.font200[.yellow2[**Conceitos básicos <br> para amostragem**]]
+.font150[**Conceitos básicos <br> (População, Amostral, Variável, etc.)**]
 
 ---
 layout: true
+class: with-logo logo-ufpa
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Amostragem em Inventários Florestais</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Amostragem em Inventários Florestais</div2> </div>
 
 ---
 name: pa
-## População x Amostra
+## 🌳 População x Amostra
 
 .shadow1[
+.font80[
 ## População
 
 Do ponto de vista estatístico, uma população é o conjunto de todos os indivíduos, elementos ou unidades sobre os quais se deseja desenvolver estudos, visando conhecer determinadas características (QUEIROZ, 1998).
 ]
+]
 
 
 .shadow1[
+.font80[
 ## Amostra
 
 Quando somente uma parte dos elementos ou unidades de uma população é selecionada para o procedimento das análises, tem-se o que se denomina de amostra (QUEIROZ, 1998).
-
+]
 ]
 <br>
 
@@ -229,7 +233,7 @@ Quando somente uma parte dos elementos ou unidades de uma população é selecio
 
 ---
 
-## População x Amostra
+## 🌳 População x Amostra
 <br>
 
 **EXEMPLO**
@@ -248,7 +252,7 @@ Quando somente uma parte dos elementos ou unidades de uma população é selecio
 
 ---
 
-## População x Amostra
+## 🌳 População x Amostra
 <br>
 
 **EXEMPLO**
@@ -278,12 +282,12 @@ Na estatística, comumente o .blue[número total de elemento na população] é 
 
 ---
 
-## População x Amostra
+## 🌳 População x Amostra
 
 .left-column[
 #### População Florestal (*Pinus* sp.)
 
-```{r eval = T, echo = F, fig.width=.8, fig.height=.8}
+```{r eval = T, echo = F, fig.width=.7, fig.height=.7}
 
 grid <- expand.grid(
   x = seq(0, 20, length = 15),
@@ -306,7 +310,7 @@ grid %>%
 .right-column[
 #### Amostra da População (*Pinus* sp.)
 
-```{r eval = T, echo = F, fig.width=.8, fig.height=.8}
+```{r eval = T, echo = F, fig.width=.7, fig.height=.7}
 
 grid <- expand.grid(
   x = seq(0, 20, length = 15),
@@ -330,7 +334,7 @@ grid %>%
 
 ---
 name: var
-## Variável
+## 🌳 Variável
 
 .pull-left-4[
 - É qualquer .blue[característica que varia] de uma unidade (indivíduo ou parcela) para outra (CAMPOS; LEITE, 2009).
@@ -342,7 +346,7 @@ knitr::include_graphics('fig/au1/TV.png')
 
 ---
 name: var
-## Variável
+## 🌳 Variável
 <br>
 
 ### Tipos de Variáveis (Vieira, 2010)
@@ -358,7 +362,7 @@ Uma .blue[variável quantitativa (ou numérica)] é expressa por números que t�
 
 ---
 
-## Variáveis em Inventários Florestais
+## 🌳 Variáveis em Inventários Florestais
 <br>
 
 .pull-left-5[
@@ -398,7 +402,7 @@ knitr::include_graphics('fig/au1/alt.jpg')
 
 ---
 name: ua
-## Unidade de Amostra (Ou Parcela)
+## 🌳 Unidade de Amostra (Ou Parcela)
 <br>
 
 .shadow1[
@@ -411,10 +415,10 @@ name: ua
 
 ---
 
-## Unidade de Amostra (Ou Parcela) - Exemplos
+## 🌳 Unidade de Amostra (Ou Parcela) - Exemplos
 <br>
 
-```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class2/parcelas.png')
 ```
 
@@ -424,41 +428,50 @@ Fonte: [Viane et al. (2013)](https://www.researchgate.net/publication/304073085_
 
 ---
 name: pra
-## Por que realizar amostragem?
+## 🌳 Por que realizar amostragem?
 <br>
 
+.font80[
 - Na prática, a coleta de dados de uma população florestal pode ser realizada por dois procedimentos: .magenta[Censo] ou .magenta[Amostragem].
-<br><br>
+]
+<br>
 --
 
+.font80[
 - **Problema**: Frequentemente as populações florestais são .blue[extensas], ou por vezes inacessíveis. Portanto, medir todos os elementos da população implica em .blue[alto custo operacional] e de .blue[tempo de execução].
-<br><br>
+]
+<br>
 --
 
+.font80[
 - **Amostragem**: É indicada quando a população é muito .blue[extensa]. Assim, os dados podem ser obtidos com .blue[maior rapidez] e .blue[menor custo] operacional, quando comparado ao Censo Florestal.
-<br><br>
+]
+<br>
 --
 
+.font80[
 .center[.red[**Atenção**]`r anicon::faa("exclamation-triangle", colour="red")`: Sempre consulte as normas legais vigentes que regulamentam a atividade!]
 <br>
 
-.center[.magenta[Plano de Manejo Florestal Sustentável] `r emo::ji("point_right")` **IF-100% é obrigatório**]
+.center[.magenta[Plano de Manejo Florestal Sustentável - PMFS] `r emo::ji("point_right")` **Censo florestal (ou IF-100%) é obrigatório!**]
+]
 
 ---
 name: pee
-## Parâmetro, Estimador e Estimativa
+## 🌳 Parâmetro, Estimador e Estimativa
 
 .shadow1[
 ### Parâmetro
-
-- É uma .blue[quantidade] usada para descrever uma variável de interesse, a partir de .blue[dados populacionais].
+.font80[
+- É uma .blue[quantidade] usada para descrever/resumir uma variável de interesse, a partir de .blue[dados populacionais].
 - Os parâmetros são comumente representados por .blue[letras gregas].
 - Os valores dos parâmetros populacionais são .blue[normalmente desconhecidos], pois na maioria das vezes é inviável medir todos os elementos da população.
+]
 ]
 <br>
 
 .center[
-.font90[
+.font80[
 $\mu$ = Média Populacional (ou Paramétrica)
 
 $\sigma^2$ = Variância Populacional (ou Paramétrica)
@@ -467,7 +480,7 @@ $\sigma$ = Desvio Padrão Populacional (ou Paramétrica)
 ]
 ]
 
-.font90[
+.font80[
 $\sigma$: letra grega sigma.
 
 $\mu$: letra grega mu (lê-se "mi").
@@ -475,39 +488,42 @@ $\mu$: letra grega mu (lê-se "mi").
 
 ---
 
-## Parâmetro, Estimador e Estimativa
+## 🌳 Parâmetro, Estimador e Estimativa
 
 .shadow1[
-### Estimador (do Parâmetro)
+### Estimador (do Parâmetro)/Estatística
+.font80[
 - É uma .blue[estatística] usada para .blue[estimar um parâmetro da população] (para alguma característica de interesse), a partir de dados da .blue[amostra].
 - São exemplos de estimadores: $\bar{X}$, $S^2$, $S$ e outros
-
+]
 ]
 
 .shadow1[
 ### Estimativa (do Parâmetro)
+.font80[
 - É o valor numérico assumido pelo estimador, a partir de dados amostrais.
 - Estimativa = é um valor aproximado (do Parâmetro).
+]
 ]
 
 ---
 
-## Parâmetro, Estimador e Estimativa
+## 🌳 Parâmetro, Estimador e Estimativa
 <br>
-
 ### Formulação Matemática (Exemplos)
-
+.font80[
 |                                Parâmetro                                |                         Estimador (do Parâmetro)                         |                                      Descrição                                      |
 |:-----------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
 |                   $$\mu = \frac{1}{N}\sum_{i=1}^{N}X_i$$                  |                 $$\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i$$                 |        $\mu$ = média populacional <br> $\bar{X}$ = estimador da média populacional       |
 |    $$\sigma^2 = \frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2$$   |    $$S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2$$   |   $\sigma^2$ = variância populacional <br> $S^2$ = estimador da variância populacional   |
 | $$\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2}$$ | $$S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}$$ | $\sigma$ = desvio padrão populacional <br> $S$ = estimador do desvio padrão populacional |
+]
 
 ---
 
-## Resumindo...(Péllico Netto; Brena, 1997)
+## 🌳 Resumindo...(Péllico Netto; Brena, 1997)
 
-```{r, echo=FALSE, out.width='40%', fig.align='center', fig.cap='', dpi=600}
+```{r, echo=FALSE, out.width='38%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class2/pop.jpg')
 ```
 
@@ -516,23 +532,24 @@ knitr::include_graphics('fig/class2/pop.jpg')
 layout: false
 name: if
 class: inverse, middle, center
-background-image: url(fig/au1/sec.png)
+background-image: url(fig/class0/sec.png)
 background-size: cover
 
-.font200[.yellow2[**Estimadores em Inventários <br> Florestais por Amostragem**]]
+.font150[.yellow2[**Estimadores em <br> Inventários Florestais <br> por Amostragem**]]
 
 ---
 layout: true
+class: with-logo logo-ufpa
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Amostragem em Inventários Florestais</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Amostragem em Inventários Florestais</div2> </div>
 
 ---
 name: peifa
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 <br>
 
 .pull-left-4[
-.font90[
+.font80[
 - Em IF por amostragem, os estimadores a serem usados dependem do processo (técnica) de amostragem.
 <br><br>
 
@@ -547,7 +564,7 @@ name: peifa
 ]
 
 .pull-right-4[
-.font90[
+.font80[
 .center[**Principais Estimadores**]
 
 1 - Intensidade amostral
@@ -576,7 +593,7 @@ name: peifa
 
 ---
 name: ia
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 
 .shadow1[
 ### Intensidade Amostral (n)
@@ -592,7 +609,7 @@ name: ia
 
 ---
 
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 <br><br>
 
 **A intensidade de amostragem é dependente da(o):** (Péllico Netto; Brena, 1997)
@@ -606,7 +623,7 @@ name: ia
 
 ---
 name: ma
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 <br>
 
 .shadow1[
@@ -625,7 +642,7 @@ $$\large\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i$$
 
 ---
 name: dp
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 <br>
 
 .shadow1[
@@ -659,7 +676,7 @@ $$
 
 ---
 name: vm
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 
 .shadow1[
 ### Variância da Média (Amostral)
@@ -674,7 +691,7 @@ name: vm
 --
 
 .pull-right-4[
-```{r, echo=FALSE, out.width='35%', fig.align='center', fig.cap='', dpi=600}
+```{r, echo=FALSE, out.width='30%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif')
 ```
 <div style='font-size:50%'>([Source link](http://www.reactiongifs.com/suspicious-3/?utm_source=rss&utm_medium=rss&utm_campaign=suspicious-3), accessed jun 06, 2014)</div>  
@@ -682,7 +699,7 @@ knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif'
 
 ---
 
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 <br>
 
 ### Variância da Média (Amostral) - Cont.
@@ -721,7 +738,7 @@ knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif'
 
 ---
 
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 <br>
 
 ### Variância da Média (Amostral) - Cont.
@@ -732,7 +749,7 @@ knitr::include_graphics('https://media1.giphy.com/media/kaq6GnxDlJaBq/giphy.gif'
 .font80[
 - Assim, se continuássemos tomando diversas (muitas e muitas vezes!) amostras aleatórias (n = 50), .blue[seria possível calcular a variância da média amostral];
 - Obviamente, isso é .blue[inviável na prática]! Não é razoável ficar realizando diversas amostras de mesmo tamanho. .blue[Imaginem o custo e tempo!];
-- Porém, ainda sim é importante obter uma estimativa da variância das médias amostrais. É dada pelo estimador:
+- Porém, ainda sim é importante obter uma estimativa da variância das médias amostrais. Que pode ser obtida usando o estimador:
 
 $$
 S_\bar{X}^2 = \dfrac{S²}{n}
@@ -746,7 +763,7 @@ $$
 
 ---
 name: epm
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 
 .shadow1[
 ### Erro Padrão da Média (Amostral)
@@ -765,15 +782,19 @@ $$
 
 ---
 name: ea
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 
 .shadow1[
 ### Erro de Amostragem
 .font90[
 
 - É o estimador do erro cometido devido realizar uma amostragem, ou seja, não medir toda a população (SOARES et al., 2011).
-- Quão próxima a estimativa da média populacional (média amostral) está da verdadeira média populacional (parâmetro)?
-- É simbolizado por $\color{blue}{E_a}$ (Erro de Amostragem Absoluto) ou $\color{blue}{E_r}$ (Erro de Amostragem Relativo).
+- Quão próxima a estimativa da média populacional (ou média amostral $\color{blue}{\bar{X}}$) está da verdadeira média populacional $\color{blue}{\mu}$ (parâmetro verdadeiro)?
+- Existem duas formas de representação:
+
+$\color{blue}{E_a}$ = Erro de Amostragem Absoluto (unidade de medida da variável de interesse)
+
+$\color{blue}{E_r}$ = Erro de Amostragem Relativo (em %)
 
 ]
 ]
@@ -781,7 +802,6 @@ name: ea
 --
 
 .pull-left-1[
-<br>
 
 $$
 \Large
@@ -792,8 +812,6 @@ $$
 ]
 
 .pull-left-1[
-<br>
-
 $$
 \Large
 \begin{equation*}
@@ -804,7 +822,7 @@ $$
 
 ---
 
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 <br>
 
 ### Erro de Amostragem - Fatores influentes
@@ -818,7 +836,7 @@ $$
 
 ---
 
-## Um parêntese...
+## 🌳 Um parêntese...
 <br>
 
 - Em um IF, podem ocorrer 2 tipos de erros: 1) .blue[Erros amostrais]; e 2) .blue[Erros não-amostrais] (Péllico Netto; Brena, 1997)
@@ -846,14 +864,14 @@ $$
 
 ---
 name: icm
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 
 .shadow1[
 ### Intervalo de Confiança Para Média
 .font90[
 
-- .blue[Intervalo de Confiança (IC)] é um tipo de estimador por intervalo de um parâmetro populacional desconhecido.
-- Se o parâmetro populacional desconhecido é $\mu$ (média populacional), então o IC para Média é simbolizado por: $\color{blue}{IC_\bar{X}}$.
+- .blue[Intervalo de Confiança (IC)] é um tipo de .blue[estimador por intervalo] de um parâmetro populacional desconhecido.
+- Se o parâmetro populacional desconhecido é $\mu$ (média populacional), então o IC para média é simbolizado por: $\color{blue}{IC_\bar{X}}$.
 - **Ideia básica**: fornecer um .blue[intervalo] de valores plausíveis para um .blue[parâmetro populacional] (mais comumente $\mu$), baseado em dados amostrais.
 - Na prática, é calculado um intervalo (.blue[limite inferior] e .blue[limite superior]) que deve conter o valor verdadeiro do parâmetro $\mu$ (média populacional), sob algum nível de confiança.
 ]
@@ -868,7 +886,7 @@ $$
 
 ---
 
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 <br>
 ### Intervalo de Confiança Para Média
 <br>
@@ -887,19 +905,18 @@ $$
 --
 
 .font90[
-- Podemos .blue[estimar] o valor do parâmetro $\color{blue}{\mu}$ usando dados de uma .blue[amostra] de tamanho .blue[*n*]. Por exemplo, n = 50 árvores.
+- Podemos .blue[estimar o valor do parâmetro] $\color{blue}{\mu}$, ou seja, obter $\color{blue}{\bar{X}}$ usando dados de uma .blue[amostra de tamanho] .blue[*n*]. Por exemplo, n = 50 árvores.
 ]
 
 --
 
 .font90[
-- Então, teremos um único número (média amostral) que representa o valor mais plausível do parâmetro $\color{blue}{\mu}$. É uma .blue[estimativa pontual].
+- Então, teremos um único número (média amostral $\color{blue}{\bar{X}}$) que representa o valor mais plausível do parâmetro $\color{blue}{\mu}$. É uma .blue[estimativa pontual].
 ]
-
 
 ---
 
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 <br>
 ### Intervalo de Confiança Para Média
 <br>
@@ -907,7 +924,7 @@ $$
 **EXEMPLO: (Cont.)**
 
 .font90[
-- No entanto, sabe-se que, na maioria das vezes, o valor estimado do parâmetro da população (nesse caso, $\color{blue}{\mu}$), não será idêntico ao valor verdadeiro.]
+- No entanto, sabe-se que, na maioria das vezes, o valor estimado do parâmetro da população (nesse caso, $\color{blue}{\bar{X}}$), não será idêntico ao parâmetro verdadeiro $\color{blue}{\mu}$.]
 
 --
 
@@ -921,13 +938,16 @@ $$
 - Então, devido a isso é interessante fornecer um .blue[intervalo de valores plausíveis para] $\color{blue}{\mu}$, baseado em dados da amostra. Este intervalo é chamado de **Intervalo de Confiança**.
 ]
 
+.shadow3[
 .center[
+.font80[
 **O quão podemos estar confiantes de que a média amostral ( $\color{blue}{\bar{X}}$ ) é uma boa estimativa da média populacional ( $\color{blue}{\mu}$ )?**]
-
+]
+]
 
 ---
 name: tp
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 
 .shadow1[
 ### Total da População
@@ -948,7 +968,7 @@ $$
 
 ---
 name: icptp
-## Principais Estimadores em IF por Amostragem
+## 🌳 Principais Estimadores em IF por Amostragem
 
 .shadow1[
 ### IC Para o Total da População
@@ -962,28 +982,33 @@ name: icptp
 ]
 <br><br>
 
+.shadow3[
 .center[
-**O quão podemos estar confiantes de que o total estimado de uma quantidade (Por exemplo, volume de madeira) é uma boa estimativa do total populacional (verdadeira quantidade de madeira)?**]
-
+.font80[
+**O quão podemos estar confiantes de que o total estimado de uma quantidade (Por exemplo, volume de madeira) é uma boa estimativa do total populacional (verdadeira quantidade de madeira)?**
+]
+]
+]
 
 <!-- Slide XX -->
 ---
 layout: false
 name: if
 class: inverse, middle, center
-background-image: url(fig/au1/sec.png)
+background-image: url(fig/Class0/sec.png)
 background-size: cover
 
 .font200[.yellow2[**Métodos, Processos e <br> Sistema de Amostragem**]]
 
 ---
 layout: true
+class: with-logo logo-ufpa
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF) - Amostragem em Inventários Florestais</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Amostragem em Inventários Florestais</div2> </div>
 
 ---
 name: 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 
 .shadow1[
 ### Métodos de Amostragem - Conceito e Tipos
@@ -999,7 +1024,7 @@ name:
 
 ---
 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 
 .shadow2[
 ### Método de Área Fixa - .font90[.black[Características] (Sanquetta et al., 2009)]
@@ -1012,8 +1037,7 @@ name:
 
 ---
 
-## Métodos de Amostragem
-
+## 🌳 Métodos de Amostragem
 
 .shadow3[
 ### Método de Área Fixa - .black[Tamanho e Forma das Parcelas]
@@ -1030,7 +1054,7 @@ knitr::include_graphics('fig/class2/ua.png')
 
 ---
 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 
 .pull-left-2[
 .shadow3[
@@ -1055,7 +1079,7 @@ knitr::include_graphics('fig/class2/pc.png')
 
 ---
 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 
 .shadow3[
 ### Método de Área Fixa - .font80[.black[Controle do Raio] (Sanquetta et al., 2009)]
@@ -1073,7 +1097,7 @@ knitr::include_graphics('fig/class2/pc.png')
 
 ---
 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 
 .shadow3[
 ### Método de Área Fixa - .font80[.black[Critérios de inclusão de árvores] (Sanquetta et al., 2009)]
@@ -1093,7 +1117,7 @@ knitr::include_graphics('fig/class2/marginais.png')
 
 ---
 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 
 .shadow3[
 ### Método de Área Fixa - .font70[.black[UA Quadradas] (Sanquetta et al., 2009)]
@@ -1111,10 +1135,9 @@ knitr::include_graphics('fig/class2/quad.png')
 ```
 .center[.font70[**Fonte**: Sanquetta et al. (2009)]]
 
-
 ---
 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 
 .shadow3[
 ### Método de Área Fixa - .font70[.black[UA Retangulares] (Sanquetta et al., 2009)]
@@ -1135,8 +1158,9 @@ knitr::include_graphics('fig/class2/retag.png')
 
 ---
 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 
+<br>
 .shadow3[
 ### Método de Área Fixa - .font90[.black[Fator de Proporcionalidade]]
 .font90[
@@ -1144,6 +1168,17 @@ knitr::include_graphics('fig/class2/retag.png')
 - No método de área fixa, a variável de interesse é medida em parcelas amostrais com tamanho de área definido.
 - Por exemplo, se a variável de interesse é volume de madeira e a área da parcela é 1ha, então o volume será expresso em m<sup>3</sup>.ha<sup>-1</sup> (m<sup>3</sup>/ha).
 - No entanto, nem sempre são usadas parcelas de área igual a 1 hectare. Por exemplo, se empregada uma parcela de 2500m<sup>2</sup>, então volume será expresso em m<sup>3</sup>/2500m<sup>2</sup>.
+]
+]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+<br>
+.shadow3[
+### Método de Área Fixa - .font90[.black[Fator de Proporcionalidade]]
+.font90[
 - Nos IFs, é usual e recomendável sempre apresentar os parâmetros estimados por hectare. Portanto, pode-se fazer uma simples extrapolação usando um **Fator de Proporcionalidade**.
 ]
 ]
@@ -1169,7 +1204,7 @@ $a$ = área da unidade amostral
 
 ---
 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 <br>
 
 ### Método de Área Fixa - .font90[.black[Fator de Proporcionalidade]]
@@ -1190,18 +1225,18 @@ $a$ = área da unidade amostral
 
 ---
 
-## Métodos de Amostragem
+## 🌳 Métodos de Amostragem
 <br>
 
 ### Método de Área Fixa - .font90[.black[Fator de Proporcionalidade]]
-<br>
+
 .font90[
 - Uma vez calculado o FP pode-se extrapolar os parâmetros estimados para hectare (Péllico Netto; Brena, 1997; Sanquetta et al., 2009):
 <br>
 ]
 
 .pull-left-4[
-.font90[**Estimativa do número de árvores por hectare (N):**]
+.font80[**Estimativa do número de árvores por hectare (N):**]
 
 $$
 \large
@@ -1210,7 +1245,7 @@ N = m.FP
 \end{equation*}
 $$
 
-.font90[**Estimativa da área basal por hectare (G):**]
+.font80[**Estimativa da área basal por hectare (G):**]
 
 $$
 \large
@@ -1223,7 +1258,7 @@ $$
 
 .pull-right-4[
 
-.font90[**Estimativa do volume por hectare (V):**]
+.font80[**Estimativa do volume por hectare (V):**]
 
 $$
 \large
@@ -1231,7 +1266,7 @@ $$
 V = \sum_{i}^{m}v_i.FP
 \end{equation*}
 $$
-.font90[
+.font80[
 Em que:
 
 $m$ = nº de árvores incluídas na UA
@@ -1244,7 +1279,7 @@ $v_i$ = volume da $i$-ésima árvore da UA
 
 ---
 name: proca
-## Processos de Amostragem
+## 🌳 Processos de Amostragem
 
 .shadow1[
 ### Processos de Amostragem - Conceito e Tipos
@@ -1268,7 +1303,7 @@ name: proca
 
 ---
 
-## Processos de Amostragem
+## 🌳 Processos de Amostragem
 <br>
 
 ### Qual Processos de Amostragem Escolher?
@@ -1283,7 +1318,7 @@ name: proca
 
 ---
 
-## Referências
+## 📖 Referências
 
 <br><br>
 CAMPOS, J. C. C.; LEITE, H. G. Mensuração florestal: perguntas e respostas. 3ª ed. - Viçosa, MG: Ed. UFV, 2009. 548 p.
@@ -1295,7 +1330,7 @@ QUEIROZ, W. T. de. Técnicas de amostragem em inventário florestal nos trópico
 
 ---
 
-## Referências
+## 📖 Referências
 
 <br><br>
 SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J.D.P. Inventários florestais: planejamento e execução. 2ª ed. Curitiba. 2009. 316p.
@@ -1303,3 +1338,24 @@ SANQUETTA, C.R.; WATZLAWICK, L.F.; CORTE, A.P.D.; FERNANDES, L.A.V.; SIQUEIRA, J
 SCOLFORO, J. R. S.; MELLO, J. M. de. Inventário Florestal. Lavras: UFLA/FAEPE, 1997. 341 p.
 <br><br>
 SOARES, C. P. B.; PAULA NETO, F. de; SOUZA, A. L. de. Dendrometria e inventário florestal. 2ª ed. - Viçosa, MG: Ed. UFV, 2011. 272 p.
+
+---
+
+layout: false
+name: etim
+class: inverse, middle, center
+background-image: url(fig/class0/sec.png)
+background-size: cover
+
+## .font200[Obrigado!]
+
+```{r, echo=FALSE, out.width='20%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/slide-title/LMFTCA.png')
+```
+
+👨🏻‍👩🏻‍👦🏻‍👦🏻 [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/)
+
+🌎 [https://www.lmftca.com.br/](https://www.lmftca.com.br/)
+
+
+
