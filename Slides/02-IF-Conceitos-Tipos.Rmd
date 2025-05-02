@@ -196,7 +196,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 layout: false
 name: if
 class: inverse, middle, center
-background-image: url(fig/au1/sec.png)
+background-image: url(fig/class0/sec.png)
 background-size: cover
 
 .font200[.yellow2[**Inventários Floretais: <br> Conceito, Importância e Tipos**]]
