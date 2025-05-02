@@ -218,30 +218,32 @@ Email: deivisonvs@ufpa.br
 
 2 - Amostragem em Inventários Florestais;
 
-3 - Amostragem Aleatória Simples;
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 - Amostragem Aleatória Simples;
 
-4 - Amostragem Estratificada;
+&nbsp;&nbsp;&nbsp;&nbsp;2.2 - Amostragem Estratificada;
 
-5 - Amostragem Sistemática; 
+&nbsp;&nbsp;&nbsp;&nbsp;2.3 - Amostragem Sistemática; 
 
-6 - Amostragem em Dois Estágios;
+&nbsp;&nbsp;&nbsp;&nbsp;2.4 - Amostragem em Dois Estágios; e
 
-7 - Amostragem em Conglomerados;
+&nbsp;&nbsp;&nbsp;&nbsp;2.5 - Amostragem em Conglomerados.
 
-8 - Censo Florestal (Inventário Florestal 100%); 
+3 - Censo Florestal (Inventário Florestal 100%); 
 
-9 - Amostragem em Múltiplas Ocasiões;
+4 - Amostragem em Múltiplas Ocasiões;
 
-10 - Inventário Florestal Nacional; e
+5 - Inventário Florestal Nacional; e
 
-11 - Planejamento e Custo de Inventários Florestais.
+6 - Planejamento e Custos de Inventários Florestais.
+
+<!--7 - Tecnologias Aplicadas em Inventários Florestais.-->
 ]
 ]
 
 <!-- Slide 2 -->
 ---
 
-## 🗓️ Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
+## 🗓 Cronograma .black[.font80[(**Horário: 14h00min - 18h50min**)]]
 
 <br>
 
@@ -252,7 +254,7 @@ knitr::include_graphics("fig/class0/Maio.png")
 <!-- Slide 3 -->
 ---
 
-## 🗓️ Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
+## 🗓 Cronograma .black[.font80[(**Horário: 14h00min - 18h50min**)]]
 
 <br>
 
@@ -262,7 +264,7 @@ knitr::include_graphics("fig/class0/Junho.png")
 
 ---
 
-## 🗓️ Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
+## 🗓 Cronograma .black[.font80[(**Horário: 14h00min - 18h50min**)]]
 
 <br>
 
@@ -272,7 +274,7 @@ knitr::include_graphics("fig/class0/Julho.png")
 
 ---
 
-## 🗓️ Cronograma .black[.font80[(**Horário: 08h00min - 12h50min**)]]
+## 🗓 Cronograma .black[.font80[(**Horário: 14h00min - 18h50min**)]]
 
 <br>
 
