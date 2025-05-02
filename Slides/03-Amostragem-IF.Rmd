@@ -1007,7 +1007,7 @@ class: with-logo logo-ufpa
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Amostragem em Inventários Florestais</div2> </div>
 
 ---
-name: 
+name: ma
 ## 🌳 Métodos de Amostragem
 
 .shadow1[
