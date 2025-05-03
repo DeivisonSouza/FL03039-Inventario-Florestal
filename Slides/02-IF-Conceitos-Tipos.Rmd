@@ -94,22 +94,24 @@ class: with-logo logo-ufpa
 ## 📚 Ementa da disciplina (FL03039 - EF)
 <br>
 .shadow4[
-.font90[
-**1 - Introdução aos Inventários Florestais**; 
+.font80[
+1 - Introdução aos Inventários Florestais; 
 
 2 - Amostragem em Inventários Florestais;
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.1 - Conceitos Básicos e Principais Estimadores;
+&nbsp;&nbsp;&nbsp;&nbsp;**2.1 - Conceitos Básicos e Principais Estimadores;**
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.2 - Amostragem Aleatória Simples - AAS;
+&nbsp;&nbsp;&nbsp;&nbsp;2.2 - Métodos de Amostragem;
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.3 - Amostragem Estratificada - AE;
+&nbsp;&nbsp;&nbsp;&nbsp;2.3 - Amostragem Aleatória Simples - AAS;
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.4 - Amostragem Sistemática - AS; 
+&nbsp;&nbsp;&nbsp;&nbsp;2.4 - Amostragem Estratificada - AE;
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.5 - Amostragem em Dois Estágios - ADE; e
+&nbsp;&nbsp;&nbsp;&nbsp;2.5 - Amostragem Sistemática - AS; 
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.6 - Amostragem em Conglomerados - AG.
+&nbsp;&nbsp;&nbsp;&nbsp;2.6 - Amostragem em Dois Estágios - ADE; e
+
+&nbsp;&nbsp;&nbsp;&nbsp;2.7 - Amostragem em Conglomerados - AG.
 
 3 - Censo Florestal (Inventário Florestal 100%); 
 
