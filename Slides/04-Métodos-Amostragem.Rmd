@@ -73,8 +73,8 @@ library(ggimage)
 <!-- title-slide -->
 # .font120[Inventário Florestal <br> (FL03039 - EF)]
 
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Amostragem em Inventários`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> Florestais
-###### Métodos de Amostragem
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Métodos de Amostragem`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> 🌳
+###### Área Fixa e Área Variável
 
 ##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
 ##### ᨒ
@@ -102,9 +102,9 @@ class: with-logo logo-ufpa
 
 2 - Amostragem em Inventários Florestais;
 
-&nbsp;&nbsp;&nbsp;&nbsp;**2.1 - Conceitos Básicos e Principais Estimadores;**
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 - Conceitos Básicos e Principais Estimadores;**
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.2 - Métodos de Amostragem;
+&nbsp;&nbsp;&nbsp;&nbsp;**2.2 - Métodos de Amostragem**;
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.3 - Amostragem Aleatória Simples - AAS;
 

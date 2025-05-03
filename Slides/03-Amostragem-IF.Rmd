@@ -132,14 +132,11 @@ class: with-logo logo-ufpa
 
 ## 🎯 Objetivos
 <br><br>
-.font80[
+.font90[
 Ao final desta aula espera-se que o discente seja capaz de...
 
-* Compreender os conceitos básicos associados à teoria de amostragem para inventários florestais;
-* Conhecer os principais estimadores calculados a partir de dados amostrais   de inventários florestais;
-* Conhecer a proposta de classificação da amostragem de Péllico Netto e Brena (1997);
-* Compreender o conceito de método, processo e sistema de amostragem; e
-* Aplicar o Fator de Proporcionalidade (FP) para o método de área fixa.
+* Aprender os principais conceitos básicos associados à teoria de amostragem para inventários florestais; e
+* Conhecer e compreender os principais estimadores calculados a partir de dados de inventários florestais por amostragem.
 ]
 
 ---

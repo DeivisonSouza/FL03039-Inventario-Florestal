@@ -95,11 +95,11 @@ class: with-logo logo-ufpa
 <br>
 .shadow4[
 .font80[
-1 - Introdução aos Inventários Florestais; 
+**1 - Introdução aos Inventários Florestais**; 
 
 2 - Amostragem em Inventários Florestais;
 
-&nbsp;&nbsp;&nbsp;&nbsp;**2.1 - Conceitos Básicos e Principais Estimadores;**
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 - Conceitos Básicos e Principais Estimadores;
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.2 - Métodos de Amostragem;
 
