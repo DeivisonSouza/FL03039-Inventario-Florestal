@@ -1,6 +1,6 @@
 ---
 title: "Inventário Florestal (FL03039 - IF)"
-subtitle: "Amostragem em Inventários Florestais"
+subtitle: "Métodos de Amostragem em Inventários Florestais"
 author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
 date: 
