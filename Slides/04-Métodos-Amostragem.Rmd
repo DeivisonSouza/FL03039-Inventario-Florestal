@@ -240,42 +240,59 @@ knitr::include_graphics('fig/class4/fluxo.png')
 
 ## 🌳 Métodos de Amostragem
 
-.shadow3[
-### Método de Área Fixa - .black[Tamanho e Forma das Parcelas]
-.font90[
-- Na prática do IF, existem .blue[diversas formas] de parcelas que podem ser estabelecidas em campo e com .blue[diferentes dimensões].
+.shadow1[
+## Método de Área Fixa - .black[Forma e Tamanho de Parcelas]
+.font80[
+- Existem diversos tipos de parcelas (unidades de amostras) que podem ser usadas em campo para realização de inventários florestais por amostragem.
+- Essas parcelas podem variar de forma e tamanho em função da condição de campo ou objetivo.
 - **Decisão:** é orientada pela .blue[maior praticidade e operacionalidade] de sua localização e demarcação em campo.
 ]
 ]
-<br><br>
 
 ```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class2/ua.png')
+knitr::include_graphics('fig/class4/formas.png')
 ```
 
 ---
 
 ## 🌳 Métodos de Amostragem
 
-.pull-left-2[
-.shadow3[
-### Método de Área Fixa - .font70[.black[UA Circulares] (Sanquetta et al., 2009)]
-.font90[
-- Mais usadas em inventário de .blue[plantações florestais].
-- São .blue[mais eficientes], isto porque dentre todas as formas, considerando-se a .blue[mesma área], são as que possuem .blue[menor perímetro] e, por conseguinte, .blue[minimizam o problema de árvores marginais].
-- A definição do raio da parcela é o aspecto mais importante. 
-- Raios > 15 metros não são recomendáveis, pois são pouco operacionais e inviabilizam um inventário eficiente.
-- Tamanho Médio: varia de 400 a 600 m<sup>2</sup>
-- Tamanho Máximo: 700 m<sup>2</sup>
+.shadow1[
+## Método de Área Fixa - .black[Parcelas Circulares]
+.font80[
+- **Mais Usual**: em inventário amostral de .blue[plantações florestais];
+- **Mais eficiente**: Dentre todas as formas de parcelas, admitindo-se a .blue[mesma área], é aquela que possui .blue[menor perímetro] e, por conseguinte, .blue[minimizam o problema de árvores marginais];
+- **Raio da parcela**: O controle do raio é o aspecto mais importante;
+- **Tamanho**: Raios > 15 metros não são recomendáveis, pois são pouco operacionais e inviabilizam um IF eficiente.
+<br>
 
-]
+👉 **Tamanho Médio**: varia de 400 m<sup>2</sup> a 600 m<sup>2</sup>
+
+👉 **Tamanho Máximo**: 700 m<sup>2</sup>
+
+<br>
+**Fonte**: Sanquetta et al. (2009)
 ]
 ]
 
-.pull-right-1[
-```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class2/pc.png')
+---
+
+## 🌳 Métodos de Amostragem
+
+.pull-left-4[
+```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/circular.png')
 ```
+]
+
+--
+
+.pull-right-4[
+.shadow3[
+#### 👉 Unidade de Amostra Circular
+
+
+]
 ]
 
 ---
