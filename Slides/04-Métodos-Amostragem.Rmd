@@ -48,10 +48,10 @@ knitr::opts_chunk$set(
 ```{r xaringan-logo, echo=FALSE}
 library(xaringanExtra)
 use_logo(
-  image_url = "fig/slide-title/ufpa.png",
+  image_url = "fig/slide-title/logo.png",
   position = css_position(top = ".8em", right = "1em"),
-  width = "140px",
-  height = "140px"
+  width = "200px",
+  height = "200px"
 )
 ```
 
@@ -206,27 +206,33 @@ name: ma
 ## 🌳 Métodos de Amostragem
 
 .shadow1[
-### Métodos de Amostragem - Conceito e Tipos
+## Conceito
 
 - É a forma de .blue[abordagem da população florestal] referente a .blue[uma única unidade de amostra] (ou parcela). Ou seja, o tipo de unidade amostral a ser empregada no inventário florestal. 
-- Existem 2 tipos de métodos de amostragem: 
-<br>
-
-**1) Método de Área Fixa**; e 
-
-**2) Método de Área Variável**.
 ]
+
+---
+name: ma
+## 🌳 Métodos de Amostragem
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/fluxo.png')
+```
 
 ---
 
 ## 🌳 Métodos de Amostragem
 
-.shadow2[
-### Método de Área Fixa - .font90[.black[Características] (Sanquetta et al., 2009)]
+.shadow1[
+## Método de Área Fixa - .black[Características]
 .font90[
-- A .blue[seleção] dos indivíduos é feita .blue[proporcional à área] da Unidade de Amostra (UA);
-- O quantitativo da variável de interesse calculado para uma UA de área fixa é extrapolado para hectare (unidade de área), por meio de um fator denominado .blue[**Fator de proporcionalidade**] (FP).
-- Obviamente, essa extrapolação para hectare somente é necessária quando a UA tem dimensão diferente de 1 hectare.
+- A .blue[seleção] dos indivíduos é feita .blue[proporcional à área da Unidade de Amostra (UA)];
+- O quantitativo da variável de interesse calculado para uma UA de área fixa é extrapolado para hectare (unidade de área), por meio de um fator denominado .blue[Fator de proporcionalidade - FP].
+<br>
+
+**Obs.:** Essa extrapolação para hectare somente é necessária quando a UA tem dimensão diferente de 1 hectare.
+
+**Fonte**: Sanquetta et al. (2009)
 ]
 ]
 
