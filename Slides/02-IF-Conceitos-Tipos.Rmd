@@ -45,10 +45,10 @@ knitr::opts_chunk$set(
 ```{r xaringan-logo, echo=FALSE}
 library(xaringanExtra)
 use_logo(
-  image_url = "fig/slide-title/ufpa.png",
+  image_url = "fig/slide-title/logo.png",
   position = css_position(top = ".8em", right = "1em"),
-  width = "140px",
-  height = "140px"
+  width = "200px",
+  height = "200px"
 )
 ```
 
