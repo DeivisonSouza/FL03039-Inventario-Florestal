@@ -102,7 +102,7 @@ class: with-logo logo-ufpa
 
 2 - Amostragem em Inventários Florestais;
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.1 - Conceitos Básicos e Principais Estimadores;**
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 - Conceitos Básicos e Principais Estimadores;
 
 &nbsp;&nbsp;&nbsp;&nbsp;**2.2 - Métodos de Amostragem**;
 
@@ -353,9 +353,12 @@ A = 500,34m²/10.000m² = .blue[A = **0.050034** ha] (em hectare)
 ## 🌳 Métodos de Amostragem
 
 .shadow3[
-### Método de Área Fixa - .font80[.black[Controle do Raio] (Sanquetta et al., 2009)]
-.font90[
-- As UAs circulares requerem o controle estrito do raio para garantir a inclusão correta de árvores.
+.font80[
+## Método de Área Fixa - .black[Parcelas Circulares]
+<br>
+👉 **Como controlar o raio da parcela?**
+
+- As parcelas circulares requerem o controle preciso do raio para garantir a inclusão correta de árvores.
 - Alguns procedimentos têm sido empregados:
 <br>
 
@@ -363,6 +366,8 @@ A = 500,34m²/10.000m² = .blue[A = **0.050034** ha] (em hectare)
 
 **2 – Controladores automáticos de distância** (plot centers com transponder e Vertex III)
 
+<br>
+**Fonte**: Sanquetta et al. (2009)
 ]
 ]
 
@@ -370,21 +375,31 @@ A = 500,34m²/10.000m² = .blue[A = **0.050034** ha] (em hectare)
 
 ## 🌳 Métodos de Amostragem
 
+<br>
+.pull-left-2[
 .shadow3[
-### Método de Área Fixa - .font80[.black[Critérios de inclusão de árvores] (Sanquetta et al., 2009)]
-.font90[
+.font80[
+### Método de Área Fixa - .black[Parcelas Circulares]
+<br>
+👉 **Critérios de inclusão de árvores?**
 
-- Na demarcação de parcelas circulares podem ocorrer árvores marginais.
+- **Árvores marginais**: em parcelas circulares podem ocorrer árvores marginais.
 - Portanto, é importante definir um critério de inclusão de árvores marginais.
-- A ilustração a abaixo define critérios que podem ser usados.
 ]
 ]
+]
+
 <br>
 
-```{r, echo=FALSE, out.width='35%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class2/marginais.png')
+.pull-right-1[
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/marginais.png')
 ```
-.center[.font70[**Fonte**: Sanquetta et al. (2009)]]
+<br>
+.font80[
+**Fonte**: Sanquetta et al. 2009
+]
+]
 
 ---
 
