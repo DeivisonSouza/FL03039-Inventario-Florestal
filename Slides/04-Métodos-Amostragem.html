@@ -716,7 +716,6 @@ Em que:
 
 ---
 
-
 ## 🌳 Métodos de Amostragem
 
 .shadow1[
@@ -732,8 +731,6 @@ Em que:
 &lt;img src="fig/class4/exer.png" width="60%" style="display: block; margin: auto;" /&gt;
 ]
 
---
-
 .pull-right-10[
 .shadow3[
 .font80[
@@ -747,6 +744,85 @@ Em que:
 - Calcular o número de árvores por hectare.
 - Calcular a área basal por hectare.
 - Calcular o volume por hectare.
+]
+]
+]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.pull-left-1[
+&lt;img src="fig/class4/tab.png" width="40%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+--
+
+.pull-right-2[
+.font80[
+**Fórmulas úteis:**
+.pull-left-11[
+👉 **Conversão circunferência para diâmetro:**
+$$
+\normalsize
+`\begin{equation*}
+d = \frac{c}{\pi}
+\end{equation*}`
+$$
+
+👉 **Área Transversal (m²):**
+$$
+\normalsize
+`\begin{equation*}
+g_i = \frac{\pi d^2}{40000}
+\end{equation*}`
+$$
+
+👉 **Volume da árvore em pé:**
+
+$$
+\normalsize
+`\begin{equation*}
+v_i = g_i.h.0,7
+\end{equation*}`
+$$
+
+👉 **Fator de Proporcionalidade:**
+$$
+\normalsize
+`\begin{equation*}
+FP = \frac{A}{a}
+\end{equation*}`
+$$
+
+]
+
+.pull-right-11[
+
+👉 **Número de árvores por hectare (árvore/ha):**
+$$
+\normalsize
+`\begin{equation*}
+N = m.FP
+\end{equation*}`
+$$
+
+👉 **Área Basal por hectare (m²/ha):**
+$$
+\normalsize
+`\begin{equation*}
+G = \sum_{i}^{m}g_i.FP
+\end{equation*}`
+$$
+
+👉 **Volume por hectare (m³/ha):**
+$$
+\normalsize
+`\begin{equation*}
+V = \sum_{i}^{m}v_i.FP
+\end{equation*}`
+$$
+
 ]
 ]
 ]
