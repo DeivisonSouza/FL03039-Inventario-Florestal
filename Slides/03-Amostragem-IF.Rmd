@@ -241,10 +241,10 @@ Quando somente uma parte dos elementos ou unidades de uma população é selecio
 - Suponha que um povoamento plantado de *Pinus* sp. foi estabelecido em uma área de .blue[225m<sup>2</sup> (15m x 15m)]. (.green[Obviamente é uma área pequena, mas é útil para entender o conceito!])]
 --
 .font90[
-- O .blue[espaçamento inicial] foi de .blue[1m x 1m], com .blue[espaço vital] de .blue[1m<sup>2</sup>].]
+- O .blue[espaçamento inicial] foi de .blue[1m x 1m], com .blue[espaço útil] de .blue[1m<sup>2</sup>].]
 --
 .font90[
-- Baseado no espaçamento e tamanho da área, pode-se determinar a .blue[quantidade de árvores] no povoamento (sem admitir mortalidade) `r emo::ji("point_right")` **225 árvores**.]
+- Baseado no espaçamento e tamanho da área, pode-se determinar a .blue[quantidade de árvores] no povoamento (sem mortalidade) `r emo::ji("point_right")` **225 árvores**.]
 --
 .font90[
 - Portanto, neste exemplo, a população de *Pinus* sp. é composta de 225 árvores.]
