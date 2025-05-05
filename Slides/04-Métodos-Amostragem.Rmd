@@ -848,6 +848,87 @@ $$
 ]
 
 ---
+
+## 🌳 Métodos de Amostragem
+
+.pull-left-1[
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/calc1.png')
+```
+]
+
+--
+
+.pull-right-2[
+.font80[
+**Fórmulas úteis:**
+.pull-left-11[
+👉 **Conversão circunferência para diâmetro:**
+$$
+\normalsize
+\begin{equation*}
+d = \frac{c}{\pi} = \frac{95,98}{\pi} = 30,55~cm
+\end{equation*}
+$$
+
+👉 **Área Transversal (m²):**
+$$
+\normalsize
+\begin{equation*}
+g_i = \frac{\pi d^2}{40000}
+\end{equation*}
+$$
+
+👉 **Volume da árvore em pé:**
+
+$$
+\normalsize
+\begin{equation*}
+v_i = g_i.h.0,7
+\end{equation*}
+$$
+
+👉 **Fator de Proporcionalidade:**
+$$
+\normalsize
+\begin{equation*}
+FP = \frac{A}{a}
+\end{equation*}
+$$
+
+]
+
+.pull-right-11[
+
+👉 **Número de árvores por hectare (árvore/ha):**
+$$
+\normalsize
+\begin{equation*}
+N = m.FP
+\end{equation*}
+$$
+
+👉 **Área Basal por hectare (m²/ha):**
+$$
+\normalsize
+\begin{equation*}
+G = \sum_{i}^{m}g_i.FP
+\end{equation*}
+$$
+
+👉 **Volume por hectare (m³/ha):**
+$$
+\normalsize
+\begin{equation*}
+V = \sum_{i}^{m}v_i.FP
+\end{equation*}
+$$
+
+]
+]
+]
+
+---
 name: proca
 ## 🌳 Processos de Amostragem
 
