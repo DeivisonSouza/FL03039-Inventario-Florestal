@@ -229,6 +229,12 @@ background-size: cover
 .font150[**Métodos de Área Fixa**]
 
 ---
+layout: true
+class: with-logo logo-ufpa
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Métodos de Amostragem</div2> </div>
+
+---
 
 ## 🌳 Métodos de Amostragem
 
@@ -1016,12 +1022,64 @@ background-size: cover
 .font150[**Métodos de Área Variável**]
 
 ---
+layout: true
+class: with-logo logo-ufpa
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Métodos de Amostragem</div2> </div>
+
+---
 
 ## 🌳 Métodos de Amostragem
 
+.shadow1[
+### Método de Bitterlich - .black[Sanquetta et al. (2023) - pg. 90]
+.font80[
+- 👉 **Vamos praticar**: Na tabela a seguir estão os dados de um inventário usando o método de Bitterlich (*Pinus taeda*). Trata-se apenas de um ponto amostral (estação de leitura) usando Fator de Área Basal (FAB) = 2.
+]
+]
+
+--
+
+.pull-left-10[
+<br>
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/tab_bitt.png')
+```
+]
+
+.pull-right-10[
+<br>
+.shadow3[
+.font80[
+**Então, pergunta-se:**
+
+- 1) Quais árvores duvidosas devem ser contadas (ou descartadas) na unidade amostral?
+- 2) Qual a estimativa da Área Basal (G) por hectare?
+- 3) Qual a estimativa do número de árvores (N) por hectare?
+- 4) Qual a estimativa do volume (V) por hectare?
+]
+]
+]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+### Método de Bitterlich - .black[Sanquetta et al. (2023) - pg. 90]
+]
+
 .pull-left-4[
-```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap='', dpi=600}
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class4/bitt.png')
+```
+]
+
+
+.pull-right-4[
+<br>
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/tab_bitt.png')
 ```
 ]
 
