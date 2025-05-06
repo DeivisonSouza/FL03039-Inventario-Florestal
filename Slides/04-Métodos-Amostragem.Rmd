@@ -1191,9 +1191,10 @@ $FAB$ = Fator de Área Basal usado na amostragem de Bitterlich.
 .font80[**Estimativa do Número de Árvores por hectare**
 
 $$
-\normalsize
+\small
 \begin{equation*}
-N = \sum_{i=1}^{m}N_i = FAB\sum_{i=1}^{m}\left(\frac{1}{g_i}\right)
+N = \sum_{i=1}^{m}N_i = FAB\sum_{i=1}^{m}\left(\frac{1}{g_i}\right) = 2\left(\frac{1}{0,0703}+...+\frac{1}{0,1650}\right)= \\~\\
+N = 145,99 \cong 146~\color{magenta}{árvores.ha^{-1}}
 \end{equation*}
 $$
 <br>
