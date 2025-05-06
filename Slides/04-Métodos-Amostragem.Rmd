@@ -1083,6 +1083,100 @@ knitr::include_graphics('fig/class4/tab_bitt.png')
 ```
 ]
 
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+### Método de Bitterlich - .black[Árvores Duvidosas]
+]
+
+.pull-right-4[
+.font80[
+- **Decisão:** 
+
+👉 $R$ campo > $R_i$ (Árvore Não Qualificada)
+
+👉 $R$ campo ≤ $R_i$ (Árvore Qualificada)
+
+<br>
+
+**Em que:**
+
+$R_i$ = Distância radial calculada para i-ésima árvore duvidosa.
+
+$d_i$ = diâmetro a 1,30 m do solo da i-ésima árvore duvidosa.
+
+$FAB$ = Fator de Área Basal usado na amostragem de Bitterlich.
+
+<br>
+
+]
+]
+
+--
+
+.pull-left-10[
+.font80[**Distância radial calculada (Ri) - Árvore 3:**]
+
+$$
+\small
+\begin{equation*}
+R_i = \frac{50d_i}{\sqrt{FAB}} = \frac{50(0,4599)}{\sqrt{2}} = 16,26~m ~ \color{green}{(Qualificada)}
+\end{equation*}
+$$
+
+.font80[**Distância radial calculada (Ri) - Árvore 5:**]
+
+$$
+\small
+\begin{equation*}
+R_i = \frac{50d_i}{\sqrt{FAB}} = \frac{50(0,2897)}{\sqrt{2}} = 10,24~m ~ \color{green}{(Qualificada)}
+\end{equation*}
+$$
+
+.font80[**Distância radial calculada (Ri) - Árvore 8:**]
+
+$$
+\small
+\begin{equation*}
+R_i = \frac{50d_i}{\sqrt{FAB}} = \frac{50(0,4615)}{\sqrt{2}} = 16,32~m ~ \color{red}{(Não~Qualificada)}
+\end{equation*}
+$$
+
+.font80[**Portanto, a árvore 8 não deve ser contada na UA.**]
+
+]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+### Método de Bitterlich - .black[Estimativa da Área Basal por hectare]
+
+- Basta multiplicar o número de árvores contadas na unidade amostral (**desconsiderar a árvore 8, pois não foi qualificada**) pelo FAB usado (nesse caso, igual a 2).
+]
+
+<br>
+
+.font80[**Estimativa da Área Basal por hectare:**
+
+$$
+\Large
+\begin{equation*}
+G = m.FAB = 9.(2) = 18~\color{magenta}{m².ha^{-1}}
+\end{equation*}
+$$
+<br>
+
+**Em que:**
+
+$m$ = Número de árvores contadas na unidade amostral (giro de 360°).
+
+$FAB$ = Fator de Área Basal usado na amostragem de Bitterlich.
+]
+
 
 ---
 name: proca
