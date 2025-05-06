@@ -839,13 +839,14 @@ $$
 
 .pull-right-4[
 .font80[
-**Fórmulas úteis:**
+**Exemplo de cálculo:**
+&lt;br&gt;
 
 👉 **Conversão circunferência para diâmetro (cm):**
 $$
 \normalsize
 `\begin{equation*}
-d = \frac{c}{\pi} = \frac{95,98}{\pi} = 30,55~cm
+d = \frac{c}{\pi} = \frac{95,98}{\pi} = \color{blue}{30,55}~\color{magenta}{cm}
 \end{equation*}`
 $$
 
@@ -853,7 +854,7 @@ $$
 $$
 \normalsize
 `\begin{equation*}
-g_i = \frac{\pi d^2}{40000} = \frac{\pi (30,55^2)}{40000} = 0,0733~m²
+g_i = \frac{\pi d^2}{40000} = \frac{\pi (30,55^2)}{40000} = \color{blue}{0,0733}~\color{magenta}{m²}
 \end{equation*}`
 $$
 
@@ -862,7 +863,7 @@ $$
 $$
 \normalsize
 `\begin{equation*}
-v_i = g_i.h.0,7 = 0,0733.(11,30).0,7 = 0,5798~m³
+v_i = g_i.h.0,7 = 0,0733.(11,30).0,7 = \color{blue}{0,5798}~\color{magenta}{m³}
 \end{equation*}`
 $$
 &lt;br&gt;
@@ -871,6 +872,48 @@ $$
 
 ]
 ]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.pull-left-4[
+&lt;img src="fig/class4/allcalc.png" width="80%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+--
+
+.pull-right-4[
+.font80[
+**Exemplo de cálculo:**
+&lt;br&gt;
+
+👉 **Área Basal da parcela (m²/400 m²):**
+$$
+\normalsize
+`\begin{equation*}
+G = \sum_{i}^{m}g_i = 0,0733 + ... + 0,0621 = \color{blue}{2,3590}~\color{magenta}{m²/400~m²}
+\end{equation*}`
+$$
+
+
+👉 **Volume da parcela (m³/400 m²):**
+$$
+\normalsize
+`\begin{equation*}
+V = \sum_{i}^{m}v_i = 0,5798 + ... + 0,4692 = \color{blue}{17,6849}~\color{magenta}{m³/400~m²}
+\end{equation*}`
+$$
+&lt;br&gt;
+
+.center[.red[**Atenção**]<span>&lt;i class="fas  fa-exclamation-triangle faa-flash animated " style=" color:red;"&gt;&lt;/i&gt;</span>: .blue[a Área Basal e o Volume calculados estão em função da área da parcela, isto é, 400 m². Portanto, precisamos extrapolar para hectare!]]
+
+]
+]
+
+---
+
+
 
 ---
 name: proca
