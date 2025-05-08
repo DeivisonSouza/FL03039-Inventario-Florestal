@@ -1091,6 +1091,52 @@ Na prática, um observado usando o Relascópio de Espelho de Bitterlich (REB) se
 ## 🌳 Métodos de Amostragem
 
 .shadow1[
+.font80[
+### Método de Bitterlich - .black[Relascópio de Espelho de Bitterlich]
+]
+]
+
+.pull-left-3[
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/reb.png')
+```
+]
+
+.pull-right-3[
+.shadow3[
+.font80[
+### .black[Características Externas]
+
+A) Ocular de pontaria (mira);
+
+B) Objetiva;
+
+C) Placa metálica p/ sombreamento (viseira);
+
+D) Janelas de iluminação;
+
+E) Botão liberador/fixador do pêndulo;
+
+F) Orifício com rosca (acoplar um tripé);
+
+G) Dois orifícios laterais (transporte ao peito); 
+
+H) Cordão p/ transporte ao peito.
+]
+]
+]
+
+
+.pull-right-3[
+
+]
+
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
 ### Método de Bitterlich - .black[Sanquetta et al. (2023) - pg. 90]
 .font80[
 - 👉 **Vamos praticar**: Na tabela a seguir estão os dados de um inventário usando o método de Bitterlich (*Pinus taeda*). Trata-se apenas de um ponto amostral (estação de leitura) usando Fator de Área Basal (FAB) = 2.
