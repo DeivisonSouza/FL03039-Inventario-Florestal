@@ -1389,7 +1389,21 @@ knitr::include_graphics('fig/class4/escala.png')
 ]
 ]
 
+<br>
 
+.pull-left-4[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/duv1.png')
+```
+]
+
+--
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/duv2.png')
+```
+]
 
 
 
