@@ -1408,6 +1408,28 @@ knitr::include_graphics('fig/class4/duv2.png')
 .shadow1[
 .font80[
 ### Método de Bitterlich - .black[Qualificação de árvores na unidade amostral]
+]
+]
+
+.pull-left-4[
+<br><br><br><br><br>
+.center[**Visada usando a banda 2** 👉]
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/visada.png')
+```
+]
+
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+.font80[
+### Método de Bitterlich - .black[Qualificação de árvores na unidade amostral]
 
 - **Árvores Duvidosas**: Como definir se devem ser qualificadas (contadas) ou não na unidade amostral?
 - **Existem duas abordagens**:
