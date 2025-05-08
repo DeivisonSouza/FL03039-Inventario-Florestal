@@ -1096,16 +1096,17 @@ Na prática, um observado usando o Relascópio de Espelho de Bitterlich (REB) se
 ]
 ]
 
-.pull-left-3[
+.pull-left-4[
+<br>
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class4/reb.png')
 ```
 ]
 
-.pull-right-3[
+.pull-right-4[
 .shadow3[
 .font80[
-### .black[Características Externas]
+#### .center[.black[**Características Externas**]]
 
 A) Ocular de pontaria (mira);
 
@@ -1119,17 +1120,60 @@ E) Botão liberador/fixador do pêndulo;
 
 F) Orifício com rosca (acoplar um tripé);
 
-G) Dois orifícios laterais (transporte ao peito); 
+G) Dois orifícios laterais (transporte ao peito); e
 
 H) Cordão p/ transporte ao peito.
 ]
 ]
 ]
 
+---
 
-.pull-right-3[
+## 🌳 Métodos de Amostragem
 
+.shadow1[
+.font80[
+### Método de Bitterlich - .black[Relascópio de Espelho de Bitterlich]
 ]
+]
+
+.pull-left-4[
+<br>
+.shadow3[
+.font80[
+- **Campo de visão circular**:
+
+👉 A) **Semicírculo superior**: Paisagem
+
+👉 B) **Semicírculo inferior**: Escalas
+
+👉 C) **Linha Diretriz de Avaliação**
+]
+]
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/visao.png')
+```
+]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+.font80[
+### Método de Bitterlich - .black[Relascópio de Espelho de Bitterlich]
+
+- **Escalas do REB**: O REB possui 3 tipos de escalas: Numeração, Distâncias Horizontais e Hipsométrica.
+]
+]
+
+
+
+
+
 
 
 ---
