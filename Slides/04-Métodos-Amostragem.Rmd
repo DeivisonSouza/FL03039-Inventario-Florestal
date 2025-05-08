@@ -1437,6 +1437,53 @@ $$
 ## 🌳 Métodos de Amostragem
 
 .shadow1[
+.font80[
+### Método de Bitterlich - .black[Procedimento de campo]
+
+✔️ **.blue[Estimar a Área Basal por hectare:]**
+
+- **Material**: Relascópio de Espelho de Bitterlich (REB), Prancheta, ficha de campo, lápis, trena, Baliza de 1,30 m.
+- **Equipe de campo** (3 pessoas):
+
+👉 Operador do REB;
+
+👉 Auxiliar do Operador (baliza de 1,30m; medição de diâmetro e distância radial); e
+
+👉 Anotador.
+
+<br>
+
+✔️ **.blue[Estimar número de árvores e volume por hectare:]**
+
+👉 Deve-se medir os diâmetros e alturas das árvores na unidade amostral.
+
+]
+]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+.font80[
+### Método de Bitterlich - .black[Procedimento de campo]
+
+✔️ **1º Passo**: Definir um FAB, atendo-se para as caracteristicas do povoamento e terreno;
+
+✔️ **2º Passo**: Aleatorizar um ponto amostral no povoamento florestal;
+
+✔️ **3º Passo**: A partir desse ponto amostral, o operador deverá segurar o REB na posição vertical e fazer visadas no fuste da árvore, na altura de 1,30 m do solo. Nesse momento, o operador deve comparar largura do fuste com a largura da banda escolhida, e definir se a árvore será qualificada, não qualificada ou duvidosa. Fazer esse procedimento até executar um giro de 360°; e
+
+✔️ **4º Passo**: Se houver interesse em estimar o número de árvores e volume por hectare, será necessário também medir os diâmetros e alturas das árvores na unidade amostral.
+
+]
+]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
 ### Método de Bitterlich - .black[Sanquetta et al. (2023) - pg. 90]
 .font80[
 - 👉 **Vamos praticar**: Na tabela a seguir estão os dados de um inventário usando o método de Bitterlich (*Pinus taeda*). Trata-se apenas de um ponto amostral (estação de leitura) usando Fator de Área Basal (FAB) = 2.
