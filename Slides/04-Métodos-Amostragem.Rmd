@@ -1268,11 +1268,34 @@ knitr::include_graphics('fig/class4/visao.png')
 ]
 ]
 
+.pull-left-4[
 <br>
+.shadow3[
+.font70[
 
-```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='Escalas do REB no plano horizontal', dpi=600}
+👉 1) Escala hipsométricas p/ 20m de distância horizontal;
+
+👉 2) Escala de numeração: Banda 1;
+
+👉 3) Escalas de numeração: 4 bandas estreitas;
+
+👉 4) Escala hipsométricas p/ 25m de distância horizontal;
+
+👉 5) Escala hipsométricas p/ 30m de distância horizontal
+
+👉 6) Escala de numeração: Banda 2; e
+
+👉 7) Escalas de distâncias horizontais fixas de 30, 25, 20 e 15m.
+]
+]
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='50%', fig.align='center', fig.cap='Escalas do REB no plano horizontal', dpi=600}
 knitr::include_graphics('fig/class4/escala.png')
 ```
+]
+
 
 
 ---
