@@ -1092,6 +1092,20 @@ Na prática, um observado usando o Relascópio de Espelho de Bitterlich (REB) se
 
 .shadow1[
 .font80[
+### Método de Bitterlich - .black[Fator de Área Basal - FAB]
+
+- 
+
+]
+]
+
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+.font80[
 ### Método de Bitterlich - .black[Relascópio de Espelho de Bitterlich]
 ]
 ]
@@ -1223,11 +1237,25 @@ knitr::include_graphics('fig/class4/visao.png')
 
 .shadow1[
 .font80[
-### Método de Bitterlich - .black[Fator de Área Basal - FAB]
+### Método de Bitterlich - .black[Relascópio de Espelho de Bitterlich]
 
-- 
-
+- **Bandas e combinações de bandas**: o REB dispõe de 9 opções de FABs estimar a Área Basal (m².ha<sup>-1</sup>).
 ]
+]
+
+.font80[
+|               *Banda*             |     *l/L (d/R)*    |     *K*   (FAB)    |
+|:-------------------------------:|:----------------:|:----------------:|
+|                1e               |       1/200      |        1/16      |
+|                2e               |       2/200      |        1/4       |
+|                3e               |       3/200      |        9/16      |
+|             Banda 1           |        1/50      |         1        |
+|          Banda 1 + 1e         |       5/200      |       25/16      |
+|             Banda 2           |       √2/50      |         2        |
+|          Banda 1 + 2e         |       6/200      |        9/4       |
+|          Banda 1 + 3e         |       7/200      |       49/16      |
+|     Banda 4 (Banda 1 + 4e)    |        1/25      |         4        |
+.center[**e: estreita**]
 ]
 
 ---
@@ -1237,12 +1265,14 @@ knitr::include_graphics('fig/class4/visao.png')
 .shadow1[
 .font80[
 ### Método de Bitterlich - .black[Relascópio de Espelho de Bitterlich]
-
-- **Bandas e combinações de bandas do REB**: Para a determinação da Área basal (m².ha<sup>-1</sup>) o REB dispõe de 9 opções de FABs.
-
 ]
 ]
 
+<br>
+
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='Escalas do REB no plano horizontal', dpi=600}
+knitr::include_graphics('fig/class4/escala.png')
+```
 
 
 ---
