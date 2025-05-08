@@ -1364,17 +1364,13 @@ knitr::include_graphics('fig/class4/escala.png')
 
 - Ao realizar um giro de 360° usando um REB 3 situações podem ocorrer:
 
-👉 **1ª Situação**: O diâmetro da árvore **<** ângulo projetado (FAB);
+👉 **1ª Situação**: O diâmetro da árvore **<** ângulo projetado (FAB). (.red[**Árvore não qualificada**])
 
 
-👉 **2ª Situação**: O diâmetro da árvore **=** ângulo projetado (FAB); e
+👉 **2ª Situação**: O diâmetro da árvore **=** ângulo projetado (FAB). (.orange[**Árvore duvidosa**])
 
 
-👉 **3ª Situação**: O diâmetro da árvore **>** ângulo projetado (FAB).
-
-<br>
-
-.center[**Pergunta-se: Quais árvores devem ser qualificadas/contadas na unidade amostral?**]
+👉 **3ª Situação**: O diâmetro da árvore **>** ângulo projetado (FAB). (.green[**Árvore qualificada**])
 
 ]
 ]
@@ -1403,6 +1399,37 @@ knitr::include_graphics('fig/class4/duv1.png')
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class4/duv2.png')
 ```
+]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+.font80[
+### Método de Bitterlich - .black[Qualificação de árvores na unidade amostral]
+
+- **Árvores Duvidosas**: Como definir se devem ser qualificadas (contadas) ou não na unidade amostral?
+- **Existem duas abordagens**:
+
+👉 **1ª abordagem**: Contar como meias árvores. Ou seja, as árvores duvidosas terão suas medidas (gi, vi) divididas por 2 (PÉLLICO NETTO; BRENA, 1997).
+
+👉 **2ª abordagem**: Matematicamente. Em campo, mede-se a distância da árvore duvidosa até ponto central da unidade amostral (distância radial de campo). Essa medida é comparada com a distância radial teórica (Ri) calculada para a árvore duvidosa.
+
+**Decisão**
+
+👉 R medido > R calculado (**Não Qualificada**)
+
+👉 R medido ≤ R calculado (**Qualificada**)
+
+$$
+\small
+\begin{equation*}
+FAB = 2500\left(\frac{d_i}{R_i}\right)^2 \Longrightarrow
+R_i = \frac{50d_i}{\sqrt{FAB}}
+\end{equation*}
+$$
+]
 ]
 
 ---
