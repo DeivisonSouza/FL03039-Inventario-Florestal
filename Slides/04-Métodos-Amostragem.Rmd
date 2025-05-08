@@ -1379,6 +1379,19 @@ knitr::include_graphics('fig/class4/escala.png')
 ]
 ]
 
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+.font80[
+### Método de Bitterlich - .black[Qualificação de árvores na unidade amostral]
+]
+]
+
+
+
+
 
 ---
 
