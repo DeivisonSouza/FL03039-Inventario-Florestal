@@ -1170,11 +1170,52 @@ knitr::include_graphics('fig/class4/visao.png')
 ]
 ]
 
+.pull-left-8[
+<br>
+.shadow3[
+.font80[
+- **Escalas de Numeração**:
 
+👉 Principais escalas do REB;
 
+👉 Usadas para estimar a Área Basal (m².ha<sup>-1</sup>);
 
+👉 Medir diâmetro em diferentes alturas; e
 
+👉 O REB possui 9 opções de FAB.
 
+]
+]
+]
+
+--
+
+.pull-left-8[
+<br>
+.shadow3[
+.font80[
+- **Distâncias Horizontais**:
+
+👉 Medir distâncias horizontais (15, 20, 25 e 30 m);
+
+👉 Auxilia na obtenção de outras variáveis: i) medição de diâmetros a diferentes alturas; e ii) medição de qualquer tipo de altura.
+]
+]
+]
+
+--
+
+.pull-left-8[
+<br>
+.shadow3[
+.font80[
+- **Hipsométrica**:
+
+👉 Medir altura sob diferentes distâncias horizontais (20, 25 e 30 m).
+
+]
+]
+]
 
 ---
 
