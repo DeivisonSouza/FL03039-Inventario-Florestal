@@ -1107,7 +1107,7 @@ $R_i$ = Distância radial calculada para i-ésima árvore duvidosa.
 
 $d_i$ = diâmetro a 1,30 m do solo da i-ésima árvore duvidosa.
 
-$FAB$ = Fator de Área Basal usado na amostragem de Bitterlich.
+$FAB$ = Fator de Área Basal.
 
 <br>
 
@@ -1122,7 +1122,7 @@ $FAB$ = Fator de Área Basal usado na amostragem de Bitterlich.
 $$
 \small
 \begin{equation*}
-R_i = \frac{50d_i}{\sqrt{FAB}} = \frac{50(0,4599)}{\sqrt{2}} = 16,26~m ~ \color{green}{(Qualificada)}
+R_i = \frac{50d_i}{\sqrt{FAB}} = \frac{50(0,4599)}{\sqrt{2}} = \textbf{16,26}~m ~ \color{green}{(Qualificada)}
 \end{equation*}
 $$
 
@@ -1140,7 +1140,7 @@ $$
 $$
 \small
 \begin{equation*}
-R_i = \frac{50d_i}{\sqrt{FAB}} = \frac{50(0,4615)}{\sqrt{2}} = 16,32~m ~ \color{red}{(Não~Qualificada)}
+R_i = \frac{50d_i}{\sqrt{FAB}} = \frac{50(0,4615)}{\sqrt{2}} = \textbf{16,32}~m ~ \color{red}{(Não~Qualificada)}
 \end{equation*}
 $$
 
@@ -1165,7 +1165,7 @@ $$
 $$
 \Large
 \begin{equation*}
-G = m.FAB = 9.(2) = 18~\color{magenta}{m².ha^{-1}}
+G = m.FAB = 9.(2) = \textbf{18}~\color{magenta}{m².ha^{-1}}
 \end{equation*}
 $$
 <br>
@@ -1174,7 +1174,7 @@ $$
 
 $m$ = Número de árvores contadas na unidade amostral (giro de 360°).
 
-$FAB$ = Fator de Área Basal usado na amostragem de Bitterlich.
+$FAB$ = Fator de Área Basal.
 ]
 
 ---
@@ -1182,9 +1182,10 @@ $FAB$ = Fator de Área Basal usado na amostragem de Bitterlich.
 ## 🌳 Métodos de Amostragem
 
 .shadow1[
+.font80[
 ### Método de Bitterlich - .black[Estimativa do Número de Árvores por hectare]
-
-- Basta 
+- Basta multiplicar o FAB pelo somatório do inverso das áreas transversais de cada árvore qualificada na unidade amostral.
+]
 ]
 
 .pull-left-10[
@@ -1194,7 +1195,7 @@ $$
 \small
 \begin{equation*}
 N = \sum_{i=1}^{m}N_i = FAB\sum_{i=1}^{m}\left(\frac{1}{g_i}\right) = 2\left(\frac{1}{0,0703}+...+\frac{1}{0,1650}\right)= \\~\\
-N = 145,99 \cong 146~\color{magenta}{árvores.ha^{-1}}
+N = 145,99 \cong \textbf{146}~\color{magenta}{árvores.ha^{-1}}
 \end{equation*}
 $$
 <br>
@@ -1203,7 +1204,7 @@ $$
 
 $g_i$ = Área transversal de cada árvore na unidade amostral, em m².
 
-$FAB$ = Fator de Área Basal usado na amostragem de Bitterlich.
+$FAB$ = Fator de Área Basal.
 ]
 ]
 
@@ -1217,45 +1218,50 @@ knitr::include_graphics('fig/class4/N.png')
 
 ]
 
-
 ---
-name: proca
-## 🌳 Processos de Amostragem
+
+## 🌳 Métodos de Amostragem
 
 .shadow1[
-### Processos de Amostragem - Conceito e Tipos
-.font90[
-- É a forma de abordagem da população referente ao conjunto de unidades amostrais (Péllico Netto; Brena, 1997).
-- É a forma com que as unidades de amostra são distribuídas dentro de uma população, visando gerar estimativas da variável de interesse (Sanquetta et al., 2009).
-- Os processos de amostragem classificam-se em:
-.center[
-**Amostragem Aleatória Simples**
-
-**Amostragem Sistemática**
-
-**Amostragem Estratificada**
-
-**Amostragem em Dois estágios**
-
-**Amostragem em Conglomerado**
-]
+### Método de Bitterlich - .black[Estimativa do Volume por hectare]
+.font80[
+- O volume por hectare é obtido usando os volumes e áreas transversais de cada árvore na unidade amostral.
 ]
 ]
 
----
+.pull-left-10[
+.font80[**Estimativa do Volume por hectare**
 
-## 🌳 Processos de Amostragem
+$$
+\small
+\begin{equation*}
+V = \sum_{i=1}^{m}V_i = \sum_{i=1}^{m}\left(\frac{FAB}{g_i}.v_i\right) \\~\\
+V = \left(\frac{2}{0,0703}.0,7609 + ... + \frac{2}{0,1650}.2,5618\right) = \textbf{261,42}~\color{magenta}{m³.ha^{-1}}
+\end{equation*}
+$$
 <br>
 
-### Qual Processos de Amostragem Escolher?
+**Em que:**
 
-<br>
-**A escolha do Processo de Amostragem depende de vários fatores, como:**
+$FAB$ = Fator de Área Basal.
 
-- Tamanho da área
-- Grau de variabilidade (homegeneidade) da variável de interesse na população florestal
-- Acessibilidade, relevo e existência de infraestrutura da área a ser inventariada
-- Recursos financeiros disponíveis, entre outros.
+$g_i$ = Área transversal de cada árvore na unidade amostral, em m².
+
+$v_i$ = Volume de cada árvore na unidade amostral, em m³.
+
+
+]
+]
+
+--
+
+.pull-right-4[
+
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/N.png')
+```
+
+]
 
 ---
 
