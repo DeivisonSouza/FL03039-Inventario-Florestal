@@ -297,7 +297,7 @@ knitr::include_graphics('fig/class4/formas.png')
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/circular.png')
+knitr::include_graphics('fig/class4/circular.PNG')
 ```
 ]
 
@@ -333,7 +333,7 @@ d = 2r (d = diâmetro da parcela, em metros)
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/area.png')
+knitr::include_graphics('fig/class4/area.PNG')
 ```
 ]
 
@@ -448,7 +448,7 @@ knitr::include_graphics('fig/class4/marginais.png')
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/AQ.png')
+knitr::include_graphics('fig/class4/AQ.PNG')
 ```
 ]
 
@@ -481,7 +481,7 @@ L = comprimento do lado do quadrado, em metros
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/AQCalc.png')
+knitr::include_graphics('fig/class4/AQCalc.PNG')
 ```
 ]
 
@@ -539,7 +539,7 @@ A = 2.500m²/10.000m² = .blue[A = **0,25** ha] (em hectare)
 .pull-left-4[
 <br>
 ```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/AR.png')
+knitr::include_graphics('fig/class4/AR.PNG')
 ```
 ]
 
@@ -575,7 +575,7 @@ h = altura do retângulo, em metros
 .pull-left-4[
 <br><br>
 ```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/ARCalc.png')
+knitr::include_graphics('fig/class4/ARCalc.PNG')
 ```
 ]
 
@@ -868,7 +868,7 @@ $$
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/calc1.png')
+knitr::include_graphics('fig/class4/calc1.PNG')
 ```
 ]
 
@@ -916,7 +916,7 @@ $$
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/allcalc.png')
+knitr::include_graphics('fig/class4/allcalc.PNG')
 ```
 ]
 
@@ -1389,7 +1389,7 @@ knitr::include_graphics('fig/class4/escala.png')
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/duv1.png')
+knitr::include_graphics('fig/class4/duv1.PNG')
 ```
 ]
 
@@ -1418,7 +1418,7 @@ knitr::include_graphics('fig/class4/duv2.png')
 
 .pull-right-4[
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/visada.png')
+knitr::include_graphics('fig/class4/visada.PNG')
 ```
 ]
 
@@ -1545,7 +1545,7 @@ knitr::include_graphics('fig/class4/tab_bitt.png')
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/bitt.png')
+knitr::include_graphics('fig/class4/bitt.PNG')
 ```
 ]
 
