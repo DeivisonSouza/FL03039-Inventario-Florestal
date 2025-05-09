@@ -1,5 +1,5 @@
 ---
-title: "Inventário Florestal (FL03039 - IF)"
+title: "Inventário Florestal (FL03039 - EF)"
 subtitle: "Amostragem Aleatória Simples - AAS"
 author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
@@ -30,9 +30,9 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
-background-position: 84% 90%, 95% 90%
-background-size: 220px, 90px, cover
+background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufpa.png), url(fig/slide-title/capa.png)
+background-position: 90% 90%, 10% 90%
+background-size: 150px, 150px, cover
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
@@ -90,91 +90,79 @@ library(ggimage)
 ```
 
 
-<!-- title-slide -->
-# Inventário Florestal <br> (FL03039 - IF)
-<br>
-## .yellow2[Amostragem] <br> `r anicon::faa("pagelines", animate="horizontal", colour="green")` .yellow2[Aleatória Simples] `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+# .font120[Inventário Florestal <br> (FL03039 - EF)]
 
-#### **Prof. Dr. Deivison Venicio Souza**
-##### Universidade Federal do Pará (UFPA) 
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Amostragem Aleatória`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br>  Simples
+###### Teoria e Estimadores
+
+##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
+##### ᨒ
+##### .font120[**Prof. Dr. Deivison Venicio Souza**]
+##### Universidade Federal do Pará (UFPA)
 ##### Faculdade de Engenharia Florestal
+##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### E-mail: deivisonvs@ufpa.br
-###### 1ª versão: 23/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+<br>
+##### 1ª versão: 23/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
 
 ---
 layout: true
+class: with-logo logo-ufpa
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Inventário Florestal (FL03039 - IF)/ <div3>Amostragem Aleatória Simples - AAS</div3> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Amostragem Aleatória Simples</div2> </div>
 
 ---
 
-## Ementa da disciplina (FL03039 - IF)
-
-.pull-left-9[
+## 📚 Ementa da disciplina (FL03039 - EF)
+<br>
 .shadow4[
-.font90[
-1 - Introdução aos Inventários Florestais;
+.font80[
+1 - Introdução aos Inventários Florestais; 
 
 2 - Amostragem em Inventários Florestais;
 
-**3 - Amostragem Aleatória Simples**;
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 - Conceitos Básicos e Principais Estimadores;
 
-4 - Amostragem Estratificada;
+&nbsp;&nbsp;&nbsp;&nbsp;2.2 - Métodos de Amostragem;
 
-5 - Amostragem Sistemática; 
+&nbsp;&nbsp;&nbsp;&nbsp;**2.3 - Amostragem Aleatória Simples - AAS**;
 
-6 - Amostragem em Dois Estágios;
+&nbsp;&nbsp;&nbsp;&nbsp;2.4 - Amostragem Estratificada - AE;
 
-7 - Amostragem em Conglomerados;
+&nbsp;&nbsp;&nbsp;&nbsp;2.5 - Amostragem Sistemática - AS; 
 
-8 - Censo Florestal (Inventário Florestal 100%); 
+&nbsp;&nbsp;&nbsp;&nbsp;2.6 - Amostragem em Dois Estágios - ADE; e
 
-9 - Amostragem em Múltiplas Ocasiões;
+&nbsp;&nbsp;&nbsp;&nbsp;2.7 - Amostragem em Conglomerados - AG.
 
-10 - Inventário Florestal Nacional;
+3 - Censo Florestal (Inventário Florestal 100%); 
 
-11 - Planejamento e Custo de Inventários Florestais; e
+4 - Amostragem em Múltiplas Ocasiões;
 
-12 - Tecnologias em Inventários Florestais.
-]
-]
-]
+5 - Inventário Florestal Nacional; e
 
-.pull-right-9[
-<br>
+6 - Planejamento e Custos de Inventários Florestais.
 
-.shadow3C[
-<br>
-```{r echo = FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/slide-title/img.jpeg")
-```
-
-.font70[
-**Prof. Dr. Deivison Venicio Souza**
-.left[
-- Bacharel em Engenharia Florestal - UFRA
-- Mestre em Ciências Florestais - PPGCF/UFRA
-- Doutor em Engenharia Florestal - PPGEF/UFPR
-- Especialista em Big Data e Data Science - UFPR
-]
-]
+<!--7 - Tecnologias Aplicadas em Inventários Florestais.-->
 ]
 ]
 
 ---
 
-## Objetivos
+## 🎯 Objetivos
 <br><br>
+.font80[
 Ao final desta aula espera-se que o discente seja capaz de...
 
 * Compreender os conceitos básicos associados à Amostragem Aleatória Simples (AAS);
 * Conhecer os principais estimadores da AAS;
 * Aprender a obter as estimativas da AAS por meio de um estudo de caso; e
 * Aprender a interpretar as estimativas e concluir sobre a precisão do IF realizado.
+]
 
 ---
 
-## Conteúdo
+## 📙 Conteúdo
 
 .pull-left-4[
 .pull-top[
@@ -225,7 +213,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 ---
 
-## Conteúdo
+## 📙 Conteúdo
 
 .pull-left-4[
 .pull-top[
