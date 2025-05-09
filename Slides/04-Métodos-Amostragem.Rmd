@@ -216,7 +216,7 @@ name: ma
 ## 🌳 Métodos de Amostragem
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/fluxo.png')
+knitr::include_graphics('fig/class4/fluxo.jpg')
 ```
 
 ---
@@ -265,7 +265,7 @@ class: with-logo logo-ufpa
 ]
 
 ```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/formas.png')
+knitr::include_graphics('fig/class4/formas.jpg')
 ```
 
 ---
@@ -297,7 +297,7 @@ knitr::include_graphics('fig/class4/formas.png')
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/circular.PNG')
+knitr::include_graphics('fig/class4/circular.jpg')
 ```
 ]
 
@@ -333,7 +333,7 @@ d = 2r (d = diâmetro da parcela, em metros)
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/area.PNG')
+knitr::include_graphics('fig/class4/area.jpg')
 ```
 ]
 
@@ -408,7 +408,7 @@ A = 500,34m²/10.000m² = .blue[A = **0,050034** ha] (em hectare)
 
 .pull-right-1[
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/marginais.png')
+knitr::include_graphics('fig/class4/marginais.jpg')
 ```
 <br>
 .font80[
@@ -539,7 +539,7 @@ A = 2.500m²/10.000m² = .blue[A = **0,25** ha] (em hectare)
 .pull-left-4[
 <br>
 ```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/AR.PNG')
+knitr::include_graphics('fig/class4/AR.jpg')
 ```
 ]
 
@@ -575,7 +575,7 @@ h = altura do retângulo, em metros
 .pull-left-4[
 <br><br>
 ```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/ARCalc.PNG')
+knitr::include_graphics('fig/class4/ARCalc.jpg')
 ```
 ]
 
@@ -760,7 +760,7 @@ $v_i$ = volume da $i$-ésima árvore da UA
 
 .pull-left-10[
 ```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/exer.PNG')
+knitr::include_graphics('fig/class4/exer.jpg')
 ```
 ]
 
@@ -787,7 +787,7 @@ knitr::include_graphics('fig/class4/exer.PNG')
 
 .pull-left-1[
 ```{r, echo=FALSE, out.width='40%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/tab.png')
+knitr::include_graphics('fig/class4/tab.jpg')
 ```
 ]
 
@@ -868,7 +868,7 @@ $$
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/calc1.PNG')
+knitr::include_graphics('fig/class4/calc1.jpg')
 ```
 ]
 
@@ -916,7 +916,7 @@ $$
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/allcalc.PNG')
+knitr::include_graphics('fig/class4/allcalc.jpg')
 ```
 ]
 
@@ -1099,7 +1099,7 @@ Na prática, um observado usando o Relascópio de Espelho de Bitterlich (REB) se
 .pull-left-4[
 <br>
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/reb.png')
+knitr::include_graphics('fig/class4/reb.jpg')
 ```
 ]
 
@@ -1154,7 +1154,7 @@ H) Cordão p/ transporte ao peito.
 
 .pull-right-4[
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/visao.png')
+knitr::include_graphics('fig/class4/visao.jpg')
 ```
 ]
 
@@ -1296,7 +1296,7 @@ knitr::include_graphics('fig/class4/visao.png')
 
 .pull-right-4[
 ```{r, echo=FALSE, out.width='50%', fig.align='center', fig.cap='Escalas do REB no plano horizontal', dpi=600}
-knitr::include_graphics('fig/class4/escala.png')
+knitr::include_graphics('fig/class4/escala.jpg')
 ```
 ]
 
@@ -1389,7 +1389,7 @@ knitr::include_graphics('fig/class4/escala.png')
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/duv1.PNG')
+knitr::include_graphics('fig/class4/duv1.jpg')
 ```
 ]
 
@@ -1397,7 +1397,7 @@ knitr::include_graphics('fig/class4/duv1.PNG')
 
 .pull-right-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/duv2.png')
+knitr::include_graphics('fig/class4/duv2.jpg')
 ```
 ]
 
@@ -1418,7 +1418,7 @@ knitr::include_graphics('fig/class4/duv2.png')
 
 .pull-right-4[
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/visada.PNG')
+knitr::include_graphics('fig/class4/visada.jpg')
 ```
 ]
 
@@ -1517,7 +1517,7 @@ $$
 .pull-left-10[
 <br>
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/tab_bitt.png')
+knitr::include_graphics('fig/class4/tab_bitt.jpg')
 ```
 ]
 
@@ -1545,7 +1545,7 @@ knitr::include_graphics('fig/class4/tab_bitt.png')
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/bitt.PNG')
+knitr::include_graphics('fig/class4/bitt.jpg')
 ```
 ]
 
@@ -1553,7 +1553,7 @@ knitr::include_graphics('fig/class4/bitt.PNG')
 .pull-right-4[
 <br>
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/tab_bitt.png')
+knitr::include_graphics('fig/class4/tab_bitt.jpg')
 ```
 ]
 
@@ -1687,7 +1687,7 @@ $FAB$ = Fator de Área Basal.
 .pull-right-4[
 
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/N.png')
+knitr::include_graphics('fig/class4/N.jpg')
 ```
 
 ]
@@ -1732,7 +1732,7 @@ $v_i$ = Volume de cada árvore na unidade amostral, em m³.
 .pull-right-4[
 
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/N.png')
+knitr::include_graphics('fig/class4/N.jpg')
 ```
 
 ]
