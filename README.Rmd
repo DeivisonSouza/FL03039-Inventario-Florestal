@@ -57,7 +57,7 @@ list_github_files <- function(repo, dir = NULL, ext = NULL) {
 
 :calendar: Julho: 4 e 11
 
-:calendar: Agosto: 1, 8, 15 e 22
+:calendar: Agosto: 1, 8, 22 e 29
 
 :alarm_clock: **08h00min - 12h50min**
 
