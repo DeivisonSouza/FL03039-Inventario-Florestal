@@ -448,7 +448,7 @@ knitr::include_graphics('fig/class4/marginais.png')
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/AQ.PNG')
+knitr::include_graphics('fig/class4/AQ.jpg')
 ```
 ]
 
@@ -481,7 +481,7 @@ L = comprimento do lado do quadrado, em metros
 
 .pull-left-4[
 ```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/AQCalc.PNG')
+knitr::include_graphics('fig/class4/AQCalc.jpg')
 ```
 ]
 
