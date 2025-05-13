@@ -1764,12 +1764,12 @@ knitr::include_graphics('fig/class4/N.jpg')
 .shadow1[
 ### Método da Linha Interceptadora - Princípio
 .font80[
-👉 Consite em dispor uma .blue[linha de tamanho L] pré-definido no .blue[piso florestal] e medir o .blue[diâmetro] de cada peça (resíduo) de material lenhoso .blue[interceptado] pela linha. Portanto, conhecidos os diâmetros das peças e o comprimento da linha é possível estimar o volume de material usando a fórmula:
+👉 Consite em dispor uma .blue[linha de tamanho L] pré-definido no .blue[piso florestal] e medir o .blue[diâmetro] de cada peça (resíduo) de material lenhoso .blue[interceptado] pela linha. Portanto, conhecidos os diâmetros das peças e o comprimento da linha é possível estimar o volume por hectare usando a fórmula:
 
 $$
 \small
 \begin{equation*}
-V = \frac{\pi^2 \left(\sum_{i=1}^{n}d_i^{2}\right)}{8L}
+V = \frac{\pi^2}{8L}\left(\sum_{i=1}^{n}d_i^{2}\right)
 \end{equation*}
 $$
 
@@ -1777,11 +1777,13 @@ $$
 
 $V$ = estimativa do volume (m³.ha<sup>-1</sup>)
 
-$d_i$ = diâmetro da i-ésima peça no ponto de interseção (cm)
+$d_i$ = diâmetro no ponto de interseção da i-ésima peça (cm)
 
-$L$ = comprimento da linha 
+$L$ = comprimento da linha (m)
 
 $\pi$ = constante (3,14159)
+
+$\sum_{i=1}^{n}d_i^{2}$ = **lê-se**: "soma de $d_i^{2}$ para $i$ variando de *1* até *n*"
 
 <br>
 
@@ -1801,7 +1803,7 @@ $\pi$ = constante (3,14159)
 
 ✔️ **1º Passo**: Estender uma linha de comprimento "L" conhecido sobre o chão da floresta,  atravessando a área a ser inventariada;
 
-✔️ **2º Passo**: Registrar apenas o diâmetro de todas as peças (resíduos) no ponto de interseção com a linha;
+✔️ **2º Passo**: Registrar o diâmetro de todas as peças (resíduos) no ponto de interseção com a linha (pré-definir diâmetro mínimo);
 
 ✔️ **3º Passo**: Se linha-amostra interceptar (tocar) a extremidade de uma peça, registre-o somente se o eixo central da peça for tocado;
 
@@ -1814,6 +1816,78 @@ $\pi$ = constante (3,14159)
 **Fonte**: Galvão Filho, 2010
 ]
 ]
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+### Método da Linha Interceptadora - .black[Procedimento de campo]
+]
+
+<br>
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/LI1.jpg')
+```
+
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+### Método da Linha Interceptadora - .black[Procedimento de campo]
+]
+
+<br>
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/LI2.jpg')
+```
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+### Método da Linha Interceptadora - .black[Procedimento de campo]
+]
+
+<br>
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/LI3.jpg')
+```
+
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+### Método da Linha Interceptadora - .black[Procedimento de campo]
+]
+
+<br>
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/LI4.jpg')
+```
+
+---
+
+## 🌳 Métodos de Amostragem
+
+.shadow1[
+### Método da Linha Interceptadora - .black[Procedimento de campo]
+]
+
+<br>
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class4/LI5.jpg')
+```
 
 ---
 
