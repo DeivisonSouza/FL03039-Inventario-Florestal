@@ -59,7 +59,7 @@ list_github_files <- function(repo, dir = NULL, ext = NULL) {
 
 :calendar: Agosto: 1, 8, 22 e 29
 
-:alarm_clock: **08h00min - 12h50min**
+:alarm_clock: **14h00min - 18h50min**
 
 <div>
   <img src="Slides/fig/slide-title/ufpa.png" width="150" align="middle" class="center">

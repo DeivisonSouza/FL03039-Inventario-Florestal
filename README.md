@@ -14,7 +14,7 @@
 
 :calendar: Agosto: 1, 8, 22 e 29
 
-:alarm_clock: **08h00min - 12h50min**
+:alarm_clock: **14h00min - 18h50min**
 
 <div>
 
@@ -104,6 +104,7 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slides/data/Area-Fixa.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Area-Fixa.xlsx> |
 | Slides/data/Bitterlich.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich.xlsx> |
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
+| Slides/data/Linha-Interceptadora.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Linha-Interceptadora.xlsx> |
 | Slides/data/P443_MMA_Ameacadas_3.0.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/P443_MMA_Ameacadas_3.0.xlsx> |
 | Slides/data/Planilha-Analise-AAS-SUPER.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Planilha-Analise-AAS-SUPER.xlsx> |
 | Slides/data/Planilha_Analise_AAS_Alunos.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Planilha_Analise_AAS_Alunos.xlsx> |
