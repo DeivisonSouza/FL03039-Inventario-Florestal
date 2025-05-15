@@ -242,6 +242,17 @@ div.my-footer span {
   width: 80%;
 }
 
+.pull-left-16 {
+  float: left;
+  width: 90%;
+}
+
+.pull-right-16 {
+  float: right;
+  width: 10%;
+}
+
+
 /* use to position text at the bottom */
 .pull-down {
   position: absolute;
@@ -566,7 +577,7 @@ slides > slide {
   margin-bottom: 0.2em;
   margin-left: 10px;
   margin-right: 10px;
-  max-width: 900px;
+  max-width: 1000px;
   border-radius: 2px;
   padding-top: -5px;
   padding-left: 15px;

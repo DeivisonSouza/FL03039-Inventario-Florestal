@@ -100,7 +100,7 @@ top:.8em;right:1em;
 ##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 09/maio/2025) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 23/Novembro/2021 &lt;br&gt; (Atualizado em: 15/maio/2025) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -163,8 +163,8 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left-4[
 .pull-top[
-**Parte 1 - Teoria da Amostragem Aleatória Simples**
-.font90[
+**Parte 1 - AAS: Fundamentos Teóricos**
+.font80[
 
 [1 - Definição e características](#con)
 
@@ -178,12 +178,11 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ]
 ]
 
-
 .pull-right-4[
 
 **Parte 2 - Estimadores da AAS**
 
-.font90[
+.font80[
 
 [1 - Parâmetro, Estimador e Estimativa](#pee)
 
@@ -214,8 +213,8 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left-4[
 .pull-top[
-**Parte 3 - Aplicação Inventário Florestal usando AAS**
-.font90[
+**Parte 3 - Inventário Florestal usando AAS**
+.font80[
 
 [1 - Estudo de Caso (Sanquetta et al., 2023; pg. 124)](#ec)
 
@@ -244,23 +243,23 @@ Ao final desta aula espera-se que o discente seja capaz de...
 layout: false
 name: if
 class: inverse, middle, center
-background-image: url(fig/au1/sec.png)
+background-image: url(fig/class0/sec.png)
 background-size: cover
 
-.font200[.yellow2[**Teoria da &lt;br&gt; Amostragem Aleatória Simples**]]
+.font150[.yellow2[**Amostragem Aleatória Simples** &lt;br&gt; .orange[**(Fundamentos Teóricos)**]]]
 
 ---
 layout: true
 &lt;div class="my-header"&gt;&lt;/div&gt;
-&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;div3&gt;Amostragem Aleatória Simples - AAS&lt;/div3&gt;/ &lt;div2&gt;Parte 1 - Teoria da Amostragem Aleatória Simples&lt;/div2&gt; &lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;div3&gt;Amostragem Aleatória Simples - AAS&lt;/div3&gt;/ &lt;div2&gt;Parte 1 - Fundamentos Teóricos&lt;/div2&gt; &lt;/div&gt;
 
 ---
 name: con
-## Amostragem Aleatória Simples
+## 🌳 Amostragem Aleatória Simples
 &lt;br&gt;
 
 .pull-left-3[
-.shadow1a[
+.shadow1[
 ### Definição
 .font100[
 **Processo de amostragem** de características de uma população, cujas unidades amostrais são escolhidas de forma **aleatória** e sob **igual probabilidade** (amostragem probabilística).
@@ -279,10 +278,10 @@ name: con
 
 ---
 name: car
-## Amostragem Aleatória Simples
+## 🌳 Amostragem Aleatória Simples
 &lt;br&gt;
 
-.shadow1a[
+.shadow1[
 ### Características (Queiroz, 1998)
 
 - A Amostragem Aleatória Simples (AAS) é baseada em um processo estritamente aleatório;
@@ -292,11 +291,11 @@ name: car
 
 ---
 name: sua
-## Amostragem Aleatória Simples
-
-.shadow1a[
-### Método de Seleção da Unidade de Amostra
+## 🌳 Amostragem Aleatória Simples
 &lt;br&gt;
+
+.shadow1[
+### Método de Seleção da Unidade de Amostra
 
 A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio **COM** ou **SEM** reposição (Péllico Netto; Brena, 1997):
 &lt;br&gt;
@@ -308,9 +307,10 @@ A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio *
 
 ---
 
-## Amostragem Aleatória Simples
+## 🌳 Amostragem Aleatória Simples
+&lt;br&gt;
 
-.shadow1a[
+.shadow1[
 ### Como funciona nos inventários florestais?
 
 - A AAS em inventários florestais é comumente conduzida por meio de um **sorteio SEM reposição** das unidades de amostras (Queiroz, 1998). &lt;br&gt;&lt;br&gt;
@@ -320,56 +320,52 @@ A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio *
 
 ---
 
-## Amostragem Aleatória Simples
+## 🌳 Amostragem Aleatória Simples
 
 .pull-left-15[
 - Vamos supor um Povoamento de *Khaya Ivorensis*...(5m x 5m)
 
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳 
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳 
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳    
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
-🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+
+🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳  🌳
+ 
 ]
-&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-.pull-right-15[
-.font90[
-**.brown[Como você executaria um IF usando a AAS?]**
+.pull-left-7[
 &lt;br&gt;&lt;br&gt;
+.font80[
+**.brown[Como você executaria um IF usando a AAS?]**
+&lt;br&gt;
 
-**Variável de interesse**: .blue[Volume de Madeira].
+**Variável de interesse**: .blue[Volume de madeira por hectare].
 ]
 ]
 
 ---
 name: afc
-## Amostragem Aleatória Simples
+## 🌳 Amostragem Aleatória Simples
 
-.shadow1a[
+.shadow1[
 ### Contra-argumentos (Péllico Netto; Brena, 1997)
 ]
 
@@ -398,9 +394,9 @@ name: afc
 
 ---
 
-## Amostragem Aleatória Simples
+## 🌳 Amostragem Aleatória Simples
 
-.shadow1a[
+.shadow1[
 ### Argumentos favoráveis
 ]
 
@@ -413,9 +409,10 @@ name: afc
 
 ---
 name: qu
-## Amostragem Aleatória Simples
+## 🌳 Amostragem Aleatória Simples
 
-.shadow1a[
+.shadow1[
+.font80[
 ### Quando usar a AAS para IF? (Sanquetta et al., 2009)
 &lt;br&gt;
 Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
@@ -431,7 +428,7 @@ Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
 .center[
 .red[&amp;#65308;] variância .red[&amp;#65308;] intensidade amostral
 ]
-
+]
 ]
 
 &lt;!-- Slide XX --&gt;
@@ -439,26 +436,25 @@ Recomenda-se o uso da AAS quando a população florestal a ser inventariada for:
 layout: false
 name: if
 class: inverse, middle, center
-background-image: url(fig/au1/sec.png)
+background-image: url(fig/class0/sec.png)
 background-size: cover
 
-.font200[.yellow2[**Estimadores: &lt;br&gt; Amostragem Aleatória Simples**]]
+.font150[.yellow2[**Amostragem Aleatória Simples** &lt;br&gt; .orange[**(Estimadores)**]]]
 
 ---
 layout: true
 &lt;div class="my-header"&gt;&lt;/div&gt;
-&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;div3&gt;Amostragem Aleatória Simples - AAS&lt;/div3&gt;/ &lt;div2&gt;Parte 2 - Estimadores da AAS&lt;/div2&gt; &lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;div3&gt;Amostragem Aleatória Simples - AAS&lt;/div3&gt;/ &lt;div2&gt;Parte 2 - Estimadores&lt;/div2&gt; &lt;/div&gt;
 
 ---
 name: pee
-## Parâmetro, Estimador e Estimativa
+## 🌳 Parâmetro, Estimador e Estimativa
 
 - Recapitulando a diferença entre: .blue[Parâmetro, Estimador e Estimativa]...
 
 
-.shadow1a[
-### Parâmetro
-]
+.shadow1[
+### Parâmetro]
 
 --
 
@@ -491,9 +487,9 @@ name: pee
 
 ---
 
-## Parâmetro, Estimador e Estimativa
+## 🌳 Parâmetro, Estimador e Estimativa
 
-.shadow1a[
+.shadow1[
 ### Estimador (do Parâmetro)
 ]
 
@@ -519,24 +515,29 @@ name: pee
 
 ---
 
-## Parâmetro, Estimador e Estimativa
+## 🌳 Parâmetro, Estimador e Estimativa
+
+.shadow1a[
+### Formulação Matemática (Exemplos)
+]
 &lt;br&gt;
 
-### Formulação Matemática (Exemplos)
+.font80[
 
 |                                Parâmetro                                |                         Estimador (do Parâmetro)                         |                                      Descrição                                      |
 |:-----------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
 |                   `$$\mu = \frac{1}{N}\sum_{i=1}^{N}X_i$$`                  |                 `$$\bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i$$`                 |        `\(\mu\)` = média populacional &lt;br&gt; `\(\bar{X}\)` = estimador da média populacional       |
 |    `$$\sigma^2 = \frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2$$`   |    `$$S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2$$`   |   `\(\sigma^2\)` = variância populacional &lt;br&gt; `\(S^2\)` = estimador da variância populacional   |
 | `$$\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}\left (X_i - \mu  \right )^2}$$` | `$$S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}$$` | `\(\sigma\)` = desvio padrão populacional &lt;br&gt; `\(S\)` = estimador do desvio padrão populacional |
+]
 
 ---
 name: peaas
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 &lt;br&gt;
 
 .pull-left-12[
-**Os principais estimadores da Amostragem Aleatória Simples são:**
+**Os principais estimadores da AAS são:**
 ]
 
 .pull-right-12[
@@ -557,7 +558,7 @@ name: peaas
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 &lt;br&gt;
 
 .shadow3[
@@ -585,17 +586,17 @@ name: peaas
 
 ---
 name: ma
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.shadow1a[
+.shadow1[
 ## Média aritmética amostral
 
 `\begin{equation}
-\Large
+\large
 \bar{X} = \frac{1}{n}\sum_{i=1}^{n}X_i
 \end{equation}`
 
-- `\(\bar{X}\)` (lê-se: X-barra) = estimador da média aritmética populacional `\(\mu\)` (lê-se: "mi").
+- `\(\bar{X}\)` (lê-se: X-barra) = estimador da média aritmética populacional `\(\mu\)` (lê-se: "mi") ou média amostral.
 - `\(n\)` = número de observações.
 - `\(\Sigma\)` (sigma maiúscula) = símbolo de somatório. 
 - `\(X_i\)` = `\(i\)`-ésimo valor da variável de interesse `\(X\)`.
@@ -604,20 +605,20 @@ name: ma
 
 ---
 name: dp
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.shadow1a[
+.shadow1[
 ## Variância amostral
 .font90[
 👉 Estimar a variabilidade (ou dispersão) dos dados da amostra em relação à média aritmética.]
 
 `\begin{equation}
-\Large
+\large
 S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2
 \end{equation}`
 
 .font90[
-- `\(S^2\)` (lê-se: S-quadrado) = estimador da variância populacional `\(\sigma^2\)` (lê-se: Sigma-quadrado).
+- `\(S^2\)` (lê-se: S-quadrado) = estimador da variância populacional `\(\sigma^2\)` (lê-se: Sigma-quadrado) ou variância amostral.
 - `\(n\)` = número de observações.
 - `\(\Sigma\)` (sigma maiúscula) = símbolo de somatório. 
 - `\(X_i\)` = `\(i\)`-ésimo valor da variável de interesse `\(X\)`.
@@ -627,21 +628,21 @@ S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.shadow1a[
+.shadow1[
 ## Desvio padrão amostral
 
 .font90[
 👉 Estimar a variabilidade (ou dispersão) dos dados da amostra em relação à média aritmética. Porém, **é expresso na mesma unidade de medida da variável de interesse.**]
 
 `\begin{equation}
-\Large
+\large
 S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}
 \end{equation}`
 
 .font90[
-- `\(S\)` = estimador do desvio padrão populacional `\(\sigma\)`.
+- `\(S\)` = estimador do desvio padrão populacional `\(\sigma\)` (lê-se: Sigma) ou desvio padrão populacional.
 - `\(n\)` = número de observações.
 - `\(\Sigma\)` (sigma maiúscula) = símbolo de somatório. 
 - `\(X_i\)` = `\(i\)`-ésimo valor da variável de interesse `\(X\)`.
@@ -651,18 +652,18 @@ S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2}
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.shadow1a[
+.shadow1[
 ## Coeficiente de variação amostral
 
 `\begin{equation}
-\Large
+\large
 CV = \frac{S}{\bar{X}} \left( 100 \right)
 \end{equation}`
 
 .font90[
-- `\(CV\)` = estimador do coeficiente de variação populacional.
+- `\(CV\)` = estimador do coeficiente de variação populacional ou coeficiente de variação amostral.
 - `\(S\)` = estimativa do desvio padrão populacional `\(\sigma\)`.
 - `\(\bar{X}\)` = estimativa da média aritmética populacional `\(\mu\)`.
 ]
@@ -670,15 +671,15 @@ CV = \frac{S}{\bar{X}} \left( 100 \right)
 
 ---
 name: ia
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.shadow1a[
+.shadow1[
 ## Intensidade amostral - Definição
 
 .font90[
 No âmbito de IFs, o estimador de intensidade amostral buscar responder:
 
-- Qual o .blue[tamanho da amostra] necessário para estimar a média aritmética (ou outro parâmetro) de uma variável de interesse (ex.: volume/ha), admitindo-se um limite de erro e sob um nível de probabilidade?
+- Qual o .blue[tamanho da amostra] necessário para estimar a média aritmética (ou outro parâmetro) de uma variável de interesse (ex.: volume por ha), admitindo-se um limite de erro e sob um nível de probabilidade?
 
 &lt;br&gt;
 
@@ -691,15 +692,15 @@ No âmbito de IFs, o estimador de intensidade amostral buscar responder:
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.shadow1a[
-## .font90[Intensidade amostral]
+.shadow1[
+## Intensidade amostral
 ]
 
 .pull-left-4[
 .shadow3[
-.font90[
+.font80[
 .center[.blue[**Em função da variância amostral**]]
 
 - **Populações Finitas**
@@ -734,7 +735,7 @@ n = \frac{t^2S^2}{E^2}
 
 .pull-right-4[
 .shadow3[
-.font90[
+.font80[
 .center[.blue[**Em função do CV amostral**]]
 
 - **Populações Finitas**
@@ -763,7 +764,7 @@ n = \frac{t^2(CV)^2}{(LE)^2}
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-4[
 .font90[
@@ -787,7 +788,7 @@ n = \frac{t^2(CV)^2}{(LE)^2}
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-4[
 .font90[
@@ -826,7 +827,7 @@ N = \frac{100.000\color{orange}{m²}}{10.000\color{orange}{m²}} = \frac{10\colo
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 &lt;br&gt;
 
 .shadow3[
@@ -848,7 +849,7 @@ f = \frac{n}{N}
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-4[
 .font90[
@@ -870,7 +871,7 @@ f = \frac{n}{N}
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-4[
 .font90[
@@ -920,7 +921,7 @@ f = \frac{n}{N} = \frac{3}{10} = 0,3 (100) = \color{blue}{30\%}
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 **Vamos praticar...**
 
@@ -970,10 +971,10 @@ f = \frac{n}{N} = \frac{5}{100} = 0,05 (100) = \color{blue}{5\%}~\left(\color{or
 
 ---
 name: epm
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.shadow1a[
-## .font90[Erro Padrão da Média Amostral]
+.shadow1[
+## Erro Padrão da Média Amostral
 
 .font90[
 👉 Estimar a variação das médias amostrais que poderiam ser, hipoteticamente, tomadas na população.
@@ -991,10 +992,9 @@ S_{\bar{X}} = \frac{S}{\sqrt{n}}\sqrt{1-f}
 ]
 ]
 
-
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-9[
 **🤔 Mas, o que é Erro Padrão da Média?**
@@ -1030,7 +1030,7 @@ S_{\bar{X}} = \frac{S}{\sqrt{n}}\sqrt{1-f}
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-9[
 **🤔 Mas, o que é Erro Padrão da Média?**
@@ -1077,11 +1077,11 @@ S_{\bar{X}} = \frac{S}{\sqrt{n}}\sqrt{1-f}
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-9[
 **🤔 Mas, o que é Erro Padrão da Média?**
-.font90[
+.font80[
 - Perceba que a amostra sorteada (4 e 7) é apenas uma possibilidade dentre as várias combinações possíveis de amostras de mesmo tamanho.
 ]
 ]
@@ -1093,7 +1093,7 @@ S_{\bar{X}} = \frac{S}{\sqrt{n}}\sqrt{1-f}
 --
 
 .pull-left-9[
-.font90[
+.font80[
 - Portanto, teoricamente, o número de amostras de tamanhos k = 2 tomadas de n = 10 elementos pode ser determinado por combinação simples:
 ]
 ]
@@ -1111,7 +1111,7 @@ C_{n,k} =\frac{n!}{k!(n-k)!}
 --
 
 .pull-left-9[
-.font80[
+.font70[
 <span>&lt;i class="fas  fa-hand-point-right faa-horizontal animated "&gt;&lt;/i&gt;</span> **Acesse o tutorial**: [Combinação Simples no R](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Combinacao-simples.html) para uma melhor intuição das combinações teóricas possíveis.
 
 <span>&lt;i class="fas  fa-hand-point-right faa-horizontal animated "&gt;&lt;/i&gt;</span> **Acesse o tutorial**: [Simulação de Dados Dendrométricos](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Simulacao-khaya.html) para acessar os dados simulados para as 10 parcelas.
@@ -1120,10 +1120,10 @@ C_{n,k} =\frac{n!}{k!(n-k)!}
 
 ---
 name: ea
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.shadow1a[
-## .font90[Erro de Amostragem]
+.shadow1[
+## Erro de Amostragem
 
 .font90[
 👉 Estimar o erro devido ao uso da amostragem. Pode ser expresso em valores absolutos - na unidade de medida da variável de interesse - e relativo (em, %).
@@ -1148,7 +1148,7 @@ E_{r} = \pm \left(\dfrac{tS_{\bar{X}}}{\bar{X}}\right).100
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-9[
 **🤔 Mas, como encontrar o valor t?**
@@ -1177,10 +1177,10 @@ E_{r} = \pm \left(\dfrac{tS_{\bar{X}}}{\bar{X}}\right).100
 
 ---
 name: icm
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .font90[
-.shadow1a[
+.shadow1[
 ## Intervalo de Confiança Para Média
 
 👉 É um intervalo numérico que conterá, sob o nível de confiança `\(\alpha\)`, o valor do parâmetro populacional desconhecido `\(\mu\)` (média populacional). 
@@ -1201,7 +1201,7 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-9[
 **🤔 Idéia básica de IC para Média...**
@@ -1228,7 +1228,6 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 
 --
 
-
 .pull-right-9[
 .pull-down[
 .shadow4[
@@ -1247,7 +1246,7 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-9[
 **🤔 Idéia básica de IC para Média...**
@@ -1294,7 +1293,7 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 .pull-left-5[
 .font80[
@@ -1303,19 +1302,17 @@ IC_{\bar{X}} = \left[\underbrace{\bar{X} - (t_{(n-1;~\alpha)}S_{\bar{X}})}_\text
 ]
 ]
 
-
 .pull-right-5[
 &lt;img src="fig/class3/IC-Plot.png" width="85%" style="display: block; margin: auto;" /&gt;
 .font80[**Tutorial para reproduzir**: [Intervalo de Confiança](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial5-Intervalo-Confianca.html)]
 
 ]
 
-
 ---
 name: tp
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.shadow1a[
+.shadow1[
 ## Total da População
 
 👉 É a estimativa do valor da variável de interesse na população.
@@ -1334,11 +1331,13 @@ name: tp
 
 ---
 name: ictp
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
-.font90[
-.shadow1a[
+
+.shadow1[
 ## Intervalo de Confiança Para Total da População
+
+.font80[
 
 👉 É um intervalo numérico que conterá, sob o nível de confiança `\(\alpha\)`, o valor total da variável de interesse. 
 &lt;br&gt;
@@ -1357,10 +1356,9 @@ IC_{\hat{X}} = \left[\underbrace{\hat{X} - N(t_{(n-1;~\alpha)}S_{\bar{X}})}_\tex
 ]
 ]
 
-
 ---
 
-## Estimadores da Amostragem Aleatória Simples
+## 🌳 Estimadores da AAS
 
 ### Unidades de Medidas das Estimativas
 &lt;br&gt;
@@ -1395,21 +1393,19 @@ IC_{\hat{X}} = \left[\underbrace{\hat{X} - N(t_{(n-1;~\alpha)}S_{\bar{X}})}_\tex
 layout: false
 name: if
 class: inverse, middle, center
-background-image: url(fig/au1/sec.png)
+background-image: url(fig/class0/sec.png)
 background-size: cover
 
-.font200[.yellow2[**Aplicação de &lt;br&gt; Inventário Florestal usando AAS**]]
-
-.font150[.white[**Estudo de Caso &lt;br&gt; (Sanquetta et al., 2023; pg. 124)**]]
+.font150[.yellow2[**AAS - Estudo de Caso** &lt;br&gt; .orange[**(Sanquetta et al., 2023; pg. 124)**]]]
 
 ---
 layout: true
 &lt;div class="my-header"&gt;&lt;/div&gt;
-&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;div3&gt;Amostragem Aleatória Simples - AAS&lt;/div3&gt;/ &lt;div2&gt;Parte 3 - Aplicação de Inventário Florestal usando AAS&lt;/div2&gt; &lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;div3&gt;Amostragem Aleatória Simples - AAS&lt;/div3&gt;/ &lt;div2&gt;Parte 3 - AAS - Estudo de Caso&lt;/div2&gt; &lt;/div&gt;
 
 ---
 name: ecap
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 &lt;br&gt;
 
 ### .font90[Estudo de Caso - *Pinus taeda* (Sanquetta et al., 2023; pg. 124)]
@@ -1429,7 +1425,7 @@ c) O Inventário Piloto pode ser admitido como Inventário Definitivo?
 
 ---
 name: data
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
 .pull-left-4[
 &lt;br&gt;&lt;br&gt;
@@ -1441,13 +1437,13 @@ name: data
 ]
 
 .pull-right-4[
-<div id="htmlwidget-b8d7ccd2ceda58c6b2bf" style="width:250px;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-b8d7ccd2ceda58c6b2bf">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[1],"date":[]},"data":[["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16"],[20.85,19.47,24.13,24.34,25.13,22.37,22.51,19.78,25.05,28.84,23.7,24.78,22.58,23.7,36.16,17.83]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Parcela<\/th>\n      <th>Volume<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":16,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '10pt'});\n}","columnDefs":[{"className":"dt-right","targets":1},{"name":"Parcela","targets":0},{"name":"Volume","targets":1}],"order":[],"orderClasses":false,"lengthMenu":[10,16,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+<div id="htmlwidget-aa11cc497f74d26410ed" style="width:250px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-aa11cc497f74d26410ed">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[1],"date":[]},"data":[["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16"],[20.85,19.47,24.13,24.34,25.13,22.37,22.51,19.78,25.05,28.84,23.7,24.78,22.58,23.7,36.16,17.83]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Parcela<\/th>\n      <th>Volume<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":16,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '9pt'});\n}","columnDefs":[{"className":"dt-right","targets":1},{"name":"Parcela","targets":0},{"name":"Volume","targets":1}],"order":[],"orderClasses":false,"lengthMenu":[10,16,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
 ]
 
 ---
 
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 &lt;br&gt;
 
 .pull-left-12[
@@ -1477,10 +1473,10 @@ name: data
 
 ---
 name: maEC
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
-.shadow1a[
-## .font90[Média aritmética amostral]
+.shadow1[
+## Média aritmética amostral
 &lt;br&gt;
 
 `\begin{equation*}
@@ -1500,9 +1496,9 @@ name: maEC
 
 ---
 name: varEC
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
-.shadow1a[
+.shadow1[
 ## Variância amostral
 &lt;br&gt;
 
@@ -1524,11 +1520,11 @@ S^2 = \frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2 = \frac{267,32
 
 ---
 name: varEC
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
 .pull-right-12[
-<div id="htmlwidget-a3dc3a6665271b7ab7e0" style="width:250px;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-a3dc3a6665271b7ab7e0">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[1,2,3,4],"date":[]},"data":[["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","Total"],[20.85,19.47,24.13,24.34,25.13,22.37,22.51,19.78,25.05,28.84,23.7,24.78,22.58,23.7,36.16,17.83,null],[23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,null],[-2.97625,-4.35625,0.30375,0.51375,1.30375,-1.45625,-1.31625,-4.04625,1.22375,5.01375,-0.12625,0.95375,-1.24625,-0.12625,12.33375,-5.99625,0],[8.858064000000001,18.976914,0.092264,0.263939,1.699764,2.120664,1.732514,16.372139,1.497564,25.137689,0.015939,0.909639,1.553139,0.015939,152.121389,35.955014,267.3226]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Parcela<\/th>\n      <th>Volume<\/th>\n      <th>Media<\/th>\n      <th>xi-media<\/th>\n      <th>(xi-media)²<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":17,"dom":"tip","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '8pt'});\n}","columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"name":"Parcela","targets":0},{"name":"Volume","targets":1},{"name":"Media","targets":2},{"name":"xi-media","targets":3},{"name":"(xi-media)²","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[10,17,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+<div id="htmlwidget-be8b3f25aaea678517a7" style="width:250px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-be8b3f25aaea678517a7">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[1,2,3,4],"date":[]},"data":[["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13","P14","P15","P16","Total"],[20.85,19.47,24.13,24.34,25.13,22.37,22.51,19.78,25.05,28.84,23.7,24.78,22.58,23.7,36.16,17.83,null],[23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,23.83,null],[-2.97625,-4.35625,0.30375,0.51375,1.30375,-1.45625,-1.31625,-4.04625,1.22375,5.01375,-0.12625,0.95375,-1.24625,-0.12625,12.33375,-5.99625,0],[8.858064000000001,18.976914,0.092264,0.263939,1.699764,2.120664,1.732514,16.372139,1.497564,25.137689,0.015939,0.909639,1.553139,0.015939,152.121389,35.955014,267.3226]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Parcela<\/th>\n      <th>Volume<\/th>\n      <th>Media<\/th>\n      <th>xi-media<\/th>\n      <th>(xi-media)²<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":17,"dom":"tip","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '8pt'});\n}","columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"name":"Parcela","targets":0},{"name":"Volume","targets":1},{"name":"Media","targets":2},{"name":"xi-media","targets":3},{"name":"(xi-media)²","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[10,17,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
 
 ]
 
@@ -1539,10 +1535,10 @@ name: varEC
 
 ---
 
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
-.shadow1a[
-## .font90[Desvio padrão amostral]
+.shadow1[
+## Desvio padrão amostral
 &lt;br&gt;
 
 `\begin{equation*}
@@ -1552,7 +1548,7 @@ S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2} = \sqrt{\
 
 &lt;br&gt;
 
-.font90[
+.font80[
 - `\(S\)` = estimador do desvio padrão populacional `\(\sigma\)`.
 - `\(n\)` = número de observações.
 - `\(\Sigma\)` (sigma maiúscula) = símbolo de somatório. 
@@ -1565,7 +1561,7 @@ S = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}\left (X_i - \bar{X}  \right )^2} = \sqrt{\
 
 ## Inventário Florestal usando AAS
 
-.shadow1a[
+.shadow1[
 ## Coeficiente de variação amostral
 &lt;br&gt;
 
@@ -1576,7 +1572,7 @@ CV = \frac{S}{\bar{X}} \left( 100 \right) = \frac{4,22}{23,83} \left( 100 \right
 
 &lt;br&gt;
 
-.font90[
+.font80[
 - `\(CV\)` = estimador do coeficiente de variação populacional.
 - `\(S\)` = estimativa do desvio padrão populacional `\(\sigma\)`.
 - `\(\bar{X}\)` = estimativa da média aritmética populacional `\(\mu\)`.
@@ -1585,13 +1581,13 @@ CV = \frac{S}{\bar{X}} \left( 100 \right) = \frac{4,22}{23,83} \left( 100 \right
 
 ---
 
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
-.shadow1a[
-## .font90[Intensidade amostral (ou suficiência amostral)]
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
 &lt;br&gt;
 
-.font90[
+.font80[
 **Para calcular a intensidade amostral é preciso das seguintes informações:**
 
 - A natureza da população (Finita ou Infinita?).
@@ -1601,18 +1597,17 @@ CV = \frac{S}{\bar{X}} \left( 100 \right) = \frac{4,22}{23,83} \left( 100 \right
 ]
 &lt;br&gt;
 
-.font90[
+.font80[
 **Lembre-se**: Em estatística, uma população é finita quando a .blue[fração amostral é maior do que 2%].
 ]
 ]
 
 ---
 
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
-.shadow1a[
-## .font90[Intensidade amostral (ou suficiência amostral)]
-&lt;br&gt;
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
 
 **Passo 1**: Calcular o número de unidades de amostras possíveis na população `\(\left(N\right)\)`
 
@@ -1620,7 +1615,6 @@ CV = \frac{S}{\bar{X}} \left( 100 \right) = \frac{4,22}{23,83} \left( 100 \right
 \normalsize
 N = \frac{A}{a} = \frac{400.000m^2}{600m^2} = \frac{40ha}{0,06ha} = 667~unidades~de~amostras
 \end{equation*}`
-
 
 **Passo 2**: Calcular a fração amostral `\(\left(f\right)\)`
 
@@ -1631,7 +1625,7 @@ f = \frac{n}{N} = \frac{16}{667} = 0,0240 (100) = 2,4\%~(\color{Orange}{Populaç
 
 &lt;br&gt;
 
-.font90[
+.font80[
 `\(n\)` = número de unidades amostradas
 
 `\(N\)` = número de unidades de amostras possíveis na população
@@ -1640,11 +1634,10 @@ f = \frac{n}{N} = \frac{16}{667} = 0,0240 (100) = 2,4\%~(\color{Orange}{Populaç
 
 ---
 
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
-.shadow1a[
-## .font90[Intensidade amostral (ou suficiência amostral)]
-&lt;br&gt;
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
 
 **Passo 3**: Expectância (valor esperado) do erro `\(\left(E\right)\)`
 
@@ -1660,13 +1653,13 @@ E = LE\left(\bar{X}\right) = 10\%(23,83) = 2,383~ \left(m^3/600~m^2\right)
 t_{(n-1;~\alpha)} = t_{(16-1;~0,05)} = t_{(15;~0,05)} = 2,131
 \end{equation*}`
 
-.font90[
+.font80[
 <span>&lt;i class="fas  fa-hand-point-right faa-horizontal animated "&gt;&lt;/i&gt;</span> **Acesse o tutorial**: [Distribuição t-Student](https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial4-Distribuicao-t.html).
 ]
 
 &lt;br&gt;
 
-.font90[
+.font80[
 `\(LE\)` = Limite de erro admissível (10%)
 
 `\(\bar{X}\)` = Estimativa da média populacional (ou média amostral)
@@ -1675,10 +1668,10 @@ t_{(n-1;~\alpha)} = t_{(16-1;~0,05)} = t_{(15;~0,05)} = 2,131
 
 ---
 
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
-.shadow1a[
-## .font90[Intensidade amostral (ou suficiência amostral)]
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
 
 **Agora sim...Temos as informações necessárias para calcular a intensidade amostral!**
 ]
@@ -1728,11 +1721,10 @@ n = 13,9 \approx 14 ~unidades~de~amostras
 
 ---
 
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
-.shadow1a[
-## .font90[Intensidade amostral (ou suficiência amostral)]
-
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
 
 - **Interpretação**: No Inventário Piloto, foram amostradas 16 unidades de amostras (parcelas) com tamanho de 600m² cada. Após cálculo, o valor da intensidade amostral (n) foi de 14 (n = 14). Portanto, o Inventário Piloto (IP) pode ser convertido em Inventário Definitivo (ID), uma vez que seriam necessárias apenas 14 parcelas para atender a precisão requerida de 10% a uma probabilidade de 95%.
 
@@ -1744,7 +1736,7 @@ n = 13,9 \approx 14 ~unidades~de~amostras
 
 ---
 
-## Inventário Florestal usando AAS
+## 🌳 AAS - Estudo de Caso
 
 .shadow1a[
 ## .font90[Erro Padrão da Média Amostral]
@@ -1959,7 +1951,6 @@ CAMPOS, J. C. C.; LEITE, H. G. **Mensuração florestal: perguntas e respostas**
 PÉLLICO NETTO, S.; BRENA, D. A. **Inventário Florestal**. Curitiba: editorado pelos autores, 1997. 316p.
 &lt;br&gt;&lt;br&gt;
 QUEIROZ, W. T. **Técnicas de amostragem em inventário florestal nos trópicos**. Belém: FCAP. Serviço de Documentação e Informação, 1998. 147 p.
-
 
 ---
 
