@@ -1940,8 +1940,6 @@ $$
 V = \frac{\pi^2}{8L}\left(\sum_{i=1}^{n}d_i^{2}\right) \\~\\
 \end{equation*}
 $$
-👉 **Necromassa (Volume multiplicado pela densidade)**
-
 ]
 ]
 
@@ -1949,7 +1947,7 @@ $$
 
 <br>
 
-.pull-left-4[
+.pull-right-4[
 
 .font80[
 👉 **Estimativa do volume/hectare de necromassa (.blue[GD = 1]):**
@@ -1983,8 +1981,21 @@ $$
 ]
 ]
 
+--
 
+.pull-left-4[
 
+.font80[
+👉 **Estimativa do volume/hectare de necromassa (.blue[Total]):**
+
+$$
+\normalsize
+\begin{equation*}
+V = \frac{\pi^2}{8.(20)}\left(2^2 + 2,4^2 + ... + 11,3^2\right) = \textbf{10,6265}~\color{magenta}{m^3.ha^{-1}}
+\end{equation*}
+$$
+]
+]
 
 ---
 
