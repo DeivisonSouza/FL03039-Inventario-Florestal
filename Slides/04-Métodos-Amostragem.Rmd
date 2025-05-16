@@ -73,7 +73,7 @@ library(ggimage)
 <!-- title-slide -->
 # .font120[Inventário Florestal <br> (FL03039 - EF)]
 
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Métodos de Amostragem`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> 🌳
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Métodos de Amostragem`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> ᨒ
 ###### Área Fixa e Área Variável
 
 ##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
@@ -84,7 +84,7 @@ library(ggimage)
 ##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### E-mail: deivisonvs@ufpa.br
 <br>
-##### 1ª versão: 22/Novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+##### 1ª versão: 22/novembro/2021 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
 
 ---
 layout: true
