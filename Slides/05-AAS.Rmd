@@ -282,6 +282,15 @@ name: con
 .center[**Sistema de Amostragem** = .blue[**Método de Amostragem**] + .orange[**Processos de Amostragem**]]
 
 ---
+name: mpa
+## 🌳 Método e Processo de Amostragem
+<br>
+
+```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class5/mp.jpg')
+```
+
+---
 name: con
 ## 🌳 Amostragem Aleatória Simples
 <br>
