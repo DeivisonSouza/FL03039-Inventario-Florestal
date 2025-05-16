@@ -125,9 +125,9 @@ class: with-logo logo-ufpa
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.2 - Métodos de Amostragem;
 
-&nbsp;&nbsp;&nbsp;&nbsp;**2.3 - Amostragem Aleatória Simples - AAS**;
+&nbsp;&nbsp;&nbsp;&nbsp;2.3 - Amostragem Aleatória Simples - AAS;
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.4 - Amostragem Estratificada - AE;
+&nbsp;&nbsp;&nbsp;&nbsp;**2.4 - Amostragem Estratificada - AE**;
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.5 - Amostragem Sistemática - AS; 
 
@@ -154,9 +154,9 @@ class: with-logo logo-ufpa
 .font80[
 Ao final desta aula espera-se que o discente seja capaz de...
 
-* Compreender os conceitos básicos associados à Amostragem Aleatória Simples (AAS);
-* Conhecer os principais estimadores da AAS;
-* Aprender a obter as estimativas da AAS por meio de um estudo de caso; e
+* Compreender os conceitos básicos associados à Amostragem Estratificada (AE);
+* Conhecer os principais estimadores da AE;
+* Aprender a calcular as estimativas da AE por meio de um estudo de caso; e
 * Aprender a interpretar as estimativas e concluir sobre a precisão do IF realizado.
 ]
 
@@ -166,7 +166,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left-4[
 .pull-top[
-**Parte 1 - AAS: Fundamentos Teóricos**
+**Parte 1 - AE: Fundamentos Teóricos**
 .font80[
 
 [1 - Definição e características](#con)
@@ -183,7 +183,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-right-4[
 
-**Parte 2 - Estimadores da AAS**
+**Parte 2 - Estimadores da AE**
 
 .font80[
 
@@ -216,7 +216,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left-4[
 .pull-top[
-**Parte 3 - Inventário Florestal usando AAS**
+**Parte 3 - Inventário Florestal usando AE**
 .font80[
 
 [1 - Estudo de Caso (Sanquetta et al., 2023; pg. 124)](#ec)
@@ -249,7 +249,7 @@ class: inverse, middle, center
 background-image: url(fig/class0/sec.png)
 background-size: cover
 
-.font150[.yellow2[**Amostragem Aleatória Simples** <br> .orange[**(Fundamentos Teóricos)**]]]
+.font150[.yellow2[**Amostragem Estratificada** <br> .orange[**(Fundamentos Teóricos)**]]]
 
 ---
 layout: true

@@ -258,24 +258,38 @@ layout: true
 
 ---
 name: con
+## 🌳 Método e Processo de Amostragem
+
+
+.shadow1[
+### Método de Amostragem
+.font80[
+- É a forma de .blue[abordagem da população florestal] referente a .blue[uma única unidade de amostra] (ou parcela). Ou seja, o tipo de unidade amostral a ser empregada no inventário florestal.
+]
+]
+
+--
+
+.shadow1[
+### Processo de Amostragem
+.font80[
+- É a forma de .blue[abordagem da população florestal] referente ao .blue[conjunto de unidades amostrais] (Péllico Netto; Brena, 1997). Ou seja, a forma como as unidades de amostras serão distribuídas na população florestal.
+]
+]
+
+<br>
+
+.center[**Sistema de Amostragem** = .blue[**Método de Amostragem**] + .orange[**Processos de Amostragem**]]
+
+---
+name: con
 ## 🌳 Amostragem Aleatória Simples
 <br>
 
-.pull-left-3[
 .shadow1[
 ### Definição
 .font100[
 **Processo de amostragem** de características de uma população, cujas unidades amostrais são escolhidas de forma **aleatória** e sob **igual probabilidade** (amostragem probabilística).
-]
-]
-]
-
-.pull-right-3[
-.pull-down[
-`r anicon::faa("tree", size = 5, speed = "slow", animate = 'vertical', color = "green")`
-`r anicon::faa("tree", size = 5, speed = "slow", animate = 'vertical', color = "green")`
-`r anicon::faa("tree", size = 5, speed = "slow", animate = 'vertical', color = "green")`
-
 ]
 ]
 
