@@ -423,6 +423,128 @@ name: peae
 
 ---
 
+## 🌳 Amostragem Estratificada
+
+.shadow1[
+### Notações
+]
+
+.pull-left-9[
+<br>
+.font80[
+$X_{ih}$ = Variável de interesse
+
+$L$ = Número de estratos da população
+
+$h$ = Estrato
+
+$a$ = Área da parcela
+
+$N_h$ = Número de parcelas possíveis de serem alocadas no estrato h (.blue[**1**])
+
+$N$ = Número de parcelas possíveis de serem alocadas na população (.blue[**2**])
+
+$n_h$ = Número total de parcelas alocadas no estrato h
+
+$n$ = Número total de parcelas alocadas na população florestal (.blue[**3**])
+
+$A_h$ = Área total do estrato h
+
+$A$ = Área total da população florestal (.blue[**4**])
+]
+]
+
+
+.pull-right-9[
+<br>
+$$
+\begin{equation}
+\small
+N_h = \frac{A_h}{a}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\small
+N = \sum_{h=1}^{L}N_h
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\small
+n = \sum_{h=1}^{L}n_h
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\small
+A = \sum_{h=1}^{L}A_h
+\end{equation}
+$$
+
+]
+
+---
+
+## 🌳 Amostragem Estratificada
+
+.shadow1[
+### Notações
+]
+
+.pull-left-9[
+<br>
+.font80[
+
+$W_h$ = Proporção do estrato h na população florestal (.blue[**5**])
+
+$w_h$ = Proporção do estrato h na amostra total (.blue[**6**])
+
+$f_h$ = Fração amostral do estrato h (.blue[**7**])
+
+$f$ = Fração amostral da população (.blue[**8**])
+]
+]
+
+
+.pull-right-9[
+<br>
+$$
+\begin{equation}
+\small
+W_h = \frac{N_h}{N} = \frac{A_h}{A}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\small
+w_h = \frac{n_h}{n}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\small
+f_h = \frac{n_h}{N_h}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\small
+f = \frac{n}{N}
+\end{equation}
+$$
+
+]
+
+
+---
+
 ## 📖 Referências
 
 <br><br>
