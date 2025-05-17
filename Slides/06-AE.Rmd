@@ -109,7 +109,7 @@ library(ggimage)
 layout: true
 class: with-logo logo-ufpa
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Amostragem Aleatória Simples</div2> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Amostragem Estratificada</div2> </div>
 
 ---
 
@@ -258,7 +258,7 @@ background-size: cover
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 1 - Fundamentos Teóricos</div2> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Estratificada - AE</div3>/ <div2>Parte 1 - Fundamentos Teóricos</div2> </div>
 
 ---
 name: def
@@ -391,9 +391,8 @@ background-size: cover
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 2 - Estimadores</div2> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Estratificada - AE</div3>/ <div2>Parte 2 - Estimadores</div2> </div>
 
----
 ---
 name: peae
 ## 🌳 Estimadores da AE
@@ -404,22 +403,23 @@ name: peae
 ]
 
 .pull-right-12[
+.font80[
 | **Estimador (do Parâmetro)**                          | **Símbolo**                |
 |-------------------------------------------------------|:----------------------------:|
-| 1 - Média aritmética                                  | $\bar{X}$                  |
-| 2 - Variância                                         | $S^2$                      |
-| 3 - Desvio Padrão                                     | $S$                        |
-| 4 - Coeficiente de variação                           | $CV$                       |
-| 5 - Intensidade amostral                              | $n$                        |
-| 6 - Erro padrão da média amostral                          | $S_{\bar{X}}$              |
-| 7 - Erro de amostragem                                | $\left(E_a~ou~E_r \right)$ |
-| 8 - Intervalo de confiança para média                 | $IC_{\bar{X}}$             |
-| 9 - Total da população                               | $\hat{X}$                  |
-| 10 - Intervalo de confiança para o total da população | $IC_{\hat{X}}$             |
-
+| 1 - Média Aritmética por Estrato                                  | $\bar{X}_h$                  |
+| 2 - Média Estratificada                                         | $\bar{X}_{st}$                      |
+| 3 - Variância por Estrato                                     | $S^2_h$                        |
+| 4 - Desvio Padrão por Estrato                           | $S_h$                        |
+| 5 - Variância Estratificada                              | $S^2_{st}$                        |
+| 6 - Variância da Média Estratificada                          | $S^2_{\bar{X}(st)}$             |
+| 7 - Erro Padrão da Média Estratificada                          | $S_{\bar{X}(st)}$              |
+| 8 - Intensidade Amostral por Estrato e Total                         | $n~e~n_h$  
+| 9 -  Erro de Amostragem (absoluto e %)                                | $\left(E_a~ou~E_r \right)$ |
+| 10 - Intervalo de Confiança para Média Estratificada                 | $IC_{\bar{X}(st)}$             |
+| 11 - Total por Estrato e População                               | $\hat{X_h}~e~\hat{X}$                  |
+| 12 - Intervalo de Confiança para o Total da População | $IC_{\hat{X}}$             |
 ]
-
-
+]
 
 ---
 
