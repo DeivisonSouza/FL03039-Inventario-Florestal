@@ -169,13 +169,15 @@ Ao final desta aula espera-se que o discente seja capaz de...
 **Parte 1 - AE: Fundamentos Teóricos**
 .font80[
 
-[1 - Definição e características](#con)
+[1 - Definição](#def)
 
-[2 - Seleção da Unidade de Amostra](#sua)
+[2 - Quando usar a AE?](#qua)
 
-[3 - Argumentos favoráveis e contra-argumentos](#afc)
+[3 - Relação: Variância, intensidade amostral e custo](#rel)
 
-[4 - Quando usar a AAS?](#qu)
+[4 - Critérios para estratificação](#ce)
+
+[5 - Vantagens e desvantagens da AE](#vd)
 
 ]
 ]
@@ -257,7 +259,7 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 1 - Fundamentos Teóricos</div2> </div>
 
 ---
-name: con
+name: def
 ## 🌳 Amostragem Estratificada
 <br>
 
@@ -269,7 +271,7 @@ name: con
 ]
 
 ---
-name: ae
+name: qua
 ## 🌳 Amostragem Estratificada
 <br>
 
@@ -285,11 +287,11 @@ name: ae
 ]
 
 ---
-name: car
+name: rel
 ## 🌳 Amostragem Estratificada
 
 .shadow1[
-### Variância da variável versus intensidade amostral e custos
+### Relação: Variância, intensidade amostral e custo
 .font90[
 
 - Quanto .blue[**>**] a variância da variável de interesse, .blue[**>**] será a intensidade amostral (n) e .blue[**>**] será o tempo e o custo da amostragem.
@@ -312,7 +314,7 @@ name: car
 ]
 
 ---
-name: car
+name: ce
 ## 🌳 Amostragem Estratificada
 
 .pull-left-4[
@@ -333,47 +335,46 @@ knitr::include_graphics('fig/class6/ce.jpg')
 ]
 
 ---
-name: car
+
 ## 🌳 Amostragem Estratificada
 
 .shadow1[
 ### Qual melhor critério de estratificação?
 .font90[
-- A estratificação com base na variável de interesse é seguramente o procedimento mais eficiente (Scolforo e Mello, 1997). Portanto, sempre que possível, a variável a ser estimada no IF deve ser usada como critério de estratificação (Péllico Netto e Brena, 1997).
+- A .blue[estratificação com base na variável de interesse] é seguramente o procedimento mais eficiente (Scolforo e Mello, 1997). Portanto, sempre que possível, a variável a ser estimada no IF deve ser usada como critério de estratificação (Péllico Netto e Brena, 1997). 
+- Por exemplo, se o .blue[volume por hectare] é a variável de interesse a ser estimada, é desejável estratificar o povoamento florestal em função das classes de volume (Soares et al., 2011).
 ]
-]
-
-
-
----
-name: sua
-## 🌳 Amostragem Aleatória Simples
-<br>
-
-.shadow1[
-### Método de Seleção da Unidade de Amostra
-
-A seleção das Unidades Amostrais (UA) pode ser realizada por meio de sorteio **COM** ou **SEM** reposição (Péllico Netto; Brena, 1997):
-<br>
-
-- **Sorteio com reposição**: Uma unidade de amostra poderá ser sorteada .magenta[mais de uma vez] para compor a amostra.
-- **Sorteio sem reposição**: Uma unidade de amostra poderá ser sorteada somente .magenta[uma única vez] para compor a amostra.
-
 ]
 
 ---
+name: vd
+## 🌳 Amostragem Estratificada
 
-## 🌳 Amostragem Aleatória Simples
+.pull-left-4[
+.shadow1[
+### Vantagens da estratificação
+.font80[
+- **Estimativas por estrato**: Permite obter estimativas da média e variância populacional por estrato.
+- **Intensidade amostral**: Para uma igual intensidade amostral, as estimativas usando a AE são mais precisas do que àquelas obtidas com AAS (**Em condições de heterogeneidade!**);
+- **Custos**: AE tem menor custo de amostragem, pois existe uma diminuição da intensidade amostral (n) para atingir uma mesma precisão do que as necessárias à AAS.
 <br>
 
-.shadow1[
-### Como funciona nos inventários florestais?
-
-- A AAS em inventários florestais é comumente conduzida por meio de um **sorteio SEM reposição** das unidades de amostras (Queiroz, 1998). <br><br>
-- **Motivo**: A inclusão de uma unidade amostral mais de uma vez na amostra refletirá uma homogeneização da variância (entre UAs) para a variável de interesse.
-
+**Fonte:** Scolforo e Mello, (1997)
+]
+]
 ]
 
+--
+
+.pull-left-4[
+.shadow1[
+### Desvantagens da estratificação
+.font80[
+- O tamanho de cada estrato deve ser bem definido.
+(**Trabalho adicional!**)
+]
+]
+]
 
 ---
 
