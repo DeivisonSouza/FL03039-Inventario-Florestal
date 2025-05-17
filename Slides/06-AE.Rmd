@@ -189,25 +189,27 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .font80[
 
-[1 - Parâmetro, Estimador e Estimativa](#pee)
+[1 - Principais Estimadores da AE](#peae)
 
-[2 - Principais Estimadores da AAS](#peaas)
+&nbsp;&nbsp;[1.1 - Média Aritmética por Estrato](#mae)
 
-&nbsp;&nbsp;[2.1 - Média Aritmética Amostral](#ma)
+&nbsp;&nbsp;[1.2 - Média Estratificada](#me)
 
-&nbsp;&nbsp;[2.2 - Variância, Desvio Padrão e Coeficiente de Variação](#dp)
+&nbsp;&nbsp;[1.3 - Variância e Desvio Padrão por Estrato](#vde)
 
-&nbsp;&nbsp;[2.3 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
+&nbsp;&nbsp;[1.4 - Variância Estratificada](#ve)
 
-&nbsp;&nbsp;[2.4 - Erro Padrão da Média Amostral](#epm)
+&nbsp;&nbsp;[1.5 - Variância e Erro Padrão da Média Estratificada](#vepme)
 
-&nbsp;&nbsp;[2.5 - Erro de Amostragem](#ea)
+&nbsp;&nbsp;[1.6 - Intensidade Amostral (ou Suficiência Amostral)](#ia)
 
-&nbsp;&nbsp;[2.6 - Intervalo de Confiança Para Média](#icm)
+&nbsp;&nbsp;[1.7 - Erro de Amostragem (absoluto e %)](#ea)
 
-&nbsp;&nbsp;[2.7 - Total da População](#tp)
+&nbsp;&nbsp;[1.8 - Intervalo de Confiança para Média Estratificada](#icme)
 
-&nbsp;&nbsp;[2.8 - IC Para o Total da População](#icptp)
+&nbsp;&nbsp;[1.9 - Total por Estrato e População](#tep)
+
+&nbsp;&nbsp;[1.10 - Intervalo de Confiança Para o Total da População](#icptp)
 
 ]
 ]
@@ -375,6 +377,49 @@ name: vd
 ]
 ]
 ]
+
+<!-- Slide XX -->
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/class0/sec.png)
+background-size: cover
+
+.font150[.yellow2[**Amostragem Estratificada** <br> .orange[**(Estimadores)**]]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Aleatória Simples - AAS</div3>/ <div2>Parte 2 - Estimadores</div2> </div>
+
+---
+---
+name: peae
+## 🌳 Estimadores da AE
+<br>
+
+.pull-left-12[
+**Os principais estimadores da AE são:**
+]
+
+.pull-right-12[
+| **Estimador (do Parâmetro)**                          | **Símbolo**                |
+|-------------------------------------------------------|:----------------------------:|
+| 1 - Média aritmética                                  | $\bar{X}$                  |
+| 2 - Variância                                         | $S^2$                      |
+| 3 - Desvio Padrão                                     | $S$                        |
+| 4 - Coeficiente de variação                           | $CV$                       |
+| 5 - Intensidade amostral                              | $n$                        |
+| 6 - Erro padrão da média amostral                          | $S_{\bar{X}}$              |
+| 7 - Erro de amostragem                                | $\left(E_a~ou~E_r \right)$ |
+| 8 - Intervalo de confiança para média                 | $IC_{\bar{X}}$             |
+| 9 - Total da população                               | $\hat{X}$                  |
+| 10 - Intervalo de confiança para o total da população | $IC_{\hat{X}}$             |
+
+]
+
+
 
 ---
 
