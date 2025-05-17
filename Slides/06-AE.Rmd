@@ -274,24 +274,76 @@ name: ae
 <br>
 
 .shadow1[
-### Quando usar?
-- A distribuição e alocação de unidades de amostra de forma aleatória no povoamento florestal somente será eficiente quando a área for homogênea quanto à distribuição da variável de interesse (Soares et al., 2011).
+### AAS versus AE: Quando usar?
+.font90[
+- **Amostragem Aleatória Simples**: recomendada quando a população florestal .blue[for homogênea] quanto à distribuição da .blue[variável de interesse].
+- **Amostragem Estratificada**: recomendada quando a população florestal .blue[não for homogênea] quanto à distribuição da .blue[variável de interesse].
+<br>
 
-
+**Fonte:** (Soares et al., 2011)
+]
 ]
 
 ---
 name: car
-## 🌳 Amostragem Aleatória Simples
-<br>
+## 🌳 Amostragem Estratificada
 
 .shadow1[
-### Características (Queiroz, 1998)
+### Variância da variável versus intensidade amostral e custos
+.font90[
 
-- A Amostragem Aleatória Simples (AAS) é baseada em um processo estritamente aleatório;
-- As unidades amostrais (parcelas) são escolhidas sob igual probabilidade (**1/N**); <br> (**N** = número de UA que compõem o espaço amostral).
+- Quanto .blue[**>**] a variância da variável de interesse, .blue[**>**] será a intensidade amostral (n) e .blue[**>**] será o tempo e o custo da amostragem.
+
+👉 > Variância da variável de interesse
+
+👉 > Intensidade de amostragem (n)
+
+👉 > Tempo e custo da amostragem
+
+- Portanto, em condições de heterogeneidade da variável de interesse, estratificar o povoamento florestal é uma abordagem eficiente:
+
+👉 < Variância da variável de interesse dentro dos estratos
+
+👉 < Intensidade de amostragem (n)
+
+👉 < Tempo e custo da amostragem
 
 ]
+]
+
+---
+name: car
+## 🌳 Amostragem Estratificada
+
+.pull-left-4[
+.shadow1[
+### Critérios para estratificação
+.font90[
+- Em campo, a variável de interesse pode variar em função das características do povoamento florestal ou sítio. Portanto, nessas situações é comum usar algum critério de estratificação.
+]
+]
+]
+
+--
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/ce.jpg')
+```
+]
+
+---
+name: car
+## 🌳 Amostragem Estratificada
+
+.shadow1[
+### Qual melhor critério de estratificação?
+.font90[
+- A estratificação com base na variável de interesse é seguramente o procedimento mais eficiente (Scolforo e Mello, 1997). Portanto, sempre que possível, a variável a ser estimada no IF deve ser usada como critério de estratificação (Péllico Netto e Brena, 1997).
+]
+]
+
+
 
 ---
 name: sua
