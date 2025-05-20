@@ -546,40 +546,66 @@ $$
 
 ## 🌳 Amostragem Estratificada
 
-
-
-.pull-left-4[
-<br>
+<br><br>
 .shadow1[
 .font80[
 ### Notações
-- **Exemplo**: Imagine um povoamento florestal de .blue[*Eucalyptus citriodora*], pertencente à empresa "Florestal", com .blue[diferentes idades] (9, 11 e 13 anos) e implantado sob o mesmo espaçamento e classe de sítio, para produção de madeira serrada. Agora, suponha que a empresa esteja interessada em .blue[estimar o volume de madeira das árvores em pé nos povoamentos de diferentes idades]:
+- **Exemplo**: Imagine um povoamento florestal de .blue[*Eucalyptus citriodora*], pertencente à empresa "Florestal", com .blue[diferentes idades] (9, 11 e 13 anos) e .blue[tamanhos] (136, 180 e 120 hectares), respectivamente. O povoamento foi implantado sob o mesmo espaçamento e classe de sítio para produção de madeira serrada. Agora, suponha que a empresa esteja interessada em .blue[estimar o volume de madeira] das árvores em pé nos povoamentos de diferentes idades. Para isso, realizou um IF piloto e estabeleceu 6, 8 e 4 parcelas de 100 m x 100 m nas idades 9, 11 e 13, respectivamente.
 ]
 ]
-]
-
-.pull-right-4[
-<br><br>
-```{r, echo=FALSE, out.width='120%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class6/euc1.jpg')
-```
-]
-
 
 ---
 
 ## 🌳 Amostragem Estratificada
 
-.shadow1[
+<br>
+```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/euc1.jpg')
+```
+
+---
+
+## 🌳 Amostragem Estratificada
+
+.shadow3C[
 .font80[
-### Notações
-- **Abordagem**: Estratificar a área em função da idade dos plantios.
+**Abordagem**: Estratificar a área em função da idade dos plantios.
 ]
 ]
 
-```{r, echo=FALSE, out.width='55%', fig.align='center', fig.cap='', dpi=600}
+--
+
+.pull-left-4[
+<br><br>
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class6/euc2.jpg')
 ```
+]
+
+--
+
+.pull-right-4[
+<br>
+- **Notações**
+.font80[
+$X_{ih}$ = Volume por hectare ($m³.ha^{-1}$)
+
+$L$ = $3$ estratos
+
+$h$ = ($h_1$ = estrato 1), ($h_2$ = estrato 2), ($h_3$ = estrato 3)
+
+$a$ = $1~ha$ ($10.000~m²$)
+
+$n_h$ = ($n_{h1}$ = 6), ($n_{h2}$ = 8), ($n_{h3}$ = 4)
+
+$n$ = $n_{h1} + n_{h2} + n_{h3} = 18$
+
+$A_h$ = ($A_{h1} = 136~ha$), ($A_{h2} = 180~ha$), ($A_{h3} = 120~ha$)
+
+$A$ = $A_{h1} + A_{h2} + A_{h3} = 336~ha$
+
+]
+]
 
 ---
 
