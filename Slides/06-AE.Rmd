@@ -566,6 +566,7 @@ knitr::include_graphics('fig/class6/euc1.jpg')
 ---
 
 ## 🌳 Amostragem Estratificada
+<br>
 
 .shadow3C[
 .font80[
@@ -602,14 +603,49 @@ $n$ = $n_{h1} + n_{h2} + n_{h3} = 18$
 
 $A_h$ = ($A_{h1} = 136~ha$), ($A_{h2} = 180~ha$), ($A_{h3} = 120~ha$)
 
-$A$ = $A_{h1} + A_{h2} + A_{h3} = 336~ha$
+$A$ = $A_{h1} + A_{h2} + A_{h3} = 436~ha$
 
 ]
 ]
 
 ---
 
+## 🌳 Amostragem Estratificada
+<br>
 
+.shadow3C[
+.font80[
+**Abordagem**: Estratificar a área em função da idade dos plantios.
+]
+]
+
+--
+
+.pull-left-4[
+<br><br>
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/euc2.jpg')
+```
+]
+
+--
+
+.pull-right-4[
+<br>
+- **Notações**
+.font80[
+👉 Número de parcelas possíveis de serem alocadas em cada estrato h
+
+$$
+\normalsize
+\begin{equation*}
+N_{h1} = \frac{A_{h1}}{a} = \frac{136~ha}{1~ha} = \textbf{136}~\color{magenta}{parcelas} \\~\\
+N_{h2} = \frac{A_{h2}}{a} = \frac{180~ha}{1~ha} = \textbf{180}~\color{magenta}{parcelas} \\~\\
+N_{h3} = \frac{A_{h3}}{a} = \frac{120~ha}{1~ha} = \textbf{120}~\color{magenta}{parcelas}
+\end{equation*}
+$$
+]
+]
 
 
 ---
