@@ -737,6 +737,58 @@ $$
 
 ---
 
+## 🌳 Amostragem Estratificada
+<br>
+
+.shadow3C[
+.font80[
+**Abordagem**: Estratificar a área em função da idade dos plantios.
+]
+]
+
+--
+
+.pull-left-4[
+<br>
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/euc2.jpg')
+```
+]
+
+--
+
+.pull-right-4[
+- **Notações**
+.font80[
+👉 Fração amostral de cada estrato h e população
+<br>
+
+$$
+\normalsize
+\begin{equation*}
+f_{h1} = \frac{n_{h1}}{N_{h1}} = \frac{6}{136} = \textbf{0,0441} \approx \textbf{4,41}~\color{magenta}{\%} \\~\\
+f_{h2} = \frac{n_{h2}}{N_{h2}} = \frac{8}{180} = \textbf{0,0444} \approx \textbf{4,44}~\color{magenta}{\%} \\~\\
+f_{h3} = \frac{n_{h3}}{N_{h3}} = \frac{4}{120} = \textbf{0,0333} \approx \textbf{3,33}~\color{magenta}{\%}
+\end{equation*}
+$$
+$$
+\normalsize
+\begin{equation*}
+f = \frac{n}{N} = \frac{18}{436} \approx \textbf{0,0413} \approx \textbf{4,13}~\color{magenta}{\%}
+\end{equation*}
+$$
+
+]
+]
+
+---
+
+f_h = \frac{n_h}{N_h}
+
+
+
+---
+
 ## 📖 Referências
 
 <br><br>
