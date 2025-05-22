@@ -559,7 +559,7 @@ $$
 ## 🌳 Amostragem Estratificada
 
 <br>
-```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class6/euc1.jpg')
 ```
 
@@ -622,9 +622,9 @@ $A$ = $A_{h1} + A_{h2} + A_{h3} = 436~ha$
 --
 
 .pull-left-4[
-<br>
+<br><br>
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class6/euc2.jpg')
+knitr::include_graphics('fig/class6/euc3.jpg')
 ```
 ]
 
@@ -666,7 +666,7 @@ $$
 --
 
 .pull-left-4[
-<br>
+<br><br>
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class6/euc2.jpg')
 ```
@@ -707,7 +707,7 @@ $$
 --
 
 .pull-left-4[
-<br>
+<br><br>
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class6/euc2.jpg')
 ```
@@ -749,9 +749,9 @@ $$
 --
 
 .pull-left-4[
-<br>
+<br><br>
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class6/euc2.jpg')
+knitr::include_graphics('fig/class6/euc3.jpg')
 ```
 ]
 
@@ -782,8 +782,6 @@ $$
 ]
 
 ---
-
-f_h = \frac{n_h}{N_h}
 
 
 
