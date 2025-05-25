@@ -1052,6 +1052,69 @@ $$
 ]
 ]
 
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Análise de Variância (ANOVA) da Estratificação
+.font80[
+- A ANOVA deve ser realizada na primeira estratificação da população florestal. O objetivo é inferir se existe (ou não) diferença significativa entre as médias dos estratos.
+- Portanto, através da ANOVA é possível inferir se a estratificação foi benéfica (ou não), em termos de precisão e custo, comparado a Amostragem Aleatória Simples (AAS).
+]
+]
+
+--
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/ANOVA.jpg')
+```
+
+.font80[
+$L$ = Número de estratos;
+$n$ = Número total de unidades amostradas na população.
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Análise de Variância (ANOVA) da Estratificação
+.font80[
+- **Hipóteses estatísticas do teste F**
+
+👉  **Hipótese de Nulidade:**
+- As médias dos estratos são estatisticamente todas iguais entre si.
+
+$H_0: \bar{X_{h_1}} = \bar{X_{h_2}} = ... = \bar{X_{h_L}}$
+
+👉  **Hipótese Alternativa:**
+- Pelo menos dois estratos possuem médias são estatisticamente diferentes entre si.
+
+$H_1: Não~H_0$
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Análise de Variância (ANOVA) da Estratificação
+.font80[
+- **Regras de decisão do teste F**
+
+👉  Se $F_{calculado}$ > $F_{crítico}$, **rejeita-se a hipótese de nulidade** ($H_0$). Portanto, existem evidências de que as médias da variável de interesse de pelo menos dois estratos diferem estatísticamente, ao nível de probabilidade estabelecido. Assim, pode-se admitir que a estratificação foi benéfica ao inventário.
+
+👉  Se $F_{calculado}$ $\leq$ $F_{crítico}$, **.blue[não] rejeita-se a hipótese de nulidade** ($H_0$). Portanto, não existem evidências de que as médias da variável de interesse de pelo menos dois estratos diferem estatísticamente, ao nível de probabilidade estabelecido. Assim, pode-se admitir que a estratificação não foi benéfica ao inventário.
+]
+]
+
+
+
+
+
 
 ---
 
