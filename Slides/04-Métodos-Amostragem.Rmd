@@ -1729,9 +1729,9 @@ $v_i$ = Volume de cada árvore na unidade amostral, em m³.
 --
 
 .pull-right-4[
-
+<br><br>
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class4/N.jpg')
+knitr::include_graphics('fig/class4/V.jpg')
 ```
 
 ]
