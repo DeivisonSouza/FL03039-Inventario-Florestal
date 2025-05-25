@@ -91,7 +91,7 @@ top:.8em;right:1em;
 ##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 16/maio/2025 &lt;br&gt; (Atualizado em: 22/maio/2025) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 16/maio/2025 &lt;br&gt; (Atualizado em: 25/maio/2025) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -381,7 +381,7 @@ layout: true
 
 ---
 name: peae
-## 🌳 Estimadores da AE
+## 🌳 Estimadores da Amostragem Estratificada
 &lt;br&gt;
 
 .pull-left-12[
@@ -409,7 +409,7 @@ name: peae
 
 ---
 
-## 🌳 Amostragem Estratificada
+## 🌳 Estimadores da Amostragem Estratificada
 
 .shadow1[
 ### Notações
@@ -475,7 +475,7 @@ $$
 
 ---
 
-## 🌳 Amostragem Estratificada
+## 🌳 Estimadores da Amostragem Estratificada
 
 .shadow1[
 ### Notações
@@ -530,7 +530,7 @@ $$
 
 ---
 
-## 🌳 Amostragem Estratificada
+## 🌳 Estimadores da Amostragem Estratificada
 
 &lt;br&gt;&lt;br&gt;
 .shadow1[
@@ -542,14 +542,14 @@ $$
 
 ---
 
-## 🌳 Amostragem Estratificada
+## 🌳 Estimadores da Amostragem Estratificada
 
 &lt;br&gt;
 &lt;img src="fig/class6/euc1.jpg" width="70%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-## 🌳 Amostragem Estratificada
+## 🌳 Estimadores da Amostragem Estratificada
 &lt;br&gt;
 
 .shadow3C[
@@ -592,7 +592,7 @@ $$
 
 ---
 
-## 🌳 Amostragem Estratificada
+## 🌳 Estimadores da Amostragem Estratificada
 &lt;br&gt;
 
 .shadow3C[
@@ -634,7 +634,7 @@ $$
 
 ---
 
-## 🌳 Amostragem Estratificada
+## 🌳 Estimadores da Amostragem Estratificada
 &lt;br&gt;
 
 .shadow3C[
@@ -673,7 +673,7 @@ $$
 
 ---
 
-## 🌳 Amostragem Estratificada
+## 🌳 Estimadores da Amostragem Estratificada
 &lt;br&gt;
 
 .shadow3C[
@@ -713,7 +713,7 @@ $$
 
 ---
 
-## 🌳 Amostragem Estratificada
+## 🌳 Estimadores da Amostragem Estratificada
 &lt;br&gt;
 
 .shadow3C[
@@ -756,6 +756,87 @@ $$
 ]
 
 ---
+name: ma
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Média aritmética amostral por estrato
+.font90[
+👉 Estimar a média da variável de interesse `\(X\)` nas unidades amostrais do estrato `\(h\)`.
+
+`\begin{equation}
+\large
+\bar{X}_h = \frac{1}{n_h}\sum_{i=1}^{n_h}X_{hi}
+\end{equation}`
+
+- `\(\bar{X}_h\)` (lê-se: X-barra "agá") = estimador da média aritmética populacional `\(\mu\)` (lê-se: "mi") no estrato `\(h\)` ou média amostral no estrato `\(h\)`.
+- `\(n_h\)` = número de parcelas alocadas no estrato `\(h\)`.
+- `\(\Sigma\)` (sigma maiúscula) = símbolo de somatório. 
+- `\(X_{hi}\)` = `\(i\)`-ésimo valor da variável `\(X\)` nas unidades amostrais do estrato `\(h\)`.
+
+]
+]
+
+---
+name: dp
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Variância amostral por estrato
+.font90[
+👉 Estimar a variabilidade (ou dispersão) da variável de interesse `\(X\)` entre as unidades amostrais do estrato `\(h\)`.
+
+`\begin{equation}
+\large
+S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2
+\end{equation}`
+
+- `\(S_h^2\)` (lê-se: S-quadrado "agá") = estimador da variância populacional `\(\sigma^2\)` (lê-se: Sigma-quadrado) no estrato `\(h\)` ou variância amostral no estrato `\(h\)`.
+- `\(n_h\)` = número de parcelas alocadas no estrato `\(h\)`.
+- `\(X_{hi}\)` = `\(i\)`-ésimo valor da variável `\(X\)` nas unidades amostrais do estrato `\(h\)`.
+- `\(\bar{X_h}\)` = estimativa da média aritmética populacional `\(\mu\)` no estrato `\(h\)`.
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Desvio padrão amostral
+.font90[
+👉 Estimar a variabilidade (ou dispersão) da variável de interesse `\(X\)` entre as unidades amostrais do estrato `\(h\)`. Porém, **é expresso na mesma unidade de medida da variável de interesse.**
+
+`\begin{equation}
+\large
+S_h = \sqrt{\frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h} \right )^2}
+\end{equation}`
+
+- `\(S_h\)` (lê-se: S "agá") = estimador do desvio padrão populacional `\(\sigma\)` (lê-se: Sigma) no estrato `\(h\)` ou desvio padrão amostral no estrato `\(h\)`.
+- `\(n_h\)` = número de parcelas alocadas no estrato `\(h\)`.
+- `\(X_{hi}\)` = `\(i\)`-ésimo valor da variável `\(X\)` nas unidades amostrais do estrato `\(h\)`.
+- `\(\bar{X_h}\)` = estimativa da média aritmética populacional `\(\mu\)` no estrato `\(h\)`.
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Coeficiente de variação amostral
+
+`\begin{equation}
+\large
+CV = \frac{S}{\bar{X}} \left( 100 \right)
+\end{equation}`
+
+.font90[
+- `\(CV\)` = estimador do coeficiente de variação populacional ou coeficiente de variação amostral.
+- `\(S\)` = estimativa do desvio padrão populacional `\(\sigma\)`.
+- `\(\bar{X}\)` = estimativa da média aritmética populacional `\(\mu\)`.
+]
+]
 
 
 
