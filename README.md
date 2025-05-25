@@ -69,6 +69,7 @@ A programação e os slides da disciplina **Inventário Florestal**
 | Slides/03-Amostragem-IF.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF.html> |
 | Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
 | Slides/05-AAS.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS.html> |
+| Slides/06-AE.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE.html> |
 | Slides/Aula8-Censo-Florestal.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula8-Censo-Florestal.html> |
 
 # Tutoriais da disciplina
@@ -83,6 +84,7 @@ alguns conteúdos da disciplina.
 | Slides/03-Amostragem-IF.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF.html> |
 | Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
 | Slides/05-AAS.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS.html> |
+| Slides/06-AE.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE.html> |
 | Slides/Tutorial1-Simulacao-khaya.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html> |
 | Slides/Tutorial2-Combinacao-simples.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial2-Combinacao-simples.html> |
 | Slides/Tutorial3-DP-vs-EPM.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial3-DP-vs-EPM.html> |
@@ -101,7 +103,9 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slide | Link |
 |:---|:---|
 | Slides/data/AAS-Sanquetta.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/AAS-Sanquetta.xlsx> |
+| Slides/data/Area-Fixa-Supressao.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Area-Fixa-Supressao.xlsx> |
 | Slides/data/Area-Fixa.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Area-Fixa.xlsx> |
+| Slides/data/Bitterlich-Soares-et-al-2010.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich-Soares-et-al-2010.xlsx> |
 | Slides/data/Bitterlich.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich.xlsx> |
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
 | Slides/data/Linha-Interceptadora.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Linha-Interceptadora.xlsx> |
