@@ -817,7 +817,7 @@ name: ma
 \bar{X}_{est} = \sum_{h=1}^{L}\frac{N_h}{N}\bar{X_h} = \sum_{h=1}^{L}W_h\bar{X_h}
 \end{equation}
 
-- $\bar{X}_{est}$ (lê-se: X-barra "est") = estimador da média aritmética populacional $\mu$ (lê-se: "mi") estratificada ou média amostral estratificada.
+- $\bar{X}_{est}$ (lê-se: X-barra "est") = estimador da média aritmética populacional estratificada ($\mu_{est}$) ou média amostral estratificada.
 - $N_h$ = Número de parcelas possíveis de serem alocadas no estrato $h$.
 - $N$ = Número de parcelas possíveis de serem alocadas na população.
 - $\bar{X}_h$ = estimador da média aritmética populacional $\mu_h$ no estrato $h$.
@@ -853,7 +853,7 @@ name: dp
 S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2
 \end{equation}
 
-- $S_h^2$ (lê-se: S-quadrado "agá") = estimador da variância populacional $\sigma^2$ (lê-se: Sigma-quadrado) no estrato $h$ ou variância amostral no estrato $h$.
+- $S_h^2$ (lê-se: S-quadrado "agá") = estimador da variância populacional no estrato $h$ ($\sigma^2_h$) ou variância amostral no estrato $h$.
 - $n_h$ = número de parcelas alocadas no estrato $h$.
 - $X_{hi}$ = $i$-ésimo valor da variável $X$ nas unidades amostrais do estrato $h$.
 - $\bar{X_h}$ = estimativa da média aritmética populacional $\mu$ no estrato $h$.
@@ -874,7 +874,7 @@ S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2
 S_h = \sqrt{\frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h} \right )^2}
 \end{equation}
 
-- $S_h$ (lê-se: S "agá") = estimador do desvio padrão populacional $\sigma$ (lê-se: Sigma) no estrato $h$ ou desvio padrão amostral no estrato $h$.
+- $S_h$ (lê-se: S "agá") = estimador do desvio padrão populacional no estrato $h$ ($\sigma_h$) ou desvio padrão amostral no estrato $h$.
 - $n_h$ = número de parcelas alocadas no estrato $h$.
 - $X_{hi}$ = $i$-ésimo valor da variável $X$ nas unidades amostrais do estrato $h$.
 - $\bar{X_h}$ = estimativa da média aritmética populacional $\mu$ no estrato $h$.
@@ -915,7 +915,7 @@ CV_h = \frac{S_h}{\bar{X_h}} \left( 100 \right)
 S^2_{est} = \sum_{h=1}^{L}W_h S_h^2
 \end{equation}
 
-- $S^2_{est}$ (lê-se: S-Quadrado "est") = estimador da variância populacional $\mu$ (lê-se: "mi") estratificada ou variância amostral estratificada.
+- $S^2_{est}$ (lê-se: S-Quadrado "est") = estimador da variância populacional estratificada ($\sigma^2_{est}$) ou variância amostral estratificada.
 - $W_h$ = Proporção do estrato $h$ na população florestal.
 - $S_h^2$ = estimador da variância populacional $\sigma^2$ no estrato $h$.
 ]
@@ -931,12 +931,14 @@ S^2_{est} = \sum_{h=1}^{L}W_h S_h^2
 
 \begin{equation}
 \large
-S^2_{est} = \sum_{h=1}^{L}W_h S_h^2
+S^2_{\bar{X}(est)} = \sum_{h=1}^{L}W_h^2 \frac{S_h^2}{n_h} - \sum_{h=1}^{L} \frac{W_h S_h^2}{N}
 \end{equation}
 
-- $S^2_{est}$ (lê-se: S-Quadrado "est") = estimador da variância populacional $\mu$ (lê-se: "mi") estratificada ou variância amostral estratificada.
+- $S^2_{\bar{X}(est)}$ (lê-se: S-Quadrado "X-barra est") = estimador da **variância da média populacional estratificada** ($\sigma^2_{\mu(est)}$) ou variância da média estratificada amostral.
 - $W_h$ = Proporção do estrato $h$ na população florestal.
 - $S_h^2$ = estimador da variância populacional $\sigma^2$ no estrato $h$.
+- $n_h$ = número de parcelas alocadas no estrato $h$.
+- $N$ = Número de parcelas possíveis de serem alocadas na população.
 ]
 ]
 
