@@ -963,6 +963,95 @@ S_{\bar{X}(est)} = \sqrt{\sum_{h=1}^{L}W_h^2 \frac{S_h^2}{n_h} - \sum_{h=1}^{L} 
 ]
 ]
 
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
+.font90[
+👉 Em processo de amostragem estratificada, a intensidade amostral é calculada em função do tipo de alocação das unidades amostrais nos estratos (PÉLLICO NETTO; BRENA, 1997; SANQUETTA et al., 2009, QUEIROZ, 2012; SCOLFORO; MELLO, 1997):
+<br>
+
+- a) Alocação proporcional
+- b) Alocação ótima ou de Neyman
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
+.font90[
+<br>
+👉 **ALOCAÇÃO PROPORCIONAL**
+
+- O número de parcelas a serem distribuídas em cada estrato
+é proporcional ao tamanho do estrato (SCOLFORO; MELLO 1997).
+- A variabilidade da variável de interesse no estrato e o custo não é levada em consideração.
+- Portanto, estrato com maior área recebe mais parcelas do que os estratos menores.
+
+👉 **> Tamanho do estrato ➡️ + Parcelas**
+
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
+.font80[
+<br>
+👉 **ALOCAÇÃO PROPORCIONAL**
+
+- A estimativa da intensidade amostral é obtida em função da **variância estratificada** (PÉLLICO NETTO; BRENA, 1997).
+
+$$
+\begin{equation}
+\large
+n = \dfrac{t^2\sum\limits_{h=1}^{L}W_h S^2_h}{E^2+t^2\sum\limits_{h=1}^{L}\dfrac{W_h S^2_h}{N}} ~~~~ (\color{blue}{Populações~finitas})
+\end{equation}
+$$
+
+
+$$
+\begin{equation}
+\large
+n = \dfrac{t^2\sum\limits_{h=1}^{L}W_h S^2_h}{E^2} ~~~~ (\color{blue}{Populações~infinitas})
+\end{equation}
+$$
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
+.font80[
+<br>
+👉 **ALOCAÇÃO PROPORCIONAL - Número de parcelas por estrato h?**
+
+$$
+\begin{equation}
+\large
+n_h = \frac{N_h}{N}n = W_hn
+\end{equation}
+$$
+
+- $N_h$ = Número de parcelas possíveis de serem alocadas no estrato $h$.
+- $N$ = Número de parcelas possíveis de serem alocadas na população.
+- $n$ = Número total de parcelas que devem ser alocadas na população florestal.
+- $W_h$ = Proporção do estrato $h$ na população florestal.
+
+]
+]
+
 
 ---
 
@@ -974,6 +1063,8 @@ CAMPOS, J. C. C.; LEITE, H. G. **Mensuração florestal: perguntas e respostas**
 PÉLLICO NETTO, S.; BRENA, D. A. **Inventário Florestal**. Curitiba: editorado pelos autores, 1997. 316p.
 <br><br>
 QUEIROZ, W. T. **Técnicas de amostragem em inventário florestal nos trópicos**. Belém: FCAP. Serviço de Documentação e Informação, 1998. 147 p.
+<br><br>
+QUEIROZ, W. T. **Amostragem em Inventário Florestal**. Belém: Universidade Federal Rural da Amazônia, 2012. 441 p.
 
 ---
 
