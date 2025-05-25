@@ -829,7 +829,7 @@ S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2
 ## 🌳 Estimadores da Amostragem Estratificada
 
 .shadow1[
-## Desvio padrão amostral
+## Desvio padrão amostral por estrato
 .font90[
 👉 Estimar a variabilidade (ou dispersão) da variável de interesse $X$ entre as unidades amostrais do estrato $h$. Porém, **é expresso na mesma unidade de medida da variável de interesse.**
 
@@ -850,21 +850,20 @@ S_h = \sqrt{\frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h} \right 
 ## 🌳 Estimadores da Amostragem Estratificada
 
 .shadow1[
-## Coeficiente de variação amostral
+## Coeficiente de variação amostral por estrato
+.font90[
+👉 Estimar a variabilidade (ou dispersão) da variável de interesse $X$ entre as unidades amostrais do estrato $h$. Porém, expresso em termos relativos (em %).
 
 \begin{equation}
 \large
-CV = \frac{S}{\bar{X}} \left( 100 \right)
+CV_h = \frac{S_h}{\bar{X_h}} \left( 100 \right)
 \end{equation}
 
-.font90[
-- $CV$ = estimador do coeficiente de variação populacional ou coeficiente de variação amostral.
-- $S$ = estimativa do desvio padrão populacional $\sigma$.
-- $\bar{X}$ = estimativa da média aritmética populacional $\mu$.
+- $CV_h$ = estimador do coeficiente de variação populacional no estrato $h$ ou coeficiente de variação amostral no estrato $h$.
+- $S_h$ = estimativa do desvio padrão populacional $\sigma$ no estrato $h$.
+- $\bar{X_h}$ = estimativa da média aritmética populacional $\mu$ no estrato $h$.
 ]
 ]
-
-
 
 ---
 
