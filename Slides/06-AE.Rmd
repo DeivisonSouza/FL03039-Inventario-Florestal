@@ -826,6 +826,20 @@ name: ma
 ]
 
 ---
+
+name: ma
+## 🌳 Estimadores da Amostragem Estratificada
+
+<br>
+
+.shadow1[
+## Média amostral x Média estratificada
+.font80[
+👉 A média amostral $\bar{X}$ e a média estratificada $\bar{X}_{est}$ somente serão coincidentes quando a fração amostral for idêntica para todos os estrato.
+]
+]
+
+---
 name: dp
 ## 🌳 Estimadores da Amostragem Estratificada
 
@@ -895,6 +909,25 @@ CV_h = \frac{S_h}{\bar{X_h}} \left( 100 \right)
 ## Variância amostral estratificada
 .font90[
 👉 Estimar a variância populacional $\mu$ estratificada (variância amostral estratificada) da variável de interesse $X$, baseado em todas as unidades amostrais alocadas nos diferentes estratos.
+
+\begin{equation}
+\large
+S^2_{est} = \sum_{h=1}^{L}W_h S_h^2
+\end{equation}
+
+- $S^2_{est}$ (lê-se: S-Quadrado "est") = estimador da variância populacional $\mu$ (lê-se: "mi") estratificada ou variância amostral estratificada.
+- $W_h$ = Proporção do estrato $h$ na população florestal.
+- $S_h^2$ = estimador da variância populacional $\sigma^2$ no estrato $h$.
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Variância da média estratificada
+.font90[
 
 \begin{equation}
 \large
