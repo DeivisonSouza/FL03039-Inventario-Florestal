@@ -1059,8 +1059,9 @@ $$
 .shadow1[
 ## Análise de Variância (ANOVA) da Estratificação
 .font80[
-- A ANOVA deve ser realizada na primeira estratificação da população florestal. O objetivo é inferir se existe (ou não) diferença significativa entre as médias dos estratos.
-- Portanto, através da ANOVA é possível inferir se a estratificação foi benéfica (ou não), em termos de precisão e custo, comparado a Amostragem Aleatória Simples (AAS).
+- A ANOVA deve ser realizada na primeira estratificação da população florestal. O objetivo é inferir se existe evidência de diferença significativa entre as médias dos estratos.
+- Portanto, através da ANOVA é possível inferir se a estratificação foi benéfica (ou não), em termos de precisão e custo, comparado a Amostragem Aleatória Simples (AAS) (Péllico Netto; Brena, 1997; Sanquetta et al., 2023).
+
 ]
 ]
 
