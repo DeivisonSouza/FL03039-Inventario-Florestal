@@ -994,9 +994,31 @@ E_{a} = \pm~tS_{\bar{X}(est)}
 E_{r} = \pm~ \left(\dfrac{tS_{\bar{X}(est)}}{\bar{X}_{(est)}}\right).100
 \end{equation}
 
-- $S_{\bar{X}}$ = Estimativa do erro padrão da média estratificada.
+- $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
 - $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; n = número de parcelas amostrais)
 - $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Intervalo de Confiança Para Média Estratificada
+.font90[
+
+👉 É um intervalo numérico que conterá, sob o nível de confiança $\alpha$, o valor do parâmetro populacional desconhecido $\mu$ (média populacional). 
+
+\begin{equation}
+\large
+IC_{\bar{X}_{(est)}} = \left[\underbrace{\bar{X}_{(est)} - (t_{(n-1;~\alpha)}S_{\bar{X}(est)})}_\text{Limite Inferior} \leq \mu \leq \underbrace{\bar{X}_{(est)} + (t_{(n-1;~\alpha)}S_{\bar{X}(est)})}_\text{Limite Superior} \right]
+\end{equation}
+
+- $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*.
+- $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
+
 ]
 ]
 
