@@ -968,6 +968,43 @@ S_{\bar{X}(est)} = \sqrt{\sum_{h=1}^{L}W_h^2 \frac{S_h^2}{n_h} - \sum_{h=1}^{L} 
 ## 🌳 Estimadores da Amostragem Estratificada
 
 .shadow1[
+## Erro de Amostragem Absoluto
+.font90[
+
+\begin{equation}
+\large
+E_{a} = \pm~tS_{\bar{X}(est)}
+\end{equation}
+
+- $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; n = número de parcelas amostrais)
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Erro de Amostragem Relativo (%)
+.font90[
+
+\begin{equation}
+\large
+E_{r} = \pm~ \left(\dfrac{tS_{\bar{X}(est)}}{\bar{X}_{(est)}}\right).100
+\end{equation}
+
+- $S_{\bar{X}}$ = Estimativa do erro padrão da média estratificada.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; n = número de parcelas amostrais)
+- $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
 ## Intensidade amostral (ou suficiência amostral)
 .font90[
 👉 Em processo de amostragem estratificada, a intensidade amostral é calculada em função do tipo de alocação das unidades amostrais nos estratos (PÉLLICO NETTO; BRENA, 1997; SANQUETTA et al., 2009, QUEIROZ, 2012; SCOLFORO; MELLO, 1997):
