@@ -1111,9 +1111,42 @@ $H_1: Não~H_0$
 ]
 ]
 
+---
 
+## 🌳 Estimadores da Amostragem Estratificada
 
+.shadow1[
+## Análise de Variância (ANOVA) da Estratificação
+.font80[
+- **Somas de Quadrados Entre Estratos**
 
+$$
+\begin{equation}
+\normalsize
+SQ_{Trat} = \dfrac{\sum\limits_{h=1}^{L} \biggl(\sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{n_h} - C
+\end{equation}
+$$
+- **Somas de Quadrados Totais**
+
+$$
+\begin{equation}
+\normalsize
+SQ_{Tot} = \sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}^2 - C
+\end{equation}
+$$
+- **Fator em Comum (C)**
+
+$$
+\begin{equation}
+\normalsize
+C = \dfrac{\biggl(\sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{L(n_h)}
+\end{equation}
+$$
+
+]
+]
+
+---
 
 
 ---
