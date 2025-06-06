@@ -93,7 +93,7 @@ library(ggimage)
 # .font120[Inventário Florestal <br> (FL03039 - EF)]
 
 ## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Amostragem Aleatória`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br>  Simples
-###### Teoria e Estimadores
+###### Teoria, Estimadores e Estudo de Caso
 
 ##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
 ##### ᨒ
@@ -2022,11 +2022,9 @@ IC_{\hat{X}} = \left[\underbrace{14.413 m^3}_\text{Limite Inferior} \leq X \leq 
 
 ## 🌳 AAS - Estudo de Caso
 
-.shadow1[
-## .font70[Quadro de estimativas do Inventário Amostral sob AAS]
-]
+<br>
 
-.font65[
+.font70[
 | **Estatísticas**                                            | **Estimativa** | **Unidade de Medida**        |
 |-------------------------------------------------------------------------|----------------|------------------------------|
 | 1 - Média aritmética amostral                                           | 23,83          | $m^3/600~m^2$                |
