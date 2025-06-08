@@ -151,11 +151,13 @@ class: with-logo logo-ufpa
 
 ## 🎯 Objetivos
 <br><br>
-.font90[
+.font80[
 Ao final desta aula espera-se que o discente seja capaz de...
 
-* Compreender os conceitos básicos associados à Amostragem Estratificada (AE); e
-* Conhecer os principais estimadores da AE.
+* Compreender os conceitos básicos associados à Amostragem Estratificada (AE);
+* Conhecer os principais estimadores da AE;
+* Aprender a calcular as estimativas da AE por meio de um estudo de caso; e
+* Aprender a interpretar as estimativas e concluir sobre a precisão do IF realizado.
 ]
 
 ---
@@ -209,6 +211,37 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 &nbsp;&nbsp;[1.10 - Intervalo de Confiança Para o Total da População](#icptp)
 
+]
+]
+
+---
+
+## 📙 Conteúdo
+
+.pull-left-4[
+.pull-top[
+**Parte 3 - Inventário Florestal usando AE**
+.font80[
+
+[1 - Estudo de Caso (Sanquetta et al., 2023; pg. 124)](#ec)
+
+&nbsp;&nbsp;[1.1 - Média Aritmética Amostral](#maEC)
+
+&nbsp;&nbsp;[1.2 - Variância, Desvio Padrão e Coeficiente de Variação](#dpEC)
+
+&nbsp;&nbsp;[1.3 - Intensidade Amostral (ou Suficiência Amostral)](#iaEC)
+
+&nbsp;&nbsp;[1.4 - Erro Padrão da Média Amostral](#epmEC)
+
+&nbsp;&nbsp;[1.5 - Erro de Amostragem](#eaEC)
+
+&nbsp;&nbsp;[1.6 - Intervalo de Confiança Para Média](#icmEC)
+
+&nbsp;&nbsp;[1.7 - Total da População](#tpEC)
+
+&nbsp;&nbsp;[1.8 - IC Para o Total da População](#icptpEC)
+
+]
 ]
 ]
 
