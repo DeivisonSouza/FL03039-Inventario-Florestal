@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file... -->
+<!-- README.md is generated from README.Rmd. Please edit that file.. -->
 <!-- badges: start -->
 <!-- badges: end -->
 <!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
@@ -68,7 +68,7 @@ A programação e os slides da disciplina **Inventário Florestal**
 | Slides/02-IF-Conceitos-Tipos.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/02-IF-Conceitos-Tipos.html> |
 | Slides/03-Amostragem-IF.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF.html> |
 | Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
-| Slides/05-AAS.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS.html> |
+| Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
 | Slides/06-AE.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE.html> |
 | Slides/Aula8-Censo-Florestal.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula8-Censo-Florestal.html> |
 
@@ -83,7 +83,7 @@ alguns conteúdos da disciplina.
 | Slides/02-IF-Conceitos-Tipos.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/02-IF-Conceitos-Tipos.html> |
 | Slides/03-Amostragem-IF.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF.html> |
 | Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
-| Slides/05-AAS.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS.html> |
+| Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
 | Slides/06-AE.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE.html> |
 | Slides/Tutorial1-Simulacao-khaya.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html> |
 | Slides/Tutorial2-Combinacao-simples.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial2-Combinacao-simples.html> |
