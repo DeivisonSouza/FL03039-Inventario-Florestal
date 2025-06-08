@@ -93,7 +93,7 @@ library(ggimage)
 # .font120[Inventário Florestal <br> (FL03039 - EF)]
 
 ## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Amostragem Aleatória`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br>  Simples
-###### Teoria e Estimadores, Estudo de Caso
+###### Teoria e Estimadores
 
 ##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
 ##### ᨒ
