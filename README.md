@@ -68,6 +68,7 @@ A programação e os slides da disciplina **Inventário Florestal**
 | Slides/02-IF-Conceitos-Tipos.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/02-IF-Conceitos-Tipos.html> |
 | Slides/03-Amostragem-IF.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF.html> |
 | Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
+| Slides/05-AAS-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Pratica.html> |
 | Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
 | Slides/06-AE.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE.html> |
 | Slides/Aula8-Censo-Florestal.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula8-Censo-Florestal.html> |
@@ -83,6 +84,7 @@ alguns conteúdos da disciplina.
 | Slides/02-IF-Conceitos-Tipos.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/02-IF-Conceitos-Tipos.html> |
 | Slides/03-Amostragem-IF.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF.html> |
 | Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
+| Slides/05-AAS-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Pratica.html> |
 | Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
 | Slides/06-AE.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE.html> |
 | Slides/Tutorial1-Simulacao-khaya.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html> |
