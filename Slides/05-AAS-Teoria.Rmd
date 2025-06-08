@@ -93,7 +93,7 @@ library(ggimage)
 # .font120[Inventário Florestal <br> (FL03039 - EF)]
 
 ## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Amostragem Aleatória`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br>  Simples
-###### Teoria, Estimadores e Estudo de Caso
+###### Teoria e Estimadores, Estudo de Caso
 
 ##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
 ##### ᨒ
@@ -1833,7 +1833,27 @@ n = 13,9 \approx 14 ~unidades~de~amostras
 .shadow1[
 ## Intensidade amostral (ou suficiência amostral)
 
-- **Interpretação**: No Inventário Piloto, foram amostradas 16 unidades de amostras (parcelas) com tamanho de 600m² cada. Após cálculo, o valor da intensidade amostral (n) foi de 14 (n = 14). Portanto, o Inventário Piloto (IP) pode ser convertido em Inventário Definitivo (ID), uma vez que seriam necessárias apenas 14 parcelas para atender a precisão requerida de 10% a uma probabilidade de 95%.
+.font80[
+- **Recálculo**: Validar a intensidade amostral.
+- **Na prática**: Recalcula-se $n$ usando um novo valor de $t$-student. O novo valor de $t$ é encontrado fazendo-se $n-1$ (em que, $n$ = intensidade amostral calculada)
+
+\begin{equation*}
+\normalsize
+n = \frac{667(2,160^2)17,82}{(667(2,383^2)) + ((2,160^2)17,82)} \\~\\
+n = 14,3 \approx 14 ~unidades~de~amostras
+\end{equation*}
+
+]
+]
+
+---
+
+## 🌳 AAS - Estudo de Caso
+
+.shadow1[
+## Intensidade amostral (ou suficiência amostral)
+
+- **Interpretação**: No Inventário Piloto foram amostradas 16 unidades de amostras (parcelas) com tamanho de 600 m² cada. Após recálculo, o valor da intensidade amostral (n) foi de 14 (n = 14). Portanto, o **Inventário Piloto** pode ser convertido em **Inventário Definitivo**, uma vez que seriam necessárias apenas 14 parcelas para atender a precisão requerida de 10% a uma probabilidade de 95%.
 
 ]
 
