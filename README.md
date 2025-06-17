@@ -1,7 +1,10 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file.. -->
+<!-- README.md is generated from README.Rmd. Please edit that file. -->
+
 <!-- badges: start -->
+
 <!-- badges: end -->
+
 <!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
 
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
@@ -70,6 +73,7 @@ A programação e os slides da disciplina **Inventário Florestal**
 | Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
 | Slides/05-AAS-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Pratica.html> |
 | Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
+| Slides/06-AE-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Pratica.html> |
 | Slides/06-AE-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Teoria.html> |
 | Slides/Aula8-Censo-Florestal.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula8-Censo-Florestal.html> |
 
@@ -86,6 +90,7 @@ alguns conteúdos da disciplina.
 | Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
 | Slides/05-AAS-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Pratica.html> |
 | Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
+| Slides/06-AE-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Pratica.html> |
 | Slides/06-AE-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Teoria.html> |
 | Slides/Tutorial1-Simulacao-khaya.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html> |
 | Slides/Tutorial2-Combinacao-simples.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial2-Combinacao-simples.html> |
@@ -107,13 +112,13 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slides/data/AAS-Sanquetta.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/AAS-Sanquetta.xlsx> |
 | Slides/data/Area-Fixa-Supressao.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Area-Fixa-Supressao.xlsx> |
 | Slides/data/Area-Fixa.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Area-Fixa.xlsx> |
+| Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023.xlsx> |
+| Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx> |
 | Slides/data/Bitterlich-Soares-et-al-2010.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich-Soares-et-al-2010.xlsx> |
 | Slides/data/Bitterlich.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich.xlsx> |
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
 | Slides/data/Linha-Interceptadora.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Linha-Interceptadora.xlsx> |
 | Slides/data/P443_MMA_Ameacadas_3.0.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/P443_MMA_Ameacadas_3.0.xlsx> |
-| Slides/data/Planilha-Analise-AAS-SUPER.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Planilha-Analise-AAS-SUPER.xlsx> |
-| Slides/data/Planilha_Analise_AAS_Alunos.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Planilha_Analise_AAS_Alunos.xlsx> |
 
 # Materias de apoio
 
