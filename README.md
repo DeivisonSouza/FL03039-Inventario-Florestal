@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file. -->
+<!-- README.md is generated from README.Rmd. Please edit that file.. -->
 
 <!-- badges: start -->
 
@@ -75,7 +75,7 @@ A programação e os slides da disciplina **Inventário Florestal**
 | Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
 | Slides/06-AE-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Pratica.html> |
 | Slides/06-AE-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Teoria.html> |
-| Slides/Aula8-Censo-Florestal.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Aula8-Censo-Florestal.html> |
+| Slides/11-Censo-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/11-Censo-Teoria.html> |
 
 # Tutoriais da disciplina
 
@@ -92,6 +92,7 @@ alguns conteúdos da disciplina.
 | Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
 | Slides/06-AE-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Pratica.html> |
 | Slides/06-AE-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Teoria.html> |
+| Slides/11-Censo-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/11-Censo-Teoria.html> |
 | Slides/Tutorial1-Simulacao-khaya.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html> |
 | Slides/Tutorial2-Combinacao-simples.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial2-Combinacao-simples.html> |
 | Slides/Tutorial3-DP-vs-EPM.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial3-DP-vs-EPM.html> |
