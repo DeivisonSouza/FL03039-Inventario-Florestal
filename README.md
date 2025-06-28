@@ -117,12 +117,8 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx> |
 | Slides/data/Bitterlich-Soares-et-al-2010.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich-Soares-et-al-2010.xlsx> |
 | Slides/data/Bitterlich.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich.xlsx> |
-| Slides/data/IF-100%\_Fazenda-Ana-Paula.xlsx | <a
-href="https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/IF-100%_Fazenda-Ana-Paula.xlsx"
-class="uri">https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/IF-100%_Fazenda-Ana-Paula.xlsx</a> |
-| Slides/data/IF-100%\_Fazenda-Ana-Paula_Versao_Alunos.xlsx | <a
-href="https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/IF-100%_Fazenda-Ana-Paula_Versao_Alunos.xlsx"
-class="uri">https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/IF-100%_Fazenda-Ana-Paula_Versao_Alunos.xlsx</a> |
+| Slides/data/Censo_Fazenda-Ana-Paula.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Censo_Fazenda-Ana-Paula.xlsx> |
+| Slides/data/Censo_Fazenda-Ana-Paula_Versao_Alunos.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Censo_Fazenda-Ana-Paula_Versao_Alunos.xlsx> |
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
 | Slides/data/Linha-Interceptadora.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Linha-Interceptadora.xlsx> |
 | Slides/data/P443_MMA_Ameacadas_3.0.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/P443_MMA_Ameacadas_3.0.xlsx> |
