@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file.. -->
+<!-- README.md is generated from README.Rmd. Please edit that file. -->
 
 <!-- badges: start -->
 
@@ -117,7 +117,7 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx> |
 | Slides/data/Bitterlich-Soares-et-al-2010.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich-Soares-et-al-2010.xlsx> |
 | Slides/data/Bitterlich.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich.xlsx> |
-| Slides/data/Censo_Fazenda-Ana-Paula.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Censo_Fazenda-Ana-Paula.xlsx> |
+| Slides/data/Censo_Fazenda-Ana-Paula-Versao_Professor.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Censo_Fazenda-Ana-Paula-Versao_Professor.xlsx> |
 | Slides/data/Censo_Fazenda-Ana-Paula_Versao_Alunos.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Censo_Fazenda-Ana-Paula_Versao_Alunos.xlsx> |
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
 | Slides/data/Linha-Interceptadora.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Linha-Interceptadora.xlsx> |
