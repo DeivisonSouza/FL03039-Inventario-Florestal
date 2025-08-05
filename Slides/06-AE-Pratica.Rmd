@@ -218,7 +218,7 @@ name: ecap
 <br>
 
 .font90[
-Uma empresa de consultoria florestal realizou um inventário em floresta natural com área total de **1.000 hectares**, usando o processo de amostragem estratificada. Por meio de fotografias aéreas foram previamente identificados 2 estratos florestais: 1) **Estrato 1: Floresta Explorada (650 ha)**; e 2) **Estrato 2: Floresta Inexplorada (350 ha)**. Foi realizado um inventário piloto com alocação de **12 unidades amostrais** de tamanho **1 hectare** em cada estrato. Os volumes de madeira por parcela em cada estrato estão na tabela a seguir. Para os cálculos das estimativas considere um .blue[erro máximo admissível de 10%] e uma .blue[probabilidade de 95%]. Assim, pede-se:
+Uma empresa de consultoria florestal realizou um inventário em floresta natural com área total de **1.000 hectares**, usando o processo de amostragem estratificada. Por meio de fotografias aéreas foram previamente identificados 2 estratos florestais: 1) **Estrato 1: Floresta Explorada (650 ha)**; e 2) **Estrato 2: Floresta Não Explorada (350 ha)**. Foi realizado um inventário piloto com alocação de **12 unidades amostrais** de tamanho **1 hectare** em cada estrato. Os volumes de madeira por parcela em cada estrato estão na tabela a seguir. Para os cálculos das estimativas considere um .blue[erro máximo admissível de 10%] e uma .blue[probabilidade de 95%]. Assim, pede-se:
 <br><br>
 
 a) Calcular as estimativas da amostragem estratificada.
@@ -284,6 +284,68 @@ DT::datatable(data,
 | 13 - Intervalo de Confiança Para o Total da População | $m³$                         |
 
 ]
+
+---
+name: maEC
+## 🌳 AE - Estudo de Caso
+
+.shadow1[
+### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+]
+
+.pull-left-4[
+.font80[
+👉 **Média aritmética amostral por estrato:**
+
+$$
+\normalsize
+\begin{equation*}
+\bar{X}_h = \frac{1}{n_h}\sum_{i=1}^{n_h}X_{hi}
+\end{equation*}
+$$
+
+**Em que:**
+
+- $\bar{X}_h$ (lê-se: X-barra "agá") = estimador da média aritmética populacional $\mu_h$ (lê-se: "mi") no estrato $h$ ou média amostral no estrato $h$.
+- $n_h$ = número de parcelas alocadas no estrato $h$.
+- $\Sigma$ (sigma maiúscula) = símbolo de somatório. 
+- $X_{hi}$ = $i$-ésimo valor da variável $X$ nas unidades amostrais do estrato $h$.
+
+]
+]
+
+--
+
+<br>
+
+.pull-right-4[
+
+.font80[
+👉 **Média Aritmética (.blue[Estrato 1] - Floresta Explorada):**
+
+$$
+\normalsize
+\begin{equation*}
+\bar{X}_1 = \frac{1}{12}.(101 + 82 + ... + 100) = \textbf{89,08}~\color{magenta}{m³.ha^{-1}}
+\end{equation*}
+$$
+<br><br>
+
+👉 **Média Aritmética (.blue[Estrato 2] - Floresta Não Explorada):**
+
+$$
+\normalsize
+\begin{equation*}
+\bar{X}_2 = \frac{1}{12}.(125 + 147 + ... + 130) = \textbf{125,42}~\color{magenta}{m³.ha^{-1}}
+\end{equation*}
+$$
+
+]
+]
+
+---
+
+
 
 ---
 
