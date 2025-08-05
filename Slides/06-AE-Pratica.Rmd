@@ -262,6 +262,31 @@ DT::datatable(data,
 
 ---
 
+## 🌳 AE - Estudo de Caso
+
+### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+
+.font70[
+| **Estimador (do Parâmetro)**                          | Volume (unidade de medida)   |
+|-------------------------------------------------------|:----------------------------:|
+| 1 - Média Aritmética por Estrato                      | $m^3.ha^{-1}$                |
+| 2 - Média Estratificada                               | $m^3.ha^{-1}$                |
+| 3 - Variância                                         | $\left(m^3.ha^{-1}\right)^2$ |
+| 4 - Desvio Padrão                                     | $m^3.ha^{-1}$                |
+| 5 - Coeficiente de variação                           | $\%$                         |
+| 6 - Variância Estratificada                           | $\left(m^3.ha^{-1}\right)^2$ |
+| 7 - Intensidade amostral                              | $Parcelas$                   |
+| 8 - Variância da Média Estratificada                  | $\left(m^3.ha^{-1}\right)^2$ |
+| 9 - Erro Padrão da Média Estratificada                | $m^3.ha^{-1}$                |
+| 10 - Erro de amostragem                               | $\left(m^3.ha^{-1}~ou~\% \right)$ |
+| 11 - Intervalo de Confiança Para Média Estratificada  | $m^3.ha^{-1}$                |
+| 12 - Total por Estrato e População                    | $m³$                         |
+| 13 - Intervalo de Confiança Para o Total da População | $m³$                         |
+
+]
+
+---
+
 ## 📖 Referências
 
 <br><br>
