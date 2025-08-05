@@ -1037,9 +1037,37 @@ E_{a} = \pm~tS_{\bar{X}(est)}
 ]
 ]
 
+<br>
 
+________________
+.font90[
+**Importante**: Deve-se calcular o **Número efetivo de graus de liberdade** para encontrar um novo valor de t-Student. Este novo valor de t-Student será usado nos estimadores de erro (absoluto e relativo) e intervalos de confiança.
+]
+________________
 
+---
 
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Um parêntese aqui...
+
+- **Número efetivo de graus de liberdade**
+
+$$
+\begin{equation}
+\normalsize
+n_e = \dfrac{\biggl(\sum\limits_{h=1}^{L} g_{h} S_{h}^2 \biggr)^2}{\sum\limits_{h=1}^{L} \dfrac{g_{h}^2S_{h}^4}{n_h-1}}
+\end{equation}
+$$
+$$
+\begin{equation*}
+\normalsize
+g_h = \dfrac{N_h(N_h-n_h)}{n_h}
+\end{equation*}
+$$
+
+]
 
 ---
 
@@ -1059,25 +1087,6 @@ E_{r} = \pm~ \left(\dfrac{tS_{\bar{X}(est)}}{\bar{X}_{(est)}}\right).100
 - $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
 ]
 ]
-
----
-
-## 🌳 Estimadores da Amostragem Estratificada
-
-.shadow1[
-## Um parêntese aqui...
-
-- **Número efetivo de graus de liberdade**
-
-$$
-\begin{equation}
-\normalsize
-C = \dfrac{\biggl(\sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{L(n_h)}
-\end{equation}
-$$
-
-]
-
 
 ---
 
