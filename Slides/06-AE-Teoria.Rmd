@@ -893,107 +893,6 @@ S^2_{est} = \sum_{h=1}^{L}W_h S_h^2
 ## 🌳 Estimadores da Amostragem Estratificada
 
 .shadow1[
-## Variância da média estratificada
-.font90[
-
-\begin{equation}
-\large
-S^2_{\bar{X}(est)} = \sum_{h=1}^{L}W_h^2 \frac{S_h^2}{n_h} - \sum_{h=1}^{L} \frac{W_h S_h^2}{N}
-\end{equation}
-
-- $S^2_{\bar{X}(est)}$ (lê-se: S-Quadrado "X-barra est") = estimador da **variância da média populacional estratificada** ($\sigma^2_{\mu(est)}$) ou variância da média estratificada amostral.
-- $W_h$ = Proporção do estrato $h$ na população florestal.
-- $S_h^2$ = estimador da variância populacional $\sigma^2$ no estrato $h$.
-- $n_h$ = número de parcelas alocadas no estrato $h$.
-- $N$ = Número de parcelas possíveis de serem alocadas na população.
-]
-]
-
----
-
-## 🌳 Estimadores da Amostragem Estratificada
-
-.shadow1[
-## Erro padrão da média estratificada
-.font90[
-
-\begin{equation}
-\large
-S_{\bar{X}(est)} = \sqrt{\sum_{h=1}^{L}W_h^2 \frac{S_h^2}{n_h} - \sum_{h=1}^{L} \frac{W_h S_h^2}{N}}
-\end{equation}
-
-- $S_{\bar{X}(est)}$ (lê-se: S "X-barra est") = estimador do **erro padrão da média populacional estratificada** ($\sigma_{\mu(est)}$) ou erro padrão da média estratificada amostral.
-- $W_h$ = Proporção do estrato $h$ na população florestal.
-- $S_h^2$ = estimador da variância populacional $\sigma^2$ no estrato $h$.
-- $n_h$ = número de parcelas alocadas no estrato $h$.
-- $N$ = Número de parcelas possíveis de serem alocadas na população.
-]
-]
-
----
-
-## 🌳 Estimadores da Amostragem Estratificada
-
-.shadow1[
-## Erro de Amostragem Absoluto
-.font90[
-
-\begin{equation}
-\large
-E_{a} = \pm~tS_{\bar{X}(est)}
-\end{equation}
-
-- $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
-- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; n = número de parcelas amostrais)
-]
-]
-
----
-
-## 🌳 Estimadores da Amostragem Estratificada
-
-.shadow1[
-## Erro de Amostragem Relativo (%)
-.font90[
-
-\begin{equation}
-\large
-E_{r} = \pm~ \left(\dfrac{tS_{\bar{X}(est)}}{\bar{X}_{(est)}}\right).100
-\end{equation}
-
-- $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
-- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; n = número de parcelas amostrais)
-- $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
-]
-]
-
----
-
-## 🌳 Estimadores da Amostragem Estratificada
-
-.shadow1[
-## Intervalo de Confiança Para Média Estratificada
-.font90[
-
-👉 É um intervalo numérico que conterá, sob o nível de confiança $\alpha$, o valor do parâmetro populacional desconhecido $\mu$ (média populacional). 
-
-\begin{equation}
-\large
-IC_{\bar{X}_{(est)}} = \left[\underbrace{\bar{X}_{(est)} - (t_{(n-1;~\alpha)}S_{\bar{X}(est)})}_\text{Limite Inferior} \leq \mu \leq \underbrace{\bar{X}_{(est)} + (t_{(n-1;~\alpha)}S_{\bar{X}(est)})}_\text{Limite Superior} \right]
-\end{equation}
-
-- $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
-- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*.
-- $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
-
-]
-]
-
----
-
-## 🌳 Estimadores da Amostragem Estratificada
-
-.shadow1[
 ## Intensidade amostral (ou suficiência amostral)
 .font90[
 👉 Em processo de amostragem estratificada, a intensidade amostral é calculada em função do tipo de alocação das unidades amostrais nos estratos (PÉLLICO NETTO; BRENA, 1997; SANQUETTA et al., 2009, QUEIROZ, 2012; SCOLFORO; MELLO, 1997):
@@ -1083,6 +982,130 @@ $$
 ## 🌳 Estimadores da Amostragem Estratificada
 
 .shadow1[
+## Variância da média estratificada
+.font90[
+
+\begin{equation}
+\large
+S^2_{\bar{X}(est)} = \sum_{h=1}^{L}W_h^2 \frac{S_h^2}{n_h} - \sum_{h=1}^{L} \frac{W_h S_h^2}{N}
+\end{equation}
+
+- $S^2_{\bar{X}(est)}$ (lê-se: S-Quadrado "X-barra est") = estimador da **variância da média populacional estratificada** ($\sigma^2_{\mu(est)}$) ou variância da média estratificada amostral.
+- $W_h$ = Proporção do estrato $h$ na população florestal.
+- $S_h^2$ = estimador da variância populacional $\sigma^2$ no estrato $h$.
+- $n_h$ = número de parcelas alocadas no estrato $h$.
+- $N$ = Número de parcelas possíveis de serem alocadas na população.
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Erro padrão da média estratificada
+.font90[
+
+\begin{equation}
+\large
+S_{\bar{X}(est)} = \sqrt{\sum_{h=1}^{L}W_h^2 \frac{S_h^2}{n_h} - \sum_{h=1}^{L} \frac{W_h S_h^2}{N}}
+\end{equation}
+
+- $S_{\bar{X}(est)}$ (lê-se: S "X-barra est") = estimador do **erro padrão da média populacional estratificada** ($\sigma_{\mu(est)}$) ou erro padrão da média estratificada amostral.
+- $W_h$ = Proporção do estrato $h$ na população florestal.
+- $S_h^2$ = estimador da variância populacional $\sigma^2$ no estrato $h$.
+- $n_h$ = número de parcelas alocadas no estrato $h$.
+- $N$ = Número de parcelas possíveis de serem alocadas na população.
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Erro de Amostragem Absoluto
+.font90[
+
+\begin{equation}
+\large
+E_{a} = \pm~tS_{\bar{X}(est)}
+\end{equation}
+
+- $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
+- $t_{(n_e-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; $n_e-1$ = número efetivo de graus de liberdade)
+]
+]
+
+
+
+
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Erro de Amostragem Relativo (%)
+.font90[
+
+\begin{equation}
+\large
+E_{r} = \pm~ \left(\dfrac{tS_{\bar{X}(est)}}{\bar{X}_{(est)}}\right).100
+\end{equation}
+
+- $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; n = número de parcelas amostrais)
+- $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Um parêntese aqui...
+
+- **Número efetivo de graus de liberdade**
+
+$$
+\begin{equation}
+\normalsize
+C = \dfrac{\biggl(\sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{L(n_h)}
+\end{equation}
+$$
+
+]
+
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
+## Intervalo de Confiança Para Média Estratificada
+.font90[
+
+👉 É um intervalo numérico que conterá, sob o nível de confiança $\alpha$, o valor do parâmetro populacional desconhecido $\mu$ (média populacional). 
+
+\begin{equation}
+\large
+IC_{\bar{X}_{(est)}} = \left[\underbrace{\bar{X}_{(est)} - (t_{(n-1;~\alpha)}S_{\bar{X}(est)})}_\text{Limite Inferior} \leq \mu \leq \underbrace{\bar{X}_{(est)} + (t_{(n-1;~\alpha)}S_{\bar{X}(est)})}_\text{Limite Superior} \right]
+\end{equation}
+
+- $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*.
+- $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
+
+]
+]
+
+---
+
+## 🌳 Estimadores da Amostragem Estratificada
+
+.shadow1[
 ## Análise de Variância (ANOVA) da Estratificação
 .font80[
 - A ANOVA deve ser realizada na primeira estratificação da população florestal. O objetivo é inferir se existe evidência de diferença significativa entre as médias dos estratos.
@@ -1112,12 +1135,12 @@ $n$ = Número total de unidades amostradas na população.
 - **Hipóteses estatísticas do teste F**
 
 👉  **Hipótese de Nulidade:**
-- As médias dos estratos são estatisticamente todas iguais entre si.
+- As médias dos estratos são estatisticamente iguais entre si.
 
 $H_0: \bar{X_{h_1}} = \bar{X_{h_2}} = ... = \bar{X_{h_L}}$
 
 👉  **Hipótese Alternativa:**
-- Pelo menos dois estratos possuem médias são estatisticamente diferentes entre si.
+- Pelo menos dois estratos possuem médias estatisticamente diferentes entre si.
 
 $H_1: Não~H_0$
 ]
@@ -1172,9 +1195,6 @@ $$
 
 ]
 ]
-
----
-
 
 ---
 
