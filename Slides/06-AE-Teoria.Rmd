@@ -1049,6 +1049,7 @@ ________________
 
 ## 🌳 Estimadores da Amostragem Estratificada
 
+.pull-left-4[
 .shadow1[
 ## Um parêntese aqui...
 
@@ -1057,7 +1058,7 @@ ________________
 $$
 \begin{equation}
 \normalsize
-n_e = \dfrac{\biggl(\sum\limits_{h=1}^{L} g_{h} S_{h}^2 \biggr)^2}{\sum\limits_{h=1}^{L} \dfrac{g_{h}^2S_{h}^4}{n_h-1}}
+n_e = \dfrac{\biggl(\sum\limits_{h=1}^{L} g_{h} S_{h}^2 \biggr)^2}{\sum\limits_{h=1}^{L} \dfrac{(g_{h})^2(S_{h}^2)^2}{n_h-1}}
 \end{equation}
 $$
 $$
@@ -1066,8 +1067,22 @@ $$
 g_h = \dfrac{N_h(N_h-n_h)}{n_h}
 \end{equation*}
 $$
-
 ]
+]
+
+--
+
+<br>
+
+.pull-right-4[
+.font80[
+- $n_e$ = Número efetivo de graus de liberdade.
+- $N_h$ = Número de parcelas possíveis de serem alocadas no estrato $h$.
+- $n_h$ = Número de parcelas alocadas no estrato $h$.
+- $S_h^2$ = Estimador da variância populacional $\sigma^2$ no estrato $h$.
+]
+]
+
 
 ---
 
@@ -1083,7 +1098,7 @@ E_{r} = \pm~ \left(\dfrac{tS_{\bar{X}(est)}}{\bar{X}_{(est)}}\right).100
 \end{equation}
 
 - $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
-- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; n = número de parcelas amostrais)
+- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ( $\alpha$ = nível de confiança; $n_e-1$ = número efetivo de graus de liberdade)
 - $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
 ]
 ]
@@ -1104,7 +1119,7 @@ IC_{\bar{X}_{(est)}} = \left[\underbrace{\bar{X}_{(est)} - (t_{(n-1;~\alpha)}S_{
 \end{equation}
 
 - $S_{\bar{X}(est)}$ = Estimativa do erro padrão da média estratificada.
-- $t_{(n-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*.
+- $t_{(n_e-1;~\alpha)}$ = Valor crítico da distribuição *t* de *Student*. ($\alpha$ = nível de confiança; $n_e-1$ = número efetivo de graus de liberdade)
 - $\bar{X}_{(est)}$ = Estimativa da média aritmética estratificada.
 
 ]
