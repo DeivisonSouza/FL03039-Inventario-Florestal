@@ -210,6 +210,57 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Estratificada - AE</div3>/ <div2>Parte 1 - Fundamentos Teóricos</div2> </div>
 
 ---
+name: ecap
+## 🌳 AE - Estudo de Caso
+<br>
+
+### .font90[Estudo de Caso - *Floresta Explorada e Inexplorada* (Sanquetta et al., 2023; pg. 136)]
+<br>
+
+.font90[
+Uma empresa de consultoria florestal realizou um inventário em floresta natural com área total de **1.000 hectares**, usando o processo de amostragem estratificada. Por meio de fotografias aéreas foram previamente identificados 2 estratos florestais: 1) **Estrato 1: Floresta Explorada (650 ha)**; e 2) **Estrato 2: Floresta Inexplorada (350 ha)**. Foi realizado um inventário piloto com alocação de **12 unidades amostrais** de tamanho **1 hectare** em cada estrato. Os volumes de madeira por parcela em cada estrato estão na tabela a seguir. Para os cálculos das estimativas considere um .blue[erro máximo admissível de 10%] e uma .blue[probabilidade de 95%]. Assim, pede-se:
+<br><br>
+
+a) Calcular as estimativas da amostragem estratificada.
+
+b) Realizar a ANOVA da estratificação e concluir sobre o o teste F.
+
+c) Concluir sobre a precisão das estimativas obtidas a partir do inventário realizado.
+
+d) O Inventário Piloto pode ser admitido como Inventário Definitivo?
+]
+
+---
+name: data
+## 🌳 AAS - Estudo de Caso
+
+.pull-left-4[
+<br><br>
+### .font90[Estudo de Caso - *Floresta Nativa* <br> (Sanquetta et al., 2023; pg. 124)]
+<br>
+
+(**Unidade de medida**: $m^3/ha$ ou $m^3.ha^{-1}$)
+
+]
+
+.pull-right-4[
+```{r tibble, echo=F, eval=T}
+data <- readxl::read_excel("data/AE-Sanquetta.xlsx")
+DT::datatable(data,
+              editable = 'cell', rownames = FALSE,
+                         style = "default",
+                         class = "display", width = '300px',
+                         caption = '',
+     options=list(pageLength = 12, dom = 't', autoWidth = F,
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "12pt", "'});"),
+          "}")
+       ))
+```
+]
+
+---
 
 ## 📖 Referências
 
