@@ -232,7 +232,7 @@ d) O Inventário Piloto pode ser admitido como Inventário Definitivo?
 
 ---
 name: data
-## 🌳 AAS - Estudo de Caso
+## 🌳 AE - Estudo de Caso
 
 .pull-left-4[
 <br><br>
@@ -344,8 +344,88 @@ $$
 ]
 
 ---
+name: maEC
+## 🌳 AE - Estudo de Caso
+
+.shadow1[
+### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+]
+
+.font80[
+👉 **Variância amostral por estrato:**
+
+$$
+\normalsize
+\begin{equation*}
+S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2
+\end{equation*}
+$$
+
+**Em que:**
+
+- $S_h^2$ (lê-se: S-quadrado "agá") = estimador da variância populacional no estrato $h$ ($\sigma^2_h$) ou variância amostral no estrato $h$.
+- $n_h$ = número de parcelas alocadas no estrato $h$.
+- $X_{hi}$ = $i$-ésimo valor da variável $X$ nas unidades amostrais do estrato $h$.
+- $\bar{X_h}$ = estimativa da média aritmética populacional $\mu$ no estrato $h$.
+
+]
+
+---
+name: maEC
+## 🌳 AE - Estudo de Caso
 
 
+.pull-left-4[
+```{r echo=F, eval=T}
+
+df <- data |>
+  select(-`Estrato II`) |>
+  mutate(Media = round(mean(`Estrato I`), 2),
+         "xi-media" = round(`Estrato I` - mean(`Estrato I`), 6),
+         "(xi-media)²" = round(`xi-media`^2, 6)) %>%
+  tibble::add_row(
+    Parcela = "Total",
+    "xi-media" = round(sum(.$`xi-media`), 1),
+    "(xi-media)²" = round(sum(.$`(xi-media)²`), 4))
+
+df %>% 
+   DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+                 class = "display", width = '400px',
+                 caption = '',
+     options=list(pageLength = 13, dom = 'tip', autoWidth = F,
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "12pt", "'});"),
+          "}")
+       ) 
+     )
+```
+
+]
+
+
+--
+
+<br>
+
+.pull-right-4[
+
+### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+<br>
+
+.font80[
+👉 **Variância amostral (.blue[Estrato 1] - Floresta Explorada):**
+
+$$
+\normalsize
+\begin{equation*}
+S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2 \\~\\
+S_1^2 = \frac{1}{12 - 1}(786,9167) = \textbf{71,54}~\color{magenta}{(m³.ha^{-1})^2}
+\end{equation*}
+$$
+
+]
+]
 
 ---
 

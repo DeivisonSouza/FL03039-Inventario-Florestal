@@ -100,7 +100,7 @@ top:.8em;right:1em;
 ##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 16/maio/2025 &lt;br&gt; (Atualizado em: 05/agosto/2025) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 16/maio/2025 &lt;br&gt; (Atualizado em: 07/agosto/2025) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -229,7 +229,7 @@ d) O Inventário Piloto pode ser admitido como Inventário Definitivo?
 
 ---
 name: data
-## 🌳 AAS - Estudo de Caso
+## 🌳 AE - Estudo de Caso
 
 .pull-left-4[
 &lt;br&gt;&lt;br&gt;
@@ -241,8 +241,8 @@ name: data
 ]
 
 .pull-right-4[
-<div id="htmlwidget-fc4c41f9f3116498e838" style="width:300px;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-fc4c41f9f3116498e838">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[1,2],"date":[]},"data":[["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12"],[101,82,95,89,74,79,96,92,86,92,83,100],[125,147,109,119,128,153,143,121,122,109,99,130]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Parcela<\/th>\n      <th>Estrato I<\/th>\n      <th>Estrato II<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":12,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '12pt'});\n}","columnDefs":[{"className":"dt-right","targets":[1,2]},{"name":"Parcela","targets":0},{"name":"Estrato I","targets":1},{"name":"Estrato II","targets":2}],"order":[],"orderClasses":false,"lengthMenu":[10,12,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+<div id="htmlwidget-d68075d62bfaf6e0d306" style="width:300px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d68075d62bfaf6e0d306">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[1,2],"date":[]},"data":[["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12"],[101,82,95,89,74,79,96,92,86,92,83,100],[125,147,109,119,128,153,143,121,122,109,99,130]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Parcela<\/th>\n      <th>Estrato I<\/th>\n      <th>Estrato II<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":12,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '12pt'});\n}","columnDefs":[{"className":"dt-right","targets":[1,2]},{"name":"Parcela","targets":0},{"name":"Estrato I","targets":1},{"name":"Estrato II","targets":2}],"order":[],"orderClasses":false,"lengthMenu":[10,12,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
 ]
 
 ---
@@ -329,8 +329,66 @@ $$
 ]
 
 ---
+name: maEC
+## 🌳 AE - Estudo de Caso
+
+.shadow1[
+### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+]
+
+.font80[
+👉 **Variância amostral por estrato:**
+
+$$
+\normalsize
+`\begin{equation*}
+S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2
+\end{equation*}`
+$$
+
+**Em que:**
+
+- `\(S_h^2\)` (lê-se: S-quadrado "agá") = estimador da variância populacional no estrato `\(h\)` (`\(\sigma^2_h\)`) ou variância amostral no estrato `\(h\)`.
+- `\(n_h\)` = número de parcelas alocadas no estrato `\(h\)`.
+- `\(X_{hi}\)` = `\(i\)`-ésimo valor da variável `\(X\)` nas unidades amostrais do estrato `\(h\)`.
+- `\(\bar{X_h}\)` = estimativa da média aritmética populacional `\(\mu\)` no estrato `\(h\)`.
+
+]
+
+---
+name: maEC
+## 🌳 AE - Estudo de Caso
 
 
+.pull-left-4[
+<div id="htmlwidget-53b8c4b034c28bfd4f5f" style="width:400px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-53b8c4b034c28bfd4f5f">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[1,2,3,4],"date":[]},"data":[["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","Total"],[101,82,95,89,74,79,96,92,86,92,83,100,null],[89.08,89.08,89.08,89.08,89.08,89.08,89.08,89.08,89.08,89.08,89.08,89.08,null],[11.916667,-7.083333,5.916667,-0.083333,-15.083333,-10.083333,6.916667,2.916667,-3.083333,2.916667,-6.083333,10.916667,0],[142.006952,50.173606,35.006948,0.006944,227.506934,101.673604,47.840282,8.506945999999999,9.506942,8.506945999999999,37.00694,119.173618,786.9167]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Parcela<\/th>\n      <th>Estrato I<\/th>\n      <th>Media<\/th>\n      <th>xi-media<\/th>\n      <th>(xi-media)²<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":13,"dom":"tip","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '12pt'});\n}","columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"name":"Parcela","targets":0},{"name":"Estrato I","targets":1},{"name":"Media","targets":2},{"name":"xi-media","targets":3},{"name":"(xi-media)²","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[10,13,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+
+]
+
+
+--
+
+&lt;br&gt;
+
+.pull-right-4[
+
+### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+&lt;br&gt;
+
+.font80[
+👉 **Variância amostral (.blue[Estrato 1] - Floresta Explorada):**
+
+$$
+\normalsize
+`\begin{equation*}
+S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2 \\~\\
+S_1^2 = \frac{1}{12 - 1}(786,9167) = \textbf{71,54}~\color{magenta}{(m³.ha^{-1})^2}
+\end{equation*}`
+$$
+
+]
+]
 
 ---
 
