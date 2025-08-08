@@ -341,7 +341,7 @@ name: varEC
 df <- data %>%
   mutate(Media = round(mean(Volume), 2),
          "xi-media" = round(Volume - mean(Volume), 6),
-         "(xi-media)²" = round(`xi-media`^2, 6))%>%
+         "(xi-media)²" = round(`xi-media`^2, 6)) %>%
   tibble::add_row(
     Parcela = "Total",
     "xi-media" = round(sum(.$`xi-media`), 1),

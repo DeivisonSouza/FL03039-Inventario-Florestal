@@ -164,7 +164,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 <br>
 
 .pull-top[
-**Parte 1 - Inventário Florestal usando AE**
+**Parte 2 - Inventário Florestal usando AE**
 .font80[
 
 [1 - Estudo de Caso (Sanquetta et al., 2023; pg. 136)](#ec)
@@ -207,14 +207,14 @@ background-size: cover
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Estratificada - AE</div3>/ <div2>Parte 1 - Fundamentos Teóricos</div2> </div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;<div3>Amostragem Estratificada - AE</div3>/ <div2>Parte 2 - AE - Estudo de Caso</div2> </div>
 
 ---
 name: ecap
-## 🌳 AE - Estudo de Caso
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 <br>
 
-### .font90[Estudo de Caso - *Floresta Explorada e Inexplorada* (Sanquetta et al., 2023; pg. 136)]
+### .font90[Estudo de Caso - *Floresta Explorada e Inexplorada*]
 <br>
 
 .font90[
@@ -232,11 +232,11 @@ d) O Inventário Piloto pode ser admitido como Inventário Definitivo?
 
 ---
 name: data
-## 🌳 AE - Estudo de Caso
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
 .pull-left-4[
 <br><br>
-### .font90[Estudo de Caso - *Floresta Nativa* <br> (Sanquetta et al., 2023; pg. 124)]
+### .center[.font90[Volume de madeira por parcela (1 hectare) em cada estrato.]]
 <br>
 
 (**Unidade de medida**: $m^3/ha$ ou $m^3.ha^{-1}$)
@@ -262,9 +262,9 @@ DT::datatable(data,
 
 ---
 
-## 🌳 AE - Estudo de Caso
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
-### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+### 👉 .font80[Estimadores da Amostragem Estratificada]
 
 .font70[
 | **Estimador (do Parâmetro)**                          | Volume (unidade de medida)   |
@@ -287,15 +287,14 @@ DT::datatable(data,
 
 ---
 name: maEC
-## 🌳 AE - Estudo de Caso
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
 .shadow1[
-### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+### 👉 Média aritmética amostral por estrato $(\bar{X}_h)$
 ]
 
 .pull-left-4[
 .font80[
-👉 **Média aritmética amostral por estrato:**
 
 $$
 \normalsize
@@ -345,14 +344,14 @@ $$
 
 ---
 name: maEC
-## 🌳 AE - Estudo de Caso
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
 .shadow1[
-### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+### 👉 Variância amostral por estrato $(S_h^2)$
 ]
 
 .font80[
-👉 **Variância amostral por estrato:**
+<br>
 
 $$
 \normalsize
@@ -372,8 +371,7 @@ $$
 
 ---
 name: maEC
-## 🌳 AE - Estudo de Caso
-
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
 .pull-left-4[
 ```{r echo=F, eval=T}
@@ -410,10 +408,6 @@ df %>%
 
 .pull-right-4[
 
-### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
-<br>
-
-.font80[
 👉 **Variância amostral (.blue[Estrato 1] - Floresta Explorada):**
 
 $$
@@ -425,12 +419,11 @@ S_{h1}^2 = \frac{1}{12 - 1}(786,9167) = \textbf{71,54}~\color{magenta}{(m³.ha^{
 $$
 
 ]
-]
+
 
 ---
-
 name: maEC
-## 🌳 AE - Estudo de Caso
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
 
 .pull-left-4[
@@ -468,10 +461,6 @@ df |>
 
 .pull-right-4[
 
-### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
-<br>
-
-.font80[
 👉 **Variância amostral (.blue[Estrato 2] - Floresta Não Explorada):**
 
 $$
@@ -481,21 +470,16 @@ S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2
 S_{h2}^2 = \frac{1}{12 - 1}(2.872,9167) = \textbf{261,17}~\color{magenta}{(m³.ha^{-1})^2}
 \end{equation*}
 $$
-
-]
 ]
 
 
 ---
 name: maEC
-## 🌳 AE - Estudo de Caso
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
 .shadow1[
-### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+### 👉 Média estratificada $(\bar{X}_{est})$
 ]
-
-.font80[
-👉 **Média Estratificada:**
 
 $$
 \normalsize
@@ -512,14 +496,12 @@ $$
 - $\bar{X}_h$ = estimador da média aritmética populacional $\mu_h$ no estrato $h$.
 - $W_h$ = Proporção do estrato $h$ na população florestal.
 
-]
-
 ---
 name: maEC
-## 🌳 AE - Estudo de Caso
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
 .shadow1[
-### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+### 👉 Média estratificada $(\bar{X}_{est})$
 ]
 
 .pull-left-4[
@@ -585,16 +567,14 @@ $$
 
 ---
 name: maEC
-## 🌳 AE - Estudo de Caso
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
 .shadow1[
-### .font90[Estudo de Caso - *Floresta Nativa* (Sanquetta et al., 2023; pg. 136)]
+### 👉 Média estratificada $(\bar{X}_{est})$
 ]
 
-👉 **Média Estratificada:**
-
 $$
-\normalsize
+\large
 \begin{equation*}
 \bar{X}_{est} = \sum_{h=1}^{L}W_h\bar{X_h} \\~\\
 \bar{X}_{est} = 0,65.(89,08) + 0,35.(125,42) = \\~\\
@@ -602,24 +582,59 @@ $$
 \end{equation*}
 $$
 
----
 
-## 🌳 AAS - Estudo de Caso
+---
+name: maEC
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
 
 .shadow1[
-## Intensidade amostral (ou suficiência amostral)
+### 👉 Variância amostral estratificada $(S^2_{est})$
+]
+
+$$
+\large
+\begin{equation*}
+S^2_{est} = \sum_{h=1}^{L}W_h S_h^2
+\end{equation*}
+$$
+
+**Em que:**
+
+- $S^2_{est}$ (lê-se: S-Quadrado "est") = estimador da variância populacional estratificada ($\sigma^2_{est}$) ou variância amostral estratificada.
+- $W_h$ = Proporção do estrato $h$ na população florestal.
+- $S_h^2$ = estimador da variância populacional $\sigma^2$ no estrato $h$.
+
+
+
+
+---
+name: maEC
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Variância amostral estratificada $(S^2_{est})$
+]
+
+Fazer o cálculo aqui.....
+---
+
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
 <br>
 
-.font80[
+.font90[
 **Para calcular a intensidade amostral é preciso responder as seguintes questões:**
 
 - 1) Existem evidências de diferenças significativas entre as médias dos estratos $h$? (**ANOVA**)
 - 2) Qual natureza da população (Finita ou Infinita)? (**População finita = fração amostral > 2%**)
 - 3) Qual o tipo de alocação das unidades de amostras nos estratos? (**Alocação proporcional ou ótima**)
-- 4) Qual a estimativa de variabilidade da variável de interesse? (**Variância ou CV**)
+- 4) Qual a estimativa da variância amostral estratificada da variável de interesse? ($S^2_{est}$)
 - 5) Qual o limite de erro (LE) admissível para a estimativa variável de interesse? (**10% é mais usual**)
-]
-]
+
 ]
 
 
