@@ -615,7 +615,15 @@ name: maEC
 ### 👉 Variância amostral estratificada $(S^2_{est})$
 ]
 
-Fazer o cálculo aqui.....
+$$
+\large
+\begin{equation*}
+S^2_{est} = \sum_{h=1}^{L}W_h S_h^2 \\~\\
+S^2_{est} = \underbrace{0,65.(71,54)}_{W_{h_1} (S_{h_1}^2)} + \underbrace{0,35.(261,17)}_{W_{h_2} (S_{h_2}^2)} \\~\\
+S^2_{est} = \textbf{137,91}~\color{magenta}{(m³.ha^{-1})^2}
+\end{equation*}
+$$
+
 ---
 
 ## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
