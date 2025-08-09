@@ -413,8 +413,8 @@ df %>%
 $$
 \normalsize
 \begin{equation*}
-S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2 \\~\\
-S_{h1}^2 = \frac{1}{12 - 1}(786,9167) = \textbf{71,54}~\color{magenta}{(m³.ha^{-1})^2}
+S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{h_i} - \bar{X_h}  \right )^2 \\~\\
+S_{h_1}^2 = \frac{1}{12 - 1}(786,9167) = \textbf{71,54}~\color{magenta}{(m³.ha^{-1})^2}
 \end{equation*}
 $$
 
@@ -466,8 +466,8 @@ df |>
 $$
 \normalsize
 \begin{equation*}
-S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{hi} - \bar{X_h}  \right )^2 \\~\\
-S_{h2}^2 = \frac{1}{12 - 1}(2.872,9167) = \textbf{261,17}~\color{magenta}{(m³.ha^{-1})^2}
+S_h^2 = \frac{1}{n_{h} - 1}\sum_{i=1}^{n_h}\left (X_{h_i} - \bar{X_h}  \right )^2 \\~\\
+S_{h_2}^2 = \frac{1}{12 - 1}(2.872,9167) = \textbf{261,17}~\color{magenta}{(m³.ha^{-1})^2}
 \end{equation*}
 $$
 ]
@@ -577,7 +577,7 @@ $$
 \large
 \begin{equation*}
 \bar{X}_{est} = \sum_{h=1}^{L}W_h\bar{X_h} \\~\\
-\bar{X}_{est} = 0,65.(89,08) + 0,35.(125,42) = \\~\\
+\bar{X}_{est} = \underbrace{0,65.(89,08)}_{W_{h_1} (\bar{X}_{h_1})} + \underbrace{0,35.(125,42)}_{W_{h_2} (\bar{X}_{h_2})} = \\~\\
 \bar{X}_{est} = \textbf{101,80}~\color{magenta}{m³.ha^{-1}}
 \end{equation*}
 $$
