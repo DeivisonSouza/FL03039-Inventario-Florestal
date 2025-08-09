@@ -420,7 +420,6 @@ $$
 
 ]
 
-
 ---
 name: maEC
 ## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
@@ -645,6 +644,165 @@ $$
 
 ]
 
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+<br>
+
+.font90[
+🤔 **1) Existem evidências de diferenças significativas entre as médias dos estratos** $h$❓
+]
+
+--
+
+.font90[
+🤓☝️ Pode-se realizar uma Análise de Variância (ANAVA) da Estratificação!
+
+]
+
+--
+
+<br>
+
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/ANOVA.jpg')
+```
+
+.font80[
+$L$ = Número de estratos;
+$n$ = Número total de unidades amostradas na população.
+]
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+<br>
+
+.font90[
+🤔 **1) Existem evidências de diferenças significativas entre as médias dos estratos** $h$❓
+]
+
+.font90[**1º Passo**: determinar os valores de graus de liberdade de todas as fontes de variação do experimento.]
+<br><br>
+
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/ANOVA_gl2.jpg')
+```
+
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+<br>
+
+.font90[
+🤔 **1) Existem evidências de diferenças significativas entre as médias dos estratos** $h$❓
+<br>
+
+**2º Passo**: Determinar as Somas de Quadrados.
+]
+
+.pull-left-4[
+
+.font80[
+- **Somas de Quadrados Entre Estratos**
+
+$$
+\begin{equation*}
+\normalsize
+SQ_{Trat} = \dfrac{\sum\limits_{h=1}^{L} \biggl(\sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{n_h} - \color{red}{C}
+\end{equation*}
+$$
+- **Somas de Quadrados Totais**
+
+$$
+\begin{equation*}
+\normalsize
+SQ_{Tot} = \sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}^2 - \color{red}{C}
+\end{equation*}
+$$
+]
+]
+
+.pull-right-4[
+.font80[
+- **Fator em Comum (C)**
+
+$$
+\begin{equation*}
+\normalsize
+C = \dfrac{\biggl(\sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{L(n_h)}
+\end{equation*}
+$$
+
+.font80[
+As equações de SQ<sub>Tot.</sub> e SQ<sub>Trat.</sub> possuem uma parte em comum denominada **Fator em Comum** (C). Inicialmente, é razoável calcular este fator.
+]
+]
+]
+
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.pull-left-4[
+```{r echo=F, eval=T}
+library(dplyr)
+df <- data |>
+  summarise(
+        across(where(is.numeric), ~ sum(.x, na.rm = TRUE)),
+        Parcela = "Total" # Assign a label for the total row
+      )
+df2 <- bind_rows(data, df)
+
+df2 |> 
+   DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+                 class = "display", width = '400px',
+                 caption = '',
+     options=list(pageLength = 13, dom = 'tip', autoWidth = F,
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "12pt", "'});"),
+          "}")
+       ) 
+     )
+```
+
+]
+
+--
+
+.pull-left-4[
+- **Fator em Comum (C)**
+<br>
+
+$$
+\begin{equation*}
+\normalsize
+C = \dfrac{\biggl(\sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{L(n_h)} \\~\\
+C = \dfrac{\biggl(1.069 + 1.505\biggr)^2}{2(12)} \\~\\
+C = \dfrac{6.625.476,0}{24} = \textbf{276.061,5}
+\end{equation*}
+$$
+
+]
 
 ---
 
