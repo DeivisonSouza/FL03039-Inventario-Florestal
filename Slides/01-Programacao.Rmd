@@ -241,13 +241,14 @@ Email: deivisonvs@ufpa.br
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.7 - Amostragem em Conglomerados - AG.
 
-3 - Censo Florestal (Inventário Florestal 100%); 
+3 - Censo Florestal (Inventário Florestal 100%); e
 
-4 - Amostragem em Múltiplas Ocasiões;
+4 - Amostragem em Múltiplas Ocasiões.
 
-5 - Inventário Florestal Nacional; e
 
-6 - Planejamento e Custos de Inventários Florestais.
+<!--7  5 - Inventário Florestal Nacional; e-->
+
+<!--7  6 - Planejamento e Custos de Inventários Florestais.-->
 
 <!--7 - Tecnologias Aplicadas em Inventários Florestais.-->
 ]
@@ -261,7 +262,7 @@ Email: deivisonvs@ufpa.br
 <br>
 
 ```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Maio.png")
+knitr::include_graphics("fig/class0/Nov.png")
 ```
 
 <!-- Slide 3 -->
@@ -272,29 +273,8 @@ knitr::include_graphics("fig/class0/Maio.png")
 <br>
 
 ```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Junho.png")
+knitr::include_graphics("fig/class0/Dez.png")
 ```
-
----
-
-## 🗓 Cronograma .black[.font80[(**Horário: 14h00min - 18h50min**)]]
-
-<br>
-
-```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Julho.png")
-```
-
----
-
-## 🗓 Cronograma .black[.font80[(**Horário: 14h00min - 18h50min**)]]
-
-<br>
-
-```{r, echo = FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Agosto.png")
-```
-
 
 <!-- Slide 7 -->
 ---
