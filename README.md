@@ -111,6 +111,7 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slide | Link |
 |:---|:---|
 | Slides/data/AAS-Sanquetta.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/AAS-Sanquetta.xlsx> |
+| Slides/data/AE-Sanquetta.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/AE-Sanquetta.xlsx> |
 | Slides/data/Area-Fixa-Supressao.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Area-Fixa-Supressao.xlsx> |
 | Slides/data/Area-Fixa.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Area-Fixa.xlsx> |
 | Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023.xlsx> |
@@ -137,11 +138,11 @@ Básica](http://www.filipezabala.com/enrs/amostragem-1.html#exm:urna-aass)
 
 <div>
 
-<img src="Slides/fig/slide-title/Foto.jpeg" width="250" align="middle" class="center">
+<img src="Slides/fig/readme/Foto.jpeg" width="250" align="middle" class="center">
 
-<img src="Slides/fig/slide-title/Foto2.jpg" width="250" height="190" align="middle" class="center">
+<img src="Slides/fig/readme/Foto2.jpg" width="250" height="190" align="middle" class="center">
 
-<img src="Slides/fig/slide-title/Foto3.jpg" width="250" align="middle" class="center">
+<img src="Slides/fig/readme/Foto3.jpg" width="250" align="middle" class="center">
 
 <div>
 

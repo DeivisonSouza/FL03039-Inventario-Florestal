@@ -141,11 +141,11 @@ Filipe J. Zabala. [Estatística Básica](http://www.filipezabala.com/enrs/amostr
 
 # Facilitador :deciduous_tree:
 <div>
-  <img src="Slides/fig/slide-title/Foto.jpeg" width="250" align="middle" class="center">
+  <img src="Slides/fig/readme/Foto.jpeg" width="250" align="middle" class="center">
   
-  <img src="Slides/fig/slide-title/Foto2.jpg" width="250" height="190" align="middle" class="center">
+  <img src="Slides/fig/readme/Foto2.jpg" width="250" height="190" align="middle" class="center">
   
-  <img src="Slides/fig/slide-title/Foto3.jpg" width="250" align="middle" class="center">
+  <img src="Slides/fig/readme/Foto3.jpg" width="250" align="middle" class="center">
 <div>
 
 <br>
