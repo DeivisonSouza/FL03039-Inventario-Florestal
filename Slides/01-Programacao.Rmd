@@ -257,7 +257,7 @@ Email: deivisonvs@ufpa.br
 <!-- Slide 2 -->
 ---
 
-## 🗓 Cronograma .black[.font80[(**Horário: 14h00min - 18h50min**)]]
+## 🗓 Cronograma .black[.font80[(**Horário: 14h30min - 19h30min**)]]
 
 <br>
 
@@ -268,7 +268,7 @@ knitr::include_graphics("fig/class0/Nov.png")
 <!-- Slide 3 -->
 ---
 
-## 🗓 Cronograma .black[.font80[(**Horário: 14h00min - 18h50min**)]]
+## 🗓 Cronograma .black[.font80[(**Horário: 14h30min - 19h30min**)]]
 
 <br>
 

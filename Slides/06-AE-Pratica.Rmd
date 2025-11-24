@@ -695,7 +695,7 @@ name: X
 🤔 **1) Existem evidências de diferenças significativas entre as médias dos estratos** $h$❓
 ]
 
-.font90[**1º Passo**: determinar os valores de graus de liberdade de todas as fontes de variação do experimento.]
+.font90[**1º Passo**: determinar os valores de graus de liberdade de todas as fontes de variação.]
 <br><br>
 
 ```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
@@ -728,7 +728,7 @@ name: X
 $$
 \begin{equation*}
 \normalsize
-SQ_{Trat} = \dfrac{\sum\limits_{h=1}^{L} \biggl(\sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{n_h} - \color{red}{C}
+SQ_{Entre} = \dfrac{\sum\limits_{h=1}^{L} \biggl(\sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{n_h} - \color{red}{C}
 \end{equation*}
 $$
 - **Somas de Quadrados Totais**
@@ -754,11 +754,10 @@ C = \dfrac{\biggl(\sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{
 $$
 
 .font80[
-As equações de SQ<sub>Tot.</sub> e SQ<sub>Trat.</sub> possuem uma parte em comum denominada **Fator em Comum** (C). Inicialmente, é razoável calcular este fator.
+As equações de SQ<sub>Tot.</sub> e SQ<sub>Trat.</sub> possuem uma parte em comum denominada **Fator em Comum** (C). Portanto, inicialmente é estratégico calcular este fator.
 ]
 ]
 ]
-
 
 ---
 name: X
@@ -803,8 +802,159 @@ C = \dfrac{\biggl(1.069 + 1.505\biggr)^2}{2(12)} \\~\\
 C = \dfrac{6.625.476,0}{24} = \textbf{276.061,5}
 \end{equation*}
 $$
+]
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.pull-left-4[
+```{r echo=F, eval=T}
+library(dplyr)
+df <- data |>
+  summarise(
+        across(where(is.numeric), ~ sum(.x, na.rm = TRUE)),
+        Parcela = "Total" # Assign a label for the total row
+      )
+df2 <- bind_rows(data, df)
+
+df2 |> 
+   DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+                 class = "display", width = '400px',
+                 caption = '',
+     options=list(pageLength = 13, dom = 'tip', autoWidth = F,
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "12pt", "'});"),
+          "}")
+       ) 
+     )
+```
 
 ]
+
+--
+
+.pull-left-4[
+- **Soma de Quadrados Totais**
+<br>
+
+$$
+\begin{equation*}
+\normalsize
+SQ_{Tot} = \sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}^2 - \color{red}{C} \\~\\
+SQ_{Tot} = 287.642,0 - \color{red}{276.061,5} \\~\\
+SQ_{Tot} = \textbf{11.580,5}
+\end{equation*}
+$$
+
+<br><br>
+
+$$
+\begin{equation*}
+\sum\limits_{h=1}^{L} \sum\limits_{i=1}^{n_h}X_{hi}^2 = 101² + 82² + 100² + ... + 130² = 287.642,0
+\end{equation*}
+$$
+]
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.pull-left-4[
+```{r echo=F, eval=T}
+library(dplyr)
+df <- data |>
+  summarise(
+        across(where(is.numeric), ~ sum(.x, na.rm = TRUE)),
+        Parcela = "Total" # Assign a label for the total row
+      )
+df2 <- bind_rows(data, df)
+
+df2 |> 
+   DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+                 class = "display", width = '400px',
+                 caption = '',
+     options=list(pageLength = 13, dom = 'tip', autoWidth = F,
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "12pt", "'});"),
+          "}")
+       ) 
+     )
+```
+
+]
+
+--
+
+.pull-left-4[
+- **Soma de Quadrados Entre Estratos**
+<br>
+
+$$
+\begin{equation*}
+\normalsize
+SQ_{Entre} = \dfrac{\sum\limits_{h=1}^{L} \biggl(\sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2}{n_h} - \color{red}{C} \\~\\
+SQ_{Entre} = \dfrac{3.407.786,0}{12} - \color{red}{276.061,5} \\~\\
+SQ_{Entre} = \textbf{7.920,667}
+\end{equation*}
+$$
+
+<br><br>
+
+$$
+\begin{equation*}
+\sum\limits_{h=1}^{L} \biggl(\sum\limits_{i=1}^{n_h}X_{hi}\biggr)^2 = 1.069² + 1.505² = 3.407.786,0
+\end{equation*}
+$$
+]
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.pull-left-4[
+```{r echo=F, eval=T}
+library(dplyr)
+df <- data |>
+  summarise(
+        across(where(is.numeric), ~ sum(.x, na.rm = TRUE)),
+        Parcela = "Total" # Assign a label for the total row
+      )
+df2 <- bind_rows(data, df)
+
+df2 |> 
+   DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+                 class = "display", width = '400px',
+                 caption = '',
+     options=list(pageLength = 13, dom = 'tip', autoWidth = F,
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "12pt", "'});"),
+          "}")
+       ) 
+     )
+```
+
+]
+
+--
+
+.pull-left-4[
+- **Soma de Quadrados de Resíduos**
+<br>
+
+$$
+\begin{equation*}
+\normalsize
+SQR = SQ_{Tot} - SQ_{Entre} \\~\\
+SQR = 11.580,5 - 7.920,667 \\~\\
+SQR = \textbf{3.659,833}
+\end{equation*}
+$$
+]
+
 
 ---
 
