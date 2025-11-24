@@ -29,7 +29,7 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufpa.png), url(fig/slide-title/capa.png)
+background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufra.png), url(fig/slide-title/capa.png)
 background-position: 90% 90%, 10% 90%
 background-size: 150px, 150px, cover
 
@@ -71,7 +71,8 @@ library(ggimage)
 
 
 <!-- title-slide -->
-# .font120[Inventário Florestal <br> (FL03039 - EF)]
+<!--# .font120[Inventário Florestal <br> (FL03039 - EF)] -->
+# .font100[Inventário Florestal (EFBEL249) <br> (Forma Pará - Polo Pacajá/UFRA)]
 
 ## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Métodos de Amostragem`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> ᨒ
 ###### Área Fixa e Área Variável
