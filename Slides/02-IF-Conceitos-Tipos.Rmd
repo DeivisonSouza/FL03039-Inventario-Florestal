@@ -96,11 +96,11 @@ class: with-logo logo-ufpa
 <br>
 .shadow4[
 .font80[
-**1 - Introdução aos Inventários Florestais**; 
+1 - Introdução aos Inventários Florestais; 
 
 2 - Amostragem em Inventários Florestais;
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.1 - Conceitos Básicos e Principais Estimadores;
+&nbsp;&nbsp;&nbsp;&nbsp;**2.1 - Conceitos Básicos e Principais Estimadores;**
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.2 - Métodos de Amostragem;
 
@@ -114,17 +114,20 @@ class: with-logo logo-ufpa
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.7 - Amostragem em Conglomerados - AG.
 
-3 - Censo Florestal (Inventário Florestal 100%); 
+3 - Censo Florestal (Inventário Florestal 100%); e
 
-4 - Amostragem em Múltiplas Ocasiões;
+4 - Amostragem em Múltiplas Ocasiões.
 
-5 - Inventário Florestal Nacional; e
 
-6 - Planejamento e Custos de Inventários Florestais.
+<!--7  5 - Inventário Florestal Nacional; e-->
+
+<!--7  6 - Planejamento e Custos de Inventários Florestais.-->
 
 <!--7 - Tecnologias Aplicadas em Inventários Florestais.-->
 ]
 ]
+
+<!-- Slide 2 -->
 
 ---
 
