@@ -64,7 +64,7 @@ use_logo(
 # .font100[Inventário Florestal (EFBEL249) <br> (Forma Pará - Polo Pacajá/UFRA)]
 
 ## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Programação da Disciplina `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> ᨒ
-###### Período Letivo 2025.4
+###### Período Letivo 2025.1
 
 ##### 〰〰〰〰〰〰🌱〰〰〰〰〰〰
 ##### ᨒ
