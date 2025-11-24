@@ -955,6 +955,26 @@ SQR = \textbf{3.659,833}
 $$
 ]
 
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+<br>
+
+.font90[
+🤔 **1) Existem evidências de diferenças significativas entre as médias dos estratos** $h$❓
+]
+
+.font90[**2º Passo**: determinar as Somas de Quadrados da ANOVA.]
+<br><br>
+
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/ANOVA_sq.jpg')
+```
 
 ---
 
