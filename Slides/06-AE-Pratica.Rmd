@@ -969,11 +969,56 @@ name: X
 🤔 **1) Existem evidências de diferenças significativas entre as médias dos estratos** $h$❓
 ]
 
-.font90[**2º Passo**: determinar as Somas de Quadrados da ANOVA.]
+.font90[**2º Passo**: Determinar as Somas de Quadrados da ANOVA.]
 <br><br>
 
 ```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class6/ANOVA_sq.jpg')
+```
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+<br>
+
+.font90[
+🤔 **1) Existem evidências de diferenças significativas entre as médias dos estratos** $h$❓
+]
+
+**3º Passo**: Determinar os Quadrados Médios - .blue[Entre e Resíduo]
+<br><br>
+
+.pull-left-9[
+**Quadrado Médio Entre Tratamentos (Estratos) - Variância Entre Estratos**
+<br><br>
+$\normalsize QM_{Entre} = \dfrac{SQ_{Entre}}{L-1} = \dfrac{7.920,667}{2-1} = \textbf{7.920,667}$
+]
+
+.pull-right-9[
+**Quadrado Médio de Resíduos - Variância Dentro dos Estratos**
+<br><br>
+$\normalsize QMR = \dfrac{SQR}{n - L} = \dfrac{3.659,833}{24 - 2} = \textbf{166,356}$
+]
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+<br>
+
+.font90[
+🤔 **1) Existem evidências de diferenças significativas entre as médias dos estratos** $h$❓
+]
+
+.font90[**3º Passo**: Determinar os Quadrados Médios - .blue[Entre e Resíduo]]
+<br><br>
+
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/ANOVA_qm.jpg')
 ```
 
 ---
