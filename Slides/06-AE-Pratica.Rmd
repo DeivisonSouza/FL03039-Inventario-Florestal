@@ -1022,6 +1022,95 @@ knitr::include_graphics('fig/class6/ANOVA_qm.jpg')
 ```
 
 ---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+<br>
+
+**4º Passo**: Determinar a estatística F
+<br><br>
+
+
+$\normalsize F = \dfrac{QM_{Entre}}{QMR} = \dfrac{7.920,667}{166,356} = \textbf{47,613}$
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+<br>
+
+.font90[
+**5º Passo**: Encontrar o valor crítico da distribuição F para o nível de significância $\alpha$
+<br><br>
+
+- O valor de F-crítico pode ser encontrado nas tabelas de distribuição F teóricas.
+- Para isso, são necessárias 3 informações: 1) GL Entre Estratos; 2) GL Dentro Estratos (Resíduos); e 3) nível de significância $\alpha$.
+- Os níveis de significância ( $\alpha$ ) mais usuais são: 0,01 (1%) e 0,05 (5%).
+- Neste exemplo, admitir-se-á $\alpha = 0,05$ (ou 5%), conforme Sanquetta *et al*. (2023).
+]
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+.font90[
+**5º Passo**: Encontrar o valor crítico da distribuição F para o nível de significância $\alpha$
+<br><br>
+
+.pull-left-9[
+.blue[**Vamos aprender a usar a tabela de distribuição F!**]
+- Acesse o site: [F-Distribution-Tables-UCLA](http://socr.ucla.edu/Applets.dir/F_Table.html)
+- O F-crítico para o experimento é: $F_{[1,~22;~0,05]} = 4,30$
+<br><br>
+
+**No R use a função qf() para encontrar o F-crítico**
+```{r, echo=T, eval=T}
+qf(0.05, 1, 22, lower.tail=FALSE)
+```
+
+]
+
+.pull-right-9[
+.blue[**Bônus: Explore mais aplicativos...**]
+- [Distribuição-F-Prof-Bertolo](http://www.bertolo.pro.br/FinEst/Estatistica/DistribuicaoProbabilidades2/f/index.html)
+- [Stat-Kingdom](https://www.statskingdom.com/180Anova1way.html)
+- [Illinois-Department-of-Statistics](http://courses.atlas.illinois.edu/spring2016/STAT/STAT200/pf.html)
+]
+]
+
+---
+
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+**Finalmente, têm-se o quadro final da ANOVA da Estratificação!**
+<br><br>
+
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class6/ANOVA_final.jpg')
+```
+
+<br>
+.font80[
+**Interpretação**: F-calculado > F-crítico (47,613 > 4,30). Isso significa que existem evidências de diferenças significativas entre as médias dos estratos. Portanto, conclui-se que a estratificação foi benéfica ao inventário florestal.
+]
+
+---
 
 ## 📖 Referências
 
