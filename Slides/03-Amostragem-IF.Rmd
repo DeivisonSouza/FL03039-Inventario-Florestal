@@ -29,7 +29,7 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufpa.png), url(fig/slide-title/capa.png)
+background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufra.png), url(fig/slide-title/capa.png)
 background-position: 90% 90%, 10% 90%
 background-size: 150px, 150px, cover
 
@@ -71,7 +71,8 @@ library(ggimage)
 
 
 <!-- title-slide -->
-# .font120[Inventário Florestal <br> (FL03039 - EF)]
+<!--# .font120[Inventário Florestal <br> (FL03039 - EF)] -->
+# .font100[Inventário Florestal (EFBEL249) <br> (Forma Pará - Polo Pacajá/UFRA)]
 
 ## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Amostragem em Inventários`r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> Florestais
 ###### Conceitos Básicos e Principais Estimadores
@@ -244,7 +245,7 @@ Quando somente uma parte dos elementos ou unidades de uma população é selecio
 - O .blue[espaçamento inicial] foi de .blue[1m x 1m], com .blue[espaço útil] de .blue[1m<sup>2</sup>].]
 --
 .font90[
-- Baseado no espaçamento e tamanho da área, pode-se determinar a .blue[quantidade de árvores] no povoamento (sem mortalidade) `r emo::ji("point_right")` **225 árvores**.]
+- Baseado no espaçamento e tamanho da área, pode-se determinar a .blue[quantidade de árvores] no povoamento (sem mortalidade) 👉 **225 árvores**.]
 --
 .font90[
 - Portanto, neste exemplo, a população de *Pinus* sp. é composta de 225 árvores.]
@@ -257,7 +258,7 @@ Quando somente uma parte dos elementos ou unidades de uma população é selecio
 **EXEMPLO**
 
 .font90[
-- Agora, suponha que aos 5 anos de idade deseja-se estimar o volume de madeira ( $v_i = g_i× ht × 0,5$ ).magenta[<sup>1</sup>] desse pequeno povoamento: Ter-se-ia 2 opções `r emo::ji("point_right")` .magenta[Censo Florestal ou Amostragem].]
+- Agora, suponha que aos 5 anos de idade deseja-se estimar o volume de madeira ( $v_i = g_i× ht × 0,5$ ).magenta[<sup>1</sup>] desse pequeno povoamento: Ter-se-ia 2 opções 👉 .magenta[Censo Florestal ou Amostragem].]
 --
 .font90[
 - **Censo Florestal**: Todos as árvores devem ser medidas para a característica de interesse.
@@ -452,7 +453,7 @@ name: pra
 .center[.red[**Atenção**]`r anicon::faa("exclamation-triangle", colour="red")`: Sempre consulte as normas legais vigentes que regulamentam a atividade!]
 <br>
 
-.center[.magenta[Plano de Manejo Florestal Sustentável - PMFS] `r emo::ji("point_right")` **Censo florestal (ou IF-100%) é obrigatório!**]
+.center[.magenta[Plano de Manejo Florestal Sustentável - PMFS] 👉 **Censo florestal (ou IF-100%) é obrigatório!**]
 ]
 
 ---
