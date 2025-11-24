@@ -71,7 +71,7 @@ library(ggimage)
 <!--# .font120[Inventário Florestal <br> (FL03039 - EF)] -->
 # .font100[Inventário Florestal (EFBEL249) <br> (Forma Pará - Polo Pacajá/UFRA)]
 
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Introdução ao `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> Inventário Florestal
+## Introdução ao <br> `r anicon::faa("pagelines", animate="horizontal", colour="green")` Inventário Florestal `r anicon::faa("pagelines", animate="horizontal", colour="green")`
 ###### Conceito, Importância e Tipos
 
 ##### 〰〰〰〰〰〰🌳〰〰〰〰〰〰
@@ -157,7 +157,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 &nbsp;&nbsp;[2.1 - Quanto ao Objetivo](#qo)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1 - Inventário Florestal de Cunho tático](#ifct)
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1 - Inventário Florestal de Cunho Tático](#ifct)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[2.1.2 - Inventário Florestal de Cunho Estratégico](#ifce)
 
