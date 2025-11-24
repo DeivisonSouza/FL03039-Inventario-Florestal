@@ -227,7 +227,7 @@ Email: deivisonvs@ufpa.br
 
 2 - Amostragem em Inventários Florestais;
 
-&nbsp;&nbsp;&nbsp;&nbsp;**2.1 - Conceitos Básicos e Principais Estimadores;**
+&nbsp;&nbsp;&nbsp;&nbsp;2.1 - Conceitos Básicos e Principais Estimadores;
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.2 - Métodos de Amostragem;
 
