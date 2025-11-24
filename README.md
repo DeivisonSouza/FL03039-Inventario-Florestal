@@ -9,15 +9,11 @@
 
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
-:calendar: Maio: 2, 9, 16, 23 e 30
+:calendar: Novembro: 24, 25, 26, 27, 28 e 29
 
-:calendar: Junho: 6, 13, 20 e 27
+:calendar: Dezembro: 1, 2, 3, 4, 5, 6, 8, 9 e 10
 
-:calendar: Julho: 4 e 11
-
-:calendar: Agosto: 1, 8, 22 e 29
-
-:alarm_clock: **14h00min - 18h50min**
+:alarm_clock: **14h30min - 19h30min**
 
 <div>
 
@@ -58,7 +54,9 @@ de dezembro de
 e em consonância à [Resolução n. 5.845, de 16 de dezembro de
 2024](https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2024/5845%20Aprova%20o%20Calend%C3%A1rio%20Acad%C3%AAmico%20da%20UFPA%20-%202025.pdf),
 que aprovou o Calendário Acadêmico da Universidade Federal do Pará para
-o ano de 2025.
+o ano de 2025. Adicionalmente, esta disciplina também será ofertada no
+curso de graduação em **Engenharia Florestal** (EFBEL249) da
+**Universidade Federal Rural da Amazônia** (UFRA/Forma Pará - Pacajá).
 
 # Programação da disciplina
 
@@ -138,11 +136,7 @@ Básica](http://www.filipezabala.com/enrs/amostragem-1.html#exm:urna-aass)
 
 <div>
 
-<img src="Slides/fig/readme/Foto.jpeg" width="250" align="middle" class="center">
-
-<img src="Slides/fig/readme/Foto2.jpg" width="250" height="190" align="middle" class="center">
-
-<img src="Slides/fig/readme/Foto3.jpg" width="250" align="middle" class="center">
+<img src="Slides/fig/slide-title/foto.jpg" width="150" align="middle" class="center">
 
 <div>
 

@@ -51,15 +51,11 @@ list_github_files <- function(repo, dir = NULL, ext = NULL) {
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
 
-:calendar: Maio: 2, 9, 16, 23 e 30
+:calendar: Novembro: 24, 25, 26, 27, 28 e 29
 
-:calendar: Junho: 6, 13, 20 e 27
+:calendar: Dezembro: 1, 2, 3, 4, 5, 6, 8, 9 e 10
 
-:calendar: Julho: 4 e 11
-
-:calendar: Agosto: 1, 8, 22 e 29
-
-:alarm_clock: **14h00min - 18h50min**
+:alarm_clock: **14h30min - 19h30min**
 
 <div>
   <img src="Slides/fig/slide-title/ufpa.png" width="150" align="middle" class="center">
@@ -82,7 +78,7 @@ list_github_files <- function(repo, dir = NULL, ext = NULL) {
 
 # Inventário Florestal (FL03039-IF)
 
-Este repositório guarda os slides em .html, códigos R, arquivos .Rmd, figuras, conjunto de dados (e outros) utilizados na disciplina de **Inventário Florestal** (FL03039-IF) ministrada pelo **Prof. Deivison Venicio Souza** no curso de graduação em **Engenharia Florestal** da **Universidade Federal do Pará** (UFPA). O curso será ofertado na **modalidade presencial**, conforme dispõe a [Resolução  n. 5.453, de 14 de dezembro de 2021](https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2021/5453%20Aprova%20a%20Resolu%C3%A7%C3%A3o%20sobre%20o%20retorno%20das%20Atividades%20Presenciais.pdf) e em consonância à [Resolução  n. 5.845, de 16 de dezembro de 2024](https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2024/5845%20Aprova%20o%20Calend%C3%A1rio%20Acad%C3%AAmico%20da%20UFPA%20-%202025.pdf), que aprovou o Calendário Acadêmico da Universidade Federal do Pará para o ano de 2025.
+Este repositório guarda os slides em .html, códigos R, arquivos .Rmd, figuras, conjunto de dados (e outros) utilizados na disciplina de **Inventário Florestal** (FL03039-IF) ministrada pelo **Prof. Deivison Venicio Souza** no curso de graduação em **Engenharia Florestal** da **Universidade Federal do Pará** (UFPA). O curso será ofertado na **modalidade presencial**, conforme dispõe a [Resolução  n. 5.453, de 14 de dezembro de 2021](https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2021/5453%20Aprova%20a%20Resolu%C3%A7%C3%A3o%20sobre%20o%20retorno%20das%20Atividades%20Presenciais.pdf) e em consonância à [Resolução  n. 5.845, de 16 de dezembro de 2024](https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2024/5845%20Aprova%20o%20Calend%C3%A1rio%20Acad%C3%AAmico%20da%20UFPA%20-%202025.pdf), que aprovou o Calendário Acadêmico da Universidade Federal do Pará para o ano de 2025. Adicionalmente, esta disciplina também será ofertada no curso de graduação em **Engenharia Florestal** (EFBEL249) da **Universidade Federal Rural da Amazônia** (UFRA/Forma Pará - Pacajá).
 
 # Programação da disciplina
 
@@ -140,12 +136,9 @@ Silva, P. L. N.; Bianchini, Z. M; Dias, A. J. R. [Amostragem: Teoria e Prática 
 Filipe J. Zabala. [Estatística Básica](http://www.filipezabala.com/enrs/amostragem-1.html#exm:urna-aass)
 
 # Facilitador :deciduous_tree:
+
 <div>
-  <img src="Slides/fig/readme/Foto.jpeg" width="250" align="middle" class="center">
-  
-  <img src="Slides/fig/readme/Foto2.jpg" width="250" height="190" align="middle" class="center">
-  
-  <img src="Slides/fig/readme/Foto3.jpg" width="250" align="middle" class="center">
+  <img src="Slides/fig/slide-title/foto.jpg" width="150" align="middle" class="center">
 <div>
 
 <br>
