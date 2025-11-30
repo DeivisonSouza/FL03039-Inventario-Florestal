@@ -777,7 +777,7 @@ knitr::include_graphics('fig/class4/exer.jpg')
 - Calcular as áreas transversais (gi) de cada árvore.
 - Calcular o volume individual (vi) de cada árvore.
 - Calcular a área basal da parcela (m²/400m²).
-- Calcular o volume da parcela (m²/400m²).
+- Calcular o volume da parcela (m³/400m²).
 - Calcular o número de árvores por hectare.
 - Calcular a área basal por hectare.
 - Calcular o volume por hectare.
