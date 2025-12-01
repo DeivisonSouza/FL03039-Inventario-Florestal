@@ -219,7 +219,7 @@ name: ecap
 
 .font90[
 Em um talhão de *Pinus taeda*, plantado em uma área de 40ha, foi realizado um inventário cujo objetivo é .blue[estimar o volume de madeira da população] em questão. Para realização do inventário foi utilizado o processo de amostragem aleatória simples, onde se deseja saber quantas parcelas de $600~m^2$ devem ser usadas para atingir a precisão desejada. A definição do número ideal de parcelas depende da variabilidade da população. Para isto, foi realizado um inventário piloto, onde foram medidas .blue[16 parcelas] (veja tabela a seguir), com a finalidade de obter a variância da população e assim estimar a intensidade amostral para o inventário definitivo.
-Para o calculo das estimativa considere o .blue[erro máximo admissível de 10%] e uma .blue[probabilidade de 95%]. Assim, pede-se:
+Para o cálculo das estimativas considere o .blue[erro máximo admissível de 10%] e uma .blue[probabilidade de 95%]. Assim, pede-se:
 <br><br>
 
 a) Calcular as estimativas do inventário amostral.
