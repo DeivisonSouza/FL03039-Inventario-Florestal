@@ -112,6 +112,8 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slides/data/AE-Sanquetta.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/AE-Sanquetta.xlsx> |
 | Slides/data/Area-Fixa-Supressao.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Area-Fixa-Supressao.xlsx> |
 | Slides/data/Area-Fixa.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Area-Fixa.xlsx> |
+| Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023-Dados-Campo-Simulados.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023-Dados-Campo-Simulados.xlsx> |
+| Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023-Dados-Campo-Simulados_Versao-Alunos.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023-Dados-Campo-Simulados_Versao-Alunos.xlsx> |
 | Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023.xlsx> |
 | Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx> |
 | Slides/data/Bitterlich-Soares-et-al-2010.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich-Soares-et-al-2010.xlsx> |
@@ -121,6 +123,7 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
 | Slides/data/Linha-Interceptadora.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Linha-Interceptadora.xlsx> |
 | Slides/data/P443_MMA_Ameacadas_3.0.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/P443_MMA_Ameacadas_3.0.xlsx> |
+| Slides/data/Pinus_simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Pinus_simulado.xlsx> |
 
 # Materias de apoio
 
