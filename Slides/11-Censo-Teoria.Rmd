@@ -134,13 +134,9 @@ class: with-logo logo-ufpa
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.7 - Amostragem em Conglomerados - AG.
 
-**3 - Censo Florestal (Inventário Florestal 100%)**; 
+**3 - Censo Florestal (Inventário Florestal 100%)**; e
 
-4 - Amostragem em Múltiplas Ocasiões;
-
-5 - Inventário Florestal Nacional; e
-
-6 - Planejamento e Custos de Inventários Florestais.
+4 - Amostragem em Múltiplas Ocasiões.
 
 <!--7 - Tecnologias Aplicadas em Inventários Florestais.-->
 ]

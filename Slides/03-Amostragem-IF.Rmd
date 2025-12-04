@@ -154,15 +154,13 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [1 - População x Amostra](#pa)
 
-[2 - População Finita x População Infinita](#pfpi)
+[2 - Variável (ou característica)](#var)
 
-[3 - Variável (ou característica)](#var)
+[3 - Unidade de Amostra (ou Parcela)](#ua)
 
-[4 - Unidade de Amostra (ou Parcela)](#ua)
+[4 - Por que Realizar Amostragem?](#pra)
 
-[5 - Por que Realizar Amostragem?](#pra)
-
-[6 - Parâmetro, Estimador e Estimativa](#pee)
+[5 - Parâmetro, Estimador e Estimativa](#pee)
 
 ]
 ]
