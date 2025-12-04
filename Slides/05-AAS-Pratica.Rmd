@@ -619,6 +619,25 @@ S_{\bar{X}} = \frac{S}{\sqrt{n}}\sqrt{1-f} = \frac{4,2214}{\sqrt{16}}\sqrt{1-0,0
 ## 🌳 AAS - Estudo de Caso
 
 .shadow1[
+## Erro Padrão da Média Amostral
+
+.font80[
+- **Relembrando**: O Erro Padrão da Média é uma medida que indica o quanto a média amostral $\bar{X}$ poderia variar caso repetíssemos o IF várias vezes, porém medindo parcelas diferentes dentro da área.
+- **Desvio padrão**: Mede a variação da variável de interesse (Volume, Área basal, etc.) entre parcelas.
+- **Erro Padrão**: Mede a incerteza da estimativa da média. .blue[Responde a pergunta]: Se outra amostra de parcelas fosse medida, a média amostral calculada mudaria muito?
+- .blue[**Interpretação**]: Se repetíssemos o IF várias vezes usando o mesmo tamanho de amostra (16 parcelas), a média encontrada variaria aproximadamente ±1,043 m³/600 m² de uma amostra para outra.
+
+
+👉 Quanto menor $S_{\bar{X}}$ > Precisão da média estimada (+ confiável IF)
+]
+]
+
+
+---
+
+## 🌳 AAS - Estudo de Caso
+
+.shadow1[
 ## Erro de Amostragem Absoluto
 <br>
 
