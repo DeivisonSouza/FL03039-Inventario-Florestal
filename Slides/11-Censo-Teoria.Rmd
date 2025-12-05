@@ -828,9 +828,147 @@ _.orange[**Art. 6º**]: Fica estabelecido o .blue[**DMC de 50 cm**] para todas a
 ]
 
 ---
-name: dmaxc
-## Diâmetro Máximo de Corte - DMaxC
+name: DmaxC
+## Diâmetro Máximo de Corte - DmaxC
 
+.shadow1b[
+.font80[
+.center[
+### [Instrução Normativa Nº 05, de 10 de Setembro de 2015](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.semas.pa.gov.br/legislacao/files/pdf/184.pdf)
+]
+
+<br>
+
+- **Diâmetro Máximo de Corte (DmaxC)**
+
+_.orange[**Art. 23º**]: Fica estabelecido o Diâmetro Máximo de Corte (DmaxC), por espécie manejada, que será de 200 cm (628 cm de CAP), objetivando a redução de danos da exploração, capacidade técnica de arraste e transporte, capacidade de processamento (desdobro) e o uso a que se destinam._
+
+<br>
+
+.center[`r anicon::faa("exclamation-triangle", colour="red")` .blue[**Apenas árvores com diâmetro a 1,30 m do solo (d) ≤ 200 cm podem ser destinadas para corte!**]]
+
+]
+]
+
+---
+name: DmaxC
+## Cálculo do Volume da Árvore em Pé
+
+.shadow1b[
+.font80[
+.center[
+### [Instrução Normativa Nº 05, de 10 de Setembro de 2015](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.semas.pa.gov.br/legislacao/files/pdf/184.pdf)
+]
+
+<br>
+
+- **Volume da Árvore em Pé (1ª UPA)**
+
+_.orange[**Art. 24º**]: Para o cálculo do volume de árvores em pé, será aceito a utilização do **fator de forma igual a 0,7**, apenas, quando se tratar da primeira UPA, para corrigir o volume do cilindro tendo como o diâmetro da base o DAP._
+
+<br>
+
+.center[`r anicon::faa("exclamation-triangle", colour="red")` .blue[**Fator de Forma 0,7 admitido apenas para 1ª UPA!**]]
+
+
+$$v_i = \dfrac{\pi d^2}{40.000}. h. 0,7$$
+
+_.orange[**Art. 24º, Parágrafo único**]: A partir do segundo POA somente será aceito pela SEMAS/PA o volume de árvores em pé, calculado mediante equação de volume desenvolvida especificamente para a UMF._
+]
+]
+
+---
+name: cm
+## Critérios de Manutenção de Árvores
+
+.shadow1b[
+.font80[
+.center[
+### [Resolução nº 406, de 02 de fevereiro de 2009](http://conama.mma.gov.br/?option=com_sisconama&task=arquivo.download&id=578)
+]
+
+<br>
+
+- **Critérios de Manutenção de Árvores (espécies exploradas)?**
+
+_.orange[**Inciso IV do art. 4º, alínea “c”**]: Manter pelo menos 10% do número de árvores por espécie, na área de efetiva exploração da UPA, que atendam aos critérios de seleção para corte indicados no PMFS, respeitados o limite mínimo de manutenção de três árvores por espécie por 100 ha (cem hectares), em cada UT._
+
+<br>
+
+_.orange[**Inciso IV do art. 4º, alínea “d”**]: Manter todas as árvores das espécies, cuja abundância de indivíduos com DAP superior ao DMC seja igual ou inferior a três árvores por 100 ha de área de efetiva exploração da UPA, em cada UT._
+
+<br>
+
+.center[`r anicon::faa("exclamation-triangle", colour="red")` .blue[**Manter todas as árvores das espécies com menos de 3 árvores por 100 ha!**]]
+
+]
+]
+
+---
+name: cma
+## Handroanthus, Tabebuia, Dipteryx e Cedrela
+
+.shadow1b[
+.font80[
+.center[
+### [Instrução Normativa/IBAMA nº 28 de 10 de dezembro de 2024](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=139446)
+]
+
+<br>
+
+- **Diâmetros Mínimos de Corte e Intensidade Máxima de Exploração**
+
+_Estabelece os procedimentos relativos às atividades de **Manejo Florestal Sustentável das espécies** listadas no **Anexo II** da Convenção sobre o Comércio Internacional das Espécies da Flora e Fauna Selvagens em Perigo de Extinção - **CITES**, dos gêneros .blue[*Handroanthus, Tabebuia, Dipteryx e Cedrela*], por recomendação do Parecer de Extração Não Prejudicial; e as regras de transição para autorização de exportação de produtos e subprodutos madeireiros desses gêneros oriundos de florestas nativas do bioma amazônico._
+
+<br>
+
+.center[`r anicon::faa("exclamation-triangle", colour="red")` .blue[**Espécies dos gêneros** *Handroanthus, Tabebuia, Dipteryx e Cedrela* **possuem Diâmetros Mínimos de Corte e Intensidade Máxima de Exploração específicos!**]]
+
+]
+]
+
+---
+name: cma
+## Handroanthus, Tabebuia, Dipteryx e Cedrela
+
+.shadow1b[
+.font80[
+.center[
+### [Instrução Normativa/IBAMA nº 28 de 10 de dezembro de 2024](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=139446)
+]
+
+- **Diâmetros Mínimos de Corte e Intensidade Máxima de Exploração**
+]
+]
+
+<br>
+
+.pull-left-4[
+.font80[
+| Gênero         | FOA/FE/S/C |     | FOD |     |
+|--------------  |------------|-----|-----|-----|
+|                | DMC        | IME | DMC | IME |
+| *Handroanthus* | 60         | 70  | 70  | 70  |
+| *Tabebuia*     | 60         | 70  | 70  | 70  |
+| *Dipteryx*     | 60         | 75  | 80  | 75  |
+| *Cedrela*      | 55         | 70  | 70  | 50  |
+.center[.font80[**Fonte**: O autor (2025).]]
+<br>
+.font70[Acesse aqui: [Instrução Normativa 28, de 11 de dezembro de 2024/IBAMA](https://www.ibama.gov.br/component/legislacao/?view=legislacao&legislacao=139446)]
+]
+]
+
+.pull-right-4[
+.font80[
+FOA = Floresta Ombrófila Aberta/FE = Floresta Estacional/S = Savana/C = Campinarana
+
+FOD = Floresta Ombrófila Densa
+
+DMC = Diâmetro Mínimo de Corte, em cm
+
+IME = Intensidade Máxima de Exploração, em %
+]
+]
 
 ---
 layout: false
