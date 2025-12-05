@@ -300,7 +300,7 @@ class: inverse, middle, center
 background-image: url(fig/class0/sec.png)
 background-size: cover
 
-.font150[**Censo Florestal e Manejo Florestal Madeireiro <br>**]
+.font150[**Censo Florestal <br> e <br> Manejo Florestal Sustentável**]
 
 ---
 layout: true
@@ -667,7 +667,8 @@ class: inverse, middle, center
 background-image: url(fig/class0/sec.png)
 background-size: cover
 
-.font150[**Censo Florestal (IF-100%): definições legais e etapas**]
+.font150[**Censo Florestal (IF-100%): <br>**]
+.font100[**(Definições legais que subsidiam a análise técnica pelos órgãos ambientais)**]
 
 ---
 layout: true
@@ -831,15 +832,273 @@ name: dmaxc
 ## Diâmetro Máximo de Corte - DMaxC
 
 
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/class0/sec.png)
+background-size: cover
+
+.font150[**Censo Florestal (IF-100%): <br>**]
+.font100[**(Orientações técnicas para a execução das atividades de campo)**]
 
 ---
+layout: true
+class: with-logo logo-ufpa
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Etapas do MFS de Florestas Nativas da Amazônia</div2> </div>
 
+---
 ## Censo Florestal (IF-100%): Quais etapas/variáveis?
 
 ```{r echo = FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics("fig/class8/Etapas.jpg")
 ```
 
+---
+name: etapas
+## Etapas Precedentes ao Censo Florestal (IF-100%)
+
+.shadow1b[
+### Antes do IF-100% deve-se:
+<br>
+.font80[
+👉 **1 - Elaborar o mapa de localização (UPA e UTs).**
+- .blue[**Objetivo**]: Auxiliar em campo na delimitação da UT (Azimute da linha base da UT).
+
+<br>
+
+👉 **2 - Delimitar (em campo) as Unidades de Trabalho - UT.**
+- .blue[**Objetivo**]: Definir os limites físicos da UT.
+- .blue[**Tamanho**]: É comum (.red[Não é uma regra!]) a delimitação de UTs com área de 100ha (1000m x 1000m). (Vai depender do tamanho da área!)
+- .blue[**Recomendação**]: Sempre que possível, delimitar UTs com limites regulares (retangulares ou quadradas).
+]
+]
+
+---
+name: estr
+## Unidade de Trabalho: Estrutura
+
+.pull-left-2[
+```{r echo = FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-1[
+<br>
+.center[**Recomendações** (Reis et al., 2013)]
+.font80[
+- **Linha Base**: Sempre que possível, no .blue[sentido norte-sul].
+- **Trilhas de orientação**: Sempre que possível, no .blue[sentido leste-oeste].
+- **Distancia entre trilhas**: As trilhas de orientação são abertas a cada 50m, e perpendicular à linha base.
+
+<br>
+
+**Por que priorizar esses sentidos?**
+
+- Facilita a construção de estradas secundárias no sentido leste-oeste (melhor ventilação, exposição ao sol e manutenção).
+]
+]
+
+---
+
+## Unidade de Trabalho: Estrutura
+
+.shadow1b[
+### Fatores que afetam a posição e forma das UTs (Reis et al., 2013)
+<br>
+.font80[
+👉 **1 - Condições do terreno**:
+- Presença de grotas (baixadas), igarapés, morros.
+
+👉 **2 - Estradas pré-existentes (e futuras)**:
+- Posicionar as UTs de modo a facilitar o acesso por estradas pré-existentes (ou futuras). 
+
+👉 **3 - Escoamento da produção fluvial?**:
+- Posicionar as UTs de modo a facilitar o escoamento por rio.
+]
+]
+
+---
+name: mat
+## Unidade de Trabalho: Equipe, materiais e equipamentos
+
+.shadow1b[
+### Equipe, materiais e equipamentos (Reis et al., 2013)
+<br>
+.font80[
+👉 **1 - Equipe**: 4 pessoas (1 coordenador e 3 trabalhadores)
+- **Coordenador**: Usar a bússola e definir os ângulos de orientação.
+- **Trabalhadores**: Abrir as trilhas com facão, cortar e colocar piquetes (com indicação da distância) e medir distâncias entre piquetes.
+
+<br>
+
+👉 **2 - Materiais e Equipamentos**:
+- **Material**: facão, lápis estaca azul, papel milimetrado, prancheta e lápis.
+- **Equipamento**: bússola, trena/cabo de agrimensor (30/50 metros), cantil, kit de primeiros socorros. 
+- **EPIs**: capacete, calças e camisas de mangas compridas, bota de bico de aço, perneira e colete de identificação.
+]
+]
+
+---
+name: delim
+## Unidade de Trabalho: Delimitação
+
+.shadow1b[
+### Delimitação da UT: 3 abordagens (Reis et al., 2013)
+]
+
+.pull-left-2[
+```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT-del1.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-1[
+<br>
+.center[**Abordagem 1** (Reis et al., 2013)]
+.font80[
+
+- **Esquadrejamento da UT**: A ideia é fechar o quadrado (esquadrejamento) da UT. Na sequência, abre-se as trilhas de orientação internas.
+]
+]
+
+---
+
+## Unidade de Trabalho: Delimitação
+
+.shadow1b[
+### Delimitação da UT: 3 abordagens (Reis et al., 2013)
+]
+
+.pull-left-2[
+```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT-del2.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-1[
+<br>
+.center[**Abordagem 2** (Reis et al., 2013)]
+.font80[
+
+- **Abrir dois lados (ângulo de 90º)**: A ideia é abrir dois lados (a linha base e uma trilha de orientação), formando um ângulo de 90º. Na sequência, prosseguir a abertura das trilhas internas (zigue-zague), e ao mesmo tempo fechando os lados da UT.
+]
+]
+
+---
+
+## Unidade de Trabalho: Delimitação
+
+.shadow1b[
+### Delimitação da UT: 3 abordagens (Reis et al., 2013)
+]
+
+.pull-left-2[
+```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT-del3.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-1[
+<br>
+.center[**Abordagem 3** (Reis et al., 2013)]
+.font80[
+
+- **UTs irregulares**:
+
+**Problema**: Não é possível (ou muito difícil) esquadrejar todo o perímetro da UT. Portanto, a UT não terá uma forma regular (quadradas ou retangulares).
+
+**Ideia**: Caminhar até o início da área que não poderá ser manejada (encostas de morros, APPs). Esse ponto será limite final da trilha de orientação.
+]
+]
+
+---
+
+## Unidade de Trabalho: Delimitação
+
+.shadow1b[
+### Delimitação da UT: Passo a Passo (Reis et al., 2013)
+]
+
+.pull-left-4[
+```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT-Passo1.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-4[
+<br>
+.center[**Passo 1** (Reis et al., 2013)]
+.font80[
+- Deslocar-se até o marco zero da UT (ponto inicial);
+- Retirar um piquete e fixar no marco inicial; e
+- Apoiar a bússula no piquete e procurar o azimute definido no macroplanejamento.
+
+<br>
+
+**Obs.:** azimute indica a direção de abertura da linha base.
+]
+]
+
+---
+
+## Unidade de Trabalho: Delimitação
+
+.shadow1b[
+### Delimitação da UT: Passo a Passo (Reis et al., 2013)
+]
+
+.pull-left-4[
+```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class8/UT-Passo2.jpeg")
+```
+.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
+
+]
+
+.pull-right-4[
+<br>
+.center[**Passo 2** (Reis et al., 2013)]
+.font80[
+- **Início do balizamento**: Iniciar o balizamento para abertura da linha base. 
+
+]
+]
+
+---
+
+## Unidade de Trabalho: Delimitação
+
+.shadow1b[
+### Delimitação da UT:
+- .blue[**Procedimento**]:
+
+1)  Abertura da linha base;
+
+
+
+
+
+**3 - Abertura das trilhas de orientação.**
+
+- .blue[**Objetivo**]: Linha 
+- .blue[**Objetivo**]: Divisão interna da UT.
+- .blue[**Disposição**]: Trilhas ou picadas perpendiculares à linha  base (formando faixas).
+
+**Importante**: As faixas formadas auxiliarão na execução do IF-100% e outras atividades do MFS.
+]
 
 <!-- Slide XX -->
 ---
@@ -1185,385 +1444,6 @@ name: auas
 _.orange[**Uso Alternativo do Solo** (inciso VI do Art. 3º)]: **substituição de vegetação nativa e formações sucessoras por outras coberturas do solo**, como atividades agropecuárias, industriais, de geração e transmissão de energia, de mineração e de transporte, assentamentos urbanos ou outras formas de ocupação humana._
 ]
 ]
-
----
-layout: false
-name: if
-class: inverse, middle, center
-background-image: url(fig/class0/sec.png)
-background-size: cover
-
-.font150[**Manejo Florestal Sustentável de Florestas Nativas <br> (Etapas do MFS para fins Madeireiros)**]
-
----
-layout: true
-class: with-logo logo-ufpa
-<div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Etapas do MFS de Florestas Nativas da Amazônia</div2> </div>
-
----
-name: emfs
-## Manejo Florestal Sustentável Para Fins Madeireiros
-
-.shadow1b[
-### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
-<br>
-
-```{r echo = FALSE, out.width='40%', fig.align='center', fig.cap='Etapas do MFS para fins madeireiros', dpi=600}
-knitr::include_graphics("fig/class8/MFS.jpeg")
-```
-
-]
-
----
-
-## Manejo Florestal Sustentável Para Fins Madeireiros
-
-.shadow1b[
-### Etapas do MFS em Florestas Naturais (Balieiro et al., 2010)
-<br>
-
-As principais etapas do MFS para fins madeireiros são:
-<br>
-
-- **1ª Etapa - Macroplanejamento**
-- **2ª Etapa - Microplanejamento (.blue[incluindo o IF-100%])**
-- **3ª Etapa - Atividades Exploratórias**
-- **4ª Etapa - Atividades Pós-Exploratórias**
-
-]
-
----
-
-## Manejo Florestal Sustentável Para Fins Madeireiros
-
-.shadow1b[
-### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
-.font80[
-<br>
-
-Etapa fundamental para a elaboração e a execução do Plano de Manejo Florestal Sustentável (PMFS):
-
-- O MFS é viável economicamente?
-- Subsidios para as demais atividades do MFS.
-
-<br>
-
-**1 - Identificação e seleção das áreas com potencial ao MFS madeireiro**
-
-- Na Unidade de Manejo Florestal (UMF) existem .blue[Áreas de Preservação Permanente (APPs)]?
-- Na UMF deve constar a .blue[Área de Reserva Absoluta] (≥ 5% do total da área concedida)? (**Proibida exploração econômica!**)
-- Na UMF já existem .blue[Áreas abertas] (com construções ou sem vegetação)?
-
-]
-]
-
----
-
-## Manejo Florestal Sustentável Para Fins Madeireiros
-
-.shadow1b[
-### 1ª Etapa - Macroplanejamento (Balieiro et al., 2010)
-<br>
-.font90[
-**1 - Identificação e seleção das áreas com potencial ao MFS**
-
-]
-]
-
----
-
-layout: false
-name: if
-class: inverse, middle, center
-background-image: url(fig/class0/sec.png)
-background-size: cover
-
-.font150[**Manejo Florestal Sustentável de Florestas Nativas <br> (Censo Florestal ou Inventário Florestal 100%)**]
-
----
-layout: true
-class: with-logo logo-ufpa
-<div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp; <div3>Inventário Florestal (FL03039 - EF)</div3>/ <div2>Aspectos Técnicos do Censo Florestal</div2> </div>
-
----
-
-## Censo Florestal (IF-100%)
-
-.shadow1b[
-### Definição
-<br>
-.font90[
-É uma .blue[atividade pré-exploratória] que consite na coleta de .blue[características quantitativas e qualitativas de todas as árvores] de valor comercial (e potencial) existentes em uma área destinada ao manejo florestal.
-]
-]
-
-.pull-right-3[
-.pull-down[
-`r anicon::faa("seedling", size = 3, speed = "slow", animate = 'vertical', color = "green")`
-`r anicon::faa("leaf", size = 3, speed = "slow", animate = 'vertical', color = "green")`
-
-]
-]
-
----
-name: etapas
-## Etapas Precedentes ao Censo Florestal (IF-100%)
-
-.shadow1b[
-### Antes do IF-100% deve-se:
-<br>
-.font80[
-👉 **1 - Elaborar o mapa de localização (UPA e UTs).**
-- .blue[**Objetivo**]: Auxiliar em campo na delimitação da UT (Azimute da linha base da UT).
-
-<br>
-
-👉 **2 - Delimitar (em campo) as Unidades de Trabalho - UT.**
-- .blue[**Objetivo**]: Definir os limites físicos da UT.
-- .blue[**Tamanho**]: É comum (.red[Não é uma regra!]) a delimitação de UTs com área de 100ha (1000m x 1000m). (Vai depender do tamanho da área!)
-- .blue[**Recomendação**]: Sempre que possível, delimitar UTs com limites regulares (retangulares ou quadradas).
-]
-]
-
----
-name: estr
-## Unidade de Trabalho: Estrutura
-
-.pull-left-2[
-```{r echo = FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class8/UT.jpeg")
-```
-.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
-
-]
-
-.pull-right-1[
-<br>
-.center[**Recomendações** (Reis et al., 2013)]
-.font80[
-- **Linha Base**: Sempre que possível, no .blue[sentido norte-sul].
-- **Trilhas de orientação**: Sempre que possível, no .blue[sentido leste-oeste].
-- **Distancia entre trilhas**: As trilhas de orientação são abertas a cada 50m, e perpendicular à linha base.
-
-<br>
-
-**Por que priorizar esses sentidos?**
-
-- Facilita a construção de estradas secundárias no sentido leste-oeste (melhor ventilação, exposição ao sol e manutenção).
-]
-]
-
----
-
-## Unidade de Trabalho: Estrutura
-
-.shadow1b[
-### Fatores que afetam a posição e forma das UTs (Reis et al., 2013)
-<br>
-.font80[
-👉 **1 - Condições do terreno**:
-- Presença de grotas (baixadas), igarapés, morros.
-
-👉 **2 - Estradas pré-existentes (e futuras)**:
-- Posicionar as UTs de modo a facilitar o acesso por estradas pré-existentes (ou futuras). 
-
-👉 **3 - Escoamento da produção fluvial?**:
-- Posicionar as UTs de modo a facilitar o escoamento por rio.
-]
-]
-
----
-name: mat
-## Unidade de Trabalho: Equipe, materiais e equipamentos
-
-.shadow1b[
-### Equipe, materiais e equipamentos (Reis et al., 2013)
-<br>
-.font80[
-👉 **1 - Equipe**: 4 pessoas (1 coordenador e 3 trabalhadores)
-- **Coordenador**: Usar a bússola e definir os ângulos de orientação.
-- **Trabalhadores**: Abrir as trilhas com facão, cortar e colocar piquetes (com indicação da distância) e medir distâncias entre piquetes.
-
-<br>
-
-👉 **2 - Materiais e Equipamentos**:
-- **Material**: facão, lápis estaca azul, papel milimetrado, prancheta e lápis.
-- **Equipamento**: bússola, trena/cabo de agrimensor (30/50 metros), cantil, kit de primeiros socorros. 
-- **EPIs**: capacete, calças e camisas de mangas compridas, bota de bico de aço, perneira e colete de identificação.
-]
-]
-
----
-name: delim
-## Unidade de Trabalho: Delimitação
-
-.shadow1b[
-### Delimitação da UT: 3 abordagens (Reis et al., 2013)
-]
-
-.pull-left-2[
-```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class8/UT-del1.jpeg")
-```
-.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
-
-]
-
-.pull-right-1[
-<br>
-.center[**Abordagem 1** (Reis et al., 2013)]
-.font80[
-
-- **Esquadrejamento da UT**: A ideia é fechar o quadrado (esquadrejamento) da UT. Na sequência, abre-se as trilhas de orientação internas.
-]
-]
-
----
-
-## Unidade de Trabalho: Delimitação
-
-.shadow1b[
-### Delimitação da UT: 3 abordagens (Reis et al., 2013)
-]
-
-.pull-left-2[
-```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class8/UT-del2.jpeg")
-```
-.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
-
-]
-
-.pull-right-1[
-<br>
-.center[**Abordagem 2** (Reis et al., 2013)]
-.font80[
-
-- **Abrir dois lados (ângulo de 90º)**: A ideia é abrir dois lados (a linha base e uma trilha de orientação), formando um ângulo de 90º. Na sequência, prosseguir a abertura das trilhas internas (zigue-zague), e ao mesmo tempo fechando os lados da UT.
-]
-]
-
----
-
-## Unidade de Trabalho: Delimitação
-
-.shadow1b[
-### Delimitação da UT: 3 abordagens (Reis et al., 2013)
-]
-
-.pull-left-2[
-```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class8/UT-del3.jpeg")
-```
-.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
-
-]
-
-.pull-right-1[
-<br>
-.center[**Abordagem 3** (Reis et al., 2013)]
-.font80[
-
-- **UTs irregulares**:
-
-**Problema**: Não é possível (ou muito difícil) esquadrejar todo o perímetro da UT. Portanto, a UT não terá uma forma regular (quadradas ou retangulares).
-
-**Ideia**: Caminhar até o início da área que não poderá ser manejada (encostas de morros, APPs). Esse ponto será limite final da trilha de orientação.
-]
-]
-
----
-
-## Unidade de Trabalho: Delimitação
-
-.shadow1b[
-### Delimitação da UT: Passo a Passo (Reis et al., 2013)
-]
-
-.pull-left-4[
-```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class8/UT-Passo1.jpeg")
-```
-.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
-
-]
-
-.pull-right-4[
-<br>
-.center[**Passo 1** (Reis et al., 2013)]
-.font80[
-- Deslocar-se até o marco zero da UT (ponto inicial);
-- Retirar um piquete e fixar no marco inicial; e
-- Apoiar a bússula no piquete e procurar o azimute definido no macroplanejamento.
-
-<br>
-
-**Obs.:** azimute indica a direção de abertura da linha base.
-]
-]
-
----
-
-## Unidade de Trabalho: Delimitação
-
-.shadow1b[
-### Delimitação da UT: Passo a Passo (Reis et al., 2013)
-]
-
-.pull-left-4[
-```{r echo = FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class8/UT-Passo2.jpeg")
-```
-.center[.font80[**Fonte:** [Reis et al., 2013.](http://www.ift.org.br/publicacoes/producao-tecnica/manuais-e-cartilhas/)]]
-
-]
-
-.pull-right-4[
-<br>
-.center[**Passo 2** (Reis et al., 2013)]
-.font80[
-- **Início do balizamento**: Iniciar o balizamento para abertura da linha base. 
-
-]
-]
-
----
-
-## Unidade de Trabalho: Delimitação
-
-.shadow1b[
-### Delimitação da UT:
-- .blue[**Procedimento**]:
-
-1)  Abertura da linha base;
-
-
-
-
-
-**3 - Abertura das trilhas de orientação.**
-
-- .blue[**Objetivo**]: Linha 
-- .blue[**Objetivo**]: Divisão interna da UT.
-- .blue[**Disposição**]: Trilhas ou picadas perpendiculares à linha  base (formando faixas).
-
-**Importante**: As faixas formadas auxiliarão na execução do IF-100% e outras atividades do MFS.
-]
-
----
-
-## Etapas do Censo Florestal (IF-100%)
-
-.shadow1b[
-### Identificação de espécies
-<br>
-
-
-
-]
-
 
 ---
 layout: false
