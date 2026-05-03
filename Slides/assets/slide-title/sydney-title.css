@@ -731,12 +731,12 @@ h4 {
   color: black; /* first of type is master brand red */
   font-size: 40px;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 50px;
   margin-left: 0px;
-  margin-top: 0px;
+  margin-top: -5px;
   text-align: center;
   vertical-align: middle;
 }
@@ -758,14 +758,14 @@ h4 {
 
 /* H3 fonts */
 .title-slide h3 {
-  font-size: 28px;
+  font-size: 48px;
   font-weight: normal;
   color: #00cc00;
   padding-left: 20px;
   margin: 0px;
   line-height: 1;
   text-align: left;
-  margin-left: 70px;
+  margin-left: 50px;
   vertical-align: middle;
 }
 
@@ -802,13 +802,13 @@ h4 {
 /* H6 fonts */
 .title-slide h6 {
   color: orange !important;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: normal;
   padding-top: 0px;
   padding-left: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: -5px;
   margin-left: 0px;
   text-align: center;
   vertical-align: middle;
