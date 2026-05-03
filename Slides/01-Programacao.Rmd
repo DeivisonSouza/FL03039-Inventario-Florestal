@@ -222,7 +222,7 @@ Email: deivisonvs@ufpa.br
 <br>
 .shadow4[
 .font80[
-1 - Introdução aos Inventários Florestais; 
+1 - Inventários Florestais: Conceito, Importância e Tipos; 
 
 2 - Amostragem em Inventários Florestais;
 
