@@ -51,15 +51,13 @@ list_github_files <- function(repo, dir = NULL, ext = NULL) {
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
 
-:calendar: Novembro: 24, 25, 26, 27, 28 e 29
+:calendar: Maio: 4 a 8; 11 a 15 e 18 a 22
 
-:calendar: Dezembro: 1, 2, 3, 4, 5, 6, 8, 9 e 10
-
-:alarm_clock: **14h30min - 19h30min**
+:alarm_clock: **07h30min - 12h50min**
 
 <div>
-  <img src="Slides/fig/slide-title/ufpa.png" width="150" align="middle" class="center">
-  <img src="Slides/fig/slide-title/LMFTCA.png" width="150" align="middle" class="center">
+  <img src="Slides/fig/slide-title/ufpa.png" width="100" align="middle" class="center">
+  <img src="Slides/fig/slide-title/LMFTCA_hor.png" width="300" align="middle" class="center">
 <div>
 
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-2975-0927" href="https://orcid.org/0000-0002-2975-0927" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-2975-0927</a></div>

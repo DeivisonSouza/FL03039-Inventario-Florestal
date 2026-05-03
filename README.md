@@ -9,16 +9,14 @@
 
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
-:calendar: Novembro: 24, 25, 26, 27, 28 e 29
+:calendar: Maio: 4 a 8; 11 a 15 e 18 a 22
 
-:calendar: Dezembro: 1, 2, 3, 4, 5, 6, 8, 9 e 10
-
-:alarm_clock: **14h30min - 19h30min**
+:alarm_clock: **07h30min - 12h50min**
 
 <div>
 
-<img src="Slides/fig/slide-title/ufpa.png" width="150" align="middle" class="center">
-<img src="Slides/fig/slide-title/LMFTCA.png" width="150" align="middle" class="center">
+<img src="Slides/fig/slide-title/ufpa.png" width="100" align="middle" class="center">
+<img src="Slides/fig/slide-title/LMFTCA_hor.png" width="300" align="middle" class="center">
 
 <div>
 
@@ -119,7 +117,6 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slides/data/Bitterlich-Soares-et-al-2010.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich-Soares-et-al-2010.xlsx> |
 | Slides/data/Bitterlich.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich.xlsx> |
 | Slides/data/Censo_Fazenda-Ana-Paula-Versao_Professor.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Censo_Fazenda-Ana-Paula-Versao_Professor.xlsx> |
-| Slides/data/Censo_Fazenda-Ana-Paula_Versao_Alunos.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Censo_Fazenda-Ana-Paula_Versao_Alunos.xlsx> |
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
 | Slides/data/Linha-Interceptadora.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Linha-Interceptadora.xlsx> |
 | Slides/data/P443_MMA_Ameacadas_3.0.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/P443_MMA_Ameacadas_3.0.xlsx> |
