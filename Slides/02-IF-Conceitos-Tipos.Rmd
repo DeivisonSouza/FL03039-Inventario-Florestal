@@ -208,7 +208,7 @@ class: inverse, middle, center
 background-image: url(fig/class0/sec.png)
 background-size: cover
 
-.font200[.yellow2[**Inventários Floretais: <br> Conceito, Importância e Tipos**]]
+.font200[.yellow2[**Inventários Florestais: <br> Conceito, Importância e Tipos**]]
 
 ---
 layout: true
@@ -223,7 +223,7 @@ name: ifci
 
 .shadow1[
 ## Conceito
-É uma atividade que visa obter informações **qualitativas** e **quantitativas** dos recursos florestais existentes em uma área pré-especificada (PÉLLICO NETTO; BRENA, 1997), com o objetivo de bem administrá-los, seja através da seu uso racional racional, seja por meio de formulação de políticas públicas.
+É uma atividade que visa obter informações **qualitativas** e **quantitativas** dos **recursos florestais** existentes em uma **área pré-especificada** (PÉLLICO NETTO; BRENA, 1997), com o objetivo de bem administrá-los, seja através de seu uso racional, seja por meio de formulação de políticas públicas.
 ]
 
 ---
