@@ -1160,20 +1160,18 @@ name: X
 ✅ **Alocação Proporcional** (População Finita)
 <br>
 
+.pull-left-4[
 $$
 \begin{equation*}
 \large
-n = \dfrac{t^2\sum\limits_{h=1}^{L}W_h S^2_h}{E^2+t^2\sum\limits_{h=1}^{L}\dfrac{W_h S^2_h}{N}} ~~~~ (\color{blue}{Populações~finitas})
+n = \dfrac{t^2\sum\limits_{h=1}^{L}W_h S^2_h}{E^2+t^2\sum\limits_{h=1}^{L}\dfrac{W_h S^2_h}{N}}
 \end{equation*}
 $$
 
-.pull-left-4[
 .font80[
 $L$ = Número de estratos da população
 
 $h$ = Estrato
-
-$E$ = Erro admissível para estimativa da média
 
 $t$ = Valor tabelado com $\left(n-1 \right)$ graus de liberdade ao nível de significância estabelecido
 
@@ -1182,9 +1180,19 @@ $t$ = Valor tabelado com $\left(n-1 \right)$ graus de liberdade ao nível de sig
 
 .pull-right-4[
 .font80[
+$$
+\begin{equation*}
+\large
+E = LE.(\bar{X}_{est})
+\end{equation*}
+$$
+$E$ = Erro admissível para estimativa da média
+
+$\bar{X}_{est}$ = Média Estratificada
+
 $W_h$ = Proporção do estrato $h$ na população florestal
 
-$S_h^2$ = variância amostral no estrato $h$.
+$S_h^2$ = variância amostral no estrato $h$
 
 $N$ = Número de parcelas possíveis de serem alocadas na população
 ]
@@ -1204,10 +1212,10 @@ name: X
 - **Qual número de parcelas por estrato h?**
 
 $$
-\begin{equation}
+\begin{equation*}
 \large
 n_h = \frac{N_h}{N}n = W_hn
-\end{equation}
+\end{equation*}
 $$
 <br>
 
