@@ -1209,6 +1209,43 @@ name: X
 
 ✅ **Alocação Proporcional** (População Finita)
 
+.pull-left-11[
+- Tabela Suporte:
+
+| Estrato    | $N_h$   | $W_h$   | $S_h^2$ | $W_h$ $S_h^2$ | $\dfrac{W_h S^2_h}{N}$ |
+|------------|:------:|:------:|:-----------:|:--------------:|:------------------:|
+| Estrato I  | 650  | 0,65 | 71,538    | 46,500       | 0,046            |
+| Estrato II | 350  | 0,35 | 261,174   | 91,411       | 0,091            |
+| **Soma**       | **1000** | **1**    |           | **137,911**      | **0,138**            |
+
+$t_{(n-1;~0,05)}$ = 2,069/
+$E$ = 10%.(101,80) = 10,18
+]
+
+
+.pull-right-11[
+$$
+\begin{equation*}
+\large
+n = \dfrac{t^2\sum\limits_{h=1}^{L}W_h S^2_h}{E^2+t^2\sum\limits_{h=1}^{L}\dfrac{W_h S^2_h}{N}} \\~\\ 
+n = \dfrac{(2,069)^2~(137,911)}{(10,18)^2+(2,069)^2~(0,138)} \\~\\
+n = 5,66 \approx 6~parcelas
+\end{equation*}
+$$
+
+]
+
+---
+
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+✅ **Alocação Proporcional** (População Finita)
+
 - **Qual número de parcelas por estrato h?**
 
 $$
