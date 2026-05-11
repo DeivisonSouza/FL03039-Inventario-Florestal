@@ -1118,7 +1118,7 @@ name: X
 .font90[
 - Foi definida a **alocação proporcional** para determinar o número de parcelas por estrato... <br>
 - No entanto, é necessário identificar a natureza da população (Finita ou Infinita) para determinar o estimador de intensidade amostral que será usado...
-- Lembre-se: Em estatística **População finita = fração amostral > 2%**
+- Lembre-se: Regra prática: **População finita = fração amostral > 2%**
 ]
 
 ---
@@ -1129,7 +1129,7 @@ name: X
 ### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
 ]
 
-- Fração amostral ($f$):
+- **Fração amostral** ($f$):
 <br>
 
 \begin{equation*}
@@ -1141,6 +1141,84 @@ f = \frac{n}{N} = \frac{24}{1000} = 0,024 (100) = 2,4\%~(\color{Orange}{Populaç
 $n$ = número de unidades amostradas
 
 $N$ = número de unidades de amostras possíveis na população
+]
+
+<br>
+
+.font80[
+**Interpretação**: Como a fração amostral de **2,4%** é superior ao limite de **2%**, a população deve ser tratada como **Finita**.
+]
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+✅ **Alocação Proporcional** (População Finita)
+<br>
+
+$$
+\begin{equation*}
+\large
+n = \dfrac{t^2\sum\limits_{h=1}^{L}W_h S^2_h}{E^2+t^2\sum\limits_{h=1}^{L}\dfrac{W_h S^2_h}{N}} ~~~~ (\color{blue}{Populações~finitas})
+\end{equation*}
+$$
+
+.pull-left-4[
+.font80[
+$L$ = Número de estratos da população
+
+$h$ = Estrato
+
+$E$ = Erro admissível para estimativa da média
+
+$t$ = Valor tabelado com $\left(n-1 \right)$ graus de liberdade ao nível de significância estabelecido
+
+]
+]
+
+.pull-right-4[
+.font80[
+$W_h$ = Proporção do estrato $h$ na população florestal
+
+$S_h^2$ = variância amostral no estrato $h$.
+
+$N$ = Número de parcelas possíveis de serem alocadas na população
+]
+]
+
+---
+
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+✅ **Alocação Proporcional** (População Finita)
+
+- **Qual número de parcelas por estrato h?**
+
+$$
+\begin{equation}
+\large
+n_h = \frac{N_h}{N}n = W_hn
+\end{equation}
+$$
+<br>
+
+.font80[
+$N_h$ = Número de parcelas possíveis de serem alocadas no estrato $h$.
+
+$N$ = Número de parcelas possíveis de serem alocadas na população.
+
+$n$ = Número total de parcelas que devem ser alocadas na população florestal.
+
+$W_h$ = Proporção do estrato $h$ na população florestal.
 ]
 
 ---
