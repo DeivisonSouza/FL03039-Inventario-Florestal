@@ -218,8 +218,8 @@ name: ecap
 ### .font90[Estudo de Caso - *Floresta Explorada e Inexplorada*]
 <br>
 
-.font90[
-Uma empresa de consultoria florestal realizou um inventário em floresta natural com área total de **1.000 hectares**, usando o processo de amostragem estratificada. Por meio de fotografias aéreas foram previamente identificados 2 estratos florestais: 1) **Estrato 1: Floresta Explorada (650 ha)**; e 2) **Estrato 2: Floresta Não Explorada (350 ha)**. Foi realizado um inventário piloto com alocação de **12 unidades amostrais** de tamanho **1 hectare** em cada estrato. Os volumes de madeira por parcela em cada estrato estão na tabela a seguir. Para os cálculos das estimativas considere um .blue[erro máximo admissível de 10%] e uma .blue[probabilidade de 95%]. Assim, pede-se:
+.font80[
+Uma empresa de consultoria florestal realizou um inventário em floresta natural com área total de **1.000 hectares**, usando o processo de amostragem estratificada. Por meio de fotografias aéreas foram previamente identificados 2 estratos florestais: 1) **Estrato 1: Floresta Explorada (650 ha)**; e 2) **Estrato 2: Floresta Não Explorada (350 ha)**. Foi realizado um inventário piloto com alocação de **12 unidades amostrais** de tamanho **1 hectare** em cada estrato. Os volumes de madeira por parcela em cada estrato estão na tabela a seguir. Para os cálculos das estimativas considere um .blue[erro máximo admissível de 10%] e uma .blue[probabilidade de 95%]. Use a **alocação proporcional** para definir o número de unidades amostrais por estrato. Assim, pede-se:
 <br><br>
 
 a) Calcular as estimativas da amostragem estratificada.
@@ -604,9 +604,6 @@ $$
 - $W_h$ = Proporção do estrato $h$ na população florestal.
 - $S_h^2$ = estimador da variância populacional $\sigma^2$ no estrato $h$.
 
-
-
-
 ---
 name: maEC
 ## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
@@ -637,14 +634,13 @@ $$
 .font90[
 **Para calcular a intensidade amostral é preciso responder as seguintes questões:**
 
-- 1) Existem evidências de diferenças significativas entre as médias dos estratos $h$? (**ANOVA**)
-- 2) Qual natureza da população (Finita ou Infinita)? (**População finita = fração amostral > 2%**)
-- 3) Qual o tipo de alocação das unidades de amostras nos estratos? (**Alocação proporcional ou ótima**)
-- 4) Qual a estimativa da variância amostral estratificada da variável de interesse? ($S^2_{est}$)
-- 5) Qual o limite de erro (LE) admissível para a estimativa variável de interesse? (**10% é mais usual**)
+- Existem evidências de diferenças significativas entre as médias dos estratos $h$? (**ANOVA**)
+- Qual o tipo de alocação das unidades de amostras nos estratos? (**Alocação proporcional ou ótima**) ✅
+- Qual natureza da população (Finita ou Infinita)? (**População finita = fração amostral > 2%**)
+- Qual a estimativa da variância amostral estratificada da variável de interesse? ($S^2_{est}$) ✅
+- Qual o limite de erro (LE) admissível para a estimativa variável de interesse? (**10% é mais usual**) ✅
 
 ]
-
 
 ---
 name: X
@@ -1107,6 +1103,44 @@ knitr::include_graphics('fig/class6/ANOVA_final.jpg')
 <br>
 .font80[
 **Interpretação**: F-calculado > F-crítico (47,613 > 4,30). Isso significa que existem evidências de diferenças significativas entre as médias dos estratos. Portanto, conclui-se que a estratificação foi benéfica ao inventário florestal.
+]
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+<br>
+
+.font90[
+- Foi definida a **alocação proporcional** para determinar o número de parcelas por estrato... <br>
+- No entanto, é necessário identificar a natureza da população (Finita ou Infinita) para determinar o estimador de intensidade amostral que será usado...
+- Lembre-se: Em estatística **População finita = fração amostral > 2%**
+]
+
+---
+name: X
+## 🌳 AE - Estudo de Caso .orange[.font80[(Sanquetta *et al*., 2023; pg. 136)]]
+
+.shadow1[
+### 👉 Intensidade amostral (ou suficiência amostral) $(n)$
+]
+
+- Fração amostral ($f$):
+<br>
+
+\begin{equation*}
+\normalsize
+f = \frac{n}{N} = \frac{24}{1000} = 0,024 (100) = 2,4\%~(\color{Orange}{População~Finita!})
+\end{equation*}
+
+.font90[
+$n$ = número de unidades amostradas
+
+$N$ = número de unidades de amostras possíveis na população
 ]
 
 ---
