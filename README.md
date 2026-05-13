@@ -5,7 +5,7 @@
 
 <!-- badges: end -->
 
-<!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
+<!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!!-->
 
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
@@ -114,7 +114,7 @@ espaçamento 5m x 5m, com dimensões de 500m x 200m (10 hectares).
 | Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023-Dados-Campo-Simulados_Versao-Alunos.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023-Dados-Campo-Simulados_Versao-Alunos.xlsx> |
 | Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Exemplo-Sanquetta-et-al-2023.xlsx> |
 | Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Aula-Pratica-AAS-Planilha-Analise-Semiautomatica-Supressão.xlsx> |
-| Slides/data/Bitterlich-Soares-et-al-2010.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich-Soares-et-al-2010.xlsx> |
+| Slides/data/Bitterlich-Soares-et-al-2010-Alunos.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich-Soares-et-al-2010-Alunos.xlsx> |
 | Slides/data/Bitterlich.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Bitterlich.xlsx> |
 | Slides/data/Censo_Fazenda-Ana-Paula-Versao_Professor.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Censo_Fazenda-Ana-Paula-Versao_Professor.xlsx> |
 | Slides/data/Khaya-simulado.xlsx | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/data/Khaya-simulado.xlsx> |
