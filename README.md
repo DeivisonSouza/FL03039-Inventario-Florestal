@@ -5,7 +5,7 @@
 
 <!-- badges: end -->
 
-<!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
+<!-- Emprestei a função list_github_files() da Curso-R (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente....-->
 
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
@@ -62,7 +62,21 @@ A programação e os slides da disciplina **Inventário Florestal**
 (IF-FL03039) estão detalhados a seguir.
 
 | Slide | Link |
-|:------|:-----|
+|:---|:---|
+| Slides/01-Programacao.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/01-Programacao.html> |
+| Slides/02-IF-Conceitos-Tipos.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/02-IF-Conceitos-Tipos.html> |
+| Slides/03-Amostragem-IF-Avell-StormTwo.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF-Avell-StormTwo.html> |
+| Slides/03-Amostragem-IF.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF.html> |
+| Slides/04-Métodos-Amostragem-Avell-StormTwo.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem-Avell-StormTwo.html> |
+| Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
+| Slides/05-AAS-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Pratica.html> |
+| Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
+| Slides/06-AAS-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AAS-Pratica.html> |
+| Slides/06-AE-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Pratica.html> |
+| Slides/06-AE-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Teoria.html> |
+| Slides/07-AE-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/07-AE-Teoria.html> |
+| Slides/08-AE-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/08-AE-Pratica.html> |
+| Slides/11-Censo-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/11-Censo-Teoria.html> |
 
 # Tutoriais da disciplina
 
@@ -71,6 +85,20 @@ alguns conteúdos da disciplina.
 
 | Slide | Link |
 |:---|:---|
+| Slides/01-Programacao.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/01-Programacao.html> |
+| Slides/02-IF-Conceitos-Tipos.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/02-IF-Conceitos-Tipos.html> |
+| Slides/03-Amostragem-IF-Avell-StormTwo.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF-Avell-StormTwo.html> |
+| Slides/03-Amostragem-IF.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/03-Amostragem-IF.html> |
+| Slides/04-Métodos-Amostragem-Avell-StormTwo.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem-Avell-StormTwo.html> |
+| Slides/04-Métodos-Amostragem.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/04-Métodos-Amostragem.html> |
+| Slides/05-AAS-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Pratica.html> |
+| Slides/05-AAS-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/05-AAS-Teoria.html> |
+| Slides/06-AAS-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AAS-Pratica.html> |
+| Slides/06-AE-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Pratica.html> |
+| Slides/06-AE-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/06-AE-Teoria.html> |
+| Slides/07-AE-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/07-AE-Teoria.html> |
+| Slides/08-AE-Pratica.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/08-AE-Pratica.html> |
+| Slides/11-Censo-Teoria.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/11-Censo-Teoria.html> |
 | Slides/Tutorial1-Simulacao-khaya.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial1-Simulacao-khaya.html> |
 | Slides/Tutorial2-Combinacao-simples.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial2-Combinacao-simples.html> |
 | Slides/Tutorial3-DP-vs-EPM.html | <https://deivisonsouza.github.io/FL03039-Inventario-Florestal/Slides/Tutorial3-DP-vs-EPM.html> |
